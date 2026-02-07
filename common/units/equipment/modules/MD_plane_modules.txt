@@ -272,9 +272,9 @@ equipment_modules = {
 
 		add_stats = {
 			maximum_speed = 1774
-			thrust = 115	
-			build_cost_ic = 106		
-			fuel_consumption = 5.9	
+			thrust = 115
+			build_cost_ic = 106
+			fuel_consumption = 5.9
 			reliability = 0.05
 		}
 		can_convert_from = {
@@ -2542,7 +2542,7 @@ equipment_modules = {
 		xp_cost = 2
 	}
 
-	weap_mp_light_hardpoint_5 = {
+	weap_int_mp_light_hardpoint_5 = {
 		abbreviation = "slam5" #light air missile
 		category = plane_fighter_weapons
 		parent = weap_mp_light_hardpoint_4
@@ -2595,7 +2595,7 @@ equipment_modules = {
 		xp_cost = 2
 	}
 
-	weap_mp_light_hardpoint_6 = {
+	weap_int_mp_light_hardpoint_6 = {
 		abbreviation = "slam6" #light air missile
 		category = plane_fighter_weapons
 		parent = weap_mp_light_hardpoint_5

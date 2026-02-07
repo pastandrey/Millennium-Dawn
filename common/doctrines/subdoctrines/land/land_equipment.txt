@@ -1023,7 +1023,7 @@ walker_tank_equipment = {
 	xp_type = army
 
 	available = {
-		NOT = { has_doctrine = mbt_ewalker_tank_equipmentquipment }
+		NOT = { has_doctrine = walker_tank_equipment }
 		is_special_project_completed = sp:sp_walker_tank_chassis
 
 	}
@@ -1056,7 +1056,7 @@ walker_tank_equipment = {
 		}
 		leg_damage_protocols = {
 			category_walker_tanks = {
-				armor - 0.05
+				armor = 0.05
 				hardness = 0.05
 			}
 		}
@@ -1371,8 +1371,11 @@ drone_equipment = {
 
 	rewards = {
 		ew_resilient_link_discipline = {
-			land_drone_equipment = {
-				reliability = 0.05
+			equipment_bonus = {
+				land_drone_equipment = {
+					reliability = 0.05
+				}
+				instant = yes
 			}
 			Drone_Recce_Comp = {
 				recovery = 0.075
@@ -1382,8 +1385,11 @@ drone_equipment = {
 			}
 		}
 		sensor_to_shooter = {
-			land_drone_equipment = {
-				breakthrough = 0.05
+			equipment_bonus = {
+				land_drone_equipment = {
+					breakthrough = 0.05
+				}
+				instant = yes
 			}
 			Drone_Recce_Comp = {
 				max_organisation = 0.075
@@ -1403,11 +1409,11 @@ drone_equipment = {
 		low_signature_patterns = {
 			Drone_Recce_Comp = {
 				entrenchment = 0.10
-				defence = 0.05
+				defense = 0.05
 			}
 			drone_tactical_company = {
 				entrenchment = 0.10
-				defence = 0.05
+				defense = 0.05
 			}
 		}
 		rapid_turnaround_ground_crew = {

@@ -9,6 +9,8 @@ script_enum_equipment_bonus_type = {
 	kamikaze_drone_2
 	kamikaze_drone_3
 	kamikaze_drone_4
+	kamikaze_drone_5
+	kamikaze_drone_6
 	transport_plane1
 	transport_plane2
 	transport_plane3
@@ -501,6 +503,7 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_chassis_4
 	heavy_tank_chassis_5
 	heavy_tank_chassis_6
+	heavy_tank_chassis_7
 	heavy_tank_chassis_10
 	heavy_tank_amphibious_chassis
 	heavy_tank_amphibious_chassis_0
@@ -510,6 +513,7 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_amphibious_chassis_4
 	heavy_tank_amphibious_chassis_5
 	heavy_tank_amphibious_chassis_6
+	heavy_tank_amphibious_chassis_7
 	heavy_tank_amphibious_chassis_10
 	medium_tank_artillery_chassis_5
 	medium_tank_aa_chassis_5
@@ -894,6 +898,4 @@ script_enum_equipment_category = {
 	missile_launcher
 	land_cruiser
 	support_ship
-	walker_tank
-	drone
 }
