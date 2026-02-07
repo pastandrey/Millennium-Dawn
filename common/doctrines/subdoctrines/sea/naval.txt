@@ -668,7 +668,6 @@ frigate_capitals = {
 			localization_key = SP_UNLOCK_TECH
 			TECH = heavy_frigate_hull_1_tech
 		}
-		set_country_flag = frigate_capitals
 	}
 
 	rewards = {

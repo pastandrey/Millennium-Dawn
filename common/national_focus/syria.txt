@@ -125,7 +125,6 @@ focus_tree = {
 				ruling_party = neutrality
 			}
 			recalculate_party = yes
-			set_country_flag = Syria_successor_chosen
 		}
 
 	}
@@ -480,7 +479,6 @@ focus_tree = {
 				ruling_party = communism
 			}
 			recalculate_party = yes
-			set_country_flag = Syria_successor_chosen
 			set_variable = { Autocracy_leader = 1 }
 			custom_effect_tooltip = available_military_high_command
 			show_ideas_tooltip = maher_assad
@@ -801,7 +799,6 @@ focus_tree = {
 				ruling_party = nationalist
 			}
 			recalculate_party = yes
-			set_country_flag = Syria_successor_chosen
 		}
 
 		ai_will_do = {
@@ -3062,7 +3059,7 @@ focus_tree = {
 			}
 			set_temp_variable = { temp_opinion = 15 }
 			change_international_bankers_opinion = yes
-			random_country = {
+			every_other_country = {
 				limit = {
 					has_government = democratic
 					OR = {
@@ -3072,21 +3069,7 @@ focus_tree = {
 						has_idea = regional_power
 					}
 				}
-				set_temp_variable = { percent_change = 5 }
-				set_temp_variable = { tag_index = THIS.id }
-				set_temp_variable = { influence_target = ROOT.id }
-				change_influence_percentage = yes
-			}
-			random_country = {
-				limit = {
-					has_government = democratic
-					OR = {
-						has_idea = superpower
-						has_idea = great_power
-						has_idea = large_power
-						has_idea = regional_power
-					}
-				}
+				random_select_amount = 2
 				set_temp_variable = { percent_change = 5 }
 				set_temp_variable = { tag_index = THIS.id }
 				set_temp_variable = { influence_target = ROOT.id }
@@ -6486,7 +6469,6 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SYR_ssnp_traitors"
 			remove_ideas = syrian_social_nationalists
-			set_country_flag = SSNP_Purged
 			SOV = {
 				if = {
 					limit = { has_country_flag = Opinion_On_SSNP_Keep }
@@ -14957,7 +14939,8 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus SYR_joint_us_operations"
 		set_temp_variable = { threat_change = -5 }
 		modify_terror_threat_effect = yes
-		add_ideas = Enduring_Freedom
+		# FIXME: Needs to be replaced with something actually substantial
+		# add_ideas = Enduring_Freedom
 		add_ai_strategy = {
 			type = befriend
 			id = "USA"
