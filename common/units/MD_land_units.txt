@@ -36,13 +36,9 @@ sub_units = {
 		manpower = 300
 		entrenchment = -0.3
 
-
 		#Misc Abilities
 		training_time = 120
-		suppression = 1.5
 		weight = 1
-
-		supply_consumption = 0.06 #0.18
 
 		# this is what moves us and sets speed
 		transport = medium_tank_amphibious_chassis
@@ -124,10 +120,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 60
-		suppression = 1.5
 		weight = 1
-
-		supply_consumption = 0.03 #0.18
 
 		# this is what moves us and sets speed
 		transport = medium_tank_flame_chassis
@@ -212,10 +205,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 100
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.015 #0.07
 
 		need = {
 			heavy_tank_amphibious_chassis = 30
@@ -307,10 +297,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 1
-
-		supply_consumption = 0.1
 
 		# this is what moves us and sets speed
 		transport = heavy_tank_chassis
@@ -924,7 +911,6 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 90
-		suppression = 0.5
 		weight = 0.5
 
 		soft_attack = -0.33
@@ -934,8 +920,6 @@ sub_units = {
 		air_attack = -0.66
 		ap_attack = -0.33
 		entrenchment = -0.3
-
-		supply_consumption = 0.02
 
 		transport = command_control_equipment
 
@@ -1023,11 +1007,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 90
-		suppression = 1
 		weight = 0.5
-		entrenchment = -0.3
-
-		supply_consumption = 0.03
 
 		transport = util_vehicle_equipment
 
@@ -1109,9 +1089,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 120
-		suppression = 1
 		weight = 0.5
-		supply_consumption = 0.02
 		transport = command_control_equipment
 
 		need = {
@@ -1192,10 +1170,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 120
-		suppression = 2
 		weight = 1
-
-		supply_consumption = 0.04 #0.11
 
 		transport = util_vehicle_equipment
 
@@ -1272,10 +1247,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 120
-		suppression = 1.5
 		weight = 1
-
-		supply_consumption = 0.06 #0.18
 
 		# this is what moves us and sets speed
 		transport = medium_tank_amphibious_chassis
@@ -1361,10 +1333,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 120
-		suppression = 1.5
 		weight = 1
-
-		supply_consumption = 0.06 #0.18
 
 		# this is what moves us and sets speed
 		transport = medium_tank_flame_chassis
@@ -1453,10 +1422,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 180
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.02 #0.07
 
 		transport = command_control_equipment
 
@@ -1544,10 +1510,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.04 #0.07
 
 		transport = util_vehicle_equipment
 
@@ -1632,10 +1595,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 1
-
-		supply_consumption = 0.06 #0.18
 
 		# this is what moves us and sets speed
 		transport = medium_tank_amphibious_chassis
@@ -1721,10 +1681,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 1
-
-		supply_consumption = 0.06 #0.18
 
 		# this is what moves us and sets speed
 		transport = medium_tank_flame_chassis
@@ -1817,10 +1774,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.02 #0.18
 
 		transport = command_control_equipment
 
@@ -1983,10 +1937,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.02 #0.18
 
 		transport = command_control_equipment
 
@@ -2079,10 +2030,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.02 #0.18
 
 		transport = command_control_equipment
 
@@ -2174,10 +2122,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.04 #0.07
 
 		transport = util_vehicle_equipment
 
@@ -2262,10 +2207,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 1
-
-		supply_consumption = 0.06 #0.18
 
 		# this is what moves us and sets speed
 		transport = medium_tank_amphibious_chassis
@@ -2350,10 +2292,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 1
-
-		supply_consumption = 0.06 #0.18
 
 		# this is what moves us and sets speed
 		transport = medium_tank_flame_chassis
@@ -2441,10 +2380,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.03 #0.07
 
 		need = {
 			Inf_equipment = 250
@@ -2535,10 +2471,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 1
-
-		supply_consumption = 0.1
 
 		# this is what moves us and sets speed
 		transport = heavy_tank_chassis
@@ -2625,10 +2558,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 200
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.03
 
 		defense = -0.66
 		breakthrough = -0.66
@@ -2727,10 +2657,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 350
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.01 #0.07
 
 		transport = command_control_equipment
 
@@ -2913,11 +2840,7 @@ sub_units = {
 		max_strength = 20
 		default_morale = 0.05
 		training_time = 180
-		suppression = 2.5
 		weight = 1.5
-		entrenchment = -0.15
-
-		supply_consumption = 0.06
 
 		transport = medium_tank_destroyer_chassis
 
@@ -4598,9 +4521,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 120
-		suppression = 1
 		weight = 0.5
-		supply_consumption = 0.02
 		transport = command_control_equipment
 
 		need = {
@@ -4680,10 +4601,7 @@ sub_units = {
 
 		#Misc Abilities
 		training_time = 90
-		suppression = 1
 		weight = 0.5
-
-		supply_consumption = 0.0
 
 		need = {
 			Inf_equipment = 1
