@@ -639,7 +639,7 @@ mixed_mechanized_equipment = {
 	}
 	mastery = {
 		categories = { }
-		equipment = { mechanized }
+		equipment = { amphibious flame }
 	}
 }
 
@@ -719,7 +719,7 @@ apc_mechanized_equipment = {
 	}
 	mastery = {
 		categories = { }
-		equipment = { mechanized }
+		equipment = { amphibious }
 	}
 }
 
@@ -791,7 +791,7 @@ ifv_mechanized_equipment = {
 	}
 	mastery = {
 		categories = { }
-		equipment = { mechanized }
+		equipment = { flame }
 	}
 }
 #Armored Equipment Subdoctrines

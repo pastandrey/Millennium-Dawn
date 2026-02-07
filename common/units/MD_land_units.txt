@@ -766,7 +766,7 @@ sub_units = {
 
 		type = {
 			armor
-			flame
+			mechanized
 			support
 		}
 
@@ -858,7 +858,7 @@ sub_units = {
 
 		type = {
 			armor
-			amphibious
+			mechanized
 			support
 		}
 
@@ -2800,6 +2800,7 @@ sub_units = {
 		ai_priority = 3
 		type = {
 			armor
+			mechanized
 		}
 
 		group = armor
@@ -2886,6 +2887,7 @@ sub_units = {
 		type = {
 			armor
 			anti_tank
+			mechanized
 		}
 
 		group = armor
@@ -3887,6 +3889,7 @@ sub_units = {
 		type = {
 			armor
 			artillery
+			mechanized
 		}
 
 		group = armor
@@ -3958,6 +3961,7 @@ sub_units = {
 		type = {
 			armor
 			artillery
+			mechanized
 			support
 		}
 
@@ -4010,6 +4014,7 @@ sub_units = {
 		type = {
 			armor
 			rocket
+			mechanized
 		}
 
 		group = armor
@@ -4081,6 +4086,7 @@ sub_units = {
 		type = {
 			armor
 			rocket
+			mechanized
 			support
 		}
 
@@ -4133,6 +4139,7 @@ sub_units = {
 		type = {
 			armor
 			anti_air
+			mechanized
 		}
 
 		group = armor
@@ -4170,6 +4177,7 @@ sub_units = {
 		type = {
 			armor
 			anti_air
+			mechanized
 			support
 		}
 
