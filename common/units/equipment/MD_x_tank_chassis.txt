@@ -2052,7 +2052,7 @@ equipments = {
 		year = 2075
 
 		archetype = super_heavy_tank_destroyer_chassis
-		parent = super_heavy_tank_destroyer_chassis_3
+		parent = walker_tank_chassis_3
 		priority = 5
 
 		#Misc Abilities

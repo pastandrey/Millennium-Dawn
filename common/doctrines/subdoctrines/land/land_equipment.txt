@@ -1056,9 +1056,10 @@ walker_tank_equipment = {
 		}
 		leg_damage_protocols = {
 			category_walker_tanks = {
-				armor = 0.05
+				armor_value = 0.05
 				hardness = 0.05
 			}
+
 		}
 		terrain_anchoring = {
 			category_walker_tanks = {
@@ -1374,8 +1375,8 @@ drone_equipment = {
 			equipment_bonus = {
 				land_drone_equipment = {
 					reliability = 0.05
+					instant = yes
 				}
-				instant = yes
 			}
 			Drone_Recce_Comp = {
 				recovery = 0.075
@@ -1388,8 +1389,8 @@ drone_equipment = {
 			equipment_bonus = {
 				land_drone_equipment = {
 					breakthrough = 0.05
+					instant = yes
 				}
-				instant = yes
 			}
 			Drone_Recce_Comp = {
 				max_organisation = 0.075

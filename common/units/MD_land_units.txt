@@ -5067,6 +5067,284 @@ sub_units = {
 			attack = -0.4 #was 0.4
 		}
 	}
+	light_medium_walker_battalion = {
+		sprite = MD4_medium_armor
+		map_icon_category = armored
+		priority = 30
+		active = no
+		ai_priority = 3
+		type = {
+			armor
+		}
+
+		group = light_bat
+
+		categories = {
+			category_tanks
+			category_front_line
+			category_real_tanks
+			category_all_armor
+			category_army
+			category_non_militia
+			category_walker_tanks
+		}
+
+		combat_width = 3
+
+		essential = {
+			super_heavy_tank_chassis
+		}
+
+		need = {
+			super_heavy_tank_chassis = 12
+		}
+
+		manpower = 240
+		max_organisation = 15
+		max_strength = 20
+		default_morale = 0.05
+		training_time = 180
+		weight = 1.5
+		entrenchment = -0.15
+
+		defense = -0.66
+		breakthrough = -0.66
+		soft_attack = -0.66
+		hard_attack = -0.66
+		armor_value = -0.66
+		ap_attack = -0.66
+
+		supply_consumption = 0.08 #0.25
+		transport = super_heavy_tank_chassis
+
+		plains = {
+			attack = 0.25
+			defence = 0.15
+		}
+		desert = {
+			attack = 0.25
+			defence = 0.15
+		}
+		forest = {
+			attack = -0.3
+			defence = -0.1
+		}
+		hills = {
+			attack = -0.15
+		}
+		mountain = {
+			attack = -0.6
+			defence = -0.3
+		}
+		jungle = {
+			attack = -0.45
+			defence = -0.2
+		}
+		marsh = {
+			attack = -0.45
+			defence = -0.2
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.2
+		}
+		supercity = {
+			attack = -0.7
+			defence = -0.5
+		}
+		river = {
+			attack = -0.6
+		}
+		amphibious = {
+			attack = -0.4 #was 0.4
+		}
+	}
+	light_light_walker_tank_battalion = {
+		sprite = MD4_medium_armor
+		map_icon_category = armored
+		priority = 30
+		active = no
+		ai_priority = 3
+		type = {
+			armor
+			anti_tank
+		}
+
+		group = light_bat
+
+		categories = {
+			category_tanks
+			category_front_line
+			category_real_tanks
+			category_all_armor
+			category_army
+			category_non_militia
+			category_walker_tanks
+		}
+
+		combat_width = 3
+
+		essential = {
+			super_heavy_tank_destroyer_chassis
+		}
+
+		need = {
+			super_heavy_tank_destroyer_chassis = 12
+		}
+
+		manpower = 240
+		max_organisation = 15
+		max_strength = 20
+		default_morale = 0.05
+		training_time = 180
+		weight = 1.5
+		entrenchment = -0.15
+
+		defense = -0.66
+		breakthrough = -0.66
+		soft_attack = -0.66
+		hard_attack = -0.66
+		armor_value = -0.66
+		ap_attack = -0.66
+
+		supply_consumption = 0.08 #0.25
+		transport = super_heavy_tank_destroyer_chassis
+
+		plains = {
+			attack = 0.25
+			defence = 0.15
+		}
+		desert = {
+			attack = 0.25
+			defence = 0.15
+		}
+		forest = {
+			attack = -0.3
+			defence = -0.1
+		}
+		hills = {
+			attack = -0.15
+		}
+		mountain = {
+			attack = -0.6
+			defence = -0.3
+		}
+		jungle = {
+			attack = -0.45
+			defence = -0.2
+		}
+		marsh = {
+			attack = -0.45
+			defence = -0.2
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.2
+		}
+		supercity = {
+			attack = -0.7
+			defence = -0.5
+		}
+		river = {
+			attack = -0.6
+		}
+		amphibious = {
+			attack = -0.4 #was 0.4
+		}
+	}
+	light_heavy_walker_tank_battalion = {
+		sprite = MD4_medium_armor
+		map_icon_category = armored
+		priority = 30
+		active = no
+		ai_priority = 3
+		type = {
+			armor
+			artillery
+		}
+
+		group = light_bat
+
+		categories = {
+			category_tanks
+			category_front_line
+			category_real_tanks
+			category_all_armor
+			category_army
+			category_non_militia
+			category_walker_tanks
+		}
+
+		combat_width = 3
+
+		essential = {
+			super_heavy_tank_artillery_chassis
+		}
+
+		need = {
+			super_heavy_tank_artillery_chassis = 12
+		}
+
+		manpower = 240
+		max_organisation = 15
+		max_strength = 20
+		default_morale = 0.05
+		training_time = 180
+		weight = 1.5
+		entrenchment = -0.15
+
+		defense = -0.66
+		breakthrough = -0.66
+		soft_attack = -0.66
+		hard_attack = -0.66
+		armor_value = -0.66
+		ap_attack = -0.66
+
+		supply_consumption = 0.08 #0.25
+		transport = super_heavy_tank_artillery_chassis
+
+		plains = {
+			attack = 0.25
+			defence = 0.15
+		}
+		desert = {
+			attack = 0.25
+			defence = 0.15
+		}
+		forest = {
+			attack = -0.3
+			defence = -0.1
+		}
+		hills = {
+			attack = -0.15
+		}
+		mountain = {
+			attack = -0.6
+			defence = -0.3
+		}
+		jungle = {
+			attack = -0.45
+			defence = -0.2
+		}
+		marsh = {
+			attack = -0.45
+			defence = -0.2
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.2
+		}
+		supercity = {
+			attack = -0.7
+			defence = -0.5
+		}
+		river = {
+			attack = -0.6
+		}
+		amphibious = {
+			attack = -0.4 #was 0.4
+		}
+	}
 	space_artillery_support_company = {
 		sprite = artillery
 		map_icon_category = infantry
