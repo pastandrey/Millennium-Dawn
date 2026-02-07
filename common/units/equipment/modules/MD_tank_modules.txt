@@ -5462,6 +5462,7 @@ equipment_modules = {
 			hard_attack = 3
 			ap_attack = 30
 			reliability = -0.05
+			supply_consumption = 0.02
 		}
 		can_convert_from = {
 			module_category = afv_atgm_module
