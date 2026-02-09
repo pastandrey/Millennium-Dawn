@@ -38,7 +38,7 @@
 #reliability - overall reliability of the ship
 
 equipment_modules = {
-#Surface Power and Power Transmission Systems===========================================================
+#Surface Power and Power Transmission Systems-----------------------------------------------------------
 #CONVENTIONAL SHIP ENGINES
 	module_surface_oil_power = {
 		category = module_surface_power_source_category
@@ -3838,7 +3838,7 @@ equipment_modules = {
 		}
 
 	}
-#Turret Missile Systems =============================
+#Turret Missile Systems -----------------------------
 #RAM
 	module_ram_1 = {
 		category = module_point_defense_system_category
