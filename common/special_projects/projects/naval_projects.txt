@@ -64,9 +64,8 @@ sp_stealth_corvette = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = stealth_corvette_hull_1
+			set_technology = {
+				stealth_corvette_hull_1 = 1
 			}
 		}
 	}
@@ -108,9 +107,8 @@ sp_stealth_frigate = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = stealth_frigate_hull_1
+			set_technology = {
+				stealth_frigate_hull_1 = 1
 			}
 		}
 	}
@@ -151,9 +149,8 @@ sp_stealth_destroyer = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = stealth_destroyer_hull_1
+			set_technology = {
+				stealth_destroyer_hull_1 = 1
 			}
 		}
 	}
@@ -200,9 +197,8 @@ sp_medium_naval_nuclear_engines = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = tech_nuclear_power_systems
+			set_technology = {
+				tech_nuclear_power_systems = 1
 			}
 		}
 	}
@@ -386,9 +382,8 @@ sp_rail_gun_naval_cannons = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = tech_rail_guns
+			set_technology = {
+				tech_rail_guns = 1
 			}
 		}
 	}
@@ -913,12 +908,12 @@ sp_modern_sail_ships = {
 		specialization_naval = 1
 	}
 
-	complexity = sp_complexity.insane
-	prototype_time = sp_time.prototype.long
+	complexity = sp_complexity.large
+	prototype_time = sp_time.prototype.medium
 
 	resource_cost = {
 		resources = {
-			tungsten = 21
+			tungsten = 6
 		}
 	}
 

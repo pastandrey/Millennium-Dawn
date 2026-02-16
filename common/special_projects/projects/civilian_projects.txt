@@ -131,8 +131,12 @@ sp_improved_maglev_trains = {
 	complexity = sp_complexity.large
 
 	available = {
-		FROM = {
-			has_tech = high_speed_rail
+		if = {
+			limit = { FROM = { original_tag = CHI } }
+			always = yes
+		}
+		else = {
+			FROM = { has_tech = high_speed_rail }
 		}
 	}
 
@@ -272,6 +276,12 @@ sp_improved_synthetic_diamonds = {
 
 	breakthrough_cost = {
 		specialization_nuclear = 1
+	}
+
+	resource_cost = {
+		resources = {
+			chromium = 6
+		}
 	}
 
 	project_output = {
@@ -905,8 +915,8 @@ sp_agriculture_drone = {
 
 	resource_cost = {
 		resources = {
-			microchips = 6
-			chromium = 12
+			microchips = 4
+			chromium = 6
 		}
 	}
 

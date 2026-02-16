@@ -1907,6 +1907,13 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2035
 
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_epigenetic_reprogramming
+			}
+		}
+
 		monthly_population = 0.05
 
 		folder = {

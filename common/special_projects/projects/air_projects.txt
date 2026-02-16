@@ -208,9 +208,8 @@ sp_nuclear_engines = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = nuclear_engines
+			set_technology = {
+				nuclear_engines = 1
 			}
 		}
 	}
@@ -263,9 +262,8 @@ sp_solar_engines = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = solar_engines_1
+			set_technology = {
+				solar_engines_1 = 1
 			}
 		}
 		enable_equipment_modules = {
@@ -608,9 +606,8 @@ sp_stealth_technology = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = stealth_tech_1
+			set_technology = {
+				stealth_tech_1 = 1
 			}
 		}
 	}
@@ -896,15 +893,13 @@ sp_awacs_project = {
 		country_effects = {
 			if = {
 				limit = { has_dlc = "Arms Against Tyranny" }
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_TECH
-					TECH = awacs_1
+				set_technology = {
+					awacs_1 = 1
 				}
 			}
 			else = {
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_TECH
-					TECH = awacs_plane1
+				set_technology = {
+					awacs_plane1 = 1
 				}
 			}
 		}

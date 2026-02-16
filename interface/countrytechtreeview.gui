@@ -1504,19 +1504,6 @@ guiTypes = {
 				pdx_tooltip = "NAVAL_TITLE_FRIGATES_DESC"
 			}
 			instantTextBoxType = {
-				name = "naval_subtitle_heavy_frigates"
-				position = { x = 1355 y = 650 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "NAVAL_TITLE_HEAVY_FRIGATES"
-				maxWidth = 600
-				maxHeight = 74
-				format = left
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "NAVAL_TITLE_HEAVY_FRIGATES_DESC"
-			}
-			instantTextBoxType = {
 				name = "naval_subtitle_destroyers"
 				position = { x = 230 y = 685 }
 				textureFile = ""

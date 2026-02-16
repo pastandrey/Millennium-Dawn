@@ -7260,6 +7260,7 @@ equipment_modules = {
 		manpower = -10
 		add_stats = {
 			build_cost_ic = 5
+			air_agility = 1
 		}
 		build_cost_resources = {
 			chromium = 1
@@ -7276,6 +7277,7 @@ equipment_modules = {
 		manpower = -10
 		add_stats = {
 			build_cost_ic = 5
+			air_agility = 1
 		}
 		build_cost_resources = {
 			aluminium = 1
