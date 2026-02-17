@@ -1548,8 +1548,8 @@
 	complete_special_project = sp:sp_nuclear_energy
 
 	set_technology = {
-		microchip_production_two = 1
-		microchip_production_three = 1
+		microchip_production_2 = 1
+		microchip_production_3 = 1
 
 		GNSS1 = 1
 		GNSS2 = 1

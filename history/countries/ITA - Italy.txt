@@ -14,7 +14,7 @@
 
 
 	set_technology = {
-		microchip_production_two = 1
+		microchip_production_2 = 1
 
 		GNSS1 = 1
 		GNSS2 = 1

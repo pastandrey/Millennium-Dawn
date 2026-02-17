@@ -1580,24 +1580,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Generic/Land_Doctrines/c3i_theory.dds"
 	}
 	SpriteType = {
-		name = "GFX_microchip_production_one_medium"
-		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_one.dds"
+		name = "GFX_microchip_production_1_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_microchip_production_two_medium"
-		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_two.dds"
+		name = "GFX_microchip_production_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_microchip_production_three_medium"
-		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_three.dds"
+		name = "GFX_microchip_production_3_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_microchip_production_four_medium"
-		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_four.dds"
+		name = "GFX_microchip_production_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_microchip_production_five_medium"
-		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_five.dds"
+		name = "GFX_microchip_production_5_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_5.dds"
 	}
 	SpriteType = {
 		name = "GFX_composite_production_1_medium"

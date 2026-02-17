@@ -890,8 +890,8 @@
 	reverse_add_opinion_modifier = { target = QAT modifier = Arabian_Peninsula_Asia_Economical_Relations }
 
 	set_technology = {
-		microchip_production_two = 1
-		microchip_production_three = 1
+		microchip_production_2 = 1
+		microchip_production_3 = 1
 
 		COMSAT1 = 1
 		COMSAT2 = 1
