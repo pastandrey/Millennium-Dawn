@@ -1319,7 +1319,7 @@ equipments = {
 			walker_body_slot = {
 				required = yes
 				allowed_module_categories = {
-					walker_tank_chassis_type
+					walker_tank_chassis_type_category
 				}
 			}
 			walker_engine_slot = {

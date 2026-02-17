@@ -1912,7 +1912,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_missile_systems
 			convert_cost_ic = 5
-	   }
+	 }
 	}
 
 	spaa_missiles_4 = {
@@ -1941,7 +1941,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_missile_systems
 			convert_cost_ic = 5
-	   }
+	 }
 	}
 
 	spaa_missiles_5 = {
@@ -1969,7 +1969,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_missile_systems
 			convert_cost_ic = 5
-	   }
+	 }
 	}
 
 	spaa_short_range_missiles_1 = {
@@ -2519,7 +2519,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_light_autocannon_systems
 			convert_cost_ic = 1.5
-	   }
+	 }
 	}
 
 	spaa_light_autocannon3 = {
@@ -2544,7 +2544,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_light_autocannon_systems
 			convert_cost_ic = 1.5
-	   }
+	 }
 	}
 
 	spaa_light_autocannon4 = {
@@ -2569,7 +2569,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_light_autocannon_systems
 			convert_cost_ic = 1.5
-	   }
+	 }
 	}
 
 	spaa_light_autocannon5 = {
@@ -2594,7 +2594,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_light_autocannon_systems
 			convert_cost_ic = 1.5
-	   }
+	 }
 	}
 
 	spaa_naval_cannon_1 = {
@@ -2643,7 +2643,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_autocannon_systems
 			convert_cost_ic = 2
-	   }
+	 }
 	}
 
 	spaa_naval_cannon_2 = {
@@ -2693,7 +2693,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_autocannon_systems
 			convert_cost_ic = 2
-	   }
+	 }
 	}
 
 	spaa_naval_cannon_3 = {
@@ -2743,7 +2743,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_autocannon_systems
 			convert_cost_ic = 2
-	   }
+	 }
 	}
 
 	spaa_naval_cannon_4 = {
@@ -2793,7 +2793,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_autocannon_systems
 			convert_cost_ic = 2
-	   }
+	 }
 	}
 
 	spaa_naval_cannon_5 = {
@@ -2843,7 +2843,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_autocannon_systems
 			convert_cost_ic = 2
-	   }
+	 }
 	}
 
 	proximity_fuze_autocannon_ammo_1 = {
@@ -2869,7 +2869,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = autocannon_ammo
 			convert_cost_ic = 0.10
-	   }
+	 }
 	}
 	proximity_fuze_autocannon_ammo_2 = {
 		abbreviation = "pfaa"
@@ -2895,7 +2895,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = autocannon_ammo
 			convert_cost_ic = 0.10
-	   }
+	 }
 	}
 	proximity_fuze_autocannon_ammo_3 = {
 		abbreviation = "pfaa"
@@ -2917,7 +2917,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = autocannon_ammo
 			convert_cost_ic = 0.10
-	   }
+	 }
 	}
 	proximity_fuze_autocannon_ammo_4 = {
 		abbreviation = "pfaa"
@@ -2943,7 +2943,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = autocannon_ammo
 			convert_cost_ic = 0.10
-	   }
+	 }
 	}
 	proximity_fuze_autocannon_ammo_5 = {
 		abbreviation = "pfaa"
@@ -2969,7 +2969,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = autocannon_ammo
 			convert_cost_ic = 0.10
-	   }
+	 }
 	}
 
 
@@ -2992,7 +2992,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_radar_systems
 			convert_cost_ic = 2.5
-	   }
+	 }
 	}
 
 	spaa_radar_gen2 = { #1980
@@ -3014,7 +3014,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_radar_systems
 			convert_cost_ic = 2.5
-	   }
+	 }
 	}
 
 	spaa_radar_gen3 = { #2005
@@ -3036,7 +3036,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_radar_systems
 			convert_cost_ic = 2.5
-	   }
+	 }
 	}
 
 	spaa_radar_gen4 = { #2020
@@ -3058,7 +3058,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_radar_systems
 			convert_cost_ic = 2.5
-	   }
+	 }
 	}
 
 	spaa_radar_gen5 = { #2035
@@ -3080,7 +3080,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_radar_systems
 			convert_cost_ic = 2.5
-	   }
+	 }
 	}
 
 	## optical guidance
@@ -3100,7 +3100,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_optical_guidance_systems
 			convert_cost_ic = 1
-	   }
+	 }
 	}
 
 	spaa_optical_guidance_gen2 = { #1980
@@ -3120,7 +3120,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_optical_guidance_systems
 			convert_cost_ic = 1
-	   }
+	 }
 	}
 
 	spaa_optical_guidance_gen3 = { #2005
@@ -3140,7 +3140,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_optical_guidance_systems
 			convert_cost_ic = 1
-	   }
+	 }
 	}
 
 	spaa_optical_guidance_gen4 = { #2020
@@ -3160,7 +3160,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_optical_guidance_systems
 			convert_cost_ic = 1
-	   }
+	 }
 	}
 
 	spaa_optical_guidance_gen5 = { #2035
@@ -3180,7 +3180,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_optical_guidance_systems
 			convert_cost_ic = 1
-	   }
+	 }
 	}
 
 	## off vehicle radar
@@ -3204,7 +3204,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_off_vehicle_radar_systems
 			convert_cost_ic = 1.5
-	   }
+	 }
 	}
 
 	spaa_off_vehicle_radar_gen2 = { #1980
@@ -3228,7 +3228,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_off_vehicle_radar_systems
 			convert_cost_ic = 1.5
-	   }
+	 }
 	}
 
 	spaa_off_vehicle_radar_gen3 = { #2005
@@ -3252,7 +3252,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_off_vehicle_radar_systems
 			convert_cost_ic = 1.5
-	   }
+	 }
 	}
 
 	spaa_off_vehicle_radar_gen4 = { #2020
@@ -3276,7 +3276,7 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_off_vehicle_radar_systems
 			convert_cost_ic = 1.5
-	   }
+	 }
 	}
 
 	spaa_off_vehicle_radar_gen5 = { #2035
@@ -3300,6 +3300,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = spaa_off_vehicle_radar_systems
 			convert_cost_ic = 1.5
-	   }
+	 }
 	}
 }

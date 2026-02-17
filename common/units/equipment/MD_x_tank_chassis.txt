@@ -63,7 +63,7 @@ duplicate_archetypes = {
 	#Light Walker Tank
 	super_heavy_tank_destroyer_chassis = {
 		archetype = super_heavy_tank_chassis
-		type = { anti_tank }
+		type = { armor anti_tank }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 		}
@@ -1879,9 +1879,9 @@ equipments = {
 			chromium = 1
 		}
 	}
-	super_heavy_tank_destroyer_chassis = {
+	walker_tank_chassis = {
 		year = 2035
-		is_archetype = yes
+		archetype = super_heavy_tank_destroyer_chassis
 		is_buildable = no
 
 		type = armor
@@ -1916,7 +1916,7 @@ equipments = {
 		}
 	}
 	#2035
-	super_heavy_tank_destroyer_chassis_0 = {
+	walker_tank_chassis_0 = {
 		year = 2035
 
 		archetype = super_heavy_tank_destroyer_chassis
@@ -1948,7 +1948,7 @@ equipments = {
 		}
 	}
 	#2045
-	super_heavy_tank_destroyer_chassis_1 = {
+	walker_tank_chassis_1 = {
 		year = 2045
 
 		archetype = super_heavy_tank_destroyer_chassis
@@ -1981,7 +1981,7 @@ equipments = {
 		}
 	}
 	#2055
-	super_heavy_tank_destroyer_chassis_2 = {
+	walker_tank_chassis_2 = {
 		year = 2055
 
 		archetype = super_heavy_tank_destroyer_chassis
@@ -2015,7 +2015,7 @@ equipments = {
 	}
 
 	#2065
-	super_heavy_tank_destroyer_chassis_3 = {
+	walker_tank_chassis_3 = {
 		year = 2065
 
 		archetype = super_heavy_tank_destroyer_chassis
@@ -2048,11 +2048,11 @@ equipments = {
 		}
 	}
 	#2075
-	super_heavy_tank_destroyer_chassis_4 = {
+	walker_tank_chassis_4 = {
 		year = 2075
 
 		archetype = super_heavy_tank_destroyer_chassis
-		parent = super_heavy_tank_destroyer_chassis_3
+		parent = walker_tank_chassis_3
 		priority = 5
 
 		#Misc Abilities

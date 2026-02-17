@@ -301,9 +301,8 @@ sp_active_protection_systems = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = tank_components_tech_4
+			set_technology = {
+				tank_components_tech_4 = 1
 			}
 		}
 	}
@@ -380,9 +379,8 @@ sp_ground_fireandforget = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = AT_upgrade_2
+			set_technology = {
+				AT_upgrade_2 = 1
 			}
 		}
 	}
@@ -433,9 +431,8 @@ sp_tank_electric_engine = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = electric_engine_tech_3
+			set_technology = {
+				electric_engine_tech_3 = 1
 			}
 		}
 	}
@@ -602,7 +599,7 @@ sp_tank_self_sharpening_ammo = {
 		specialization_land = 1
 	}
 
-	prototype_time = sp_time.prototype.long
+	prototype_time = sp_time.prototype.medium
 
 	complexity = sp_complexity.large
 
@@ -786,12 +783,20 @@ sp_super_heavy_tank_turrets = {
 
 	project_tags = sp_tag_armored_vehicles
 
-	prototype_time = sp_time.prototype.insanely_long
+	prototype_time = sp_time.prototype.long
 
 	complexity = sp_complexity.insane
 
 	breakthrough_cost = {
 		specialization_land = 2
+	}
+
+	resource_cost = {
+		resources = {
+			steel = 6
+			composites = 5
+			tungsten = 3
+		}
 	}
 
 	available = {

@@ -5462,6 +5462,7 @@ equipment_modules = {
 			hard_attack = 3
 			ap_attack = 30
 			reliability = -0.05
+			supply_consumption = 0.02
 		}
 		can_convert_from = {
 			module_category = afv_atgm_module
@@ -6031,12 +6032,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			defense = 1
-			breakthrough = 1
+			defense = 8.5
+			breakthrough = 3
 			build_cost_ic = 5.85
 		}
 		multiply_stats = {
-			defense = 0.1
+			defense = 0.2
 			breakthrough = 0.1
 		}
 		xp_cost = 3
@@ -6824,9 +6825,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		forbid_equipment_type_exact_match = armor
-		allow_equipment_type = {
-			anti_tank
-		}
 
 		add_stats = {
 			soft_attack = 13.5
@@ -7090,6 +7088,8 @@ equipment_modules = {
 		category = walker_tank_chassis_type_category
 		sfx = sfx_ui_sd_module_engine
 
+		allow_equipment_type = anti_tank
+
 		allowed_module_categories = {
 			walker_armament_slot_1 = { walker_light_armament_category }
 			walker_engine_slot = { walker_engine_category }
@@ -7129,6 +7129,8 @@ equipment_modules = {
 		abbreviation = "hte1"
 		category = walker_tank_chassis_type_category
 		sfx = sfx_ui_sd_module_engine
+
+		allow_equipment_type = artillery
 
 		multiply_stats = {
 			build_cost_ic = 0.15

@@ -21,5 +21,9 @@ technologies = {
 			level = 6
 		}
 	}
+	patrol_boats = {
+		enable_equipments = {
+			patrol_boat_1
+		}
+	}
 }
-

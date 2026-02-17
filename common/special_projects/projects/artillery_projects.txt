@@ -295,7 +295,7 @@ sp_magneto_explosive_munition = {
 		specialization_land = 1
 	}
 
-	prototype_time = sp_time.prototype.long
+	prototype_time = sp_time.prototype.medium
 
 	complexity = sp_complexity.large
 

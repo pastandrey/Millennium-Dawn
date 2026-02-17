@@ -185,9 +185,9 @@ These can be used _anywhere_ that a normal modifier can be used such as `politic
 | energy_use                                 | Energy   | Modifies energy use as a flat amount                                                       | 10 = 10 more energy consumption |
 | energy_use_multiplier                      | Energy   | Modifies energy consumption as a percentage, modifies all sources of energy consumption    | N/A                             |
 | battery_park_construction_cost             | Energy   | Modifies the cost of building a battery park                                               | N/A                             |
-| leu_fuel_production_modifier               | Energy   | Modifies the amount of LEU fuel produced each week by enrichment facilities                | N/A                             |
-| heu_fuel_production_modifier               | Energy   | Modifies the amount of HEU fuel produced each week by enrichment facilities                | N/A                             |
 | state_renewable_energy_generation_modifier | Energy   | Modifies the amount of State Renewable Energy Generation                                   | N/A                             |
+| hydroelectric_power_generation_modifier    | Energy   | Modifies the amount of Hydroelectric Power Energy Generation                               | N/A                             |
+| geothermal_power_generation_modifier       | Energy   | Modifies the amount of Geothermal Power Energy Generation                                  | N/A                             |
 
 {% endcapture %}
 {{ md | markdownify }}
@@ -1230,24 +1230,20 @@ Historical events for MD should be triggered using the new system in common/scri
 
 These are "container" effects triggered once a year by one country to trigger all historical scripted content for each country. You can put an event in two places, either in a "year" effect or in the on_startup effect at the top of the file. If you wish to have the event fire in 2000 (or 2017 if you still want content support for that start date). Add the event in the on-startup with the days until it should fire in the game's first year. Outside of that, if you wish to fire an event in a specific year, find the event and then add the day counters as you otherwise would for a normal event.
 
-```
+Example A:
+
+```python
 MD_event_on_startup_events = {
-	if = { # The 2000 start date
-		limit = { has_start_date < 2000.1.2 }
-		# Events with known dates that should fire with the 2000 start date.
-		CAM = {
-			country_event = { id = Cameroon.1 days = 50 random_days = 50 }
-		}
-	}
-	else = {
-		USA = {
-			country_event = { id = donald_trump.1000 days = 1 }
-		}
+	# Events with known dates that should fire within the first year
+	CAM = {
+		country_event = { id = Cameroon.1 days = 50 random_days = 50 }
 	}
 }
 ```
 
-```
+Example B:
+
+```python
 trigger_year_2067_events = {
 	USA = {
 		country_event = { id = collapse_event.1 days = 30 random_days = 336 }
@@ -1322,13 +1318,12 @@ Renewable capacity is slightly different since it use the [Global Wind Atlas](ht
 
 Once you are on the website you can look at your desired region and then hover over the area and it will provide you a value in the bottom right of the screen.
 co
-The equation for the capacity factor is (Atlas value) - 0.25 = Capacity Factor variable for that state. Using the Western Sahara as an example the Capacity Factor on the Atlas extends to 0.80 which means in MD the state would have a capacity factor of 0.50 with the dynamic modifier.
+The equation for the capacity factor is (Atlas value) - 0.25 = Capacity Factor variable for that state. Using the Western Sahara as an example the Capacity Factor on the Atlas extends to 0.80 which means in MD the state would have a capacity factor of 0.50. This is done via a static state modifier handled on game start.
 
 Example:
 
 ```python
 set_variable = { state_renewable_capacity_factor_modifier_var = 0.55 }
-add_dynamic_modifier = { modifier = renewable_capacity_factor_dyn_mod }
 ```
 
 Productivity is also set at the state level as well. Please refer to any of the state.
