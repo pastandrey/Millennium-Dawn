@@ -173,7 +173,7 @@ BRA_unique_destroyers = {
 			match_value = 1000.0
 			type = destroyer_hull_1
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power
+				fixed_ship_engine_slot = module_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot_3 = module_chain_gun
@@ -223,7 +223,7 @@ BRA_unique_destroyers = {
 			match_value = 1250
 			type = destroyer_hull_2
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power
+				fixed_ship_engine_slot = module_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_3 = module_vls_sam_2
@@ -1348,7 +1348,7 @@ ai_equipment = {
 
 		fixed_ship_radar_slot = module_radar_3
 		fixed_ship_fire_control_system_slot = module_analog_fire_control
-		fixed_ship_engine_slot = module_surface_diesel_power
+		fixed_ship_engine_slot = module_surface_diesel_power_1
 	 }
 	}
  }
@@ -1745,7 +1745,7 @@ ai_equipment = {
 	 type = destroyer_hull_1
 	 match_value = 2200
 	 modules = {
-		fixed_ship_engine_slot = module_surface_diesel_power
+		fixed_ship_engine_slot = module_surface_diesel_power_1
 		fixed_ship_fire_control_system_slot = module_analog_fire_control
 		fixed_ship_radar_slot = module_radar_1
 
@@ -1773,7 +1773,7 @@ ai_equipment = {
 	 type = destroyer_hull_2
 	 match_value = 3000
 	 modules = {
-		fixed_ship_engine_slot = module_surface_diesel_power
+		fixed_ship_engine_slot = module_surface_diesel_power_1
 		fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 		fixed_ship_radar_slot = module_radar_2
 

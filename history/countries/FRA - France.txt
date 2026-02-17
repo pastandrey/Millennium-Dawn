@@ -1822,7 +1822,7 @@
 			parent_version = 0
 			role_icon_index = 10
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power_1
+				fixed_ship_engine_slot = module_surface_diesel_power_1_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_1
 				fixed_ship_auxillary_slot_3 = module_chain_gun
@@ -1843,7 +1843,7 @@
 			parent_version = 0
 			role_icon_index = 10
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power_1
+				fixed_ship_engine_slot = module_surface_diesel_power_1_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_3 = module_fuel_tank
@@ -1956,7 +1956,7 @@
 			parent_version = 1
 			role_icon_index = 4
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power_1
+				fixed_ship_engine_slot = module_surface_diesel_power_1_1
 				fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot_3 = module_ram_2
@@ -1978,7 +1978,7 @@
 			parent_version = 2
 			role_icon_index = 4
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power_1
+				fixed_ship_engine_slot = module_surface_diesel_power_1_1
 				fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot_3 = module_chain_gun

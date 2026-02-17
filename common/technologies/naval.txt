@@ -3304,7 +3304,7 @@ technologies = {
 
 	tech_diesel_power_systems = {
 		enable_equipment_modules = {
-			module_surface_diesel_power_1
+			module_surface_diesel_power_1_1
 			module_light_surface_diesel_power_1
 		}
 		path = {
@@ -3346,7 +3346,7 @@ technologies = {
 	}
 	tech_diesel_power_systems_1 = {
 		enable_equipment_modules = {
-			module_surface_diesel_power_2
+			module_surface_diesel_power_1_2
 			module_light_surface_diesel_power_2
 		}
 		path = {
@@ -3388,7 +3388,7 @@ technologies = {
 	}
 	tech_diesel_power_systems_2 = {
 		enable_equipment_modules = {
-			module_surface_diesel_power_3
+			module_surface_diesel_power_1_3
 			module_light_surface_diesel_power_3
 		}
 		path = {
@@ -3430,7 +3430,7 @@ technologies = {
 	}
 	tech_diesel_power_systems_3 = {
 		enable_equipment_modules = {
-			module_surface_diesel_power_4
+			module_surface_diesel_power_1_4
 			module_light_surface_diesel_power_4
 		}
 
