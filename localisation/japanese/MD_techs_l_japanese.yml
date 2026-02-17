@@ -919,7 +919,7 @@
  module_anti_submarine_missile_3: "対潜ミサイル III"
  module_anti_submarine_missile_4: "対潜ミサイル IV"
  module_surface_oil_power: "オイルエンジン"
- module_surface_diesel_power_1_1: "ディーゼルエンジン"
+ module_surface_diesel_power_1: "ディーゼルエンジン"
  module_surface_jet_turbine_power: "ジェットタービンエンジン"
  module_light_surface_diesel_power_1: "軽量ディーゼルエンジン"
  module_light_surface_jet_turbine_power: "軽量ジェットタービンエンジン"

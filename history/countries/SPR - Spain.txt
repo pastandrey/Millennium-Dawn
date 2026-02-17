@@ -95,7 +95,7 @@
 		#name_group = SPAIN
 		parent_version = 0
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power_1_1
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_1
 			fixed_ship_auxillary_slot_3 = module_fuel_tank
@@ -114,7 +114,7 @@
 		#name_group = SPAIN
 		parent_version = 0
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power_1_1
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 			fixed_ship_radar_slot = module_radar_3
 			fixed_ship_auxillary_slot_3 = module_fuel_tank

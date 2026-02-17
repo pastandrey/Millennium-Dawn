@@ -62,7 +62,7 @@ equipment_modules = {
 		}
 	}
 
-	module_surface_diesel_power_1_1 = {
+	module_surface_diesel_power_1 = {
 		category = module_surface_power_source_category
 		parent = module_surface_oil_power
 		sfx = sfx_ui_sd_module_engine
@@ -89,9 +89,9 @@ equipment_modules = {
 		}
 	}
 
-	module_surface_diesel_power_1_2 = {
+	module_surface_diesel_power_2 = {
 		category = module_surface_power_source_category
-		parent = module_surface_diesel_power_1_1
+		parent = module_surface_diesel_power_1
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			naval_speed = 17
@@ -116,9 +116,9 @@ equipment_modules = {
 		}
 	}
 
-	module_surface_diesel_power_1_3 = {
+	module_surface_diesel_power_3 = {
 		category = module_surface_power_source_category
-		parent = module_surface_diesel_power_1_2
+		parent = module_surface_diesel_power_2
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			naval_speed = 17
@@ -142,9 +142,9 @@ equipment_modules = {
 			convert_cost_ic = 1200
 		}
 	}
-	module_surface_diesel_power_1_4 = {
+	module_surface_diesel_power_4 = {
 		category = module_surface_power_source_category
-		parent = module_surface_diesel_power_1_3
+		parent = module_surface_diesel_power_3
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			naval_speed = 17
@@ -171,7 +171,7 @@ equipment_modules = {
 
 	module_surface_jet_turbine_power = {
 		category = module_surface_power_source_category
-		parent = module_surface_diesel_power_1_1
+		parent = module_surface_diesel_power_1
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			naval_speed = 21
@@ -191,7 +191,7 @@ equipment_modules = {
 			convert_cost_ic = 2400
 		}
 		can_convert_from = {
-			module = module_surface_diesel_power_1_1
+			module = module_surface_diesel_power_1
 			convert_cost_ic = 1500
 		}
 	}
