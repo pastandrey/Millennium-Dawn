@@ -304,8 +304,8 @@
  encryption6: "Encryption VI"
  encryption6_desc: "Encryption techniques on modern computers and more advanced firewalls can help us truly be protected on the web."
 
- microchip_production_one: "Early Chip Production"
- microchip_production_one_desc: "The establishment of domestic semiconductor manufacturing enables the mass production of basic integrated circuits. This provides the foundation for modern electronics, improving the reliability and availability of computing components used in military systems, industrial automation, and civilian infrastructure."
+ microchip_production_1: "Early Chip Production"
+ microchip_production_1_desc: "The establishment of domestic semiconductor manufacturing enables the mass production of basic integrated circuits. This provides the foundation for modern electronics, improving the reliability and availability of computing components used in military systems, industrial automation, and civilian infrastructure."
  microchip_production_2: "1 Kbit DRAM"
  microchip_production_2_desc: "Early dynamic random-access memory allows electronic systems to temporarily store and access data at much higher speeds than previous technologies. While limited in capacity, this memory enables more responsive computers, supporting early digital control systems and improved data processing capabilities."
  microchip_production_3: "64 Kbit Dram"

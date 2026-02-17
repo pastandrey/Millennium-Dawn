@@ -702,9 +702,9 @@ sp_microchip_production = {
 	project_output = {
 		country_effects = {
 			custom_override_tooltip = {
-				tooltip = tech_effect|microchip_production_one
+				tooltip = tech_effect|microchip_production_1
 				set_technology = {
-					microchip_production_one = 1
+					microchip_production_1 = 1
 					popup = no
 				}
 			}
