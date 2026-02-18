@@ -19,7 +19,7 @@
 		infantry_weapons_3 = 1
 		combat_eng_equipment = 1
 		cnc_equipment_1 = 1
-		land_drone_equipment = 1
+		land_drone_equipment_type = 1
 		util_vehicle_1 = 1
 		camouflage = 1
 		night_vision_1 = 1
@@ -205,7 +205,7 @@
 
 		combat_eng_equipment = 1
 		cnc_equipment_1 = 1
-		land_drone_equipment = 1
+		land_drone_equipment_type = 1
 		util_vehicle_1 = 1
 
 		camouflage = 1

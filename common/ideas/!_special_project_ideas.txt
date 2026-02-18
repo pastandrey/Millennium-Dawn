@@ -154,7 +154,7 @@ ideas = {
 			name = sp_fiber_drones
 
 			equipment_bonus = {
-				land_drone_equipment = {
+				land_drone_equipment_type = {
 					reliability_factor = 0.10
 					ap_attack = 0.05
 					breakthrough = 0.05

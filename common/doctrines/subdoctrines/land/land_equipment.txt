@@ -1358,7 +1358,7 @@ drone_equipment = {
 
 	# EFFECTS
 	equipment_bonus = {
-		land_drone_equipment = {
+		land_drone_equipment_type = {
 			build_cost_ic = -0.05
 			instant = yes
 		}
@@ -1373,7 +1373,7 @@ drone_equipment = {
 	rewards = {
 		ew_resilient_link_discipline = {
 			equipment_bonus = {
-				land_drone_equipment = {
+				land_drone_equipment_type = {
 					reliability = 0.05
 					instant = yes
 				}
@@ -1387,7 +1387,7 @@ drone_equipment = {
 		}
 		sensor_to_shooter = {
 			equipment_bonus = {
-				land_drone_equipment = {
+				land_drone_equipment_type = {
 					breakthrough = 0.05
 					instant = yes
 				}
@@ -1419,7 +1419,7 @@ drone_equipment = {
 		}
 		rapid_turnaround_ground_crew = {
 			equipment_bonus = {
-				land_drone_equipment = {
+				land_drone_equipment_type = {
 					max_strength = 0.15
 					instant = yes
 				}

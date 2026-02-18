@@ -3360,7 +3360,7 @@ sub_units = {
 			AA_Equipment = 3
 			medium_tank_flame_chassis = 20
 			cnc_equipment_1 = 14
-			land_drone_equipment = 3
+			land_drone_equipment_type = 3
 		}
 
 		plains = {
@@ -4352,7 +4352,7 @@ sub_units = {
 		need = {
 			cnc_equipment_1 = 30
 			util_vehicle_type = 5
-			land_drone_equipment = 20
+			land_drone_equipment_type = 20
 		}
 
 		manpower = 80

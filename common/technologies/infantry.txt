@@ -803,7 +803,7 @@ technologies = {
 			util_vehicle_9
 		}
 		path = {
-			leads_to_tech = util_vehicle_20
+			leads_to_tech = util_vehicle_10
 			research_cost_coeff = 1
 		}
 		research_cost = 1.7
@@ -835,13 +835,13 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2055
-	util_vehicle_20 = {
+	util_vehicle_10 = {
 
 		enable_equipments = {
-			util_vehicle_20
+			util_vehicle_10
 		}
 		path = {
-			leads_to_tech = util_vehicle_21
+			leads_to_tech = util_vehicle_11
 			research_cost_coeff = 1
 		}
 		research_cost = 1.7
@@ -870,13 +870,13 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2065
-	util_vehicle_21 = {
+	util_vehicle_11 = {
 
 		enable_equipments = {
-			util_vehicle_21
+			util_vehicle_11
 		}
 		path = {
-			leads_to_tech = util_vehicle_22
+			leads_to_tech = util_vehicle_12
 			research_cost_coeff = 1
 		}
 		research_cost = 1.7
@@ -905,10 +905,10 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2075
-	util_vehicle_22 = {
+	util_vehicle_12 = {
 
 		enable_equipments = {
-			util_vehicle_22
+			util_vehicle_12
 		}
 		research_cost = 1.7
 		start_year = 2075
@@ -1735,7 +1735,7 @@ technologies = {
 	###Drones###
 
 	#1985
-	land_drone_equipment = {
+	land_drone_equipment_type = {
 
 		#custom_effect_tooltip = tank_art_upgrade
 		L_Recce_Comp = {
@@ -1761,7 +1761,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = land_drone_equipment1
+			leads_to_tech = land_drone_equipment_1
 			research_cost_coeff = 1
 		}
 
@@ -1792,7 +1792,7 @@ technologies = {
 		}
 	}
 	#1995
-	land_drone_equipment1 = {
+	land_drone_equipment_1 = {
 
 		L_Recce_Comp = {
 			recon = 0.25
@@ -1817,7 +1817,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = land_drone_equipment2
+			leads_to_tech = land_drone_equipment_2
 			research_cost_coeff = 1
 		}
 
@@ -1849,7 +1849,7 @@ technologies = {
 		}
 	}
 	#2005
-	land_drone_equipment2 = {
+	land_drone_equipment_2 = {
 
 		L_Recce_Comp = {
 			recon = 0.25
@@ -1874,7 +1874,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = land_drone_equipment3
+			leads_to_tech = land_drone_equipment_3
 			research_cost_coeff = 1
 		}
 
@@ -1913,7 +1913,7 @@ technologies = {
 		}
 	}
 	#2015
-	land_drone_equipment3 = {
+	land_drone_equipment_3 = {
 		on_research_complete = {
 
 			custom_effect_tooltip = {
@@ -1960,7 +1960,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = land_drone_equipment4
+			leads_to_tech = land_drone_equipment_4
 			research_cost_coeff = 1
 		}
 
@@ -1999,7 +1999,7 @@ technologies = {
 		}
 	}
 	#2025
-	land_drone_equipment4 = {
+	land_drone_equipment_4 = {
 		is_special_project_tech = yes
 		allow = {
 			is_special_project_completed = sp:sp_recon_land_drone
@@ -2035,7 +2035,7 @@ technologies = {
 		drone_tactical_company = {
 			recon = 0.5
 			need = {
-				land_drone_equipment = 2
+				land_drone_equipment_type = 2
 			}
 		}
 		Drone_Recce_Comp = {
@@ -2050,7 +2050,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = land_drone_equipment5
+			leads_to_tech = land_drone_equipment_5
 			research_cost_coeff = 1
 		}
 
@@ -2089,7 +2089,7 @@ technologies = {
 		}
 	}
 	#2035
-	land_drone_equipment5 = {
+	land_drone_equipment_5 = {
 		is_special_project_tech = yes
 
 		L_Recce_Comp = {
@@ -2125,7 +2125,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = land_drone_equipment6
+			leads_to_tech = land_drone_equipment_6
 			research_cost_coeff = 1
 		}
 
@@ -2159,7 +2159,7 @@ technologies = {
 		}
 	}
 	#2045
-	land_drone_equipment6 = {
+	land_drone_equipment_6 = {
 
 		L_Recce_Comp = {
 			recon = 0.25
@@ -2187,7 +2187,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = land_drone_equipment7
+			leads_to_tech = land_drone_equipment_7
 			research_cost_coeff = 1
 		}
 
@@ -2222,7 +2222,7 @@ technologies = {
 		}
 	}
 	#2055
-	land_drone_equipment7 = {
+	land_drone_equipment_7 = {
 
 		L_Recce_Comp = {
 			recon = 0.25
@@ -2250,7 +2250,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = land_drone_equipment8
+			leads_to_tech = land_drone_equipment_8
 			research_cost_coeff = 1
 		}
 
@@ -2285,7 +2285,7 @@ technologies = {
 		}
 	}
 	#2065
-	land_drone_equipment8 = {
+	land_drone_equipment_8 = {
 
 		L_Recce_Comp = {
 			recon = 0.25
@@ -2313,7 +2313,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = land_drone_equipment9
+			leads_to_tech = land_drone_equipment_9
 			research_cost_coeff = 1
 		}
 
@@ -2347,7 +2347,7 @@ technologies = {
 		}
 	}
 	#2075
-	land_drone_equipment9 = {
+	land_drone_equipment_9 = {
 
 		L_Recce_Comp = {
 			recon = 0.25

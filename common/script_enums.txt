@@ -349,19 +349,22 @@ script_enum_equipment_bonus_type = {
 	infantry_weapons_10
 	infantry_weapons_11
 	infantry_weapons_12
-	land_drone_equipment
+	land_drone_equipment_type
 	land_drone_equipment_1
 	land_drone_equipment_2
 	land_drone_equipment_3
 	land_drone_equipment_4
 	land_drone_equipment_5
+	land_drone_equipment_6
+	land_drone_equipment_7
+	land_drone_equipment_8
+	land_drone_equipment_9
 	H_AT_Equipment
 	Heavy_Anti_tank_0
 	Heavy_Anti_tank_1
 	Heavy_Anti_tank_2
 	Heavy_Anti_tank_3
 	Heavy_Anti_tank_4
-	cnc_equipment_type
 	medium_tank_aa_chassis
 	medium_tank_aa_chassis_0
 	medium_tank_aa_chassis_1
@@ -394,6 +397,7 @@ script_enum_equipment_bonus_type = {
 	walker_tank_chassis_2
 	walker_tank_chassis_3
 	walker_tank_chassis_4
+	cnc_equipment_type
 	cnc_equipment_1
 	cnc_equipment_2
 	cnc_equipment_3
@@ -401,6 +405,10 @@ script_enum_equipment_bonus_type = {
 	cnc_equipment_5
 	cnc_equipment_6
 	cnc_equipment_7
+	cnc_equipment_8
+	cnc_equipment_9
+	cnc_equipment_10
+	cnc_equipment_11
 	SP_AA_Equipment
 	SP_Anti_Air_0
 	SP_Anti_Air_1
@@ -491,6 +499,10 @@ script_enum_equipment_bonus_type = {
 	util_vehicle_6
 	util_vehicle_7
 	util_vehicle_8
+	util_vehicle_9
+	util_vehicle_10
+	util_vehicle_11
+	util_vehicle_12
 	utility_vehicle_super_bus_1
 	L_AT_Equipment
 	Anti_tank_0

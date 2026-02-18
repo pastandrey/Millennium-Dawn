@@ -379,7 +379,7 @@ equipments = {
 		}
 	}
 	### Land Drones
-	land_drone_equipment = {
+	land_drone_equipment_type = {
 		is_archetype = yes
 		is_buildable = no
 		type = infantry
@@ -418,7 +418,7 @@ equipments = {
 	land_drone_equipment_1 = {
 		year = 2015
 
-		archetype = land_drone_equipment
+		archetype = land_drone_equipment_type
 		visual_level = 1
 
 		#Misc Abilities
@@ -450,7 +450,7 @@ equipments = {
 	land_drone_equipment_2 = {
 		year = 2020
 
-		archetype = land_drone_equipment
+		archetype = land_drone_equipment_type
 		parent = land_drone_equipment_1
 		visual_level = 2
 
@@ -483,7 +483,7 @@ equipments = {
 	land_drone_equipment_3 = {
 		year = 2025
 
-		archetype = land_drone_equipment
+		archetype = land_drone_equipment_type
 		parent = land_drone_equipment_2
 		visual_level = 3
 
@@ -516,7 +516,7 @@ equipments = {
 	land_drone_equipment_4 = {
 		year = 2030
 
-		archetype = land_drone_equipment
+		archetype = land_drone_equipment_type
 		parent = land_drone_equipment_3
 		visual_level = 4
 
@@ -549,7 +549,7 @@ equipments = {
 	land_drone_equipment_5 = {
 		year = 2035
 
-		archetype = land_drone_equipment
+		archetype = land_drone_equipment_type
 		parent = land_drone_equipment_4
 		visual_level = 5
 
@@ -579,11 +579,11 @@ equipments = {
 		}
 	}
 	#2045
-	land_drone_equipment_5 = {
+	land_drone_equipment_6 = {
 		year = 2045
 
-		archetype = land_drone_equipment
-		parent = land_drone_equipment_4
+		archetype = land_drone_equipment_type
+		parent = land_drone_equipment_5
 		visual_level = 5
 
 		#Misc Abilities
@@ -612,11 +612,11 @@ equipments = {
 		}
 	}
 	#2055
-	land_drone_equipment_5 = {
+	land_drone_equipment_7 = {
 		year = 2055
 
-		archetype = land_drone_equipment
-		parent = land_drone_equipment_4
+		archetype = land_drone_equipment_type
+		parent = land_drone_equipment_6
 		visual_level = 5
 
 		#Misc Abilities
@@ -645,11 +645,11 @@ equipments = {
 		}
 	}
 	#2065
-	land_drone_equipment_5 = {
+	land_drone_equipment_8 = {
 		year = 2065
 
-		archetype = land_drone_equipment
-		parent = land_drone_equipment_4
+		archetype = land_drone_equipment_type
+		parent = land_drone_equipment_7
 		visual_level = 5
 
 		#Misc Abilities
@@ -678,11 +678,11 @@ equipments = {
 		}
 	}
 	#2075
-	land_drone_equipment_5 = {
+	land_drone_equipment_9 = {
 		year = 2075
 
-		archetype = land_drone_equipment
-		parent = land_drone_equipment_4
+		archetype = land_drone_equipment_type
+		parent = land_drone_equipment_8
 		visual_level = 5
 
 		#Misc Abilities

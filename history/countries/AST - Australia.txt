@@ -436,7 +436,7 @@
 		special_forces = 1
 		special_forces2 = 1
 
-		land_drone_equipment = 1
+		land_drone_equipment_type = 1
 
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
