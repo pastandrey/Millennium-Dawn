@@ -211,7 +211,7 @@ CHI_build_H_AT_Equipment = {
 	ai_strategy = { type = equipment_variant_production_factor id = H_AT_Equipment value = 1000 }
 }
 
-CHI_build_Inf_equipment = {
+CHI_build_infantry_weapons = {
 	allowed = { original_tag = CHI }
 	enable = {
 		date < 2006.1.1

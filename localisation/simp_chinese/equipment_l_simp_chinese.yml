@@ -5,7 +5,7 @@
  train_equipment_3: "2045型火车"
  train_equipment_desc: "只是火车，仅此而已。"
  infantry_weapons: "轻武器"
- Inf_equipment_desc: "轻武器代表步兵使用的装备，例如突击步枪、精确射手步枪、狙击步枪、榴弹发射器、无后坐力步枪、轻机枪和防弹衣。"
+ infantry_weapons_desc: "轻武器代表步兵使用的装备，例如突击步枪、精确射手步枪、狙击步枪、榴弹发射器、无后坐力步枪、轻机枪和防弹衣。"
  infantry_weaponsdesc: "轻武器代表步兵使用的装备，例如突击步枪、精确射手步枪、狙击步枪、榴弹发射器、无后坐力步枪、轻机枪和防弹衣。"
  infantry_weapons_1: "1965型轻型武器"
  infantry_weapons_desc: "轻武器代表步兵使用的装备，例如突击步枪、精确射手步枪、狙击步枪、榴弹发射器、无后坐力步枪、轻机枪和防弹衣。"

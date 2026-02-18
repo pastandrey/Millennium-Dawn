@@ -1754,7 +1754,7 @@ country_event = {
 			}
 		}
 		log = "[GetDateText]: [This.GetName]: influence.52.a executed"
-		set_country_flag = shipment_of_Inf_equipment
+		set_country_flag = shipment_of_infantry_weapons
 		if = {
 			limit = { has_equipment = { infantry_weapons > 250 } }
 			effect_tooltip = {
@@ -1926,10 +1926,10 @@ country_event = {
 	option = { #Accept if shipping guns
 		name = influence.53.a
 		trigger = {
-			FROM = { has_country_flag = shipment_of_Inf_equipment }
+			FROM = { has_country_flag = shipment_of_infantry_weapons }
 		}
 		log = "[GetDateText]: [This.GetName]: influence.53.a executed"
-		FROM = { clr_country_flag = shipment_of_Inf_equipment }
+		FROM = { clr_country_flag = shipment_of_infantry_weapons }
 		if = {
 			limit = { FROM = { has_equipment = { infantry_weapons > 250 } } }
 			FROM = {
@@ -2171,7 +2171,7 @@ country_event = {
 		trigger = {
 			FROM = {
 				OR = {
-					has_country_flag = shipment_of_Inf_equipment
+					has_country_flag = shipment_of_infantry_weapons
 					has_country_flag = forwarding_light_armor_vehicles
 				}
 			}

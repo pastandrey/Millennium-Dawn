@@ -6,7 +6,7 @@
  train_equipment_3: "Pociąg 2045"
  train_equipment_desc: "Właściwie tylko pociąg."
  infantry_weapons: "Broń strzelecka"
- Inf_equipment_desc: "Broń piechoty reprezentuje sprzęt używany przez oddziały strzeleckie, taki jak karabiny szturmowe, karabiny wyborowe, karabiny snajperskie, granatniki, karabiny bezodrzutowe, lekkie karabiny maszynowe i kamizelki kuloodporne."
+ infantry_weapons_desc: "Broń piechoty reprezentuje sprzęt używany przez oddziały strzeleckie, taki jak karabiny szturmowe, karabiny wyborowe, karabiny snajperskie, granatniki, karabiny bezodrzutowe, lekkie karabiny maszynowe i kamizelki kuloodporne."
  infantry_weaponsdesc: "Broń piechoty reprezentuje sprzęt używany przez oddziały strzeleckie, taki jak karabiny szturmowe, karabiny wyborowe, karabiny snajperskie, granatniki, karabiny bezodrzutowe, lekkie karabiny maszynowe i kamizelki kuloodporne."
  infantry_weapons_1: "Broń piechoty 1965"
  infantry_weapons_desc: "Broń piechoty reprezentuje sprzęt używany przez oddziały strzeleckie, taki jak karabiny szturmowe, karabiny wyborowe, karabiny snajperskie, granatniki, karabiny bezodrzutowe, lekkie karabiny maszynowe i kamizelki kuloodporne."

@@ -345,6 +345,10 @@ script_enum_equipment_bonus_type = {
 	infantry_weapons_6
 	infantry_weapons_7
 	infantry_weapons_8
+	infantry_weapons_9
+	infantry_weapons_10
+	infantry_weapons_11
+	infantry_weapons_12
 	land_drone_equipment
 	land_drone_equipment_1
 	land_drone_equipment_2

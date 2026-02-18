@@ -25,7 +25,7 @@
 	ai_strategy = { type = role_ratio id = Special_Forces value = -500 }
 }
 
-MD_excess_inf_equipment = {
+MD_excess_infantry_weapons = {
 	allowed = {
 		ai_for_units_is_not_disabled = yes
 	}

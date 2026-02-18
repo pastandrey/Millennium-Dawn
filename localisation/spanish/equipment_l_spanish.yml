@@ -6,7 +6,7 @@
  train_equipment_3: "Tren 2030"
  train_equipment_desc: "Simplemente un tren, en realidad."
  infantry_weapons: "Armas Pequeñas"
- Inf_equipment_desc: "Las Armas Pequeñas representan el equipo utilizado por los Escuadrones de Fusileros, como Rifles de Asalto, Rifles de Tirador, Rifles de Francotirador, Lanzagranadas, Rifles sin Retroceso, Ametralladoras Ligeras y Armaduras Corporales."
+ infantry_weapons_desc: "Las Armas Pequeñas representan el equipo utilizado por los Escuadrones de Fusileros, como Rifles de Asalto, Rifles de Tirador, Rifles de Francotirador, Lanzagranadas, Rifles sin Retroceso, Ametralladoras Ligeras y Armaduras Corporales."
  infantry_weaponsdesc: "Las Armas Pequeñas representan el equipo utilizado por los Escuadrones de Fusileros, como Rifles de Asalto, Rifles de Tirador, Rifles de Francotirador, Lanzagranadas, Rifles sin Retroceso, Ametralladoras Ligeras y Armaduras Corporales."
  infantry_weapons_1: "Armas pequeñas 1965"
  infantry_weapons_desc: "Las Armas Pequeñas representan el equipo utilizado por los Escuadrones de Fusileros, como Rifles de Asalto, Rifles de Tirador, Rifles de Francotirador, Lanzagranadas, Rifles sin Retroceso, Ametralladoras Ligeras y Armaduras Corporales."

@@ -1,6 +1,6 @@
 #Infantry Equipment Subdoctrines
 base_infantry_load = {
-	track = inf_equipment
+	track = infantry_weapons
 	name = SUBDOCTRINE_EQUIPMENT_BASE_INFANTRY
 	description = SUBDOCTRINE_EQUIPMENT_BASE_INFANTRY_DESC
 	icon = GFX_doctrine_base_infantry_load
@@ -81,7 +81,7 @@ base_infantry_load = {
 }
 
 light_infantry_load = {
-	track = inf_equipment
+	track = infantry_weapons
 	name = SUBDOCTRINE_EQUIPMENT_LIGHT_INFANTRY
 	description = SUBDOCTRINE_EQUIPMENT_LIGHT_INFANTRY_DESC
 	icon = GFX_doctrine_light_infantry_load
@@ -176,7 +176,7 @@ light_infantry_load = {
 }
 
 heavy_infantry_load = {
-	track = inf_equipment
+	track = infantry_weapons
 	name = SUBDOCTRINE_EQUIPMENT_HEAVY_INFANTRY
 	description = SUBDOCTRINE_EQUIPMENT_HEAVY_INFANTRY_DESC
 	icon = GFX_doctrine_heavy_infantry_load

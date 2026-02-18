@@ -6,7 +6,7 @@
  train_equipment_3: "Trem 2045"
  train_equipment_desc: "Apenas um trem, de verdade."
  infantry_weapons: "Armas Pequenas"
- Inf_equipment_desc: "Armas de pequeno porte representam os equipamentos empregados por esquadrões de fuzileiros, como fuzis de assalto, fuzis de precisão, fuzis de precisão, lançadores de granadas, fuzis sem recuo, metralhadoras leves e coletes à prova de balas."
+ infantry_weapons_desc: "Armas de pequeno porte representam os equipamentos empregados por esquadrões de fuzileiros, como fuzis de assalto, fuzis de precisão, fuzis de precisão, lançadores de granadas, fuzis sem recuo, metralhadoras leves e coletes à prova de balas."
  infantry_weaponsdesc: "Armas de pequeno porte representam os equipamentos empregados por esquadrões de fuzileiros, como fuzis de assalto, fuzis de precisão, fuzis de precisão, lançadores de granadas, fuzis sem recuo, metralhadoras leves e coletes à prova de balas."
  infantry_weapons_1: "Armas de Pequeno e Médio Porte - 1965"
  infantry_weapons_desc: "Armas de pequeno porte representam os equipamentos empregados por esquadrões de fuzileiros, como fuzis de assalto, fuzis de precisão, fuzis de precisão, lançadores de granadas, fuzis sem recuo, metralhadoras leves e coletes à prova de balas."

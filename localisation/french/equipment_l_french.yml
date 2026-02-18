@@ -6,7 +6,7 @@
  train_equipment_3: "Train 2045"
  train_equipment_desc: "Juste un train, réellement."
  infantry_weapons: "Armes légères"
- Inf_equipment_desc: "Les armes légères représentent l'équipement utilisé par les escouades d'infanterie, comme les fusils d'assaut, les fusils de tireur d'élite, les fusils lance-grenades, les fusils sans recul, les mitrailleuses légères et les gilets pare-balles."
+ infantry_weapons_desc: "Les armes légères représentent l'équipement utilisé par les escouades d'infanterie, comme les fusils d'assaut, les fusils de tireur d'élite, les fusils lance-grenades, les fusils sans recul, les mitrailleuses légères et les gilets pare-balles."
  infantry_weaponsdesc: "Les armes légères représentent l'équipement utilisé par les escouades d'infanterie, comme les fusils d'assaut, les fusils de tireur d'élite, les fusils lance-grenades, les fusils sans recul, les mitrailleuses légères et les gilets pare-balles."
  infantry_weapons_1: "Armes légères 1965"
  infantry_weapons_desc: "Les armes légères représentent l'équipement utilisé par les escouades d'infanterie, comme les fusils d'assaut, les fusils de tireur d'élite, les fusils lance-grenades, les fusils sans recul, les mitrailleuses légères et les gilets pare-balles."

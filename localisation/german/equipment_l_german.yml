@@ -6,7 +6,7 @@
  train_equipment_3: "Zug 2045"
  train_equipment_desc: "Nur ein Zug, wirklich."
  infantry_weapons: "Kleinwaffen"
- Inf_equipment_desc: "Kleinwaffen sind die Ausrüstung, die von Schützentrupps eingesetzt wird, wie beispielsweise Sturmgewehre, Scharfschützengewehre, Granatwerfer, rückstoßfreie Gewehre, leichte Maschinengewehre und Körperpanzerungen."
+ infantry_weapons_desc: "Kleinwaffen sind die Ausrüstung, die von Schützentrupps eingesetzt wird, wie beispielsweise Sturmgewehre, Scharfschützengewehre, Granatwerfer, rückstoßfreie Gewehre, leichte Maschinengewehre und Körperpanzerungen."
  infantry_weaponsdesc: "Kleinwaffen sind die Ausrüstung, die von Schützentrupps eingesetzt wird, wie beispielsweise Sturmgewehre, Scharfschützengewehre, Granatwerfer, rückstoßfreie Gewehre, leichte Maschinengewehre und Körperpanzerungen."
  infantry_weapons_1: "Kleinwaffen 1965"
  infantry_weapons_desc: "Kleinwaffen sind die Ausrüstung, die von Schützentrupps eingesetzt wird, wie beispielsweise Sturmgewehre, Scharfschützengewehre, Granatwerfer, rückstoßfreie Gewehre, leichte Maschinengewehre und Körperpanzerungen."

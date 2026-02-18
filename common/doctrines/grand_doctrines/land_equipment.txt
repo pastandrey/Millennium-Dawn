@@ -14,7 +14,7 @@ mixed_equipment = {
 	ai_will_do = { base = 1 }
 
 	tracks = {
-		inf_equipment
+		infantry_weapons
 		motorized_equipment
 		mechanized_equipment
 		tank_equipment
@@ -99,8 +99,8 @@ light_equipment = {
 	ai_will_do = { base = 1 }
 
 	tracks = {
-		inf_equipment
-		inf_equipment
+		infantry_weapons
+		infantry_weapons
 		motorized_equipment
 		motorized_equipment
 		arty_equipment
@@ -173,7 +173,7 @@ heavy_equipment = {
 	ai_will_do = { base = 1 }
 
 	tracks = {
-		inf_equipment
+		infantry_weapons
 		mechanized_equipment
 		mechanized_equipment
 		tank_equipment
@@ -270,8 +270,8 @@ mobile_equipment = {
 	ai_will_do = { base = 1 }
 
 	tracks = {
-		inf_equipment
-		inf_equipment
+		infantry_weapons
+		infantry_weapons
 		motorized_equipment
 		motorized_equipment
 		airmobile_equipment
@@ -352,7 +352,7 @@ fires_equipment = {
 	ai_will_do = { base = 1 }
 
 	tracks = {
-		inf_equipment
+		infantry_weapons
 		motorized_equipment
 		mechanized_equipment
 		tank_equipment
@@ -433,8 +433,8 @@ full_equipment = {
 	ai_will_do = { base = 1 }
 
 	tracks = {
-		inf_equipment
-		inf_equipment
+		infantry_weapons
+		infantry_weapons
 		motorized_equipment
 		mechanized_equipment
 		mechanized_equipment
