@@ -1,6 +1,7 @@
 # Author(s): AngriestBird, Doolittle, DROID, TheGeneral
 #This is required to research any ship hull
 sp_naval_vessel_project = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_naval_vessel_experimentation
 	project_tags = sp_tag_naval_vehicles
@@ -93,6 +94,7 @@ sp_stealth_corvette = {
 }
 
 sp_stealth_frigate = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_stealth_frigate
 	prototype_time = sp_time.prototype.long
@@ -136,6 +138,7 @@ sp_stealth_frigate = {
 }
 
 sp_stealth_destroyer = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 
 	complexity = sp_complexity.large
@@ -178,6 +181,7 @@ sp_stealth_destroyer = {
 }
 
 sp_medium_naval_nuclear_engines = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_naval_nuclear_engineering
 	prototype_time = sp_time.prototype.long
@@ -226,6 +230,7 @@ sp_medium_naval_nuclear_engines = {
 }
 
 sp_advanced_ballistic_propulsion_systems = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 
 	prototype_time = sp_time.prototype.long
@@ -274,6 +279,7 @@ sp_advanced_ballistic_propulsion_systems = {
 }
 
 sp_supercarrier_1 = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_early_supercarrier
 	prototype_time = sp_time.prototype.long
@@ -320,6 +326,7 @@ sp_supercarrier_1 = {
 }
 
 sp_supercarrier_2 = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_late_supercarrier
 	prototype_time = sp_time.prototype.long
@@ -365,6 +372,7 @@ sp_supercarrier_2 = {
 }
 
 sp_rail_gun_naval_cannons = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_railgun_naval_cannons
 
@@ -410,6 +418,7 @@ sp_rail_gun_naval_cannons = {
 	}
 }
 sp_rail_gun_naval_battery = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_railgun_battery
 
@@ -470,6 +479,7 @@ sp_rail_gun_naval_battery = {
 	}
 }
 sp_drone_torpedoes = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_torpedo_drone
 	project_tags = sp_tag_naval_vehicles
@@ -531,6 +541,7 @@ sp_drone_torpedoes = {
 	}
 }
 sp_nuclear_torpedoes = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_nuclear_torpedo
 	project_tags = sp_tag_naval_vehicles
@@ -597,6 +608,7 @@ sp_nuclear_torpedoes = {
 	}
 }
 sp_anti_torpedo_module = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_anti_torpedo_torpedo
 	project_tags = sp_tag_naval_vehicles
@@ -658,6 +670,7 @@ sp_anti_torpedo_module = {
 	}
 }
 sp_anti_drone_laser_modules = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_anti_drone_naval_module
 	project_tags = sp_tag_naval_vehicles
@@ -719,6 +732,7 @@ sp_anti_drone_laser_modules = {
 	}
 }
 sp_mineclearing_drone = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_mineclearer_drone
 	project_tags = sp_tag_naval_vehicles
@@ -771,6 +785,7 @@ sp_mineclearing_drone = {
 	}
 }
 sp_naval_recon_drone = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_naval_recon_drone
 	project_tags = sp_tag_naval_vehicles
@@ -833,6 +848,7 @@ sp_naval_recon_drone = {
 	}
 }
 sp_drone_submarine = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_submarine_drone
 	project_tags = sp_tag_naval_vehicles
@@ -892,6 +908,7 @@ sp_drone_submarine = {
 	}
 }
 sp_modern_sail_ships = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_sailing_convoy
 	project_tags = sp_tag_naval_vehicles
@@ -941,6 +958,7 @@ sp_modern_sail_ships = {
 	}
 }
 sp_drone_patrol_boat = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_drone_patrolboat
 	project_tags = sp_tag_naval_vehicles
@@ -995,6 +1013,7 @@ sp_drone_patrol_boat = {
 	}
 }
 sp_drone_corvette = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_drone_corvette
 	project_tags = sp_tag_naval_vehicles
@@ -1049,6 +1068,7 @@ sp_drone_corvette = {
 	}
 }
 sp_fusion_reactor_engine = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_naval_fusion_reactor
 	project_tags = sp_tag_naval_vehicles
@@ -1116,6 +1136,7 @@ sp_fusion_reactor_engine = {
 	}
 }
 sp_naval_swarm_module = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_naval_swarm_drones
 
@@ -1163,6 +1184,7 @@ sp_naval_swarm_module = {
 	}
 }
 sp_radar_jamming_module = {
+	allowed = { always = yes }
 	specialization = specialization_naval
 	icon = GFX_sp_naval_radar_jamming
 

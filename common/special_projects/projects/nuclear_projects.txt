@@ -2,6 +2,7 @@
 # Nuclear Missile Configurations
 # Nuclear Missiles require you to have Gotterdammerung due to their requirements on the new missiles
 sp_nuclear_energy = {
+	allowed = { always = yes }
 	icon = GFX_sp_commercial_nuclear_reactor
 
 	specialization = specialization_nuclear
@@ -44,6 +45,7 @@ sp_nuclear_energy = {
 	}
 }
 sp_thorium_nuclear_fuel = {
+	allowed = { always = yes }
 	icon = GFX_sp_thorium_fuel
 	specialization = specialization_nuclear
 
@@ -103,7 +105,7 @@ sp_thorium_nuclear_fuel = {
 	}
 }
 sp_fusion_reactors = {
-
+	allowed = { always = yes }
 	specialization = specialization_nuclear
 
 	project_tags = sp_tag_energy
@@ -184,6 +186,7 @@ sp_fusion_reactors = {
 	}
 }
 sp_nuclear_bomb = {
+	allowed = { always = yes }
 	icon = GFX_sp_nuclear_bomb
 
 	specialization = specialization_air

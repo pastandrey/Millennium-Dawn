@@ -1,6 +1,7 @@
 # Author(s): Kalkalash, TheGeneral
 #Special projects related to infantry equipment tech tab
 sp_caseless_ammunition = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -88,6 +89,7 @@ sp_caseless_ammunition = {
 
 }
 sp_smart_bullets = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_smart_bullets
 
@@ -182,6 +184,7 @@ sp_smart_bullets = {
 
 }
 sp_recon_land_drone = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_land_recondrone
 
@@ -238,6 +241,7 @@ sp_recon_land_drone = {
 	}
 }
 sp_fire_support_land_drone = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_fire_support_land_drone
 
@@ -339,6 +343,7 @@ sp_fire_support_land_drone = {
 }
 
 sp_tactical_augmented_reality = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -435,6 +440,7 @@ sp_tactical_augmented_reality = {
 }
 
 sp_double_shot_rifle = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -633,6 +639,7 @@ sp_double_shot_rifle = {
 }
 
 sp_experimental_exoskeleton = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -732,6 +739,7 @@ sp_experimental_exoskeleton = {
 }
 
 sp_active_camouflage = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -920,6 +928,7 @@ sp_active_camouflage = {
 }
 
 sp_truck_modular_seating = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_armored_vehicles
@@ -1011,6 +1020,7 @@ sp_truck_modular_seating = {
 }
 
 sp_utility_vehicle_electric_engines = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_armored_vehicles
@@ -1099,6 +1109,7 @@ sp_utility_vehicle_electric_engines = {
 }
 
 sp_coilgun_memes = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_railgun_rifles
 	project_tags = sp_tag_infantry_equipment
@@ -1206,6 +1217,7 @@ sp_coilgun_memes = {
 	}
 }
 sp_airless_tires = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_airless_tire
 

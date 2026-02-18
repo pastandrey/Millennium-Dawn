@@ -1,6 +1,7 @@
 # Author(s): Kalkalash, TheGeneral
 #Special projects related to artiller/ATGMs/AA
 sp_multipurpose_warhead = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_multipurpose_warhead
 	project_tags = sp_tag_infantry_equipment
@@ -170,6 +171,7 @@ sp_multipurpose_warhead = {
 }
 
 sp_emp_warhead = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_emp_warheads
 	project_tags = sp_tag_infantry_equipment
@@ -278,6 +280,7 @@ sp_emp_warhead = {
 	}
 }
 sp_magneto_explosive_munition = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_magneto_atgm
 	project_tags = sp_tag_infantry_equipment
@@ -338,6 +341,7 @@ sp_magneto_explosive_munition = {
 	}
 }
 sp_drone_lrs = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_drone_launcher
 	project_tags = sp_tag_infantry_equipment

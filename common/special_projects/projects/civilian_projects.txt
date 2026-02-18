@@ -1,7 +1,7 @@
 # Author(s): AngriestBird, Doolittle, TheGeneral
 sp_space_based_solar_farms = {
 	specialization = specialization_nuclear
-
+	allowed = { always = yes }
 	project_tags = sp_tag_energy
 
 	prototype_time = sp_time.prototype.very_long
@@ -61,6 +61,7 @@ sp_space_based_solar_farms = {
 }
 
 sp_improved_based_solar_farms = {
+	allowed = { always = yes }
 	specialization = specialization_nuclear
 	icon = GFX_sp_improved_space_based_solar_farms
 	project_tags = sp_tag_energy
@@ -121,6 +122,7 @@ sp_improved_based_solar_farms = {
 }
 
 sp_improved_maglev_trains = {
+	allowed = { always = yes }
 	icon = GFX_sp_maglev_trains
 	specialization = specialization_nuclear
 
@@ -177,7 +179,7 @@ sp_improved_maglev_trains = {
 }
 
 sp_construction_exoskeletons = {
-
+	allowed = { always = yes }
 	specialization = specialization_nuclear
 
 	project_tags = sp_tag_civilian
@@ -222,7 +224,7 @@ sp_construction_exoskeletons = {
 }
 
 sp_wireless_power_grid_expansion = {
-
+	allowed = { always = yes }
 	specialization = specialization_nuclear
 
 	project_tags = sp_tag_energy
@@ -265,7 +267,7 @@ sp_wireless_power_grid_expansion = {
 }
 
 sp_improved_synthetic_diamonds = {
-
+	allowed = { always = yes }
 	specialization = specialization_nuclear
 
 	project_tags = sp_tag_civilian
@@ -310,7 +312,7 @@ sp_improved_synthetic_diamonds = {
 }
 
 sp_atmospheric_water_recycling = {
-
+	allowed = { always = yes }
 	specialization = specialization_nuclear
 
 	project_tags = sp_tag_civilian
@@ -672,6 +674,7 @@ sp_electronic_government = {
 	}
 }
 sp_microchip_production = {
+	allowed = { always = yes }
 	specialization = specialization_nuclear
 
 	project_tags = sp_tag_civilian
@@ -781,6 +784,7 @@ sp_microchip_production = {
 }
 
 sp_composite_production = {
+	allowed = { always = yes }
 	specialization = specialization_nuclear
 
 	project_tags = sp_tag_civilian
@@ -841,6 +845,7 @@ sp_composite_production = {
 	}
 }
 sp_deep_sea_mining = {
+	allowed = { always = yes }
 	icon = GFX_sp_deep_mining
 
 	specialization = specialization_nuclear
@@ -889,6 +894,7 @@ sp_deep_sea_mining = {
 	}
 }
 sp_agriculture_drone = {
+	allowed = { always = yes }
 	icon = GFX_sp_agriculture_drone
 
 	specialization = specialization_nuclear
@@ -950,6 +956,7 @@ sp_agriculture_drone = {
 	}
 }
 sp_vertical_farming = {
+	allowed = { always = yes }
 	icon = GFX_sp_vertical_farming
 
 	specialization = specialization_nuclear
@@ -1000,6 +1007,7 @@ sp_vertical_farming = {
 	}
 }
 sp_robotic_humanoid = {
+	allowed = { always = yes }
 	icon = GFX_sp_humanoid
 
 	specialization = specialization_nuclear
@@ -1053,7 +1061,7 @@ sp_robotic_humanoid = {
 	}
 }
 sp_robotic_surgery = {
-
+	allowed = { always = yes }
 	icon = GFX_sp_robotic_surgery
 
 	specialization = specialization_nuclear
@@ -1107,7 +1115,7 @@ sp_robotic_surgery = {
 	}
 }
 sp_smart_grid = {
-
+	allowed = { always = yes }
 	icon = GFX_sp_smart_grid
 
 	specialization = specialization_nuclear
@@ -1164,7 +1172,7 @@ sp_smart_grid = {
 	}
 }
 sp_equipment_recycling = {
-
+	allowed = { always = yes }
 	icon = GFX_sp_recycling
 
 	specialization = specialization_nuclear
@@ -1210,7 +1218,7 @@ sp_equipment_recycling = {
 	}
 }
 sp_epigenetic_reprogramming = {
-
+	allowed = { always = yes }
 	visible = {
 		has_game_rule = {
 			rule = rule_futuristic_special_projects
