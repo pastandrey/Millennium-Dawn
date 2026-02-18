@@ -1736,7 +1736,7 @@ country_event = {
 		add_manpower = -25
 		add_stability = -0.01
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = -100
 		}
 		add_equipment_to_stockpile = {
@@ -2212,7 +2212,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: TalibanAttack.7.a executed"
 		add_manpower = -5
 		add_equipment_to_stockpile = {
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			amount = -2
 		}
 		add_stability = -0.01
@@ -2494,7 +2494,7 @@ news_event = {
 			USA_house_small_opposition = yes
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = -5
 		}
 		add_equipment_to_stockpile = {
@@ -2502,7 +2502,7 @@ news_event = {
 			amount = -3
 		}
 		add_equipment_to_stockpile = {
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			amount = -2
 		}
 
@@ -2537,7 +2537,7 @@ news_event = {
 				set_temp_variable = { arg_popularity = -0.02 }
 				add_ruling_outlook_popularity = yes
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = -5
 				}
 				add_equipment_to_stockpile = {
@@ -2545,7 +2545,7 @@ news_event = {
 					amount = -3
 				}
 				add_equipment_to_stockpile = {
-					type = util_vehicle_equipment
+					type = util_vehicle_type
 					amount = -2
 				}
 			}
@@ -5952,7 +5952,7 @@ country_event = {
 		effect_tooltip = {
 			AFG = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					producer = USA
 					amount = 5000
 				}
@@ -5962,7 +5962,7 @@ country_event = {
 					amount = 100
 				}
 				add_equipment_to_stockpile = {
-					type = util_vehicle_equipment
+					type = util_vehicle_type
 					producer = USA
 					amount = 500
 				}
@@ -5973,7 +5973,7 @@ country_event = {
 			}
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			producer = USA
 			amount = -5000
 		}
@@ -5983,7 +5983,7 @@ country_event = {
 			amount = -100
 		}
 		add_equipment_to_stockpile = {
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			producer = USA
 			amount = -500
 		}
@@ -6029,7 +6029,7 @@ country_event = {
 		name = AfghanistanPolicalEvents.3.a
 		log = "[GetLogInfo]: event AfghanistanPolicalEvents.3.a"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			producer = USA
 			amount = 5000
 		}
@@ -6039,7 +6039,7 @@ country_event = {
 			amount = 100
 		}
 		add_equipment_to_stockpile = {
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			producer = USA
 			amount = 500
 		}

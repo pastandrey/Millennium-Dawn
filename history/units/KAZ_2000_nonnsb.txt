@@ -228,7 +228,7 @@ instant_effect = {
 		producer = UKR
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0		#truck
+		type = util_vehicle_1		#truck
 		amount = 400
 		producer = SOV
 	}

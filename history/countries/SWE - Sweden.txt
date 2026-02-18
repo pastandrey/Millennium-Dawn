@@ -770,7 +770,7 @@
 		}
 		create_equipment_variant = {
 			name = "Personlastterrängbil 903"
-			type = util_vehicle_0
+			type = util_vehicle_1
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -780,7 +780,7 @@
 		}
 		create_equipment_variant = {
 			name = "Terrängbil 11/13"
-			type = util_vehicle_1
+			type = util_vehicle_2
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -790,7 +790,7 @@
 		}
 		create_equipment_variant = {
 			name = "Terrängbil 14"
-			type = util_vehicle_2
+			type = util_vehicle_3
 			upgrades = {
 			}
 			icon = "gfx/interface/technologies/SWE/LAND/U2.dds"
@@ -798,7 +798,7 @@
 		}
 		create_equipment_variant = {
 			name = "Terrängbil 15"
-			type = util_vehicle_3
+			type = util_vehicle_4
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -807,7 +807,7 @@
 		}
 		create_equipment_variant = {
 			name = "Bandvagn 206"
-			type = util_vehicle_3
+			type = util_vehicle_4
 			upgrades = {
 				Util_infantry_help_upgrade = 2
 				Util_Mobility = 2
@@ -1126,10 +1126,10 @@
 		command_control_equipment1 = 1
 		command_control_equipment2 = 1
 
-		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1
+		util_vehicle_4 = 1
 
 		Anti_tank_0 = 1
 		Heavy_Anti_tank_0 = 1

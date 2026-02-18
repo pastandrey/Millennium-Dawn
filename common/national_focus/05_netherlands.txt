@@ -6907,7 +6907,7 @@ focus_tree = {
 		mutually_exclusive = { focus = HOL_DAF_Trucks }
 		available = {
 			SWE = {
-				has_tech = util_vehicle_5
+				has_tech = util_vehicle_6
 				exists = yes
 				NOT = { has_war_with = FROM }
 				has_opinion = {
@@ -6924,11 +6924,11 @@ focus_tree = {
 				SWE = { country_event = HOL_military.112 }
 			}
 			if = {
-				limit = { SWE = { NOT = { has_tech = util_vehicle_5 } } }
+				limit = { SWE = { NOT = { has_tech = util_vehicle_6 } } }
 				custom_effect_tooltip = HOL_Scania_Trucks_tt
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_5
+				type = util_vehicle_6
 				amount = 2000
 				producer = SWE
 				variant_name = "Scania Gryphus"

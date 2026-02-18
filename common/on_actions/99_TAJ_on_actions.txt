@@ -62,7 +62,7 @@ on_actions = {
 					newline = yes
 					# Get some utility trucks
 					add_equipment_to_stockpile = {
-						type = util_vehicle_0
+						type = util_vehicle_1
 						amount = 15
 						producer = C01
 					}
@@ -92,7 +92,7 @@ on_actions = {
 					newline = yes
 					# Get some utility trucks
 					add_equipment_to_stockpile = {
-						type = util_vehicle_0
+						type = util_vehicle_1
 						amount = 35
 						producer = C01
 					}
@@ -126,7 +126,7 @@ on_actions = {
 					newline = yes
 					# Get some utility trucks
 					add_equipment_to_stockpile = {
-						type = util_vehicle_0
+						type = util_vehicle_1
 						amount = 55
 						producer = C01
 					}

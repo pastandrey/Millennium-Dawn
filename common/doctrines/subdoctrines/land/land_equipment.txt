@@ -1,6 +1,6 @@
 #Infantry Equipment Subdoctrines
 base_infantry_load = {
-	track = infantry_weapons
+	track = infantry_weapons_type
 	name = SUBDOCTRINE_EQUIPMENT_BASE_INFANTRY
 	description = SUBDOCTRINE_EQUIPMENT_BASE_INFANTRY_DESC
 	icon = GFX_doctrine_base_infantry_load
@@ -81,7 +81,7 @@ base_infantry_load = {
 }
 
 light_infantry_load = {
-	track = infantry_weapons
+	track = infantry_weapons_type
 	name = SUBDOCTRINE_EQUIPMENT_LIGHT_INFANTRY
 	description = SUBDOCTRINE_EQUIPMENT_LIGHT_INFANTRY_DESC
 	icon = GFX_doctrine_light_infantry_load
@@ -99,7 +99,7 @@ light_infantry_load = {
 
 	# EFFECTS
 	equipment_bonus = {
-		infantry_weapons = {
+		infantry_weapons_type = {
 			build_cost_ic = -0.15
 			maximum_speed = 0.5
 			instant = yes
@@ -176,7 +176,7 @@ light_infantry_load = {
 }
 
 heavy_infantry_load = {
-	track = infantry_weapons
+	track = infantry_weapons_type
 	name = SUBDOCTRINE_EQUIPMENT_HEAVY_INFANTRY
 	description = SUBDOCTRINE_EQUIPMENT_HEAVY_INFANTRY_DESC
 	icon = GFX_doctrine_heavy_infantry_load
@@ -244,7 +244,7 @@ heavy_infantry_load = {
 		}
 		overmatch_rifles = {
 			equipment_bonus = {
-				infantry_weapons = {
+				infantry_weapons_type = {
 					soft_attack = 0.15
 					hard_attack = 0.05
 					instant = yes
@@ -277,7 +277,7 @@ basic_motorized_equipment = {
 
 	# EFFECTS
 	equipment_bonus = {
-		util_vehicle_equipment = {
+		util_vehicle_type = {
 			defense = 0.25
 			instant = yes
 		}
@@ -294,7 +294,7 @@ basic_motorized_equipment = {
 	rewards = {
 		mounted_weapon_systems = {
 			equipment_bonus = {
-				util_vehicle_equipment = {
+				util_vehicle_type = {
 					soft_attack = 0.25
 					breakthrough = 0.25
 					instant = yes
@@ -338,7 +338,7 @@ basic_motorized_equipment = {
 		}
 		improved_engines = {
 			equipment_bonus = {
-				util_vehicle_equipment = {
+				util_vehicle_type = {
 					fuel_consumption = -0.25
 					armor_value = 1
 					instant = yes
@@ -371,7 +371,7 @@ light_motorized_equipment = {
 
 	# EFFECTS
 	equipment_bonus = {
-		util_vehicle_equipment = {
+		util_vehicle_type = {
 			maximum_speed = 0.15
 			fuel_consumption_factor = -0.15
 			instant = yes
@@ -389,7 +389,7 @@ light_motorized_equipment = {
 	rewards = {
 		fuel_system_improvements = {
 			equipment_bonus = {
-				util_vehicle_equipment = {
+				util_vehicle_type = {
 					fuel_consumption = -0.3
 					instant = yes
 				}
@@ -397,7 +397,7 @@ light_motorized_equipment = {
 		}
 		light_chassis_design = {
 			equipment_bonus = {
-				util_vehicle_equipment = {
+				util_vehicle_type = {
 					hardness = -0.1
 					defense = 0.5
 					reliability = 0.05
@@ -429,7 +429,7 @@ light_motorized_equipment = {
 		}
 		lightweight_command_vehicles = {
 			equipment_bonus = {
-				util_vehicle_equipment = {
+				util_vehicle_type = {
 					max_organisation = 0.05
 					instant = yes
 				}
@@ -471,7 +471,7 @@ heavy_motorized_equipment = {
 
 	# EFFECTS
 	equipment_bonus = {
-		util_vehicle_equipment = {
+		util_vehicle_type = {
 			maximum_speed = -0.15
 			fuel_consumption = 0.2
 			defense = 0.15
@@ -491,7 +491,7 @@ heavy_motorized_equipment = {
 	rewards = {
 		heavy_weapon_systems = {
 			equipment_bonus = {
-				util_vehicle_equipment = {
+				util_vehicle_type = {
 					hard_attack = 1.2
 					instant = yes
 				}
@@ -499,7 +499,7 @@ heavy_motorized_equipment = {
 		}
 		uparmored_chassis = {
 			equipment_bonus = {
-				util_vehicle_equipment = {
+				util_vehicle_type = {
 					hardness = 0.1
 					defense = 0.15
 					reliability = 0.05
@@ -521,7 +521,7 @@ heavy_motorized_equipment = {
 				supply_consumption_factor = 0.1
 			}
 			equipment_bonus = {
-				util_vehicle_equipment = {
+				util_vehicle_type = {
 					soft_attack = 0.15
 					reliability = -0.05
 					instant = yes

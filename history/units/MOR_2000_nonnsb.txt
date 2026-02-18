@@ -557,19 +557,19 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0		 #M151
+		type = util_vehicle_1		 #M151
 		amount = 1000
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2		 #HUmvee
+		type = util_vehicle_3		 #HUmvee
 		amount = 1500
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3		 #URO VAMTAC
+		type = util_vehicle_4		 #URO VAMTAC
 		amount = 1200
 		producer = SPR
 	}

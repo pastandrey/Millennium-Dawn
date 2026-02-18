@@ -235,11 +235,11 @@ instant_effect = {
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1		#Toyota Hilux
+		type = util_vehicle_2		#Toyota Hilux
 		amount = 440
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0	#ZIL-131
+		type = util_vehicle_1	#ZIL-131
 		variant_name = "ZIL-131"
 		amount = 80
 		producer = SOV

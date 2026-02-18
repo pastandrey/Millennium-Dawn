@@ -500,17 +500,17 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0		#M151
+		type = util_vehicle_1		#M151
 		amount = 5000
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2		#Pindad APR-1
+		type = util_vehicle_3		#Pindad APR-1
 		amount = 40
 		producer = IND
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2		#Land Rover Defender
+		type = util_vehicle_3		#Land Rover Defender
 		amount = 100
 		producer = ENG
 	}

@@ -133,13 +133,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2	#EE-3 Jararaca
+		type = util_vehicle_3	#EE-3 Jararaca
 		amount = 12
 		producer = BRA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3			#VBL
+		type = util_vehicle_4			#VBL
 		amount = 14
 		producer = FRA
 	}
@@ -188,13 +188,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0			#Peugeot P4
+		type = util_vehicle_1			#Peugeot P4
 		amount = 100
 		producer = FRA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0			#Technicals
+		type = util_vehicle_1			#Technicals
 		amount = 100
 		producer = GAB
 	}

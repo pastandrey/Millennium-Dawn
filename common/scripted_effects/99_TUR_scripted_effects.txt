@@ -312,19 +312,19 @@ TUR_PKK_attack = {
 		random_list = {
 			25 = {
 				add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -150 producer = TUR }
-				add_equipment_to_stockpile = { type = util_vehicle_equipment amount = -25 producer = TUR }
+				add_equipment_to_stockpile = { type = util_vehicle_type amount = -25 producer = TUR }
 			}
 			25 = {
 				add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -200 producer = TUR }
-				add_equipment_to_stockpile = { type = util_vehicle_equipment amount = -90 producer = TUR }
+				add_equipment_to_stockpile = { type = util_vehicle_type amount = -90 producer = TUR }
 			}
 			25 = {
 				add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -380 producer = TUR }
-				add_equipment_to_stockpile = { type = util_vehicle_equipment amount = -135 producer = TUR }
+				add_equipment_to_stockpile = { type = util_vehicle_type amount = -135 producer = TUR }
 			}
 			25 = {
 				add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -460 producer = TUR }
-				add_equipment_to_stockpile = { type = util_vehicle_equipment amount = -190 producer = TUR }
+				add_equipment_to_stockpile = { type = util_vehicle_type amount = -190 producer = TUR }
 			}
 		}
 	}

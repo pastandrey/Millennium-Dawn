@@ -120,7 +120,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		amount = 100
 		producer = USA
 	}

@@ -164,7 +164,7 @@ units = {
 		start_equipment_factor = 0.3
 		force_equipment_variants = { infantry_weapons_2 = { owner = "TUR" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "TUR" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -183,7 +183,7 @@ units = {
 		start_equipment_factor = 0.3
 		force_equipment_variants = { infantry_weapons_2 = { owner = "TUR" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "TUR" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -200,7 +200,7 @@ units = {
 		start_equipment_factor = 0.3
 		force_equipment_variants = { infantry_weapons_2 = { owner = "TUR" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "TUR" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -251,7 +251,7 @@ units = {
 		start_equipment_factor = 0.2
 		force_equipment_variants = { infantry_weapons_2 = { owner = "TUR" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "TUR" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -270,7 +270,7 @@ units = {
 		start_equipment_factor = 0.3
 		force_equipment_variants = { infantry_weapons_2 = { owner = "TUR" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "TUR" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -289,7 +289,7 @@ units = {
 		start_equipment_factor = 0.3
 		force_equipment_variants = { infantry_weapons_2 = { owner = "TUR" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "TUR" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -308,7 +308,7 @@ units = {
 		start_equipment_factor = 0.2
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment = { owner = "USA" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_0 = { owner = "SOV" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -327,7 +327,7 @@ units = {
 		start_equipment_factor = 0.2
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment = { owner = "TUR" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_0 = { owner = "SOV" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -345,7 +345,7 @@ units = {
 		start_equipment_factor = 0.2
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment = { owner = "TUR" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_0 = { owner = "SOV" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -363,7 +363,7 @@ units = {
 		start_equipment_factor = 0.2
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment = { owner = "TUR" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_0 = { owner = "SOV" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -383,7 +383,7 @@ units = {
 		start_equipment_factor = 0.8
 		force_equipment_variants = { infantry_weapons_2 = { owner = "USA" } }
 		force_equipment_variants = { command_control_equipment2 = { owner = "USA" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -402,7 +402,7 @@ units = {
 		start_equipment_factor = 0.8
 		force_equipment_variants = { infantry_weapons_4 = { owner = "USA" } }
 		force_equipment_variants = { command_control_equipment2 = { owner = "USA" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -421,7 +421,7 @@ units = {
 		start_equipment_factor = 0.9
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment = { owner = "FSA" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -438,7 +438,7 @@ units = {
 		start_equipment_factor = 0.9
 		force_equipment_variants = { infantry_weapons_4 = { owner = "USA" } }
 		force_equipment_variants = { command_control_equipment2 = { owner = "USA" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -456,7 +456,7 @@ units = {
 		start_equipment_factor = 0.9
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment = { owner = "FSA" } }
-		force_equipment_variants = { util_vehicle_0 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -473,7 +473,7 @@ units = {
 		start_equipment_factor = 0.9
 		force_equipment_variants = { infantry_weapons_2 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "FSA" } }
-		force_equipment_variants = { util_vehicle_0 = { owner = "FSA" } }
+		force_equipment_variants = { util_vehicle_1 = { owner = "FSA" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -598,18 +598,18 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3	#Humwee
+		type = util_vehicle_4	#Humwee
 		amount = 40
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0	#Technicals
+		type = util_vehicle_1	#Technicals
 		amount = 1900
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1	#Technicals
+		type = util_vehicle_2	#Technicals
 		amount = 900
 	}
 

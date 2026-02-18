@@ -17,7 +17,7 @@ units = {
 		force_equipment_variants = { command_control_equipment2 = { amount = 25 owner = LUX creator = GER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 12 owner = LUX creator = USA } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 8 owner = LUX creator = USA } }
-		force_equipment_variants = { util_vehicle_3 = { amount = 42 owner = LUX creator = USA } }
+		force_equipment_variants = { util_vehicle_4 = { amount = 42 owner = LUX creator = USA } }
 	}
 }
 
@@ -41,13 +41,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3	 #Humvee
+		type = util_vehicle_4	 #Humvee
 		amount = 0 #42 deployed
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2	 #G-Class
+		type = util_vehicle_3	 #G-Class
 		amount = 20
 		producer = GER
 	}

@@ -1665,12 +1665,12 @@ focus_tree = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 1000
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 50
 				producer = SOV
 			}
@@ -5257,12 +5257,12 @@ focus_tree = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 1000
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 50
 				producer = SOV
 			}
@@ -6644,12 +6644,12 @@ focus_tree = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 1000
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 50
 				producer = SOV
 			}

@@ -1087,7 +1087,7 @@ GER_the_false_state = {
 				amount = -7175
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = -4550
 			}
 			newline = yes
@@ -1097,7 +1097,7 @@ GER_the_false_state = {
 					amount = 7175
 				}
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = 4550
 				}
 			}

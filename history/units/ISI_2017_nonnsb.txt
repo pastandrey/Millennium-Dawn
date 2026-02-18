@@ -144,7 +144,7 @@ units = {
 		start_equipment_factor = 0.3
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "ISI" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "ISI" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "CHI" } }
@@ -178,7 +178,7 @@ units = {
 		start_experience_factor = 0.4
 		force_equipment_variants = { infantry_weapons_3 = { owner = "USA" } }
 		force_equipment_variants = { command_control_equipment2 = { owner = "USA" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "ISI" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "ISI" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "SOV" } }
@@ -213,7 +213,7 @@ units = {
 		start_equipment_factor = 0.6
 		force_equipment_variants = { infantry_weapons_3 = { owner = "USA" } }
 		force_equipment_variants = { command_control_equipment2 = { owner = "USA" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "ISI" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "ISI" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "SOV" } }
@@ -247,7 +247,7 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_weapons_3 = { owner = "USA" } }
 		force_equipment_variants = { command_control_equipment2 = { owner = "USA" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "ISI" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "ISI" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "SOV" } }
@@ -450,43 +450,43 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1		#UAZ-469
+		type = util_vehicle_2		#UAZ-469
 		amount = 8
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1		#Safir
+		type = util_vehicle_2		#Safir
 		amount = 30
 		producer = PER
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3		#Humvee
+		type = util_vehicle_4		#Humvee
 		amount = 2300
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_4		#BPM-97
+		type = util_vehicle_5		#BPM-97
 		amount = 5
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_5		#MaxxPro
+		type = util_vehicle_6		#MaxxPro
 		amount = 13
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0		#Technicals
+		type = util_vehicle_1		#Technicals
 		amount = 600
 		producer = ISI
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1		#Technicals
+		type = util_vehicle_2		#Technicals
 		amount = 1000
 		producer = ISI
 	}

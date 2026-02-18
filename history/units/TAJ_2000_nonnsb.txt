@@ -173,7 +173,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #UAZ-469
+		type = util_vehicle_2 #UAZ-469
 		amount = 570
 		producer = SOV
 	}

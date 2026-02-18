@@ -169,7 +169,7 @@ instant_effect = {
 		#producer = ISR
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2
+		type = util_vehicle_3
 		amount = 750
 	}
 	add_equipment_to_stockpile = {
@@ -208,7 +208,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_4 #RG-31 Nyala
+		type = util_vehicle_5 #RG-31 Nyala
 		amount = 4
 		producer = SAF
 	}

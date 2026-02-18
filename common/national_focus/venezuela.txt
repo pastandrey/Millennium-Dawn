@@ -4931,7 +4931,7 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -5 }
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				producer = SOV
 				amount = 5000
 			}
@@ -9357,6 +9357,18 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus VEN_licenses_for_american_humvees"
 
 			if = {
+				limit = { USA = { has_tech = util_vehicle_8 } }
+				USA = {
+					create_production_license = {
+						target = VEN
+						equipment = {
+							type = util_vehicle_8
+						}
+						cost_factor = 0
+					}
+				}
+			}
+			else_if = {
 				limit = { USA = { has_tech = util_vehicle_7 } }
 				USA = {
 					create_production_license = {
@@ -9423,18 +9435,6 @@ focus_tree = {
 						target = VEN
 						equipment = {
 							type = util_vehicle_2
-						}
-						cost_factor = 0
-					}
-				}
-			}
-			else_if = {
-				limit = { USA = { has_tech = util_vehicle_1 } }
-				USA = {
-					create_production_license = {
-						target = VEN
-						equipment = {
-							type = util_vehicle_1
 						}
 						cost_factor = 0
 					}
@@ -9954,7 +9954,7 @@ focus_tree = {
 
 			# 3 batallions of marine motorized infantry with heavy engineers, motorized recon and CSS
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3 # Humvee
+				type = util_vehicle_4 # Humvee
 				amount = 240
 				producer = USA
 			}

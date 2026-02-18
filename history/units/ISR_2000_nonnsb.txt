@@ -275,7 +275,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #M-242 Storm II
+		type = util_vehicle_4 #M-242 Storm II
 		amount = 1700
 		producer = USA
 	}
@@ -331,7 +331,7 @@ instant_effect = {
 		amount = 600
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #RBY MK 1
+		type = util_vehicle_2 #RBY MK 1
 		amount = 400
 	}
 	add_equipment_to_stockpile = {

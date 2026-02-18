@@ -6378,7 +6378,7 @@ focus_tree = {
 			base = 1
 			modifier = {
 				add = 5
-				has_equipment = { infantry_weapons < 1999 }
+				has_equipment = { infantry_weapons_type < 1999 }
 			}
 			modifier = {
 				add = 5
@@ -6447,7 +6447,7 @@ focus_tree = {
 			base = 1
 			modifier = {
 				add = 5
-				has_equipment = { infantry_weapons < 1999 }
+				has_equipment = { infantry_weapons_type < 1999 }
 			}
 			modifier = {
 				factor = 0
@@ -6541,7 +6541,7 @@ focus_tree = {
 			base = 1
 			modifier = {
 				add = 5
-				has_equipment = { infantry_weapons < 1999 }
+				has_equipment = { infantry_weapons_type < 1999 }
 			}
 			modifier = {
 				factor = 0

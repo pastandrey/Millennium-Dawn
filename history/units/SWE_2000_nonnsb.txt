@@ -402,15 +402,15 @@ instant_effect = {
 		amount = 2250
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #Terrängbil 11
+		type = util_vehicle_2 #Terrängbil 11
 		amount = 2200
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #Terrängbil 13
+		type = util_vehicle_3 #Terrängbil 13
 		amount = 2200
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_4 #Terrängbil 14/15
+		type = util_vehicle_5 #Terrängbil 14/15
 		amount = 800
 	}
 

@@ -9534,7 +9534,7 @@ focus_tree = {
 			}
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = util_vehicle_0
+				type = util_vehicle_1
 				amount = 3000
 			}
 			newline = yes
@@ -13023,7 +13023,7 @@ focus_tree = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = util_vehicle_0
+						type = util_vehicle_1
 						amount = 200
 						producer = PER
 					}
@@ -13265,7 +13265,7 @@ focus_tree = {
 							producer = PER
 						}
 						add_equipment_to_stockpile = {
-							type = util_vehicle_0
+							type = util_vehicle_1
 							amount = 500
 							producer = PER
 						}
@@ -15538,7 +15538,7 @@ focus_tree = {
 				producer = PER
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_0
+				type = util_vehicle_1
 				amount = -300
 				producer = PER
 			}
@@ -15664,7 +15664,7 @@ focus_tree = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = util_vehicle_0
+						type = util_vehicle_1
 						amount = 300
 						producer = PER
 					}
@@ -17129,7 +17129,7 @@ focus_tree = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = util_vehicle_0
+						type = util_vehicle_1
 						amount = 300
 						producer = PER
 					}
@@ -28859,7 +28859,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus PER_redefining_iranian_nationalism"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 2000
 				producer = PER
 			}
@@ -28871,7 +28871,7 @@ focus_tree = {
 			}
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 400
 				producer = PER
 			}

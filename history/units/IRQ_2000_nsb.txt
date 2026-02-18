@@ -304,7 +304,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -320,7 +320,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -336,7 +336,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -371,7 +371,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -387,7 +387,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -436,7 +436,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -471,7 +471,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -487,7 +487,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -520,7 +520,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -536,7 +536,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -552,7 +552,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "T-55" } }
@@ -574,7 +574,7 @@ units = {
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "BTR-50" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 10 owner = IRQ creator = SOV version_name = "Mi-24D" } }
 	}
 	#Republican Guard Northern Corps
@@ -602,7 +602,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 42 owner = IRQ creator = IRQ version_name = "T-55 Enigma" } }
@@ -632,7 +632,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 42 owner = IRQ creator = IRQ version_name = "T-55 Enigma" } }
@@ -648,7 +648,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { command_control_equipment = { amount = 100 owner = IRQ creator = SOV } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = IRQ creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = IRQ creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = IRQ creator = SOV version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 42 owner = IRQ creator = IRQ version_name = "T-55 Enigma" } }
@@ -867,31 +867,31 @@ instant_effect = {
 
 	### Utility ###
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		variant_name = "UAZ-452"
 		producer = SOV
 		amount = 500
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		variant_name = "GAZ-66"
 		producer = SOV
 		amount = 2000
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		variant_name = "ZIL-131"
 		producer = SOV
 		amount = 2000
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		variant_name = "Ural-375D"
 		producer = SOV
 		amount = 1000
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1
+		type = util_vehicle_2
 		variant_name = "UAZ-469"
 		producer = SOV
 		amount = 500

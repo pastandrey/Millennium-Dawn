@@ -11036,7 +11036,7 @@ focus_tree = {
 			add_to_variable = { BLR_belarus_police_resistance_growth = -0.03 }
 			custom_effect_tooltip = BLR_belarus_police_start_tt
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -150
 				producer = BLR
 			}

@@ -152,7 +152,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 			#Mamba
+		type = util_vehicle_4 			#Mamba
 		amount = 18
 		producer = SAF
 	}

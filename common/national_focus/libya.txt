@@ -5289,14 +5289,14 @@ focus_tree = {
 				limit = { has_idea = LBA_foreign_procurement_boosted }
 				custom_effect_tooltip = LBA_foreign_procurement_lines_cheap_tt
 				add_equipment_to_stockpile = {
-					type = util_vehicle_equipment
+					type = util_vehicle_type
 					amount = 375
 					producer = var:tag_index
 				}
 			}
 			else = {
 				add_equipment_to_stockpile = {
-					type = util_vehicle_equipment
+					type = util_vehicle_type
 					amount = 300
 					producer = var:tag_index
 				}
@@ -16259,7 +16259,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_acquire_russian_weapons"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 1000
 				producer = SOV
 			}

@@ -483,7 +483,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0	 #
+		type = util_vehicle_1	 #
 		amount = 4000
 		producer = TUR
 	}
@@ -507,17 +507,17 @@ instant_effect = {
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1	 #Land Rover
+		type = util_vehicle_2	 #Land Rover
 		amount = 5000
 		producer = ENG
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2	 #Akrep
+		type = util_vehicle_3	 #Akrep
 		amount = 200
 		producer = TUR
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3	 #Cobra
+		type = util_vehicle_4	 #Cobra
 		amount = 200
 		producer = TUR
 	}

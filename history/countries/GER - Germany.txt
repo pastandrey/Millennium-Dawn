@@ -1667,11 +1667,11 @@
 
 		combat_eng_equipment = 1
 
-		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1
 		util_vehicle_4 = 1
+		util_vehicle_5 = 1
 		night_vision_1 = 1
 		night_vision_2 = 1
 		night_vision_3 = 1
@@ -1815,20 +1815,20 @@
 	}
 	create_equipment_variant = {
 		name = "IFA W 50"
-		type = util_vehicle_0
+		type = util_vehicle_1
 		icon = "gfx/interface/technologies/GER/LAND/IFA_W50.dds"
 		mark_older_equipment_obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Mercedes-Benz Unimog"
-		type = util_vehicle_0
+		type = util_vehicle_1
 		icon = "gfx/interface/technologies/GER/LAND/Unimog.dds"
 		mark_older_equipment_obsolete = yes
 		design_team = mio:GER_Mercedes
 	}
 	create_equipment_variant = {
 		name = "Magirus-Deutz Jupiter"
-		type = util_vehicle_0
+		type = util_vehicle_1
 		icon = "gfx/interface/technologies/GER/LAND/U1.dds"
 		mark_older_equipment_obsolete = yes
 	}
@@ -1887,7 +1887,7 @@
 	}
 	create_equipment_variant = {
 		name = "Dingo 1"
-		type = util_vehicle_4
+		type = util_vehicle_5
 		upgrades = {
 			Util_infantry_help_upgrade = 1
 		}
@@ -1896,7 +1896,7 @@
 	}
 	create_equipment_variant = {
 		name = "Mercedes-Benz G-Class G270 Wolf SSA"
-		type = util_vehicle_3
+		type = util_vehicle_4
 		upgrades = {
 			Util_infantry_help_upgrade = 1
 		}

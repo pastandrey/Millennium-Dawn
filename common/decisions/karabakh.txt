@@ -7,7 +7,7 @@ karabakh_decisions_category = {
 		}
 		available = {
 			has_equipment = {
-				infantry_weapons > 1000
+				infantry_weapons_type > 1000
 			}
 			NOT = {
 				has_war = yes

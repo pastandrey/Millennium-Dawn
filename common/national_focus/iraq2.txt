@@ -6028,7 +6028,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus IRQ_security_of_all_iraqis"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 2300
 				producer = IRQ
 			}
@@ -6040,7 +6040,7 @@ focus_tree = {
 			}
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 200
 				producer = IRQ
 			}

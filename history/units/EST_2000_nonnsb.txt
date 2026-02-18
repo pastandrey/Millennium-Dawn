@@ -28,7 +28,7 @@ units = {
 		start_equipment_factor = 0.8
 		force_equipment_variants = { infantry_weapons_2 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "SOV" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "SWE" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "ISR" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -47,7 +47,7 @@ units = {
 		start_equipment_factor = 0.8
 		force_equipment_variants = { infantry_weapons_2 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "SOV" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "SWE" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "ISR" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }

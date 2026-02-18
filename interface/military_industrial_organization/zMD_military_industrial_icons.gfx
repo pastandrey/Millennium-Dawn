@@ -25,7 +25,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_military_industrial_organization_util_vehicle_equipment"
+		name = "GFX_military_industrial_organization_util_vehicle_type"
 		texturefile = "gfx/interface/mio/util.dds"
 	}
 

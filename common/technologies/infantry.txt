@@ -497,10 +497,10 @@ technologies = {
 	}
 
 	#1965
-	util_vehicle_0 = {
+	util_vehicle_1 = {
 
 		enable_equipments = {
-			util_vehicle_0
+			util_vehicle_1
 		}
 		enable_subunits = {
 			Mot_Inf_Bat
@@ -510,7 +510,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = util_vehicle_1
+			leads_to_tech = util_vehicle_2
 			research_cost_coeff = 1
 		}
 
@@ -534,14 +534,14 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#1975
-	util_vehicle_1 = {
+	util_vehicle_2 = {
 
 		enable_equipments = {
-			util_vehicle_1
+			util_vehicle_2
 		}
 
 		path = {
-			leads_to_tech = util_vehicle_2
+			leads_to_tech = util_vehicle_3
 			research_cost_coeff = 1
 		}
 
@@ -565,14 +565,14 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#1985
-	util_vehicle_2 = {
+	util_vehicle_3 = {
 
 		enable_equipments = {
-			util_vehicle_2
+			util_vehicle_3
 		}
 
 		path = {
-			leads_to_tech = util_vehicle_3
+			leads_to_tech = util_vehicle_4
 			research_cost_coeff = 1
 		}
 
@@ -596,7 +596,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#1995
-	util_vehicle_3 = {
+	util_vehicle_4 = {
 
 		on_research_complete = {
 			custom_effect_tooltip = {
@@ -606,11 +606,11 @@ technologies = {
 		}
 
 		enable_equipments = {
-			util_vehicle_3
+			util_vehicle_4
 		}
 
 		path = {
-			leads_to_tech = util_vehicle_4
+			leads_to_tech = util_vehicle_5
 			research_cost_coeff = 1
 		}
 
@@ -634,14 +634,14 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2005
-	util_vehicle_4 = {
+	util_vehicle_5 = {
 
 		enable_equipments = {
-			util_vehicle_4
+			util_vehicle_5
 		}
 
 		path = {
-			leads_to_tech = util_vehicle_5
+			leads_to_tech = util_vehicle_6
 			research_cost_coeff = 1
 		}
 
@@ -673,7 +673,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2015
-	util_vehicle_5 = {
+	util_vehicle_6 = {
 
 		on_research_complete = {
 			custom_effect_tooltip = {
@@ -683,11 +683,11 @@ technologies = {
 		}
 
 		enable_equipments = {
-			util_vehicle_5
+			util_vehicle_6
 		}
 
 		path = {
-			leads_to_tech = util_vehicle_6
+			leads_to_tech = util_vehicle_7
 			research_cost_coeff = 1
 		}
 
@@ -719,14 +719,14 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2025
-	util_vehicle_6 = {
+	util_vehicle_7 = {
 
 		enable_equipments = {
-			util_vehicle_6
+			util_vehicle_7
 		}
 
 		path = {
-			leads_to_tech = util_vehicle_7
+			leads_to_tech = util_vehicle_8
 			research_cost_coeff = 1
 		}
 
@@ -758,14 +758,14 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2035
-	util_vehicle_7 = {
+	util_vehicle_8 = {
 
 		enable_equipments = {
-			util_vehicle_7
+			util_vehicle_8
 		}
 
 		path = {
-			leads_to_tech = util_vehicle_8
+			leads_to_tech = util_vehicle_9
 			research_cost_coeff = 1
 		}
 
@@ -797,13 +797,13 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2045
-	util_vehicle_8 = {
+	util_vehicle_9 = {
 
 		enable_equipments = {
-			util_vehicle_8
+			util_vehicle_9
 		}
 		path = {
-			leads_to_tech = util_vehicle_9
+			leads_to_tech = util_vehicle_20
 			research_cost_coeff = 1
 		}
 		research_cost = 1.7
@@ -835,13 +835,13 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2055
-	util_vehicle_9 = {
+	util_vehicle_20 = {
 
 		enable_equipments = {
-			util_vehicle_9
+			util_vehicle_20
 		}
 		path = {
-			leads_to_tech = util_vehicle_10
+			leads_to_tech = util_vehicle_21
 			research_cost_coeff = 1
 		}
 		research_cost = 1.7
@@ -870,13 +870,13 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2065
-	util_vehicle_10 = {
+	util_vehicle_21 = {
 
 		enable_equipments = {
-			util_vehicle_10
+			util_vehicle_21
 		}
 		path = {
-			leads_to_tech = util_vehicle_11
+			leads_to_tech = util_vehicle_22
 			research_cost_coeff = 1
 		}
 		research_cost = 1.7
@@ -905,10 +905,10 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2075
-	util_vehicle_11 = {
+	util_vehicle_22 = {
 
 		enable_equipments = {
-			util_vehicle_11
+			util_vehicle_22
 		}
 		research_cost = 1.7
 		start_year = 2075

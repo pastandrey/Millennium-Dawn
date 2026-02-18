@@ -272,7 +272,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0				#Chinese trucks
+		type = util_vehicle_1				#Chinese trucks
 		amount = 3000
 		producer = CHI
 	}

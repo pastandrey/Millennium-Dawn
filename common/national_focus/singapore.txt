@@ -1631,13 +1631,13 @@ focus_tree = {
 		available = {
 			has_equipment = { medium_tank_flame_chassis > 59 }
 			has_equipment = { medium_tank_amphibious_chassis > 59 }
-			has_equipment = { infantry_weapons > 1999 }
+			has_equipment = { infantry_weapons_type > 1999 }
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus SIN_arms_exporter"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = -2000
 				producer = SIN
 			}

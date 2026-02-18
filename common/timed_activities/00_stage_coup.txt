@@ -1,5 +1,5 @@
 stage_coup = {
 	equipment_need = {
-		infantry_weapons = 1000
+		infantry_weapons_type = 1000
 	}
 }

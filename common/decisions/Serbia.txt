@@ -460,7 +460,7 @@ SER_The_Montenegro_Confederacy = {
 		fixed_random_seed = no
 		custom_cost_trigger = {
 			has_equipment = {
-				infantry_weapons > 30
+				infantry_weapons_type > 30
 			}
 		}
 		custom_cost_text = TUR_assualt_on_pkk
@@ -469,7 +469,7 @@ SER_The_Montenegro_Confederacy = {
 		}
 		available = {
 			has_equipment = {
-				infantry_weapons > 29
+				infantry_weapons_type > 29
 			}
 		}
 		complete_effect = {

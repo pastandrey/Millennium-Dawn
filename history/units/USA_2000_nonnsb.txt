@@ -511,16 +511,16 @@ instant_effect = {
 		amount = 12200
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #Humvee
+		type = util_vehicle_3 #Humvee
 		amount = 2000
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #M1113 Humvee ECV
+		type = util_vehicle_4 #M1113 Humvee ECV
 		amount = 1500
 	}
 
-	#util_vehicle_2 #Humvee - as many as needed
-	#util_vehicle_3 #M1113 Humvee ECV - as many as needed
+	#util_vehicle_3 #Humvee - as many as needed
+	#util_vehicle_4 #M1113 Humvee ECV - as many as needed
 
 	add_equipment_to_stockpile = {
 		type = artillery_0 #M102

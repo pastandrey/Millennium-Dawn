@@ -76,11 +76,11 @@ DPR_Donbass_war_help = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				has_equipment = { infantry_weapons > 1000 }
+				has_equipment = { infantry_weapons_type > 1000 }
 				factor = 0
 			}
 			modifier = {
-				has_equipment = { infantry_weapons < 100 }
+				has_equipment = { infantry_weapons_type < 100 }
 				add = 5
 			}
 		}

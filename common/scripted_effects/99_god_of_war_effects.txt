@@ -5,9 +5,9 @@ ai_add_equipment = {
 	}
 
 	if = {
-		limit = { has_equipment = { infantry_weapons < 1000 } }
+		limit = { has_equipment = { infantry_weapons_type < 1000 } }
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = 1000
 		}
 	}
@@ -33,9 +33,9 @@ ai_add_equipment = {
 		}
 	}
 	if = {
-		limit = { has_equipment = { util_vehicle_equipment < 500 } }
+		limit = { has_equipment = { util_vehicle_type < 500 } }
 		add_equipment_to_stockpile = {
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			amount = 500
 		}
 	}

@@ -151,11 +151,11 @@ instant_effect = {
 		amount = 521
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 			#Tatra T813
+		type = util_vehicle_1 			#Tatra T813
 		amount = 882
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 			#Tatra T815
+		type = util_vehicle_2 			#Tatra T815
 		amount = 434
 	}
 	add_equipment_to_stockpile = {

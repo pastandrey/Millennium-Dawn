@@ -2069,7 +2069,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: RAJ_force_motors"
 			one_random_industrial_complex = yes
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 1000
 				producer = RAJ
 
@@ -3632,12 +3632,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: RAJ_preparing_our_reserve"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 2000
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 2000
 				producer = USA
 			}
@@ -5386,7 +5386,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_command_power = 10
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -300
 				producer = RAJ
 			}
@@ -7039,7 +7039,7 @@ focus_tree = {
 				modifier = improve_trade
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 2000
 				producer = SOV
 			}
@@ -12820,7 +12820,7 @@ focus_tree = {
 				}
 			}
 			send_equipment = {
-				equipment = infantry_weapons
+				equipment = infantry_weapons_type
 				amount = 1000
 				target = NEP
 			}

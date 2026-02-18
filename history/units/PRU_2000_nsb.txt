@@ -217,7 +217,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #M151 Jeep
+		type = util_vehicle_1 #M151 Jeep
 		amount = 680
 		producer = USA
 	}

@@ -6426,7 +6426,7 @@ arunachal_war_decisions_category = {
 	prepare_army_training_arunachal = {
 		available = {
 			has_war = no
-			has_equipment = { infantry_weapons > 30 }
+			has_equipment = { infantry_weapons_type > 30 }
 			has_equipment = { cnc_equipment > 7 }
 		}
 
@@ -6444,7 +6444,7 @@ arunachal_war_decisions_category = {
 			custom_effect_tooltip = arunachal_increase_readiness_TT
 
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = -30
 			}
 			add_equipment_to_stockpile = {

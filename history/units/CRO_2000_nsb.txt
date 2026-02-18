@@ -88,7 +88,7 @@ units = {
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 155 owner = CRO creator = SER } }
-		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
+		force_equipment_variants = { util_vehicle_3 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 28 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 19 owner = CRO creator = SOV } }
@@ -108,7 +108,7 @@ units = {
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
-		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
+		force_equipment_variants = { util_vehicle_3 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 28 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 19 owner = CRO creator = SOV } }
@@ -127,7 +127,7 @@ units = {
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
-		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
+		force_equipment_variants = { util_vehicle_3 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 28 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 19 owner = CRO creator = SOV } }
@@ -145,7 +145,7 @@ units = {
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
-		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
+		force_equipment_variants = { util_vehicle_3 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 28 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 19 owner = CRO creator = SOV } }
@@ -163,7 +163,7 @@ units = {
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
-		force_equipment_variants = { util_vehicle_1 = { amount = 60 owner = CRO creator = SER } }
+		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 28 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 19 owner = CRO creator = SOV } }
@@ -181,7 +181,7 @@ units = {
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
-		force_equipment_variants = { util_vehicle_1 = { amount = 60 owner = CRO creator = SER } }
+		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 28 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 19 owner = CRO creator = SOV } }
@@ -199,7 +199,7 @@ units = {
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 60 owner = CRO creator = SER } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 28 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 19 owner = CRO creator = SOV } }
@@ -217,7 +217,7 @@ units = {
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
-		force_equipment_variants = { util_vehicle_0 = { amount = 60 owner = CRO creator = SER } }
+		force_equipment_variants = { util_vehicle_1 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 28 owner = CRO creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 19 owner = CRO creator = SOV } }

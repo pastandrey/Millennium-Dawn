@@ -82,7 +82,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1	 #Mercedes-Benz G-Class
+		type = util_vehicle_2	 #Mercedes-Benz G-Class
 		amount = 200
 		producer = GER
 	}

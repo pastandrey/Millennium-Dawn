@@ -332,12 +332,12 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3			#VBL
+		type = util_vehicle_4			#VBL
 		amount = 72
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0		#Pinzgauer
+		type = util_vehicle_1		#Pinzgauer
 		amount = 800
 		producer = AUS
 	}

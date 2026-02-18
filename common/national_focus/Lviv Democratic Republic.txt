@@ -280,12 +280,12 @@ focus_tree = {
 			set_temp_variable = { influence_target = LRP }
 			change_influence_percentage = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 2000
 				producer = POL
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 300
 				producer = POL
 			}

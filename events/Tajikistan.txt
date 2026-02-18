@@ -1979,7 +1979,7 @@ country_event = { # Asking Taliban for U.S. Weapons & Intel
 			}
 		}
 		add_equipment_to_stockpile = {
-			type = util_vehicle_2
+			type = util_vehicle_3
 			amount = -400
 			producer = USA
 		}
@@ -2024,7 +2024,7 @@ country_event = { # Taliban Smuggles American Vehicles
 		name = tajik_focus.36.a
 		log = "[GetDateText]: [This.GetName]: tajik_focus.36.a executed"
 		add_equipment_to_stockpile = {
-			type = util_vehicle_2
+			type = util_vehicle_3
 			amount = 400
 			producer = USA
 		}
@@ -2133,7 +2133,7 @@ country_event = { # China Accepts
 		}
 		newline = yes
 		add_equipment_to_stockpile = {
-			type = util_vehicle_1
+			type = util_vehicle_2
 			amount = 500
 			producer = CHI
 		}
@@ -4188,7 +4188,7 @@ country_event = {
 		name = tajik_radicalism.10.a
 		log = "[GetDateText]: [This.GetName]: tajik_radicalism.10.a executed"
 		add_equipment_to_stockpile = {
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			amount = -100
 		}
 		add_equipment_to_stockpile = {
@@ -5900,7 +5900,7 @@ country_event = { # Monthly Goods (Variation 1)
 			newline = yes
 			# Get some utility trucks
 			add_equipment_to_stockpile = {
-				type = util_vehicle_0
+				type = util_vehicle_1
 				amount = 25
 				producer = C01
 			}
@@ -5930,7 +5930,7 @@ country_event = { # Monthly Goods (Variation 1)
 			newline = yes
 			# Get some utility trucks
 			add_equipment_to_stockpile = {
-				type = util_vehicle_0
+				type = util_vehicle_1
 				amount = 50
 				producer = C01
 			}
@@ -5964,7 +5964,7 @@ country_event = { # Monthly Goods (Variation 1)
 			newline = yes
 			# Get some utility trucks
 			add_equipment_to_stockpile = {
-				type = util_vehicle_0
+				type = util_vehicle_1
 				amount = 75
 				producer = C01
 			}

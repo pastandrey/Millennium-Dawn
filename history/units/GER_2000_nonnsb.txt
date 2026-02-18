@@ -553,7 +553,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1	 #Mercedes-Benz G-Class
+		type = util_vehicle_2	 #Mercedes-Benz G-Class
 		amount = 500
 		producer = GER
 	}

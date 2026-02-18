@@ -197,7 +197,7 @@ instant_effect = {
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #Casspir
+		type = util_vehicle_3 #Casspir
 		amount = 5
 		producer = SAF
 	}

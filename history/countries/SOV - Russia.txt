@@ -3750,13 +3750,13 @@
 		}
 		create_equipment_variant = {
 			name = "UAZ-452"
-			type = util_vehicle_0
+			type = util_vehicle_1
 			mark_older_equipment_obsolete = yes
 			icon = "gfx/interface/technologies/SOV/LAND/U1_alt1.dds"
 		}
 		create_equipment_variant = {
 			name = "GAZ-66"
-			type = util_vehicle_0
+			type = util_vehicle_1
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -3765,7 +3765,7 @@
 		}
 		create_equipment_variant = {
 			name = "ZIL-131"
-			type = util_vehicle_0
+			type = util_vehicle_1
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -3774,7 +3774,7 @@
 		}
 		create_equipment_variant = {
 			name = "Ural-375D"
-			type = util_vehicle_0
+			type = util_vehicle_1
 			upgrades = {
 				Util_Mobility = 2
 			}
@@ -3783,13 +3783,13 @@
 		}
 		create_equipment_variant = {
 			name = "UAZ-469"
-			type = util_vehicle_1
+			type = util_vehicle_2
 			mark_older_equipment_obsolete = yes
 			icon = "gfx/interface/technologies/SOV/LAND/U2_alt1.dds"
 		}
 		create_equipment_variant = {
 			name = "Ural-4320"
-			type = util_vehicle_1
+			type = util_vehicle_2
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -5122,10 +5122,10 @@
 
 		land_drone_equipment = 1
 
-		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1
+		util_vehicle_4 = 1
 
 		Anti_tank_0 = 1
 		Heavy_Anti_tank_0 = 1

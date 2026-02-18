@@ -124,7 +124,7 @@ instant_effect = {
 #Vechile Equipment#
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3			#VBL
+		type = util_vehicle_4			#VBL
 		amount = 15
 		producer = FRA
 	}

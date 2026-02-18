@@ -4357,13 +4357,13 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_northern_cause"
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -400
 				producer = TUR
 			}
 			AFG = {
 				add_equipment_to_stockpile = {
-					type = util_vehicle_equipment
+					type = util_vehicle_type
 					amount = 400
 					producer = TUR
 				}
@@ -4418,13 +4418,13 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_a_new_stance"
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -400
 				producer = TUR
 			}
 			TAL = {
 				add_equipment_to_stockpile = {
-					type = util_vehicle_equipment
+					type = util_vehicle_type
 					amount = 400
 					producer = TUR
 				}

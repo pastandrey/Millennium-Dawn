@@ -113,7 +113,7 @@ instant_effect = {
 		variant_name = "EE-9 Cascavel"
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #VBL
+		type = util_vehicle_4 #VBL
 		amount = 2
 		producer = FRA
 	}

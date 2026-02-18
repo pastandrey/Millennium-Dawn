@@ -264,7 +264,7 @@ country_event = {
 		name = chechnya.8.a
 		log = "[GetDateText]: [This.GetName]: chechnya.8.a executed"
 		add_stability = 0.01
-		set_technology = { util_vehicle_6 = 1 }
+		set_technology = { util_vehicle_7 = 1 }
 		ai_chance = {
 			base = 90
 
@@ -467,7 +467,7 @@ country_event = {
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = util_vehicle_2
+					type = util_vehicle_3
 					amount = 50
 					producer = SOV
 				}

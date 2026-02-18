@@ -3025,7 +3025,7 @@ country_event = {
 				load_focus_tree = egypt_focus
 				states = { 215 213 217 }
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = 10000
 					producer = EGY
 				}

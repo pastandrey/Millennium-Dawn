@@ -18,7 +18,7 @@
 		Heavy_Anti_tank_0 = 1
 		combat_eng_equipment = 1
 		night_vision_1 = 1
-		util_vehicle_0 = 1
+		util_vehicle_1 = 1
 		body_armor_1 = 1
 		camouflage = 1
 		camouflage2 = 1

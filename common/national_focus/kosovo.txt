@@ -1175,7 +1175,7 @@ focus = {
 				producer = GER
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 200
 				producer = FRA
 			}

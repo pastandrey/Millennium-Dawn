@@ -1707,12 +1707,12 @@ ARM_special_services_category = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove ARM_ossetia_weapons"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = -150
 				producer = ARM
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -15
 				producer = ARM
 			}
@@ -1768,12 +1768,12 @@ ARM_special_services_category = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove ARM_chechnya_weapons"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = -150
 				producer = ARM
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -15
 				producer = ARM
 			}

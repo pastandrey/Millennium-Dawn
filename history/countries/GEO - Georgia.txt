@@ -10,9 +10,9 @@
 		early_freight_locomotive = 1
 		armoured_mass_assault = 1
 		night_vision_1 = 1
-		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
+		util_vehicle_3 = 1
 		land_drone_equipment = 1
 		cas1 = 1
 		infantry_weapons_1 = 1

@@ -5330,7 +5330,7 @@ USA_foreign_policy = {
 			}
 			send_equipment = {
 				amount = 600
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				target = UKR
 			}
 		}

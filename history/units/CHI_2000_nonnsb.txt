@@ -1335,12 +1335,12 @@ instant_effect = {
 	#Utility vehicles
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #FAW MV3 truck
+		type = util_vehicle_1 #FAW MV3 truck
 		amount = 8000
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #FAW MV3 truck
+		type = util_vehicle_2 #FAW MV3 truck
 		amount = 6000
 	}
 

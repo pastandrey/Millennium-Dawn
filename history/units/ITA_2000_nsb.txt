@@ -269,19 +269,19 @@ instant_effect = {
 		amount = 600
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #Lancia ACL/90 + Iveco ACM 80/90
+		type = util_vehicle_1 #Lancia ACL/90 + Iveco ACM 80/90
 		amount = 6800
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #AR90
+		type = util_vehicle_2 #AR90
 		amount = 2750
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #VM90T
+		type = util_vehicle_3 #VM90T
 		amount = 2000
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #VM90P
+		type = util_vehicle_4 #VM90P
 		amount = 180
 	}
 	add_equipment_to_stockpile = {

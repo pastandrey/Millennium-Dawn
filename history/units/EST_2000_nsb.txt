@@ -33,7 +33,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
-		force_equipment_variants = { util_vehicle_1 = { owner = "SOV" } }
+		force_equipment_variants = { util_vehicle_2 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "SWE" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -91,19 +91,19 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		amount = 300
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		amount = 50
 		producer = SWE
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		amount = 50
 		producer = GER
 	}

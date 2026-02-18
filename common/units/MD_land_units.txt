@@ -715,7 +715,7 @@ sub_units = {
 		combat_width = 4
 
 		need = {
-			util_vehicle_equipment = 4
+			util_vehicle_type = 4
 			command_control_equipment = 16
 		}
 
@@ -741,7 +741,7 @@ sub_units = {
 
 		same_support_type = hq
 
-		transport = util_vehicle_equipment
+		transport = util_vehicle_type
 	}
 	arm_inf_hq = {
 		sprite = MD4_medium_armor
@@ -924,7 +924,7 @@ sub_units = {
 		transport = command_control_equipment
 
 		need = {
-			infantry_weapons = 167
+			infantry_weapons_type = 167
 			L_AT_Equipment = 8
 			AA_Equipment = 4
 		}
@@ -1009,13 +1009,13 @@ sub_units = {
 		training_time = 90
 		weight = 0.5
 
-		transport = util_vehicle_equipment
+		transport = util_vehicle_type
 
 		need = {
-			infantry_weapons = 177
+			infantry_weapons_type = 177
 			L_AT_Equipment = 8
 			AA_Equipment = 4
-			util_vehicle_equipment = 60
+			util_vehicle_type = 60
 		}
 
 		plains = {
@@ -1093,7 +1093,7 @@ sub_units = {
 		transport = command_control_equipment
 
 		need = {
-			infantry_weapons = 250
+			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 20
@@ -1172,14 +1172,14 @@ sub_units = {
 		training_time = 120
 		weight = 1
 
-		transport = util_vehicle_equipment
+		transport = util_vehicle_type
 
 		need = {
-			infantry_weapons = 267
+			infantry_weapons_type = 267
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 25
-			util_vehicle_equipment = 60
+			util_vehicle_type = 60
 		}
 
 		hills = {
@@ -1257,7 +1257,7 @@ sub_units = {
 		}
 
 		need = {
-			infantry_weapons = 260
+			infantry_weapons_type = 260
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
@@ -1339,7 +1339,7 @@ sub_units = {
 		transport = medium_tank_flame_chassis
 
 		need = {
-			infantry_weapons = 213
+			infantry_weapons_type = 213
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
@@ -1429,7 +1429,7 @@ sub_units = {
 		can_be_parachuted = yes
 
 		need = {
-			infantry_weapons = 250
+			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 30
@@ -1512,16 +1512,16 @@ sub_units = {
 		training_time = 200
 		weight = 0.5
 
-		transport = util_vehicle_equipment
+		transport = util_vehicle_type
 
 		can_be_parachuted = yes
 
 		need = {
-			infantry_weapons = 267
+			infantry_weapons_type = 267
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 35
-			util_vehicle_equipment = 60
+			util_vehicle_type = 60
 		}
 
 		hills = {
@@ -1603,7 +1603,7 @@ sub_units = {
 		can_be_parachuted = yes
 
 		need = {
-			infantry_weapons = 260
+			infantry_weapons_type = 260
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
@@ -1689,7 +1689,7 @@ sub_units = {
 		can_be_parachuted = yes
 
 		need = {
-			infantry_weapons = 213
+			infantry_weapons_type = 213
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
@@ -1779,7 +1779,7 @@ sub_units = {
 		transport = command_control_equipment
 
 		need = {
-			infantry_weapons = 250
+			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 30
@@ -1874,12 +1874,12 @@ sub_units = {
 		hard_attack = -0.66
 
 		essential = {
-			infantry_weapons
+			infantry_weapons_type
 			command_control_equipment
 		}
 
 		need = {
-			infantry_weapons = 83
+			infantry_weapons_type = 83
 			L_AT_Equipment = 4
 			AA_Equipment = 2
 			command_control_equipment = 10
@@ -1942,7 +1942,7 @@ sub_units = {
 		transport = command_control_equipment
 
 		need = {
-			infantry_weapons = 250
+			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 30
@@ -2035,7 +2035,7 @@ sub_units = {
 		transport = command_control_equipment
 
 		need = {
-			infantry_weapons = 400
+			infantry_weapons_type = 400
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 30
@@ -2124,14 +2124,14 @@ sub_units = {
 		training_time = 200
 		weight = 0.5
 
-		transport = util_vehicle_equipment
+		transport = util_vehicle_type
 
 		need = {
-			infantry_weapons = 267
+			infantry_weapons_type = 267
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 35
-			util_vehicle_equipment = 60
+			util_vehicle_type = 60
 		}
 
 		hills = {
@@ -2213,7 +2213,7 @@ sub_units = {
 		transport = medium_tank_amphibious_chassis
 
 		need = {
-			infantry_weapons = 260
+			infantry_weapons_type = 260
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
@@ -2298,7 +2298,7 @@ sub_units = {
 		transport = medium_tank_flame_chassis
 
 		need = {
-			infantry_weapons = 213
+			infantry_weapons_type = 213
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
@@ -2383,7 +2383,7 @@ sub_units = {
 		weight = 0.5
 
 		need = {
-			infantry_weapons = 250
+			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 35
@@ -2662,7 +2662,7 @@ sub_units = {
 		transport = command_control_equipment
 
 		need = {
-			 infantry_weapons = 100
+			 infantry_weapons_type = 100
 			 L_AT_Equipment = 12
 			 AA_Equipment = 8
 			 command_control_equipment = 30
@@ -3015,12 +3015,12 @@ sub_units = {
 		ap_attack = -0.66
 
 		essential = {
-			infantry_weapons
+			infantry_weapons_type
 			command_control_equipment
 		}
 
 		need = {
-			infantry_weapons = 83
+			infantry_weapons_type = 83
 			L_AT_Equipment = 4
 			AA_Equipment = 2
 			command_control_equipment = 10
@@ -3093,20 +3093,20 @@ sub_units = {
 		armor_value = -0.66
 		ap_attack = -0.66
 
-		transport = util_vehicle_equipment
+		transport = util_vehicle_type
 
 		essential = {
-			infantry_weapons
-			util_vehicle_equipment
+			infantry_weapons_type
+			util_vehicle_type
 		}
 
 		need = {
-			infantry_weapons = 92
+			infantry_weapons_type = 92
 			L_AT_Equipment = 4
 			H_AT_Equipment = 2
 			AA_Equipment = 3
 			command_control_equipment = 10
-			util_vehicle_equipment = 20
+			util_vehicle_type = 20
 		}
 
 		mountain = {
@@ -3179,7 +3179,7 @@ sub_units = {
 		transport = medium_tank_amphibious_chassis
 
 		need = {
-			infantry_weapons = 92
+			infantry_weapons_type = 92
 			L_AT_Equipment = 4
 			H_AT_Equipment = 2
 			AA_Equipment = 3
@@ -3269,7 +3269,7 @@ sub_units = {
 		transport = medium_tank_flame_chassis
 
 		need = {
-			infantry_weapons = 92
+			infantry_weapons_type = 92
 			L_AT_Equipment = 4
 			H_AT_Equipment = 2
 			AA_Equipment = 3
@@ -3354,7 +3354,7 @@ sub_units = {
 		can_be_parachuted = yes
 
 		need = {
-			infantry_weapons = 92
+			infantry_weapons_type = 92
 			L_AT_Equipment = 4
 			H_AT_Equipment = 2
 			AA_Equipment = 3
@@ -3509,9 +3509,9 @@ sub_units = {
 		supply_consumption = 0.01
 		entrenchment = 2
 
-		transport = infantry_weapons
+		transport = infantry_weapons_type
 
-		#transport = util_vehicle_equipment
+		#transport = util_vehicle_type
 
 		# Support nerfs to combat abilities
 		defense = -0.66
@@ -3519,10 +3519,10 @@ sub_units = {
 		soft_attack = -0.66
 		hard_attack = -0.66
 
-		essential = { infantry_weapons }
+		essential = { infantry_weapons_type }
 
 		need = {
-			infantry_weapons = 40
+			infantry_weapons_type = 40
 			command_control_equipment = 10
 		}
 
@@ -3625,17 +3625,17 @@ sub_units = {
 		hard_attack = -0.66
 
 		# this is what moves us and sets speed
-		transport = util_vehicle_equipment
+		transport = util_vehicle_type
 
 		essential = {
-			infantry_weapons
+			infantry_weapons_type
 			command_control_equipment
 		}
 
 		need = {
-			infantry_weapons = 30
+			infantry_weapons_type = 30
 			command_control_equipment = 10
-			util_vehicle_equipment = 20
+			util_vehicle_type = 20
 		}
 
 		forest = {
@@ -4185,11 +4185,11 @@ sub_units = {
 
 		essential = {
 			command_control_equipment
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 		need = {
 			command_control_equipment = 30
-			util_vehicle_equipment = 20
+			util_vehicle_type = 20
 		}
 
 		same_support_type = support
@@ -4347,11 +4347,11 @@ sub_units = {
 
 		essential = {
 			command_control_equipment
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 		need = {
 			command_control_equipment = 30
-			util_vehicle_equipment = 5
+			util_vehicle_type = 5
 			land_drone_equipment = 20
 		}
 
@@ -4371,7 +4371,7 @@ sub_units = {
 		hard_attack = -0.66
 
 		# this is what moves us and sets speed
-		transport = util_vehicle_equipment
+		transport = util_vehicle_type
 
 		can_be_parachuted = yes
 
@@ -4432,11 +4432,11 @@ sub_units = {
 
 		essential = {
 			command_control_equipment
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 		need = {
 			command_control_equipment = 30
-			util_vehicle_equipment = 20
+			util_vehicle_type = 20
 		}
 
 		manpower = 80
@@ -4455,7 +4455,7 @@ sub_units = {
 		hard_attack = -0.66
 
 		# this is what moves us and sets speed
-		transport = util_vehicle_equipment
+		transport = util_vehicle_type
 
 		can_be_parachuted = yes
 
@@ -4525,7 +4525,7 @@ sub_units = {
 		transport = command_control_equipment
 
 		need = {
-			infantry_weapons = 250
+			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
 			command_control_equipment = 20
@@ -4604,7 +4604,7 @@ sub_units = {
 		weight = 0.5
 
 		need = {
-			infantry_weapons = 1
+			infantry_weapons_type = 1
 		}
 	}
 	# Dutch Special Battalion
@@ -4654,9 +4654,9 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0.0
 
 		need = {
-			infantry_weapons = 250
+			infantry_weapons_type = 250
 			command_control_equipment = 50
-			util_vehicle_equipment = 20
+			util_vehicle_type = 20
 		}
 
 		same_support_type = support

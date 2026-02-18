@@ -299,11 +299,11 @@ instant_effect = {
 
 	#Vehicles
 	add_equipment_to_stockpile = {
-		type = util_vehicle_4 #Jackal
+		type = util_vehicle_5 #Jackal
 		amount = 400
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #Jackal
+		type = util_vehicle_4 #Jackal
 		amount = 335
 	}
 	add_equipment_to_stockpile = {

@@ -223,7 +223,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0		#ZIL trucks
+		type = util_vehicle_1		#ZIL trucks
 		amount = 2862
 		producer = SOV
 	}

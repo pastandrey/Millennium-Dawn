@@ -10852,7 +10852,7 @@ focus_tree = {
 				has_idea = minor_power
 				has_idea = non_power
 			}
-			has_equipment = { infantry_weapons > 3000 }
+			has_equipment = { infantry_weapons_type > 3000 }
 		}
 
 		completion_reward = {
@@ -10863,7 +10863,7 @@ focus_tree = {
 				limit = { is_sahel_nation = yes }
 				PREV = {
 					send_equipment = {
-						equipment = infantry_weapons
+						equipment = infantry_weapons_type
 						amount = 200
 						target = PREV
 					}

@@ -733,19 +733,19 @@ instant_effect = {
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
-		amount = 4000
-	}
-	add_equipment_to_stockpile = {
 		type = util_vehicle_1
-		amount = 5000
+		amount = 4000
 	}
 	add_equipment_to_stockpile = {
 		type = util_vehicle_2
-		amount = 4000
+		amount = 5000
 	}
 	add_equipment_to_stockpile = {
 		type = util_vehicle_3
+		amount = 4000
+	}
+	add_equipment_to_stockpile = {
+		type = util_vehicle_4
 		amount = 1000
 	}
 

@@ -148,7 +148,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0			#Some shitty technicals
+		type = util_vehicle_1			#Some shitty technicals
 		amount = 600
 		producer = CHA
 	}

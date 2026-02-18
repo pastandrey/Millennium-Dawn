@@ -2301,7 +2301,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: USA_FOCUS.10.a executed"
 		ROJ = {
 			add_equipment_to_stockpile = { type = infantry_weapons_4 amount = 2000 producer = USA }
-			add_equipment_to_stockpile = { type = util_vehicle_4 amount = 100 producer = USA }
+			add_equipment_to_stockpile = { type = util_vehicle_5 amount = 100 producer = USA }
 			add_equipment_to_stockpile = { type = Anti_tank_1 amount = 500 producer = USA }
 			add_opinion_modifier = { target = USA modifier = USA_ROJ_ARMED }
 		}
@@ -16825,7 +16825,7 @@ country_event = {
 				Producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 50
 				Producer = USA
 			}
@@ -17148,7 +17148,7 @@ country_event = {
 				Producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 50
 				Producer = USA
 			}
@@ -17269,7 +17269,7 @@ country_event = {
 				Producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 1000
 				Producer = USA
 			}
@@ -17829,7 +17829,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 300
 				producer = USA
 			}
@@ -18147,7 +18147,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 200
 				producer = USA
 			}
@@ -18416,7 +18416,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 500
 				producer = USA
 			}
@@ -18431,7 +18431,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = -500
 				producer = USA
 			}
@@ -18463,7 +18463,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 500
 				producer = USA
 			}
@@ -18483,7 +18483,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = -500
 				producer = USA
 			}
@@ -18538,7 +18538,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 500
 				producer = USA
 			}
@@ -23066,7 +23066,7 @@ country_event = { # Georgia Moves To Commence Operations
 		}
 		send_equipment = {
 			amount = 1500
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			target = GEO
 		}
 		ai_chance = {
@@ -26671,7 +26671,7 @@ country_event = {
 		}
 		send_equipment = {
 			amount = 600
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			target = UKR
 		}
 		ai_chance = {

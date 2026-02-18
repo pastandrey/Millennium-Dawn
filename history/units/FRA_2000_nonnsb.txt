@@ -276,7 +276,7 @@ instant_effect = {
 		amount = 187
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #VBL M-ll
+		type = util_vehicle_4 #VBL M-ll
 		amount = 1442
 	}
 	add_equipment_to_stockpile = {

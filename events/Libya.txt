@@ -9991,7 +9991,7 @@ country_event = {
 		set_temp_variable = { family_instability_change = 5 }
 		libya_gaddafi_family_modify_instability = yes
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = 650
 			producer = SOV
 		}
@@ -10016,7 +10016,7 @@ country_event = {
 			producer = SOV
 		}
 		add_equipment_to_stockpile = {
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			amount = 120
 			producer = LBA
 		}
@@ -10093,7 +10093,7 @@ country_event = {
 			producer = SOV
 		}
 		add_equipment_to_stockpile = {
-			type = util_vehicle_0
+			type = util_vehicle_1
 			amount = 120
 			producer = LBA
 		}

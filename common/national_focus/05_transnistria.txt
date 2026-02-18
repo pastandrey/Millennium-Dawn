@@ -5950,7 +5950,7 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -6 }
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 3000
 				producer = SOV
 			}
@@ -6697,7 +6697,7 @@ focus_tree = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = -1000
 				producer = PMR
 			}

@@ -779,7 +779,7 @@ country_event = {
 		}
 		newline = yes
 		add_equipment_to_stockpile = {
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			amount = 250
 			producer = PER
 		}
@@ -800,7 +800,7 @@ country_event = {
 		name = iraqi_events.21.c
 		log = "[GetDateText]: [This.GetName]: iraqi_events.21.c executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = 1000
 			producer = HEZ
 		}
@@ -5499,7 +5499,7 @@ country_event = {
 		name = iraq_md.11.b
 		log = "[GetDateText]: [This.GetName]: iraq_md.11.b executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = 2500
 			producer = USA
 		}
@@ -5926,7 +5926,7 @@ country_event = {
 		custom_effect_tooltip = IRQ_give_guns_to_iraq_TT
 		effect_tooltip = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 500
 				producer = PER
 			}
@@ -5951,7 +5951,7 @@ country_event = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_0 #Khawar
+				type = util_vehicle_1 #Khawar
 				amount = 10
 				producer = PER
 			}
@@ -5960,7 +5960,7 @@ country_event = {
 		custom_effect_tooltip = IRQ_receive_influence_2_TT
 		hidden_effect = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = -500
 				producer = PER
 			}
@@ -5985,7 +5985,7 @@ country_event = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_0 #Khawar
+				type = util_vehicle_1 #Khawar
 				amount = -10
 				producer = PER
 			}
@@ -6095,7 +6095,7 @@ country_event = {
 		name = iraq_md.24.a
 		log = "[GetDateText]: [This.GetName]: iraq_md.24.a executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = 500
 			producer = PER
 		}
@@ -6120,7 +6120,7 @@ country_event = {
 			producer = SOV
 		}
 		add_equipment_to_stockpile = {
-			type = util_vehicle_0 #Khawar
+			type = util_vehicle_1 #Khawar
 			amount = 10
 			producer = PER
 		}
@@ -6467,7 +6467,7 @@ country_event = {
 		}
 		newline = yes
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = -500
 		}
 		ai_chance = {
@@ -6487,7 +6487,7 @@ country_event = {
 		name = iraq_md.35.a
 		log = "[GetDateText]: [This.GetName]: iraq_md.35.a executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = 500
 		}
 		ai_chance = {

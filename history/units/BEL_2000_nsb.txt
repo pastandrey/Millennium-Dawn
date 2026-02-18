@@ -59,7 +59,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = BEL creator = FRA } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = BEL creator = FRA } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 20 owner = BEL creator = FRA } }
-		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = BEL creator = HOL } }
+		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = BEL creator = HOL } }
 		force_equipment_variants = { medium_tank_artillery_chassis_1 = { amount = 36 owner = BEL creator = USA version_name = "M109A3" } }
 		force_equipment_variants = { medium_tank_flame_chassis_1 = { amount = 80 owner = BEL creator = BEL version_name = "AIFV-B" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 60 owner = BEL creator = USA version_name = "M113" } } #Spartans taken from stocks
@@ -82,7 +82,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = BEL creator = FRA } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = BEL creator = FRA } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 20 owner = BEL creator = FRA } }
-		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = BEL creator = HOL } }
+		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = BEL creator = HOL } }
 		force_equipment_variants = { medium_tank_artillery_chassis_1 = { amount = 36 owner = BEL creator = USA version_name = "M109A3" } }
 		force_equipment_variants = { medium_tank_flame_chassis_1 = { amount = 80 owner = BEL creator = BEL version_name = "AIFV-B" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 60 owner = BEL creator = USA version_name = "M113" } } #Spartans taken from stocks
@@ -105,7 +105,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = BEL creator = FRA } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = BEL creator = FRA } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 20 owner = BEL creator = FRA } }
-		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = BEL creator = HOL } }
+		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = BEL creator = HOL } }
 		force_equipment_variants = { medium_tank_artillery_chassis_1 = { amount = 36 owner = BEL creator = USA version_name = "M109A3" } }
 		force_equipment_variants = { medium_tank_flame_chassis_1 = { amount = 70 owner = BEL creator = BEL version_name = "AIFV-B" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 60 owner = BEL creator = USA version_name = "M113" } } #Spartans taken from stocks
@@ -128,7 +128,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = BEL creator = FRA } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = BEL creator = FRA } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = BEL creator = FRA } }
-		force_equipment_variants = { util_vehicle_2 = { amount = 80 owner = BEL creator = HOL } }
+		force_equipment_variants = { util_vehicle_3 = { amount = 80 owner = BEL creator = HOL } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = BEL creator = USA } }
 		force_equipment_variants = { transport_helicopter1 = { amount = 46 owner = BEL creator = ITA } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = BEL creator = AUS version_name = "Pandur" } } #Spartans taken from stocks
@@ -185,7 +185,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2
+		type = util_vehicle_3
 		amount = 350
 		producer = HOL
 	}

@@ -127,19 +127,19 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_4			#Mowag Eagle
+		type = util_vehicle_5			#Mowag Eagle
 		producer = SWI
 		amount = 36
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2			#Humvee
+		type = util_vehicle_3			#Humvee
 		producer = USA
 		amount = 22
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0			#Various MAN trucks
+		type = util_vehicle_1			#Various MAN trucks
 		producer = GER
 		amount = 220
 	}

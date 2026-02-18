@@ -616,15 +616,15 @@ instant_effect = {
 		variant_name = "Panhard ERC 90"
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1
+		type = util_vehicle_2
 		amount = 2500
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2
+		type = util_vehicle_3
 		amount = 550
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #VBL M-ll
+		type = util_vehicle_4 #VBL M-ll
 		amount = 899
 	}
 	add_equipment_to_stockpile = {
@@ -720,7 +720,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = util_vehicle_3
+			type = util_vehicle_4
 			creator = "FRA"
 		}
 		requested_factories = 1

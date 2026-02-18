@@ -4317,7 +4317,7 @@ JAP_komatsu_tank_manufacturer = {
 		medium_tank_amphibious_chassis
 		medium_tank_flame_chassis
 		medium_tank_destroyer_chassis
-		util_vehicle_equipment
+		util_vehicle_type
 	}
 
 	research_categories = {
@@ -4359,7 +4359,7 @@ JAP_komatsu_tank_manufacturer = {
 
 		limit_to_equipment_type = {
 			medium_tank_destroyer_chassis
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		equipment_bonus = {
@@ -4401,7 +4401,7 @@ JAP_komatsu_tank_manufacturer = {
 
 		limit_to_equipment_type = {
 			medium_tank_destroyer_chassis
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		equipment_bonus = {
@@ -4444,7 +4444,7 @@ JAP_komatsu_tank_manufacturer = {
 
 		limit_to_equipment_type = {
 			medium_tank_destroyer_chassis
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		equipment_bonus = {
@@ -4486,7 +4486,7 @@ JAP_komatsu_tank_manufacturer = {
 
 		limit_to_equipment_type = {
 			medium_tank_destroyer_chassis
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		equipment_bonus = {
@@ -4528,7 +4528,7 @@ JAP_komatsu_tank_manufacturer = {
 
 		limit_to_equipment_type = {
 			medium_tank_destroyer_chassis
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		production_bonus = {
@@ -4575,7 +4575,7 @@ JAP_komatsu_tank_manufacturer = {
 
 		limit_to_equipment_type = {
 			medium_tank_destroyer_chassis
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		equipment_bonus = {
@@ -4616,7 +4616,7 @@ JAP_komatsu_tank_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		equipment_bonus = {
@@ -4658,7 +4658,7 @@ JAP_komatsu_tank_manufacturer = {
 
 		limit_to_equipment_type = {
 			medium_tank_destroyer_chassis
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		equipment_bonus = {
@@ -4701,7 +4701,7 @@ JAP_komatsu_tank_manufacturer = {
 
 		limit_to_equipment_type = {
 			medium_tank_destroyer_chassis
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		equipment_bonus = {
@@ -4747,7 +4747,7 @@ JAP_komatsu_tank_manufacturer = {
 
 		limit_to_equipment_type = {
 			medium_tank_destroyer_chassis
-			util_vehicle_equipment
+			util_vehicle_type
 		}
 
 		equipment_bonus = {
@@ -5935,7 +5935,7 @@ JAP_howa_machinery_materiel_manufacturer = {
 	name = JAP_howa_machinery_materiel_manufacturer
 
 	equipment_type = {
-		infantry_weapons
+		infantry_weapons_type
 	}
 
 	research_categories = {

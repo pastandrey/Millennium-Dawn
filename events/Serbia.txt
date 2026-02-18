@@ -2841,7 +2841,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: Montenegro.12.a executed"
 		USA = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = -150
 				producer = USA
 			}
@@ -2850,7 +2850,7 @@ country_event = {
 		}
 		MNT = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 150
 				producer = USA
 			}
@@ -2902,7 +2902,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: Montenegro.13.a executed"
 		SOV = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_2
+				type = util_vehicle_3
 				amount = -150
 				producer = SOV
 			}
@@ -2911,7 +2911,7 @@ country_event = {
 		}
 		MNT = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_2
+				type = util_vehicle_3
 				amount = 150
 				producer = SOV
 			}

@@ -891,29 +891,29 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #Tatra 813
+		type = util_vehicle_1 #Tatra 813
 		amount = 1500
 		producer = CZE
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #Tatra 815
+		type = util_vehicle_2 #Tatra 815
 		amount = 1500
 		producer = CZE
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #Ashok Stallion
+		type = util_vehicle_1 #Ashok Stallion
 		amount = 16800
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #Maruti Gypsy
+		type = util_vehicle_2 #Maruti Gypsy
 		amount = 1200
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #Casspir
+		type = util_vehicle_3 #Casspir
 		amount = 165
 		producer = SAF
 	}

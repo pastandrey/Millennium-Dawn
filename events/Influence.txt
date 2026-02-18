@@ -1748,7 +1748,7 @@ country_event = {
 		name = influence.52.a
 		trigger = {
 			OR = {
-				has_equipment = { infantry_weapons > 250 }
+				has_equipment = { infantry_weapons_type > 250 }
 				has_equipment = { L_AT_Equipment > 10 }
 				has_equipment = { AA_Equipment > 10 }
 			}
@@ -1756,19 +1756,19 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: influence.52.a executed"
 		set_country_flag = shipment_of_infantry_weapons
 		if = {
-			limit = { has_equipment = { infantry_weapons > 250 } }
+			limit = { has_equipment = { infantry_weapons_type > 250 } }
 			effect_tooltip = {
 				FROM = {
 					add_equipment_to_stockpile = {
 						amount = -250
-						type = infantry_weapons
+						type = infantry_weapons_type
 						producer = PREV
 					}
 				}
 				FROM.FROM = { #Should be the targeted influencing nation
 					add_equipment_to_stockpile = {
 						amount = 250
-						type = infantry_weapons
+						type = infantry_weapons_type
 						producer = FROM
 					}
 				}
@@ -1830,7 +1830,7 @@ country_event = {
 			OR = {
 				has_equipment = { medium_tank_amphibious_chassis > 10 }
 				has_equipment = { medium_tank_flame_chassis > 10 }
-				has_equipment = { util_vehicle_equipment > 10 }
+				has_equipment = { util_vehicle_type > 10 }
 			}
 		}
 		log = "[GetDateText]: [This.GetName]: influence.52.b executed"
@@ -1878,20 +1878,20 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_equipment = { util_vehicle_equipment > 10 }
+				has_equipment = { util_vehicle_type > 10 }
 			}
 			effect_tooltip = {
 				FROM = {
 					add_equipment_to_stockpile = {
 						amount = -10
-						type = util_vehicle_equipment
+						type = util_vehicle_type
 						producer = PREV
 					}
 				}
 				FROM.FROM = { #Should be the targeted influencing nation
 					add_equipment_to_stockpile = {
 						amount = 10
-						type = util_vehicle_equipment
+						type = util_vehicle_type
 						producer = FROM
 					}
 				}
@@ -1931,17 +1931,17 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: influence.53.a executed"
 		FROM = { clr_country_flag = shipment_of_infantry_weapons }
 		if = {
-			limit = { FROM = { has_equipment = { infantry_weapons > 250 } } }
+			limit = { FROM = { has_equipment = { infantry_weapons_type > 250 } } }
 			FROM = {
 				add_equipment_to_stockpile = {
 					amount = -250
-					type = infantry_weapons
+					type = infantry_weapons_type
 					producer = PREV
 				}
 			}
 			add_equipment_to_stockpile = {
 				amount = 250
-				type = infantry_weapons
+				type = infantry_weapons_type
 				producer = FROM
 			}
 		}
@@ -1985,7 +1985,7 @@ country_event = {
 			factor = 1
 			modifier = { #Sacrifice Influence for free guns
 				OR = {
-					has_equipment = { infantry_weapons < 250 }
+					has_equipment = { infantry_weapons_type < 250 }
 					has_equipment = { L_AT_Equipment < 10 }
 					has_equipment = { AA_Equipment < 10 }
 				}
@@ -2089,17 +2089,17 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { FROM = { has_equipment = { util_vehicle_equipment > 10 } } }
+			limit = { FROM = { has_equipment = { util_vehicle_type > 10 } } }
 			FROM = {
 				add_equipment_to_stockpile = {
 					amount = -10
-					type = util_vehicle_equipment
+					type = util_vehicle_type
 					producer = PREV
 				}
 			}
 			add_equipment_to_stockpile = {
 				amount = 10
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				producer = FROM
 			}
 		}
@@ -2113,7 +2113,7 @@ country_event = {
 			factor = 1
 			modifier = { #Sacrifice Influence for free guns
 				OR = {
-					has_equipment = { infantry_weapons < 250 }
+					has_equipment = { infantry_weapons_type < 250 }
 					has_equipment = { L_AT_Equipment < 10 }
 					has_equipment = { AA_Equipment < 10 }
 				}
@@ -2478,7 +2478,7 @@ country_event = {
 		trigger = {
 			PREV = {
 				tag = PER
-				has_equipment = { infantry_weapons > 250 }
+				has_equipment = { infantry_weapons_type > 250 }
 			}
 		}
 		PER_scripted_effect_update_palestine_arms_via_land = yes
@@ -2493,7 +2493,7 @@ country_event = {
 		trigger = {
 			PREV = {
 				tag = PER
-				has_equipment = { infantry_weapons > 250 }
+				has_equipment = { infantry_weapons_type > 250 }
 			}
 			FROM = {
 				any_owned_state = {

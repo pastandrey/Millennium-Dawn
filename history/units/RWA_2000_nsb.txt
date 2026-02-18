@@ -154,7 +154,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		amount = 900
 		producer = SOV
 	}
@@ -208,7 +208,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3			 #VBL
+		type = util_vehicle_4			 #VBL
 		amount = 16
 		producer = FRA
 	}

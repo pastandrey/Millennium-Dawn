@@ -336,7 +336,7 @@ script_enum_equipment_bonus_type = {
 
 	# MD
 	## Land
-	infantry_weapons
+	infantry_weapons_type
 	infantry_weapons_1
 	infantry_weapons_2
 	infantry_weapons_3
@@ -482,8 +482,7 @@ script_enum_equipment_bonus_type = {
 	IFV_6
 	IFV_7
 	IFV_8
-	util_vehicle_equipment
-	util_vehicle_0
+	util_vehicle_type
 	util_vehicle_1
 	util_vehicle_2
 	util_vehicle_3
@@ -491,6 +490,7 @@ script_enum_equipment_bonus_type = {
 	util_vehicle_5
 	util_vehicle_6
 	util_vehicle_7
+	util_vehicle_8
 	utility_vehicle_super_bus_1
 	L_AT_Equipment
 	Anti_tank_0

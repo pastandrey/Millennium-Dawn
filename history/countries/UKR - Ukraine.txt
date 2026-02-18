@@ -607,10 +607,10 @@ capital = 698
 
 		land_drone_equipment = 1
 
-		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1
+		util_vehicle_4 = 1
 
 		transport_helicopter1 = 1
 		nsb_transport_helicopter1 = 1

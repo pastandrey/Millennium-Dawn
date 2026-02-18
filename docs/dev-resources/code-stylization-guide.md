@@ -286,7 +286,7 @@ CHI_norinco_manufacturer = {
     task_capacity = 18
 
     equipment_type = {
-        infantry_weapons
+        infantry_weapons_type
         artillery_equipment
         mio_cat_all_armor
     }

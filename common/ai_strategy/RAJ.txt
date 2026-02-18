@@ -294,7 +294,7 @@ generic_india_industrial_construction = {
 RAJ_army_focus = {
 	allowed = { tag = RAJ }
 	enable = {
-		has_equipment = { infantry_weapons > 35000 }
+		has_equipment = { infantry_weapons_type > 35000 }
 		has_equipment = { medium_tank_artillery_chassis > 1000 }
 		has_equipment = { cnc_equipment > 500 }
 	}

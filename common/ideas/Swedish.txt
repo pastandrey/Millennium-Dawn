@@ -1354,7 +1354,7 @@ local_resources_chromium_factor = 0.02
 				corvette = {
 					build_cost_ic = -0.10
 				}
-				infantry_weapons = {
+				infantry_weapons_type = {
 					build_cost_ic = -0.10
 				}
 				cnc_equipment = {

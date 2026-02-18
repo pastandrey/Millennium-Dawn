@@ -159,15 +159,15 @@ instant_effect = {
 		amount = 465
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #Pinzgauer
+		type = util_vehicle_1 #Pinzgauer
 		amount = 350
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #Puch G 4x4
+		type = util_vehicle_2 #Puch G 4x4
 		amount = 100
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #Puch G 290
+		type = util_vehicle_3 #Puch G 290
 		amount = 80
 	}
 

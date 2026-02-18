@@ -1,7 +1,7 @@
 #Written by Hiddengearz, TheGeneral
 # All infantry equipment
 equipments = {
-	infantry_weapons = {
+	infantry_weapons_type = {
 		is_archetype = yes
 		#is_buildable = no
 		type = infantry
@@ -45,7 +45,7 @@ equipments = {
 	infantry_weapons_1 = {
 		year = 1965
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 
 		#priority = 5
 		visual_level = 0
@@ -78,7 +78,7 @@ equipments = {
 	infantry_weapons_2 = {
 		year = 1975
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_1
 		#priority = 5
 		visual_level = 1
@@ -109,7 +109,7 @@ equipments = {
 	infantry_weapons_3 = {
 		year = 1985
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_2
 		#priority = 5
 		visual_level = 2
@@ -140,7 +140,7 @@ equipments = {
 	infantry_weapons_4 = {
 		year = 1995
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_3
 		#priority = 5
 		visual_level = 3
@@ -168,7 +168,7 @@ equipments = {
 	infantry_weapons_5 = {
 		year = 2005
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_4
 		#priority = 5
 		visual_level = 4
@@ -196,7 +196,7 @@ equipments = {
 	infantry_weapons_6 = {
 		year = 2015
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_5
 		#priority = 5
 		visual_level = 5
@@ -224,7 +224,7 @@ equipments = {
 	infantry_weapons_7 = {
 		year = 2025
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_6
 		#priority = 5
 		visual_level = 6
@@ -253,7 +253,7 @@ equipments = {
 	infantry_weapons_8 = {
 		year = 2035
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_7
 		#priority = 5
 		visual_level = 7
@@ -281,7 +281,7 @@ equipments = {
 	infantry_weapons_9 = {
 		year = 2045
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_8
 		visual_level = 7
 
@@ -306,7 +306,7 @@ equipments = {
 	infantry_weapons_10 = {
 		year = 2055
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_9
 		visual_level = 7
 
@@ -331,7 +331,7 @@ equipments = {
 	infantry_weapons_11 = {
 		year = 2065
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_10
 		visual_level = 7
 
@@ -356,7 +356,7 @@ equipments = {
 	infantry_weapons_12 = {
 		year = 2075
 
-		archetype = infantry_weapons
+		archetype = infantry_weapons_type
 		parent = infantry_weapons_11
 		visual_level = 7
 

@@ -392,24 +392,24 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1	#Safir-jeeps
+		type = util_vehicle_2	#Safir-jeeps
 		amount = 40
 		producer = PER
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3	#Humwee
+		type = util_vehicle_4	#Humwee
 		amount = 40
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0	#Technicals
+		type = util_vehicle_1	#Technicals
 		amount = 1900
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1	#Technicals
+		type = util_vehicle_2	#Technicals
 		amount = 850
 	}
 

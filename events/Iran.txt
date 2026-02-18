@@ -2495,7 +2495,7 @@ country_event = {
 					add_equipment_to_stockpile = { type = command_control_equipment amount = 400 producer = SOV }
 					add_equipment_to_stockpile = { type = Heavy_Anti_tank_0 amount = 100 producer = SOV }
 					add_equipment_to_stockpile = { type = infantry_weapons_1 amount = 2400 producer = SOV }
-					add_equipment_to_stockpile = { type = util_vehicle_0 amount = 200 producer = SOV }
+					add_equipment_to_stockpile = { type = util_vehicle_1 amount = 200 producer = SOV }
 					add_manpower = 10000
 					set_province_controller = 9144
 					set_province_controller = 9197
@@ -4490,7 +4490,7 @@ country_event = {
 					producer = USA
 				}
 				add_equipment_to_stockpile = {
-					type = util_vehicle_0
+					type = util_vehicle_1
 					amount = 675
 					producer = USA
 				}
@@ -5555,7 +5555,7 @@ country_event = {
 				NOT = {
 					has_country_flag = PER_did_libertarian_4
 					has_equipment = {
-						infantry_weapons > 30000
+						infantry_weapons_type > 30000
 					}
 					OR = {
 						has_idea = police_01
@@ -5956,7 +5956,7 @@ country_event = {
 				NOT = {
 					has_country_flag = PER_did_artesh_4
 					has_equipment = {
-						infantry_weapons > 3999
+						infantry_weapons_type > 3999
 					}
 				}
 			}

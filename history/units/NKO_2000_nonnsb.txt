@@ -1034,18 +1034,18 @@ instant_effect = {
 	### Trucks
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #ZIL-131
+		type = util_vehicle_2 #ZIL-131
 		amount = 6500
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #Ural-4320
+		type = util_vehicle_2 #Ural-4320
 		amount = 1500
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #UAZ-3151
+		type = util_vehicle_3 #UAZ-3151
 		amount = 400
 		producer = SOV
 	}

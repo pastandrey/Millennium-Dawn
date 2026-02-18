@@ -332,7 +332,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 200
 				producer = USA
 			}

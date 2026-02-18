@@ -10,7 +10,7 @@ units = {
 		force_equipment_variants = { Anti_Air_1 = { owner = SOV } }
 		force_equipment_variants = { artillery_1 = { owner = SOV } }
 		force_equipment_variants = { command_control_equipment2 = { owner = SOV } }
-		force_equipment_variants = { util_vehicle_3 = { owner = SOV } }
+		force_equipment_variants = { util_vehicle_4 = { owner = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_2 = { owner = SOV } }
 		force_equipment_variants = { MBT_3 = { owner = SOV } }
 	}

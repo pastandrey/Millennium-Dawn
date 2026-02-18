@@ -147,19 +147,19 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3		#Panhard M-11
+		type = util_vehicle_4		#Panhard M-11
 		amount = 25
 		producer = FRA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2		#Humvee
+		type = util_vehicle_3		#Humvee
 		amount = 37
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2		#Land Rover Defender
+		type = util_vehicle_3		#Land Rover Defender
 		amount = 50
 		producer = ENG
 	}

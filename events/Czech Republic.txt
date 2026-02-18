@@ -761,7 +761,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = 250
 					producer = USA
 				}
@@ -789,7 +789,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = 250
 					producer = USA
 				}
@@ -817,7 +817,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = 250
 					producer = USA
 				}
@@ -845,7 +845,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = 250
 					producer = USA
 				}
@@ -873,7 +873,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = 250
 					producer = USA
 				}
@@ -1519,7 +1519,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				variant_name = "Dingo 1"
 				amount = 20
 				producer = GER
@@ -1527,7 +1527,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 20
 				producer = GER
 			}
@@ -1556,7 +1556,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				variant_name = " Land Rover Wolf"
 				amount = 25
 				producer = ENG
@@ -1564,7 +1564,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 25
 				producer = ENG
 			}
@@ -1593,7 +1593,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				variant_name = " Iveco LMV"
 				amount = 25
 				producer = ITA
@@ -1601,7 +1601,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_3
+				type = util_vehicle_4
 				amount = 25
 				producer = ITA
 			}
@@ -2249,7 +2249,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				variant_name = "Toyota Hilux"
 				amount = 20
 				producer = JAP
@@ -2257,7 +2257,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				amount = 20
 				producer = JAP
 			}
@@ -2286,7 +2286,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				variant_name = "Land Rover Defender"
 				amount = 25
 				producer = ENG
@@ -2294,7 +2294,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				amount = 25
 				producer = ENG
 			}
@@ -2323,7 +2323,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				variant_name = " Mercedes-Benz G-Class"
 				amount = 25
 				producer = GER
@@ -2331,7 +2331,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				amount = 25
 				producer = GER
 			}
@@ -2687,7 +2687,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				variant_name = "Toyota Hilux"
 				amount = 20
 				producer = JAP
@@ -2695,7 +2695,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				amount = 20
 				producer = JAP
 			}
@@ -2724,7 +2724,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = util_vehicle_5
+				type = util_vehicle_6
 				variant_name = "JLTV"
 				amount = 25
 				producer = USA
@@ -2732,7 +2732,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_5
+				type = util_vehicle_6
 				amount = 25
 				producer = USA
 			}
@@ -2761,7 +2761,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				variant_name = " Mercedes-Benz G-Class"
 				amount = 25
 				producer = GER
@@ -2769,7 +2769,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_4
+				type = util_vehicle_5
 				amount = 25
 				producer = GER
 			}

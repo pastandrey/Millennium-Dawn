@@ -6666,8 +6666,8 @@ focus_tree = {
 		prerequisite = { focus = SWE_Wargames_and_exercise }
 
 		available = {
-			has_equipment = { infantry_weapons > 12500 }
-			has_equipment = { util_vehicle_equipment > 1000 }
+			has_equipment = { infantry_weapons_type > 12500 }
+			has_equipment = { util_vehicle_type > 1000 }
 			has_equipment = { L_AT_Equipment > 800 }
 			has_equipment = { cnc_equipment > 800 }
 		}
@@ -6682,7 +6682,7 @@ focus_tree = {
 				producer = SWE
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -1000
 				producer = SWE
 			}

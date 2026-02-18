@@ -204,7 +204,7 @@ leader_traits = {
 				breakthrough = 0.075
 				reliability = 0.075
 			}
-			util_vehicle_equipment = {
+			util_vehicle_type = {
 				defense = 0.075
 				reliability = 0.075
 			}
@@ -221,7 +221,7 @@ leader_traits = {
 				breakthrough = 0.075
 				soft_attack = 0.075
 			}
-			util_vehicle_equipment = {
+			util_vehicle_type = {
 				defense = 0.075
 				soft_attack = 0.075
 			}
@@ -242,7 +242,7 @@ leader_traits = {
 	}
 	CAT_util_1 = {
 		equipment_bonus = {
-			util_vehicle_equipment = {
+			util_vehicle_type = {
 				armor_value = 0.18
 				reliability = 0.18
 				build_cost_ic = -0.18
@@ -288,7 +288,7 @@ leader_traits = {
 
 	CAT_inf_5 = {
 		equipment_bonus = {
-			infantry_weapons = {
+			infantry_weapons_type = {
 				reliability = 0.075
 				soft_attack = 0.075
 			}
@@ -363,7 +363,7 @@ leader_traits = {
 
 	CAT_inf_wep_5 = {
 		equipment_bonus = {
-			infantry_weapons = {
+			infantry_weapons_type = {
 				soft_attack = 0.075
 				reliability = 0.075
 			}

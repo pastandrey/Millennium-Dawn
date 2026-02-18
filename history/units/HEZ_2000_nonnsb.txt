@@ -114,7 +114,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0	#Aras
+		type = util_vehicle_1	#Aras
 		amount = 600
 		producer = PER
 	}

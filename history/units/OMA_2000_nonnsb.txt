@@ -179,13 +179,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3		 #Panhard VBL
+		type = util_vehicle_4		 #Panhard VBL
 		amount = 41
 		producer = FRA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0		 #
+		type = util_vehicle_1		 #
 		amount = 350
 		producer = OMA
 	}

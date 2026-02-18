@@ -767,20 +767,20 @@ instant_effect = {
 		amount = 3
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #RBY MK 1
+		type = util_vehicle_2 #RBY MK 1
 		amount = 300
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #storm mk1
+		type = util_vehicle_3 #storm mk1
 		amount = 1300
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #imported US hummer
+		type = util_vehicle_3 #imported US hummer
 		amount = 500
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #imported US hummer
+		type = util_vehicle_4 #imported US hummer
 		amount = 600
 		producer = USA
 	}

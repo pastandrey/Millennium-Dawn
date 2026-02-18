@@ -400,25 +400,25 @@ instant_effect = {
 
 ######## Vehicles
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #Assorted Willys MB & M151s
+		type = util_vehicle_1 #Assorted Willys MB & M151s
 		amount = 350
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #Assorted Brazilian Trucks
+		type = util_vehicle_1 #Assorted Brazilian Trucks
 		amount = 1250
 		producer = BRA
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #Land Rover Defenders
+		type = util_vehicle_2 #Land Rover Defenders
 		amount = 941
 		producer = ENG
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #JPX Montez & Toyota Bandeirantes
+		type = util_vehicle_2 #JPX Montez & Toyota Bandeirantes
 		amount = 1520
 		producer = BRA
 	}

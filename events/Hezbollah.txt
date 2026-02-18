@@ -22,7 +22,7 @@ country_event = {
 			}
 			add_manpower = 5000
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 1000
 				producer = LEB
 			}
@@ -37,7 +37,7 @@ country_event = {
 				producer = LEB
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 300
 				producer = LEB
 			}
@@ -55,7 +55,7 @@ country_event = {
 			}
 			add_manpower = 3000
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 1000
 				producer = LEB
 			}
@@ -70,7 +70,7 @@ country_event = {
 				producer = LEB
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 100
 				producer = LEB
 			}
@@ -83,7 +83,7 @@ country_event = {
 			}
 			add_manpower = 2000
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 1000
 				producer = LEB
 			}
@@ -101,7 +101,7 @@ country_event = {
 			}
 			add_manpower = 1000
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 1000
 				producer = LEB
 			}
@@ -178,7 +178,7 @@ country_event = {
 		}
 		HEZ = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 1000
 				producer = ROOT
 			}
@@ -546,7 +546,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: international_hezbollah.5.o1 executed"
 		add_manpower = -300
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = -400
 		}
 		add_equipment_to_stockpile = {
@@ -562,7 +562,7 @@ country_event = {
 			amount = -30
 		}
 		add_equipment_to_stockpile = {
-			type = util_vehicle_equipment
+			type = util_vehicle_type
 			amount = -50
 		}
 		set_temp_variable = { percent_change = -1 }
@@ -1714,7 +1714,7 @@ country_event = {
 		name = message_from_iran.1.o1
 		log = "[GetDateText]: [This.GetName]: message_from_iran.1.o1 executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_type
 			amount = 500
 			producer = PER
 		}
@@ -1739,7 +1739,7 @@ country_event = {
 			producer = SOV
 		}
 		add_equipment_to_stockpile = {
-			type = util_vehicle_0 #Khawar
+			type = util_vehicle_1 #Khawar
 			amount = 10
 			producer = PER
 		}

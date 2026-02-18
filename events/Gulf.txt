@@ -1610,7 +1610,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: gulf.36.a executed"
 		effect_tooltip = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = 100
 			}
 			add_equipment_to_stockpile = {
@@ -1622,7 +1622,7 @@ country_event = {
 				amount = 10
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 5
 			}
 		}
@@ -3282,7 +3282,7 @@ country_event = {
 				target = BHR
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = BHR
 			}
@@ -3315,7 +3315,7 @@ country_event = {
 				target = EGY
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = EGY
 			}
@@ -3348,7 +3348,7 @@ country_event = {
 				target = IRQ
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = IRQ
 			}
@@ -3381,7 +3381,7 @@ country_event = {
 				target = JOR
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = JOR
 			}
@@ -3414,7 +3414,7 @@ country_event = {
 				target = KUW
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = KUW
 			}
@@ -3447,7 +3447,7 @@ country_event = {
 				target = MOR
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = MOR
 			}
@@ -3480,7 +3480,7 @@ country_event = {
 				target = OMA
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = OMA
 			}
@@ -3513,7 +3513,7 @@ country_event = {
 				target = QAT
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = QAT
 			}
@@ -3546,7 +3546,7 @@ country_event = {
 				target = SAU
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = SAU
 			}
@@ -3579,7 +3579,7 @@ country_event = {
 				target = UAE
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = UAE
 			}
@@ -3612,7 +3612,7 @@ country_event = {
 				target = YEM
 			}
 			send_equipment = {
-				equipment = util_vehicle_equipment
+				equipment = util_vehicle_type
 				amount = 100
 				target = YEM
 			}
@@ -3684,7 +3684,7 @@ news_event = {
 						target = ROOT
 					}
 					send_equipment = {
-						equipment = util_vehicle_equipment
+						equipment = util_vehicle_type
 						amount = 100
 						target = ROOT
 					}

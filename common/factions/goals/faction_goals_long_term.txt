@@ -597,7 +597,7 @@ faction_goal_great_offensive = {
 		modifier = {
 			add = 1 # If healthy equipment stockpiles, go for it
 			stockpile_ratio = {
-				archetype = infantry_weapons
+				archetype = infantry_weapons_type
 				ratio > 1
 			}
 			stockpile_ratio = {

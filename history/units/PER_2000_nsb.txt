@@ -1047,17 +1047,17 @@ instant_effect = {
 
 	#Utility vehicles
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #Khawar?
+		type = util_vehicle_1 #Khawar?
 		amount = 8500
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		variant_name = "GAZ-66"
 		producer = SOV
 		amount = 2000
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		variant_name = "Ural-375D"
 		producer = SOV
 		amount = 1500

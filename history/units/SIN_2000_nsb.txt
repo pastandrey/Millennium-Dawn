@@ -161,7 +161,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #Spider LSV
+		type = util_vehicle_3 #Spider LSV
 		amount = 480
 	}
 

@@ -413,7 +413,7 @@ instant_effect = {
 
 	### Utility ###
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1	#Generic trucks
+		type = util_vehicle_2	#Generic trucks
 		amount = 6000
 		producer = SOV
 	}

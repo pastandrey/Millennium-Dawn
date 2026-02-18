@@ -6740,7 +6740,7 @@ focus_tree = {
 				}
 
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1			#Safir
+					type = util_vehicle_2			#Safir
 					amount = 360
 					producer = PER
 				}
@@ -7043,12 +7043,12 @@ focus_tree = {
 					}
 				}
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1			#Safir
+					type = util_vehicle_2			#Safir
 					amount = 150
 					producer = PER
 				}
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1			#UAZ-469
+					type = util_vehicle_2			#UAZ-469
 					amount = 120
 					producer = SOV
 				}
@@ -14185,7 +14185,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus SYR_weapons_to_pkk"
 		send_equipment = {
-			equipment = infantry_weapons
+			equipment = infantry_weapons_type
 			amount = 1000
 			target = PKK
 		}
@@ -15387,7 +15387,7 @@ shared_focus = {
 			PAL = { country_event = { id = SyriaFocus.76 hours = 6 } }
 		}
 		send_equipment = {
-			equipment = infantry_weapons
+			equipment = infantry_weapons_type
 			amount = 1000
 			target = HAM
 		}
@@ -15432,7 +15432,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus SYR_supply_taliban"
 		send_equipment = {
-			equipment = infantry_weapons
+			equipment = infantry_weapons_type
 			amount = 1000
 			target = TAL
 		}
@@ -15477,7 +15477,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus SYR_supply_al_shabaab"
 		send_equipment = {
-			equipment = infantry_weapons
+			equipment = infantry_weapons_type
 			amount = 1000
 			target = SHB
 		}

@@ -13,7 +13,7 @@
 		early_freight_locomotive = 1
 		armoured_mass_assault = 1
 		infantry_weapons_1 = 1
-		util_vehicle_0 = 1
+		util_vehicle_1 = 1
 		night_vision_1 = 1
 		night_vision_2 = 1
 		support_weapons = 1

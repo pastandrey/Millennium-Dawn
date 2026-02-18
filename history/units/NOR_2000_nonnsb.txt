@@ -233,7 +233,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #Bandvagn 206
+		type = util_vehicle_3 #Bandvagn 206
 		amount = 1800
 		producer = SWE
 	}

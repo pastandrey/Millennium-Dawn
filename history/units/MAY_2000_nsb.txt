@@ -259,17 +259,17 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2			#Land Rover Defender
+		type = util_vehicle_3			#Land Rover Defender
 		amount = 250
 		producer = ENG
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2			#G-Class
+		type = util_vehicle_3			#G-Class
 		amount = 150
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0			#HIMCOM Truck
+		type = util_vehicle_1			#HIMCOM Truck
 		amount = 800
 	}
 	add_equipment_to_stockpile = {

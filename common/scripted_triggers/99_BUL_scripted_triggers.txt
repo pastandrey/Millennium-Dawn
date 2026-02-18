@@ -13,7 +13,7 @@ BUL_targeted_country_has_more_than_45_percent_influence = {
 BUL_infantry_weapons_stockpile_ratio = {
 	OR = {
 		stockpile_ratio = {
-			archetype = infantry_weapons
+			archetype = infantry_weapons_type
 			ratio < 0.1
 		}
 		stockpile_ratio = {

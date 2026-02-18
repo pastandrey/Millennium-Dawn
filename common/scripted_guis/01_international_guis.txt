@@ -3232,7 +3232,7 @@ scripted_gui = {
 					set_country_flag = nirtal_sel
 					set_sel_pmc_units = yes
 					add_equipment_to_stockpile = {
-						type = infantry_weapons
+						type = infantry_weapons_type
 						amount = 1500
 					}
 					if = {

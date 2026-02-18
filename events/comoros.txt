@@ -314,7 +314,7 @@ country_event = {
 		name = comoros.9.a
 		log = "[GetDateText]: [This.GetName]: comoros.9.a executed"
 		send_equipment = {
-			equipment = infantry_weapons
+			equipment = infantry_weapons_type
 			amount = 250
 			target = COM
 		}

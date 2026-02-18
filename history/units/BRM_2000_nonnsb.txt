@@ -331,7 +331,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1		#Naung Yoe
+		type = util_vehicle_2		#Naung Yoe
 		amount = 5000
 		producer = BRM
 	}

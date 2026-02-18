@@ -66,34 +66,34 @@ instant_effect = {
 		producer = SOV
 	}
 		add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		variant_name = "UAZ-452"
 		producer = SOV
 		amount = 40
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		variant_name = "GAZ-66"
 		producer = SOV
 		amount = 60
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		variant_name = "ZIL-131"
 		producer = SOV
 		amount = 50
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1
+		type = util_vehicle_2
 		variant_name = "UAZ-469"
 		producer = SOV
 		amount = 200
 	}
 
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2
+		type = util_vehicle_3
 		amount = 100
 	}
 	add_equipment_to_stockpile = {

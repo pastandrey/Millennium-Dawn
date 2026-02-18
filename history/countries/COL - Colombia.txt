@@ -127,9 +127,9 @@
 		support_weapons = 1
 		special_forces = 1
 		combat_eng_equipment = 1
-		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
+		util_vehicle_3 = 1
 
 		night_vision_1 = 1
 		night_vision_2 = 1

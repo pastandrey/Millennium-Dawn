@@ -1046,7 +1046,7 @@ NATO_ukraine_help = {
 		days_remove = 30
 
 		available = {
-			has_equipment = { infantry_weapons > 1999 }
+			has_equipment = { infantry_weapons_type > 1999 }
 			has_equipment = { cnc_equipment > 299 }
 			has_equipment = { L_AT_Equipment > 99 }
 			has_equipment = { AA_Equipment > 99 }
@@ -1062,7 +1062,7 @@ NATO_ukraine_help = {
 
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_type
 				amount = -2000
 			}
 			add_equipment_to_stockpile = {
@@ -1081,7 +1081,7 @@ NATO_ukraine_help = {
 			UKR = {
 				country_event = ukraine_nato_help.2
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = 2000
 					producer = PREV
 				}
@@ -1119,7 +1119,7 @@ NATO_ukraine_help = {
 		days_remove = 60
 
 		available = {
-			has_equipment = { util_vehicle_equipment > 149 }
+			has_equipment = { util_vehicle_type > 149 }
 			has_equipment = { H_AT_Equipment > 99 }
 			has_equipment = { artillery_equipment > 99 }
 			has_equipment = { medium_tank_amphibious_chassis > 99 }
@@ -1135,7 +1135,7 @@ NATO_ukraine_help = {
 
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -150
 				producer = PREV
 			}
@@ -1158,7 +1158,7 @@ NATO_ukraine_help = {
 			UKR = {
 				country_event = ukraine_nato_help.3
 				add_equipment_to_stockpile = {
-					type = util_vehicle_equipment
+					type = util_vehicle_type
 					amount = 150
 				}
 				add_equipment_to_stockpile = {
@@ -1470,7 +1470,7 @@ NATO_ukraine_help = {
 		remove_effect = {
 			UKR = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_type
 					amount = 1000
 				}
 			}
@@ -1481,7 +1481,7 @@ NATO_ukraine_help = {
 			modifier = {
 				factor = 5
 				UKR = {
-					has_equipment = { infantry_weapons < 5000 }
+					has_equipment = { infantry_weapons_type < 5000 }
 				}
 			}
 			modifier = {
@@ -1642,7 +1642,7 @@ NATO_ukraine_help = {
 		remove_effect = {
 			UKR = {
 				add_equipment_to_stockpile = {
-					type = util_vehicle_equipment
+					type = util_vehicle_type
 					amount = 80
 				}
 			}
@@ -1653,7 +1653,7 @@ NATO_ukraine_help = {
 			modifier = {
 				factor = 5
 				UKR = {
-					has_equipment = { util_vehicle_equipment < 400 }
+					has_equipment = { util_vehicle_type < 400 }
 				}
 			}
 			modifier = {

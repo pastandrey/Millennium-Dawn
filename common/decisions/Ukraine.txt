@@ -82,7 +82,7 @@ UKR_uop_decision_category = {
 
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = util_vehicle_1
+				type = util_vehicle_2
 				amount = 50
 				producer = UKR
 			}
@@ -2889,7 +2889,7 @@ UKR_hur_decision_category = {
 			has_war_with = SOV
 			SOV = {
 				has_equipment = {
-					infantry_weapons > 1000
+					infantry_weapons_type > 1000
 				}
 			}
 			OR = {
