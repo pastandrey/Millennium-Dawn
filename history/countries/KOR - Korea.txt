@@ -806,7 +806,7 @@
 
 
 
-		camouflage = 1
+		camouflage_1 = 1
 
 		basic_computing = 1
 		integrated_circuit = 1

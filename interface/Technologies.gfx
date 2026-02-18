@@ -286,23 +286,23 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_camouflage_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage.dds"
+		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_1.dds"
 	}
 	spriteType = {
-		name = "GFX_camouflage2_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage2.dds"
+		name = "GFX_camouflage_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_2.dds"
 	}
 	spriteType = {
-		name = "GFX_camouflage3_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage3.dds"
+		name = "GFX_camouflage_3_medium"
+		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_3.dds"
 	}
 	spriteType = {
-		name = "GFX_camouflage4_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage4.dds"
+		name = "GFX_camouflage_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_4.dds"
 	}
 	spriteType = {
-		name = "GFX_camouflage5_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage5.dds"
+		name = "GFX_camouflage_5_medium"
+		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_5.dds"
 	}
 
 	### Generic Heavy Infantry Weapons ### For Production Qeue ####

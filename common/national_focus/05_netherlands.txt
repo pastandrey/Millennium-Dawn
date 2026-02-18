@@ -6759,25 +6759,25 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_MILITARY_LAWS }
 		prerequisite = { focus = HOL_Military_Production_Investments }
-		bypass = { has_tech = camouflage5 }
+		bypass = { has_tech = camouflage_5 }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_Netherlands_Fractal_Pattern"
 			if = {
-				limit = { has_tech = camouflage }
-				set_technology = { camouflage2 = 1 }
+				limit = { has_tech = camouflage_1 }
+				set_technology = { camouflage_2 = 1 }
 			}
 			else_if = {
-				limit = { has_tech = camouflage2 }
-				set_technology = { camouflage3 = 1 }
+				limit = { has_tech = camouflage_2 }
+				set_technology = { camouflage_3 = 1 }
 			}
 			else_if = {
-				limit = { has_tech = camouflage3 }
-				set_technology = { camouflage4 = 1 }
+				limit = { has_tech = camouflage_3 }
+				set_technology = { camouflage_4 = 1 }
 			}
 			else_if = {
-				limit = { has_tech = camouflage4 }
-				set_technology = { camouflage5 = 1 }
+				limit = { has_tech = camouflage_4 }
+				set_technology = { camouflage_5 = 1 }
 			}
 			newline = yes
 			custom_effect_tooltip = HOL_Netherlands_Fractal_Pattern_tt

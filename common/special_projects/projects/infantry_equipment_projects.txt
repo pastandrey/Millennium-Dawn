@@ -742,7 +742,7 @@ sp_active_camouflage = {
 
 	available = {
 		FROM = {
-			has_tech = camouflage4
+			has_tech = camouflage_4
 		}
 	}
 
@@ -757,7 +757,7 @@ sp_active_camouflage = {
 	project_output = {
 		country_effects = {
 			set_technology = {
-				camouflage5 = 1
+				camouflage_5 = 1
 			}
 		}
 	}

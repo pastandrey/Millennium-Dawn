@@ -11642,7 +11642,7 @@ focus_tree = {
 				name = GEO_reorganization_army
 				uses = 1
 				bonus = 1
-				technology = camouflage2
+				technology = camouflage_2
 			}
 		}
 

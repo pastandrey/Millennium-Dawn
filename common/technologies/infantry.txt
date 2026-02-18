@@ -3113,7 +3113,7 @@ technologies = {
 		}
 	}
 
-	camouflage = {
+	camouflage_1 = {
 
 		category_light_infantry = {
 			defense = 0.04
@@ -3126,7 +3126,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = camouflage2
+			leads_to_tech = camouflage_2
 			research_cost_coeff = 1
 		}
 
@@ -3151,7 +3151,7 @@ technologies = {
 			factor = 10
 		}
 	}
-	camouflage2 = {
+	camouflage_2 = {
 
 		category_light_infantry = {
 			defense = 0.06
@@ -3164,7 +3164,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = camouflage3
+			leads_to_tech = camouflage_3
 			research_cost_coeff = 1
 		}
 
@@ -3189,7 +3189,7 @@ technologies = {
 			factor = 10
 		}
 	}
-	camouflage3 = {
+	camouflage_3 = {
 
 		category_light_infantry = {
 			defense = 0.08
@@ -3202,7 +3202,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = camouflage4
+			leads_to_tech = camouflage_4
 			research_cost_coeff = 1
 		}
 
@@ -3227,7 +3227,7 @@ technologies = {
 			factor = 10
 		}
 	}
-	camouflage4 = {
+	camouflage_4 = {
 		on_research_complete = {
 
 			custom_effect_tooltip = {
@@ -3247,7 +3247,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = camouflage5
+			leads_to_tech = camouflage_5
 			research_cost_coeff = 1
 		}
 
@@ -3280,7 +3280,7 @@ technologies = {
 			}
 		}
 	}
-	camouflage5 = {
+	camouflage_5 = {
 
 		allow = {
 			ROOT = {
@@ -3301,7 +3301,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = camouflage6
+			leads_to_tech = camouflage_6
 			research_cost_coeff = 1
 		}
 
@@ -3335,7 +3335,7 @@ technologies = {
 		}
 	}
 	#2050
-	camouflage6 = {
+	camouflage_6 = {
 
 		allow = {
 			ROOT = {
@@ -3356,7 +3356,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = camouflage7
+			leads_to_tech = camouflage_7
 			research_cost_coeff = 1
 		}
 
@@ -3390,7 +3390,7 @@ technologies = {
 		}
 	}
 	#2065
-	camouflage7 = {
+	camouflage_7 = {
 
 		allow = {
 			ROOT = {
@@ -3411,7 +3411,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = camouflage8
+			leads_to_tech = camouflage_8
 			research_cost_coeff = 1
 		}
 
@@ -3445,7 +3445,7 @@ technologies = {
 		}
 	}
 	#2080
-	camouflage8 = {
+	camouflage_8 = {
 
 		allow = {
 			ROOT = {

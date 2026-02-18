@@ -58,7 +58,7 @@
 		special_forces2 = 1
 		special_forces3 = 1
 		special_forces4 = 1
-		camouflage = 1
+		camouflage_1 = 1
 
 		cnc_equipment_1 = 1
 		cnc_equipment_2 = 1

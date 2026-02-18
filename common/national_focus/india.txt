@@ -4767,7 +4767,7 @@ focus_tree = {
 				name = RAJ_upd_mil_unif
 				uses = 1
 				bonus = 1
-				technology = camouflage3
+				technology = camouflage_3
 			}
 		}
 		ai_will_do = {
@@ -4791,7 +4791,7 @@ focus_tree = {
 				bonus = 0.5
 				technology = body_armor_3
 				technology = body_armor_2
-				technology = camouflage3
+				technology = camouflage_3
 			}
 		}
 		ai_will_do = {

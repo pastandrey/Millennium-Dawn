@@ -9287,7 +9287,7 @@ focus_tree = {
 				name = CES_army_modernization
 				uses = 1
 				bonus = 1
-				technology = camouflage2
+				technology = camouflage_2
 			}
 		}
 

@@ -294,7 +294,7 @@ country_event = {
 #
 #		set_technology = {
 #			support_weapons3 = 1
-#			camouflage3 = 1
+#			camouflage_3 = 1
 #		}
 #
 #		set_temp_variable = { temp_opinion = 5 }

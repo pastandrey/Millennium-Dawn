@@ -5757,11 +5757,11 @@
 				technology = body_armor_2
 				technology = body_armor_3
 				technology = body_armor_4
-				technology = camouflage
-				technology = camouflage2
-				technology = camouflage3
-				technology = camouflage4
-				technology = camouflage5
+				technology = camouflage_1
+				technology = camouflage_2
+				technology = camouflage_3
+				technology = camouflage_4
+				technology = camouflage_5
 			}
 		}
 

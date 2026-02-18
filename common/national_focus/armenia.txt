@@ -8896,7 +8896,7 @@ focus_tree = {
 				name = ARM_davisur_arm
 				uses = 1
 				bonus = 1
-				technology = camouflage3
+				technology = camouflage_3
 			}
 			custom_effect_tooltip = ARM_add_idea_to_army_idea_tt
 			add_ideas = ARM_davisur_arms
@@ -9407,8 +9407,8 @@ focus_tree = {
 				name = ARM_new_unif_proj
 				uses = 2
 				bonus = 0.5
-				technology = camouflage2
-				technology = camouflage3
+				technology = camouflage_2
+				technology = camouflage_3
 			}
 			set_temp_variable = { treasury_change = -5.00 }
 			modify_treasury_effect = yes

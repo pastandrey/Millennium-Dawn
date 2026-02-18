@@ -871,9 +871,9 @@ focus_tree = {
 				name = KOR_new_uniforms
 				bonus = 0.25
 				uses = 2
-				technology = camouflage3
-				technology = camouflage4
-				technology = camouflage5
+				technology = camouflage_3
+				technology = camouflage_4
+				technology = camouflage_5
 			}
 			log = "[GetDateText]: [This.GetName]: focus KOR_new_uniforms executed"
 		}
