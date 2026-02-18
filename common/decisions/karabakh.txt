@@ -322,7 +322,7 @@ karabakh_decisions_category = {
 			NOT = {
 				has_country_flag = drone_recent_was
 			}
-			has_tech = land_Drone_equipment
+			has_tech = land_drone_equipment
 			custom_trigger_tooltip = {
 				tooltip = incres_tech_incr_succ_tt
 			}

@@ -527,7 +527,7 @@
 		night_vision_2 = 1
 
 		#RUAG Ranger
-		land_Drone_equipment = 1
+		land_drone_equipment = 1
 
 
 		transport_helicopter1 = 1

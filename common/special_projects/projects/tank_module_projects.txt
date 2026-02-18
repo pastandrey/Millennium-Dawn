@@ -117,7 +117,7 @@ sp_tank_support_drones = {
 
 	available = {
 		FROM = {
-			has_tech = land_Drone_equipment3
+			has_tech = land_drone_equipment3
 		}
 	}
 
@@ -205,7 +205,7 @@ sp_tank_support_drones_2 = {
 
 	available = {
 		FROM = {
-			has_tech = land_Drone_equipment4
+			has_tech = land_drone_equipment4
 		}
 	}
 

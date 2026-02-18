@@ -13,7 +13,7 @@
 		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
-		land_Drone_equipment = 1
+		land_drone_equipment = 1
 		cas1 = 1
 		infantry_weapons = 1
 		combat_eng_equipment = 1

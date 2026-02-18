@@ -4559,7 +4559,7 @@ HOL_daf_utility_vehicle_manufacturer = {
 		all_parents = { DAF_mio_electric_hybrid_drive }
 		available = {
 			owner = {
-				has_tech = land_Drone_equipment2
+				has_tech = land_drone_equipment2
 			}
 		}
 

@@ -526,7 +526,7 @@ set_research_slots = 6
 		command_control_equipment = 1
 		command_control_equipment1 = 1
 
-		land_Drone_equipment = 1
+		land_drone_equipment = 1
 
 		Rec_tank_0 = 1 #1965
 		Rec_tank_1 = 1

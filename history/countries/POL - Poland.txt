@@ -466,7 +466,7 @@
 		command_control_equipment = 1
 		command_control_equipment1 = 1
 
-		land_Drone_equipment = 1
+		land_drone_equipment = 1
 
 		combat_eng_equipment = 1
 

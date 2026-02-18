@@ -91,8 +91,8 @@
 		command_control_equipment2 = 1
 		command_control_equipment3 = 1
 
-		land_Drone_equipment = 1
-		land_Drone_equipment1 = 1
+		land_drone_equipment = 1
+		land_drone_equipment1 = 1
 
 		util_vehicle_0 = 1
 		util_vehicle_1 = 1
