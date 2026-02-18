@@ -242,7 +242,7 @@ IRQ_preparation_for_the_war = {
 			modify_treasury_effect = yes
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = -700
 			}
 			add_equipment_to_stockpile = {
@@ -708,7 +708,7 @@ IRQ_civil_war_mechanic = {
 				amount = 14500
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = 7400
 			}
 			newline = yes
@@ -2477,7 +2477,7 @@ IRQ_fao_decisions = {
 					producer = PER
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment1 #C3
+					type = cnc_equipment_2 #C3
 					amount = 200
 					producer = PER
 				}

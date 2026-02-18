@@ -9708,72 +9708,72 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { USA = { has_tech = command_control_equipment6 } }
+				limit = { USA = { has_tech = cnc_equipment_7 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = command_control_equipment6
+							type = cnc_equipment_7
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = command_control_equipment5 } }
+				limit = { USA = { has_tech = cnc_equipment_6 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = command_control_equipment5
+							type = cnc_equipment_6
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = command_control_equipment4 } }
+				limit = { USA = { has_tech = cnc_equipment_5 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = command_control_equipment4
+							type = cnc_equipment_5
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = command_control_equipment3 } }
+				limit = { USA = { has_tech = cnc_equipment_4 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = command_control_equipment3
+							type = cnc_equipment_4
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = command_control_equipment2 } }
+				limit = { USA = { has_tech = cnc_equipment_3 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = command_control_equipment2
+							type = cnc_equipment_3
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = command_control_equipment1 } }
+				limit = { USA = { has_tech = cnc_equipment_2 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = command_control_equipment1
+							type = cnc_equipment_2
 						}
 						cost_factor = 0
 					}
@@ -10044,7 +10044,7 @@ focus_tree = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 160
 				producer = USA
 			}
@@ -10139,7 +10139,7 @@ focus_tree = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 20
 				producer = USA
 			}

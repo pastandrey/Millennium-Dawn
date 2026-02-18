@@ -1047,7 +1047,7 @@ NATO_ukraine_help = {
 
 		available = {
 			has_equipment = { infantry_weapons_type > 1999 }
-			has_equipment = { cnc_equipment > 299 }
+			has_equipment = { cnc_equipment_type > 299 }
 			has_equipment = { L_AT_Equipment > 99 }
 			has_equipment = { AA_Equipment > 99 }
 		}
@@ -1066,7 +1066,7 @@ NATO_ukraine_help = {
 				amount = -2000
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = -300
 			}
 			add_equipment_to_stockpile = {
@@ -1086,7 +1086,7 @@ NATO_ukraine_help = {
 					producer = PREV
 				}
 				add_equipment_to_stockpile = {
-					type = cnc_equipment
+					type = cnc_equipment_type
 					amount = 300
 					producer = PREV
 				}
@@ -1525,7 +1525,7 @@ NATO_ukraine_help = {
 		remove_effect = {
 			UKR = {
 				add_equipment_to_stockpile = {
-					type = cnc_equipment
+					type = cnc_equipment_type
 					amount = 300
 				}
 			}
@@ -1536,7 +1536,7 @@ NATO_ukraine_help = {
 			modifier = {
 				factor = 5
 				UKR = {
-					has_equipment = { cnc_equipment < 1000 }
+					has_equipment = { cnc_equipment_type < 1000 }
 				}
 			}
 			modifier = {

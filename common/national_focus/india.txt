@@ -7059,7 +7059,7 @@ focus_tree = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				producer = SOV
 			}
@@ -15568,7 +15568,7 @@ focus_tree = {
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment
+					type = cnc_equipment_1
 					amount = 800
 					producer = USA
 				}

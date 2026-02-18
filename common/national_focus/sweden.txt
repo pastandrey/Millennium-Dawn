@@ -6669,7 +6669,7 @@ focus_tree = {
 			has_equipment = { infantry_weapons_type > 12500 }
 			has_equipment = { util_vehicle_type > 1000 }
 			has_equipment = { L_AT_Equipment > 800 }
-			has_equipment = { cnc_equipment > 800 }
+			has_equipment = { cnc_equipment_type > 800 }
 		}
 
 		search_filters = { FOCUS_FILTER_MILITARY FOCUS_FILTER_ARMY }
@@ -6687,7 +6687,7 @@ focus_tree = {
 				producer = SWE
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = -800
 				producer = SWE
 			}

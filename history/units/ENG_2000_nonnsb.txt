@@ -281,7 +281,7 @@ instant_effect = {
 		amount = 9450
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment3 #
+		type = cnc_equipment_4 #
 		amount = 3158
 	}
 	add_equipment_to_stockpile = {

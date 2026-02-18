@@ -8173,7 +8173,7 @@ country_event = {
 		set_temp_variable = { treasury_change = -15 }
 		modify_treasury_effect = yes
 		add_equipment_to_stockpile = {
-			type = command_control_equipment2
+			type = cnc_equipment_3
 			amount = -2000
 			producer = SOV
 		}
@@ -8225,7 +8225,7 @@ country_event = {
 		set_temp_variable = { influence_target = ROOT }
 		change_influence_percentage = yes
 		add_equipment_to_stockpile = {
-			type = command_control_equipment1
+			type = cnc_equipment_2
 			amount = 800
 			producer = SOV
 		}
@@ -8264,7 +8264,7 @@ country_event = {
 		set_temp_variable = { influence_target = FROM }
 		change_influence_percentage = yes
 		add_equipment_to_stockpile = {
-			type = command_control_equipment1
+			type = cnc_equipment_2
 			amount = -800
 			producer = SOV
 		}

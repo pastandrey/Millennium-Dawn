@@ -108,7 +108,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 153 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 153 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = ROM creator = ROM } }
@@ -128,7 +128,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 243 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 148 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 148 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 12 owner = ROM creator = ROM } }
@@ -147,7 +147,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 882 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 134 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 20 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = ROM creator = ROM } }
@@ -166,7 +166,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 153 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 153 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = ROM creator = ROM } }
@@ -186,7 +186,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 153 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 153 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = ROM creator = ROM } }
@@ -206,7 +206,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 153 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 153 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = ROM creator = ROM } }
@@ -226,7 +226,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 153 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 153 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = ROM creator = ROM } }
@@ -246,7 +246,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 882 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 134 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 20 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = ROM creator = ROM } }
@@ -264,7 +264,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 153 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 153 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = ROM creator = ROM } }
@@ -284,7 +284,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 153 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 153 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = ROM creator = ROM } }
@@ -304,7 +304,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 243 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 148 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 148 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 12 owner = ROM creator = ROM } }
@@ -323,7 +323,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 882 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 134 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 20 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = ROM creator = ROM } }
@@ -341,7 +341,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 153 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 153 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = ROM creator = ROM } }
@@ -361,7 +361,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 153 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 153 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = ROM creator = ROM } }
@@ -381,7 +381,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 243 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 148 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 148 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = ROM creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 12 owner = ROM creator = ROM } }
@@ -400,7 +400,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 882 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 134 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 20 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = ROM creator = ROM } }
@@ -418,7 +418,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 790 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 129 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 129 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 36 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 24 owner = ROM creator = ROM } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = ROM creator = ROM version_name = "M1982" } }
@@ -433,7 +433,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 790 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 129 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 129 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 36 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 24 owner = ROM creator = ROM } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = ROM creator = ROM version_name = "M1982" } }
@@ -448,7 +448,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 290 owner = ROM creator = ROM } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 94 owner = ROM creator = ROM } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 94 owner = ROM creator = ROM } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = ROM creator = ROM } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 12 owner = ROM creator = ROM } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = ROM creator = SOV } }
@@ -475,12 +475,12 @@ instant_effect = {
 		producer = ROM
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment1
+		type = cnc_equipment_2
 		amount = 1500
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment2
+		type = cnc_equipment_3
 		amount = 500
 		producer = SOV
 	}

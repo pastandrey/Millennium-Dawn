@@ -504,8 +504,8 @@
 
 		superior_firepower = 1
 
-		command_control_equipment = 1
-		command_control_equipment1 = 1
+		cnc_equipment_1 = 1
+		cnc_equipment_2 = 1
 
 		#MOWAG Eagle
 		util_vehicle_1 = 1

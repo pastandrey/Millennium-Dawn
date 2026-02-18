@@ -119,7 +119,7 @@ units = {
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.3
 		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
-		force_equipment_variants = { command_control_equipment = { amount = 50 owner = AFG creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 50 owner = AFG creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = AFG creator = SOV } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 14 owner = AFG creator = SOV version_name = "T-55" } }
 		force_equipment_variants = { medium_tank_flame_chassis_0 = { amount = 10 owner = AFG creator = SOV version_name = "BMP-1" } }
@@ -134,7 +134,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.3
 		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
-		force_equipment_variants = { command_control_equipment = { amount = 50 owner = AFG creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 50 owner = AFG creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = AFG creator = SOV } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 14 owner = AFG creator = SOV version_name = "T-55" } }
 		force_equipment_variants = { medium_tank_flame_chassis_0 = { amount = 10 owner = AFG creator = SOV version_name = "BMP-1" } }
@@ -149,7 +149,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
 		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
-		force_equipment_variants = { command_control_equipment = { amount = 30 owner = AFG creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 30 owner = AFG creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = AFG creator = SOV } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 14 owner = AFG creator = SOV version_name = "T-55" } }
 		force_equipment_variants = { medium_tank_flame_chassis_0 = { amount = 10 owner = AFG creator = SOV version_name = "BMP-1" } }
@@ -164,7 +164,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
-		force_equipment_variants = { command_control_equipment = { amount = 10 owner = AFG creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 10 owner = AFG creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = AFG creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = AFG creator = SOV version_name = "ZPU-1" } }
 		force_equipment_variants = { artillery_0	 = { amount = 6 owner = AFG creator = SOV version_name = "D-30" } }
@@ -176,7 +176,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
-		force_equipment_variants = { command_control_equipment = { amount = 10 owner = AFG creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 10 owner = AFG creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = AFG creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = AFG creator = SOV version_name = "ZPU-1" } }
 		force_equipment_variants = { artillery_0	 = { amount = 6 owner = AFG creator = SOV version_name = "D-30" } }
@@ -188,7 +188,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
-		force_equipment_variants = { command_control_equipment = { amount = 50 owner = AFG creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 50 owner = AFG creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = AFG creator = SOV } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 14 owner = AFG creator = SOV version_name = "T-55" } }
 		force_equipment_variants = { medium_tank_flame_chassis_0 = { amount = 10 owner = AFG creator = SOV version_name = "BMP-1" } }
@@ -336,7 +336,7 @@ instant_effect = {
 		amount = 11
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment
+		type = cnc_equipment_1
 		amount = 140 #200 deployed
 		producer = SOV
 	}

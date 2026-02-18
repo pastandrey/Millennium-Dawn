@@ -104,7 +104,7 @@ focus_on_l_inf_units = {
 		num_of_military_factories < 11 # only produce shit units if you are shit
 		has_equipment = { infantry_weapons_type > 2000 }
 		has_equipment = { util_vehicle_type > 100 }
-		has_equipment = { cnc_equipment > 300 }
+		has_equipment = { cnc_equipment_type > 300 }
 	}
 	abort_when_not_enabled = yes
 

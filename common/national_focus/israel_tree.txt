@@ -22468,7 +22468,7 @@ focus_tree = {
 				}
 			}
 			has_equipment = {
-				command_control_equipment3 > 249
+				cnc_equipment_4 > 249
 			}
 		}
 		completion_reward = {
@@ -22497,7 +22497,7 @@ focus_tree = {
 						}
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment3
+						type = cnc_equipment_4
 						amount = -250
 					}
 				}
@@ -24190,7 +24190,7 @@ focus_tree = {
 				}
 			}
 			has_equipment = {
-				command_control_equipment3 > 249
+				cnc_equipment_4 > 249
 			}
 		}
 		completion_reward = {
@@ -24221,7 +24221,7 @@ focus_tree = {
 						}
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment3
+						type = cnc_equipment_4
 						amount = -250
 					}
 				}

@@ -462,7 +462,7 @@ country_event = {
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment
+					type = cnc_equipment_1
 					amount = 250
 					producer = SOV
 				}
@@ -479,7 +479,7 @@ country_event = {
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment
+					type = cnc_equipment_1
 					amount = 50
 					producer = SOV
 				}
@@ -738,7 +738,7 @@ country_event = {
 				producer = CHE
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = -100
 				producer = CHE
 			}
@@ -769,7 +769,7 @@ country_event = {
 				producer = CHE
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = -100
 				producer = CHE
 			}
@@ -800,7 +800,7 @@ country_event = {
 				producer = CHE
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = -100
 				producer = CHE
 			}
@@ -831,7 +831,7 @@ country_event = {
 				producer = CHE
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = -100
 				producer = CHE
 			}
@@ -862,7 +862,7 @@ country_event = {
 				producer = CHE
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = -100
 				producer = CHE
 			}

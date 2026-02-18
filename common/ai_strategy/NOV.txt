@@ -83,7 +83,7 @@ DPR_army_focus = {
 	enable = {
 		has_equipment = { infantry_weapons_type > 3500 }
 		has_equipment = { SP_arty_equipment > 100 }
-		has_equipment = { cnc_equipment > 100 }
+		has_equipment = { cnc_equipment_type > 100 }
 	}
 	abort_when_not_enabled = yes
 

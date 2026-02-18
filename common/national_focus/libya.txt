@@ -946,7 +946,7 @@ focus_tree = {
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment
+					type = cnc_equipment_1
 					amount = 100
 					producer = SOV
 				}
@@ -9152,7 +9152,7 @@ focus_tree = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = 300
 				producer = SOV
 			}
@@ -16264,7 +16264,7 @@ focus_tree = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = 400
 				producer = SOV
 			}
@@ -19039,7 +19039,7 @@ focus_tree = {
 								producer = SOV
 							}
 							add_equipment_to_stockpile = {
-								type = command_control_equipment
+								type = cnc_equipment_1
 								amount = 100
 								producer = SOV
 							}
@@ -19073,7 +19073,7 @@ focus_tree = {
 						producer = SOV
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment
+						type = cnc_equipment_1
 						amount = 100
 						producer = SOV
 					}

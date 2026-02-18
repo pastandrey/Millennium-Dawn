@@ -1382,11 +1382,11 @@ units = {
 	#C&C
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment #C2
+		type = cnc_equipment_1 #C2
 		amount = 18500
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment1 #C3
+		type = cnc_equipment_2 #C3
 		amount = 6500
 	}
 
@@ -1475,7 +1475,7 @@ units = {
 
 	add_equipment_production = {
 		equipment = {
-			type = command_control_equipment1
+			type = cnc_equipment_2
 			creator = "CHI"
 		}
 		requested_factories = 3

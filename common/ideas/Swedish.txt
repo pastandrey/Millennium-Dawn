@@ -1357,7 +1357,7 @@ local_resources_chromium_factor = 0.02
 				infantry_weapons_type = {
 					build_cost_ic = -0.10
 				}
-				cnc_equipment = {
+				cnc_equipment_type = {
 					build_cost_ic = -0.10
 				}
 			}

@@ -261,7 +261,7 @@ units = {
 		division_template = "Marine Regiment"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_weapons_2 = { owner = "USA" } }
-		force_equipment_variants = { command_control_equipment3 = { owner = "USA" } }
+		force_equipment_variants = { cnc_equipment_4 = { owner = "USA" } }
 		force_equipment_variants = { APC_2 = { owner = "SPR" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_Air_1 = { owner = "USA" } }
@@ -286,7 +286,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment3
+		type = cnc_equipment_4
 		amount = 2450
 		producer = USA
 	}

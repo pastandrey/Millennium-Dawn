@@ -9405,7 +9405,7 @@ focus_tree = {
 				target = LEB
 			}
 			send_equipment = {
-				equipment = command_control_equipment1
+				equipment = cnc_equipment_2
 				amount = 500
 				target = LEB
 			}

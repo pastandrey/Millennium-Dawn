@@ -192,7 +192,7 @@
 		tandem_charge_warheads = 1
 		squad_automatic_weapon = 1
 
-		command_control_equipment = 1
+		cnc_equipment_1 = 1
 
 		Anti_tank_0 = 1
 

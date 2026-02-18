@@ -705,7 +705,7 @@ scripted_gui = {
 					infantry_weapons_type > 300
 				}
 				has_equipment = {
-					cnc_equipment > 100
+					cnc_equipment_type > 100
 				}
 				has_equipment = {
 					AA_Equipment > 60

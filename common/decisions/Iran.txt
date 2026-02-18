@@ -1670,7 +1670,7 @@ PER_resitance_axis = {
 					producer = PER
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment1 #C3
+					type = cnc_equipment_2 #C3
 					amount = 200
 					producer = PER
 				}
@@ -1701,7 +1701,7 @@ PER_resitance_axis = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment1 #C3
+						type = cnc_equipment_2 #C3
 						amount = -200
 						producer = PER
 					}
@@ -1831,7 +1831,7 @@ PER_resitance_axis = {
 					producer = PER
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment1 #C3
+					type = cnc_equipment_2 #C3
 					amount = 200
 					producer = PER
 				}
@@ -1862,7 +1862,7 @@ PER_resitance_axis = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment1 #C3
+						type = cnc_equipment_2 #C3
 						amount = -200
 						producer = PER
 					}
@@ -2048,7 +2048,7 @@ PER_resitance_axis = {
 					producer = PER
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment1 #C3
+					type = cnc_equipment_2 #C3
 					amount = 200
 					producer = PER
 				}
@@ -2079,7 +2079,7 @@ PER_resitance_axis = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment1 #C3
+						type = cnc_equipment_2 #C3
 						amount = -200
 						producer = PER
 					}
@@ -2265,7 +2265,7 @@ PER_resitance_axis = {
 					producer = PER
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment1 #C3
+					type = cnc_equipment_2 #C3
 					amount = 200
 					producer = PER
 				}
@@ -2296,7 +2296,7 @@ PER_resitance_axis = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment1 #C3
+						type = cnc_equipment_2 #C3
 						amount = -200
 						producer = PER
 					}
@@ -2674,7 +2674,7 @@ PER_resitance_axis = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment
+						type = cnc_equipment_1
 						amount = 500
 						producer = PER
 					}

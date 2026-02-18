@@ -264,13 +264,13 @@ units = {
 instant_effect = {
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment
+		type = cnc_equipment_1
 		amount = 410
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment
+		type = cnc_equipment_1
 		amount = 150
 		producer = USA
 	}

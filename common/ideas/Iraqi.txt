@@ -1435,7 +1435,7 @@ local_resources_chromium_factor = 0.15
 					instant = yes
 					build_cost_ic = -0.10
 				}
-				cnc_equipment = {
+				cnc_equipment_type = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
@@ -1537,7 +1537,7 @@ local_resources_chromium_factor = 0.15
 					reliability = 0.10
 					hard_attack = 0.10
 				}
-				cnc_equipment = {
+				cnc_equipment_type = {
 					reliability = 0.10
 					max_organisation = 0.10
 				}

@@ -349,7 +349,7 @@ equipments = {
 			microchips = 1
 		}
 	}
-	util_vehicle_20 = {
+	util_vehicle_10 = {
 		year = 2055
 
 		archetype = util_vehicle_type
@@ -379,11 +379,11 @@ equipments = {
 			microchips = 1
 		}
 	}
-	util_vehicle_21 = {
+	util_vehicle_11 = {
 		year = 2065
 
 		archetype = util_vehicle_type
-		parent = util_vehicle_20
+		parent = util_vehicle_10
 		priority = 5
 
 		maximum_speed = 19.5
@@ -409,11 +409,11 @@ equipments = {
 			microchips = 2
 		}
 	}
-	util_vehicle_22 = {
+	util_vehicle_12 = {
 		year = 2075
 
 		archetype = util_vehicle_type
-		parent = util_vehicle_21
+		parent = util_vehicle_11
 		priority = 5
 
 		maximum_speed = 20

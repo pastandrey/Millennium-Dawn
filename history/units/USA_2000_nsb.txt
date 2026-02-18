@@ -2102,7 +2102,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment2
+		type = cnc_equipment_3
 		amount = 22500
 	}
 
@@ -2447,7 +2447,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = command_control_equipment3
+			type = cnc_equipment_4
 			creator = "USA"
 			version_name = "Textron C4I"
 		}

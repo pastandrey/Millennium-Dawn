@@ -50,7 +50,7 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 550 owner = FYR creator = SER } }
-		force_equipment_variants = { command_control_equipment = { amount = 144 owner = FYR creator = SER } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 144 owner = FYR creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = FYR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 16 owner = FYR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = FYR creator = SER } }
@@ -69,7 +69,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 872 owner = FYR creator = SER } }
-		force_equipment_variants = { command_control_equipment = { amount = 110 owner = FYR creator = SER } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 110 owner = FYR creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = FYR creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = FYR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = FYR creator = SER } }
@@ -84,7 +84,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 872 owner = FYR creator = SER } }
-		force_equipment_variants = { command_control_equipment = { amount = 110 owner = FYR creator = SER } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 110 owner = FYR creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = FYR creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = FYR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = FYR creator = SER } }
@@ -99,7 +99,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_4 = { amount = 250 owner = FYR creator = USA } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 30 owner = FYR creator = USA } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 30 owner = FYR creator = USA } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = FYR creator = FRA } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = FYR creator = SOV } }
 	}
@@ -194,7 +194,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment
+		type = cnc_equipment_1
 		amount = 200
 		producer = SOV
 	}

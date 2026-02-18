@@ -5,7 +5,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_military_industrial_organization_cnc_equipment"
+		name = "GFX_military_industrial_organization_cnc_equipment_type"
 		texturefile = "gfx/interface/mio/cnc.dds"
 	}
 

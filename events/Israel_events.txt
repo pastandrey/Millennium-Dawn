@@ -1701,7 +1701,7 @@ country_event = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment3
+				type = cnc_equipment_4
 				amount = -250
 			}
 		}
@@ -1727,7 +1727,7 @@ country_event = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment3
+				type = cnc_equipment_4
 				amount = 250
 				producer = ISR
 			}
@@ -1832,7 +1832,7 @@ country_event = {
 					}
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment3
+					type = cnc_equipment_4
 					amount = -250
 				}
 			}
@@ -1858,7 +1858,7 @@ country_event = {
 					}
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment3
+					type = cnc_equipment_4
 					amount = 250
 					producer = ISR
 				}
@@ -2394,7 +2394,7 @@ country_event = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment3
+				type = cnc_equipment_4
 				amount = -250
 			}
 		}
@@ -2420,7 +2420,7 @@ country_event = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment3
+				type = cnc_equipment_4
 				amount = 250
 				producer = ISR
 			}
@@ -2524,7 +2524,7 @@ country_event = {
 					}
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment3
+					type = cnc_equipment_4
 					amount = -250
 				}
 			}
@@ -2550,7 +2550,7 @@ country_event = {
 					}
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment3
+					type = cnc_equipment_4
 					amount = 250
 					producer = ISR
 				}

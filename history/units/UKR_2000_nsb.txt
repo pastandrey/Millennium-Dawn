@@ -325,7 +325,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 1355 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 288 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 288 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 72 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 36 owner = UKR creator = SOV } }
@@ -352,7 +352,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 74 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 74 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 12 owner = UKR creator = SOV } }
@@ -372,7 +372,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 74 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 74 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 12 owner = UKR creator = SOV } }
@@ -392,7 +392,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 74 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 74 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 12 owner = UKR creator = SOV } }
@@ -413,7 +413,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 243 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 140 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 12 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = UKR creator = SOV } }
@@ -437,7 +437,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 882 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 278 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 278 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 48 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 24 owner = UKR creator = SOV } }
@@ -464,7 +464,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 1330 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 282 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 282 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 60 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 30 owner = UKR creator = SOV } }
@@ -489,7 +489,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 1095 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 293 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 293 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 60 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 30 owner = UKR creator = SOV } }
@@ -514,7 +514,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 1095 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 293 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 293 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 60 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 30 owner = UKR creator = SOV } }
@@ -539,7 +539,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 1095 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 293 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 293 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 60 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 30 owner = UKR creator = SOV } }
@@ -564,7 +564,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 1095 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 293 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 293 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 60 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 30 owner = UKR creator = SOV } }
@@ -589,7 +589,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 882 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 278 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 278 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 48 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 24 owner = UKR creator = SOV } }
@@ -614,7 +614,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 1095 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 293 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 293 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 60 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 30 owner = UKR creator = SOV } }
@@ -639,7 +639,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 1095 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 293 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 293 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 60 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 30 owner = UKR creator = SOV } }
@@ -664,7 +664,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 669 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 205 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 205 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 36 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 18 owner = UKR creator = SOV } }
@@ -688,7 +688,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 140 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 140 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = UKR creator = SOV } }
@@ -712,7 +712,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 140 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 140 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = UKR creator = SOV } }
@@ -736,7 +736,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 140 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 140 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = UKR creator = SOV } }
@@ -760,7 +760,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 140 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 140 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = UKR creator = SOV } }
@@ -785,7 +785,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 140 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 140 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = UKR creator = SOV } }
@@ -809,7 +809,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 140 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 140 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = UKR creator = SOV } }
@@ -833,7 +833,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 140 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 140 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = UKR creator = SOV } }
@@ -857,7 +857,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 1095 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 293 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 293 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 60 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 30 owner = UKR creator = SOV } }
@@ -882,7 +882,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_2 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 140 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 140 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = UKR creator = SOV } }
@@ -907,7 +907,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 131 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 131 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 12 owner = UKR creator = SOV } }
@@ -931,7 +931,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 131 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 131 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 12 owner = UKR creator = SOV } }
@@ -955,7 +955,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 817 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 166 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 166 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 40 owner = UKR creator = USA } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 36 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 12 owner = UKR creator = SOV } }
@@ -980,7 +980,7 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 817 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 152 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 152 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 80 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 36 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 12 owner = UKR creator = SOV } }
@@ -1005,7 +1005,7 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 837 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 114 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 114 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = UKR creator = SOV } }
@@ -1025,7 +1025,7 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 842 owner = UKR creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 114 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 114 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = UKR creator = SOV } }
@@ -1045,7 +1045,7 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_4 = { amount = 842 owner = UKR creator = SOV version_name = "AK-74M" } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 114 owner = UKR creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 114 owner = UKR creator = SOV } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = UKR creator = SOV } }
@@ -1086,12 +1086,12 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment1
+		type = cnc_equipment_2
 		amount = 3000
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment
+		type = cnc_equipment_1
 		amount = 7000
 		producer = SOV
 	}

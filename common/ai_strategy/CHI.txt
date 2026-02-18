@@ -234,15 +234,15 @@ CHI_build_util_vehicle_type = {
 	ai_strategy = { type = save_equipment id = util_vehicle_type value = 500 }
 }
 
-CHI_build_cnc_equipment = {
+CHI_build_cnc_equipment_type = {
 	allowed = { original_tag = CHI }
 	enable = {
 		date < 2006.1.1
-		has_equipment = { cnc_equipment < 1 }
+		has_equipment = { cnc_equipment_type < 1 }
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment value = 1000 }
+	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment_type value = 1000 }
 }
 
 CHI_default_naval_breakdown = {

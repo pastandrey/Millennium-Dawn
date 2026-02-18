@@ -90,7 +90,7 @@
 		#Basic Rifles
 		infantry_weapons_1 = 1
 		#Old Radios
-		command_control_equipment = 1
+		cnc_equipment_1 = 1
 
 		#Needed for SPAA template
 

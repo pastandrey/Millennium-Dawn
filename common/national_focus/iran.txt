@@ -13008,7 +13008,7 @@ focus_tree = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment
+						type = cnc_equipment_1
 						amount = 400
 						producer = PER
 					}
@@ -13250,7 +13250,7 @@ focus_tree = {
 							producer = PER
 						}
 						add_equipment_to_stockpile = {
-							type = command_control_equipment
+							type = cnc_equipment_1
 							amount = 1000
 							producer = PER
 						}
@@ -15523,7 +15523,7 @@ focus_tree = {
 				producer = PER
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = -500
 				producer = PER
 			}
@@ -15649,7 +15649,7 @@ focus_tree = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment
+						type = cnc_equipment_1
 						amount = 500
 						producer = PER
 					}
@@ -17114,7 +17114,7 @@ focus_tree = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment
+						type = cnc_equipment_1
 						amount = 500
 						producer = PER
 					}

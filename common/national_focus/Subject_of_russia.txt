@@ -234,7 +234,7 @@ focus_tree = {
 				producer = GEO
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = 150
 				producer = GEO
 			}
@@ -283,7 +283,7 @@ focus_tree = {
 				producer = AZE
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = 300
 				producer = AZE
 			}

@@ -14,7 +14,7 @@
 		infantry_weapons_2 = 1
 		infantry_weapons_3 = 1
 		Anti_Tank_0 = 1
-		command_control_equipment = 1
+		cnc_equipment_1 = 1
 		Heavy_Anti_tank_0 = 1
 
 		basic_computing = 1

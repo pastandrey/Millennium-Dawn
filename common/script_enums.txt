@@ -361,7 +361,7 @@ script_enum_equipment_bonus_type = {
 	Heavy_Anti_tank_2
 	Heavy_Anti_tank_3
 	Heavy_Anti_tank_4
-	cnc_equipment
+	cnc_equipment_type
 	medium_tank_aa_chassis
 	medium_tank_aa_chassis_0
 	medium_tank_aa_chassis_1
@@ -394,13 +394,13 @@ script_enum_equipment_bonus_type = {
 	walker_tank_chassis_2
 	walker_tank_chassis_3
 	walker_tank_chassis_4
-	command_control_equipment
-	command_control_equipment1
-	command_control_equipment2
-	command_control_equipment3
-	command_control_equipment4
-	command_control_equipment5
-	command_control_equipment6
+	cnc_equipment_1
+	cnc_equipment_2
+	cnc_equipment_3
+	cnc_equipment_4
+	cnc_equipment_5
+	cnc_equipment_6
+	cnc_equipment_7
 	SP_AA_Equipment
 	SP_Anti_Air_0
 	SP_Anti_Air_1

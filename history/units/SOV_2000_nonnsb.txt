@@ -447,7 +447,7 @@ units = {
 		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
-		command_control_equipment = { owner = "SOV" }
+		cnc_equipment_1 = { owner = "SOV" }
 		Anti_Air_1 = { owner = "SOV" }
 		Anti_tank_1 = { owner = "SOV" }
 		Heavy_Anti_tank_1 = { owner = "SOV" }
@@ -603,7 +603,7 @@ units = {
 		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
-		command_control_equipment = { owner = "SOV" }
+		cnc_equipment_1 = { owner = "SOV" }
 		Anti_Air_1 = { owner = "SOV" }
 		Anti_tank_1 = { owner = "SOV" }
 		Heavy_Anti_tank_1 = { owner = "SOV" }
@@ -623,7 +623,7 @@ units = {
 		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
-		command_control_equipment = { owner = "SOV" }
+		cnc_equipment_1 = { owner = "SOV" }
 		Anti_Air_1 = { owner = "SOV" }
 		Anti_tank_1 = { owner = "SOV" }
 		Heavy_Anti_tank_1 = { owner = "SOV" }
@@ -643,7 +643,7 @@ units = {
 		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
-		command_control_equipment = { owner = "SOV" }
+		cnc_equipment_1 = { owner = "SOV" }
 		Anti_Air_1 = { owner = "SOV" }
 		Anti_tank_1 = { owner = "SOV" }
 		Heavy_Anti_tank_1 = { owner = "SOV" }
@@ -663,7 +663,7 @@ units = {
 		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
-		command_control_equipment = { owner = "SOV" }
+		cnc_equipment_1 = { owner = "SOV" }
 		Anti_Air_1 = { owner = "SOV" }
 		Anti_tank_1 = { owner = "SOV" }
 		Heavy_Anti_tank_1 = { owner = "SOV" }
@@ -1147,12 +1147,12 @@ instant_effect = {
 	#C&C
 
 	add_equipment_to_stockpile = {
-	type = command_control_equipment #C2
+	type = cnc_equipment_1 #C2
 	amount = 7300
 	}
 
 	add_equipment_to_stockpile = {
-	type = command_control_equipment1 #C3
+	type = cnc_equipment_2 #C3
 	amount = 4000
 	}
 

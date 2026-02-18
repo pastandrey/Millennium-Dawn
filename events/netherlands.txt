@@ -12148,7 +12148,7 @@ country_event = {
 			producer = THIS
 		}
 		add_equipment_to_stockpile = {
-			type = cnc_equipment
+			type = cnc_equipment_type
 			amount = -200
 			producer = THIS
 		}
@@ -12189,7 +12189,7 @@ country_event = {
 			producer = ROOT
 		}
 		add_equipment_to_stockpile = {
-			type = cnc_equipment
+			type = cnc_equipment_type
 			amount = 200
 			producer = ROOT
 		}

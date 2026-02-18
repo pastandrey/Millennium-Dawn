@@ -138,7 +138,7 @@ instant_effect = {
 		producer = ROM
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment2
+		type = cnc_equipment_3
 		amount = 900
 		producer = SOV
 	}

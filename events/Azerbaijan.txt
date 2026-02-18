@@ -77,7 +77,7 @@ country_event = {
 				amount = 100
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = 200
 			}
 			add_equipment_to_stockpile = {
@@ -105,7 +105,7 @@ country_event = {
 				amount = 200
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = 400
 			}
 			add_equipment_to_stockpile = {
@@ -300,7 +300,7 @@ country_event = {
 				amount = 200
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = 400
 			}
 			add_equipment_to_stockpile = {

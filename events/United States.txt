@@ -16820,7 +16820,7 @@ country_event = {
 				Producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				Producer = USA
 			}
@@ -17143,7 +17143,7 @@ country_event = {
 				Producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				Producer = USA
 			}
@@ -18142,7 +18142,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 300
 				producer = USA
 			}
@@ -18543,7 +18543,7 @@ country_event = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				producer = USA
 			}

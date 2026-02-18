@@ -852,7 +852,7 @@ country_event = {
 		}
 		newline = yes
 		add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -900 producer = TUR }
-		add_equipment_to_stockpile = { type = cnc_equipment amount = -575 producer = TUR }
+		add_equipment_to_stockpile = { type = cnc_equipment_type amount = -575 producer = TUR }
 		add_equipment_to_stockpile = { type = util_vehicle_type amount = -175 producer = TUR }
 		newline = yes
 		TUR_PKK_attack = yes

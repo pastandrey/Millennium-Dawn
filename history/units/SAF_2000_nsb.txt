@@ -160,7 +160,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment2 #1995
+		type = cnc_equipment_3 #1995
 		amount = 800
 		producer = SAF
 	}

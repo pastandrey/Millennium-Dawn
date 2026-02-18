@@ -4606,7 +4606,7 @@ focus_tree = {
 				amount = 200
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				producer = AZE
 				amount = 50
 			}
@@ -5395,7 +5395,7 @@ focus_tree = {
 				amount = 200
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				producer = AZE
 				amount = 100
 			}

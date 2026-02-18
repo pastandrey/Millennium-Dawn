@@ -349,7 +349,7 @@ sp_tactical_augmented_reality = {
 
 	available = {
 		FROM = {
-			has_tech = command_control_equipment4
+			has_tech = cnc_equipment_5
 		}
 	}
 

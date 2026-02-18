@@ -329,7 +329,7 @@ units = {
 instant_effect = {
 ######### INFANTRY EQUIPMENT
 	add_equipment_to_stockpile = {
-		type = command_control_equipment
+		type = cnc_equipment_1
 		amount = 3700
 		producer = BRA
 	}

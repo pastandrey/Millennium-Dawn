@@ -123,7 +123,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 243 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 123 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 123 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 12 owner = CUB creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = CUB creator = SOV } }
@@ -145,7 +145,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 290 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 123 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 123 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 12 owner = CUB creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = CUB creator = SOV } }
@@ -167,7 +167,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 122 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 122 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 100 owner = CUB creator = SOV version_name = "UAZ-469" } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = CUB creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = CUB creator = SOV } }
@@ -190,7 +190,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "D-44" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZPU-4" } }
@@ -209,7 +209,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "D-44" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZPU-4" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -226,7 +226,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "MT-12" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "M-1939" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = CUB creator = SOV version_name = "BRDM-1" } }
@@ -246,7 +246,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-60" } }
@@ -264,7 +264,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-40" } }
@@ -282,7 +282,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -300,7 +300,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-40" } }
@@ -319,7 +319,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 20 owner = CUB creator = SOV version_name = "SPG-9" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -337,7 +337,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 20 owner = CUB creator = SOV version_name = "SPG-9" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -355,7 +355,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 20 owner = CUB creator = SOV version_name = "SPG-9" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -373,7 +373,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 243 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 123 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 123 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 12 owner = CUB creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = CUB creator = SOV } }
@@ -394,7 +394,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 290 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 123 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 123 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 12 owner = CUB creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = CUB creator = SOV } }
@@ -415,7 +415,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 290 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 123 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 123 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 12 owner = CUB creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = CUB creator = SOV } }
@@ -439,7 +439,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -457,7 +457,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -475,7 +475,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -493,7 +493,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -511,7 +511,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -529,7 +529,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -546,7 +546,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_0 = { amount = 5 owner = CUB creator = SOV version_name = "BTR-152" } }
@@ -564,7 +564,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 122 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 122 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 100 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = CUB creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = CUB creator = SOV } }
@@ -587,7 +587,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 	}
@@ -602,7 +602,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 	}
@@ -617,7 +617,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 	}
@@ -632,7 +632,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 	}
@@ -648,7 +648,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment = { amount = 122 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 122 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 100 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = CUB creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = CUB creator = SOV } }
@@ -670,7 +670,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 	}
@@ -685,7 +685,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 	}
@@ -700,7 +700,7 @@ units = {
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_2 = { amount = 557 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = CUB creator = SOV version_name = "ZIL-131" } }
-		force_equipment_variants = { command_control_equipment = { amount = 85 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_1 = { amount = 85 owner = CUB creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = CUB creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 10 owner = CUB creator = SOV  version_name = "ZU-23-2" } }
 	}
@@ -712,7 +712,7 @@ units = {
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_3 = { amount = 852 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 140 owner = CUB creator = SOV } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 20 owner = CUB creator = SOV version_name = "UAZ-469" } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = CUB creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 3 owner = CUB creator = SOV } }
@@ -729,7 +729,7 @@ units = {
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_weapons_3 = { amount = 100 owner = CUB creator = SOV } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = CUB creator = SOV } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 140 owner = CUB creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 6 owner = CUB creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = CUB creator = SOV version_name = "PT-76" } }
 	}
@@ -757,7 +757,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment		#
+		type = cnc_equipment_1		#
 		amount = 5000
 		producer = SOV
 	}

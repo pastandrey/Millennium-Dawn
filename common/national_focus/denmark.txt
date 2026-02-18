@@ -7183,7 +7183,7 @@ focus_tree = {
 			}
 			DEN = {
 				add_equipment_to_stockpile = {
-					type = command_control_equipment1
+					type = cnc_equipment_2
 					amount = 300
 					producer = CHI
 				}
@@ -10089,7 +10089,7 @@ focus_tree = {
 			}
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 1000
 				producer = SOV
 			}

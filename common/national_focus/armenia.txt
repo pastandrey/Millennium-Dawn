@@ -10233,7 +10233,7 @@ focus_tree = {
 				producer = FRA
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = 800
 				producer = FRA
 			}
@@ -10290,7 +10290,7 @@ focus_tree = {
 				producer = RAJ
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment
+				type = cnc_equipment_1
 				amount = 800
 				producer = RAJ
 			}
@@ -18102,7 +18102,7 @@ focus_tree = {
 					set_temp_variable = { treasury_change = -15 }
 					modify_treasury_effect = yes
 					add_equipment_to_stockpile = {
-						type = command_control_equipment2
+						type = cnc_equipment_3
 						amount = 2000
 						producer = POL
 					}

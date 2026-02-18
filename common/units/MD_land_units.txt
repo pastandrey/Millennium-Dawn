@@ -716,7 +716,7 @@ sub_units = {
 
 		need = {
 			util_vehicle_type = 4
-			command_control_equipment = 16
+			cnc_equipment_1 = 16
 		}
 
 		manpower = 20
@@ -775,7 +775,7 @@ sub_units = {
 
 		need = {
 			medium_tank_flame_chassis = 4
-			command_control_equipment = 16
+			cnc_equipment_1 = 16
 		}
 		manpower = 20
 		max_organisation = 25
@@ -821,7 +821,7 @@ sub_units = {
 
 		need = {
 			medium_tank_chassis = 4
-			command_control_equipment = 16
+			cnc_equipment_1 = 16
 		}
 		manpower = 20
 		max_organisation = 20
@@ -867,7 +867,7 @@ sub_units = {
 
 		need = {
 			heavy_tank_amphibious_chassis = 4
-			command_control_equipment = 16
+			cnc_equipment_1 = 16
 		}
 
 		manpower = 20
@@ -921,7 +921,7 @@ sub_units = {
 		ap_attack = -0.33
 		entrenchment = -0.3
 
-		transport = command_control_equipment
+		transport = cnc_equipment_1
 
 		need = {
 			infantry_weapons_type = 167
@@ -1090,13 +1090,13 @@ sub_units = {
 		#Misc Abilities
 		training_time = 120
 		weight = 0.5
-		transport = command_control_equipment
+		transport = cnc_equipment_1
 
 		need = {
 			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 20
+			cnc_equipment_1 = 20
 		}
 
 		plains = {
@@ -1178,7 +1178,7 @@ sub_units = {
 			infantry_weapons_type = 267
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 25
+			cnc_equipment_1 = 25
 			util_vehicle_type = 60
 		}
 
@@ -1261,7 +1261,7 @@ sub_units = {
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
-			command_control_equipment = 25
+			cnc_equipment_1 = 25
 			medium_tank_amphibious_chassis = 60
 		}
 
@@ -1343,7 +1343,7 @@ sub_units = {
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
-			command_control_equipment = 25
+			cnc_equipment_1 = 25
 			medium_tank_flame_chassis = 60
 		}
 
@@ -1424,7 +1424,7 @@ sub_units = {
 		training_time = 180
 		weight = 0.5
 
-		transport = command_control_equipment
+		transport = cnc_equipment_1
 
 		can_be_parachuted = yes
 
@@ -1432,7 +1432,7 @@ sub_units = {
 			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 30
+			cnc_equipment_1 = 30
 		}
 
 		plains = {
@@ -1520,7 +1520,7 @@ sub_units = {
 			infantry_weapons_type = 267
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 35
+			cnc_equipment_1 = 35
 			util_vehicle_type = 60
 		}
 
@@ -1607,7 +1607,7 @@ sub_units = {
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
-			command_control_equipment = 35
+			cnc_equipment_1 = 35
 			medium_tank_amphibious_chassis = 60
 		}
 
@@ -1693,7 +1693,7 @@ sub_units = {
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
-			command_control_equipment = 35
+			cnc_equipment_1 = 35
 			medium_tank_flame_chassis = 60
 		}
 
@@ -1776,13 +1776,13 @@ sub_units = {
 		training_time = 200
 		weight = 0.5
 
-		transport = command_control_equipment
+		transport = cnc_equipment_1
 
 		need = {
 			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 30
+			cnc_equipment_1 = 30
 		}
 
 		plains = {
@@ -1875,14 +1875,14 @@ sub_units = {
 
 		essential = {
 			infantry_weapons_type
-			command_control_equipment
+			cnc_equipment_1
 		}
 
 		need = {
 			infantry_weapons_type = 83
 			L_AT_Equipment = 4
 			AA_Equipment = 2
-			command_control_equipment = 10
+			cnc_equipment_1 = 10
 		}
 
 		mountain = {
@@ -1939,13 +1939,13 @@ sub_units = {
 		training_time = 200
 		weight = 0.5
 
-		transport = command_control_equipment
+		transport = cnc_equipment_1
 
 		need = {
 			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 30
+			cnc_equipment_1 = 30
 		}
 
 		plains = {
@@ -2032,13 +2032,13 @@ sub_units = {
 		training_time = 200
 		weight = 0.5
 
-		transport = command_control_equipment
+		transport = cnc_equipment_1
 
 		need = {
 			infantry_weapons_type = 400
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 30
+			cnc_equipment_1 = 30
 		}
 
 		plains = {
@@ -2130,7 +2130,7 @@ sub_units = {
 			infantry_weapons_type = 267
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 35
+			cnc_equipment_1 = 35
 			util_vehicle_type = 60
 		}
 
@@ -2217,7 +2217,7 @@ sub_units = {
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
-			command_control_equipment = 35
+			cnc_equipment_1 = 35
 			medium_tank_amphibious_chassis = 60
 		}
 
@@ -2302,7 +2302,7 @@ sub_units = {
 			L_AT_Equipment = 12
 			H_AT_Equipment = 6
 			AA_Equipment = 8
-			command_control_equipment = 35
+			cnc_equipment_1 = 35
 			medium_tank_flame_chassis = 60
 		}
 
@@ -2386,7 +2386,7 @@ sub_units = {
 			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 35
+			cnc_equipment_1 = 35
 			heavy_tank_amphibious_chassis = 30
 		}
 
@@ -2478,7 +2478,7 @@ sub_units = {
 
 		need = {
 			heavy_tank_chassis = 18
-			command_control_equipment = 18
+			cnc_equipment_1 = 18
 		}
 
 		plains = {
@@ -2572,7 +2572,7 @@ sub_units = {
 
 		need = {
 			heavy_tank_chassis = 6
-			command_control_equipment = 6
+			cnc_equipment_1 = 6
 		}
 
 		plains = {
@@ -2659,13 +2659,13 @@ sub_units = {
 		training_time = 350
 		weight = 0.5
 
-		transport = command_control_equipment
+		transport = cnc_equipment_1
 
 		need = {
 			 infantry_weapons_type = 100
 			 L_AT_Equipment = 12
 			 AA_Equipment = 8
-			 command_control_equipment = 30
+			 cnc_equipment_1 = 30
 		}
 
 		plains = {
@@ -2749,7 +2749,7 @@ sub_units = {
 
 		need = {
 			medium_tank_chassis = 42
-			command_control_equipment = 15
+			cnc_equipment_1 = 15
 		}
 
 		manpower = 240
@@ -2832,7 +2832,7 @@ sub_units = {
 
 		need = {
 			medium_tank_destroyer_chassis = 42
-			command_control_equipment = 15
+			cnc_equipment_1 = 15
 		}
 
 		manpower = 240
@@ -2913,7 +2913,7 @@ sub_units = {
 
 		need = {
 			medium_tank_chassis = 14
-			command_control_equipment = 10
+			cnc_equipment_1 = 10
 		}
 
 		manpower = 80
@@ -3016,14 +3016,14 @@ sub_units = {
 
 		essential = {
 			infantry_weapons_type
-			command_control_equipment
+			cnc_equipment_1
 		}
 
 		need = {
 			infantry_weapons_type = 83
 			L_AT_Equipment = 4
 			AA_Equipment = 2
-			command_control_equipment = 10
+			cnc_equipment_1 = 10
 		}
 
 		plains = {
@@ -3105,7 +3105,7 @@ sub_units = {
 			L_AT_Equipment = 4
 			H_AT_Equipment = 2
 			AA_Equipment = 3
-			command_control_equipment = 10
+			cnc_equipment_1 = 10
 			util_vehicle_type = 20
 		}
 
@@ -3184,7 +3184,7 @@ sub_units = {
 			H_AT_Equipment = 2
 			AA_Equipment = 3
 			medium_tank_amphibious_chassis = 20
-			command_control_equipment = 14
+			cnc_equipment_1 = 14
 		}
 
 		plains = {
@@ -3274,7 +3274,7 @@ sub_units = {
 			H_AT_Equipment = 2
 			AA_Equipment = 3
 			medium_tank_flame_chassis = 20
-			command_control_equipment = 14
+			cnc_equipment_1 = 14
 		}
 
 		plains = {
@@ -3359,7 +3359,7 @@ sub_units = {
 			H_AT_Equipment = 2
 			AA_Equipment = 3
 			medium_tank_flame_chassis = 20
-			command_control_equipment = 14
+			cnc_equipment_1 = 14
 			land_drone_equipment = 3
 		}
 
@@ -3417,7 +3417,7 @@ sub_units = {
 
 		need = {
 			medium_tank_destroyer_chassis = 14
-			command_control_equipment = 14
+			cnc_equipment_1 = 14
 		}
 
 		manpower = 80
@@ -3523,7 +3523,7 @@ sub_units = {
 
 		need = {
 			infantry_weapons_type = 40
-			command_control_equipment = 10
+			cnc_equipment_1 = 10
 		}
 
 		forest = {
@@ -3629,12 +3629,12 @@ sub_units = {
 
 		essential = {
 			infantry_weapons_type
-			command_control_equipment
+			cnc_equipment_1
 		}
 
 		need = {
 			infantry_weapons_type = 30
-			command_control_equipment = 10
+			cnc_equipment_1 = 10
 			util_vehicle_type = 20
 		}
 
@@ -3709,7 +3709,7 @@ sub_units = {
 
 		need = {
 			artillery_equipment = 18
-			command_control_equipment = 5
+			cnc_equipment_1 = 5
 		}
 
 		manpower = 240
@@ -3827,7 +3827,7 @@ sub_units = {
 
 		need = {
 			medium_tank_artillery_chassis = 18
-			command_control_equipment = 5
+			cnc_equipment_1 = 5
 		}
 
 		essential = {
@@ -3901,7 +3901,7 @@ sub_units = {
 
 		need = {
 			medium_tank_artillery_chassis = 6
-			command_control_equipment = 4
+			cnc_equipment_1 = 4
 		}
 
 		essential = {
@@ -3952,7 +3952,7 @@ sub_units = {
 
 		need = {
 			medium_tank_rocket_chassis = 18
-			command_control_equipment = 5
+			cnc_equipment_1 = 5
 		}
 
 		essential = {
@@ -4026,7 +4026,7 @@ sub_units = {
 
 		need = {
 			medium_tank_rocket_chassis = 6
-			command_control_equipment = 4
+			cnc_equipment_1 = 4
 		}
 
 		essential = {
@@ -4077,7 +4077,7 @@ sub_units = {
 
 		need = {
 			medium_tank_aa_chassis = 18
-			command_control_equipment = 6
+			cnc_equipment_1 = 6
 		}
 		manpower = 120
 		max_organisation = 3
@@ -4117,7 +4117,7 @@ sub_units = {
 
 		need = {
 			medium_tank_aa_chassis = 6
-			command_control_equipment = 4
+			cnc_equipment_1 = 4
 		}
 		manpower = 40
 		max_organisation = 1.2
@@ -4184,11 +4184,11 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 
 		essential = {
-			command_control_equipment
+			cnc_equipment_1
 			util_vehicle_type
 		}
 		need = {
-			command_control_equipment = 30
+			cnc_equipment_1 = 30
 			util_vehicle_type = 20
 		}
 
@@ -4246,7 +4246,7 @@ sub_units = {
 
 		need = {
 			heavy_tank_amphibious_chassis = 20
-			command_control_equipment = 10
+			cnc_equipment_1 = 10
 		}
 
 		same_support_type = support
@@ -4346,11 +4346,11 @@ sub_units = {
 		combat_width = 1
 
 		essential = {
-			command_control_equipment
+			cnc_equipment_1
 			util_vehicle_type
 		}
 		need = {
-			command_control_equipment = 30
+			cnc_equipment_1 = 30
 			util_vehicle_type = 5
 			land_drone_equipment = 20
 		}
@@ -4431,11 +4431,11 @@ sub_units = {
 		combat_width = 1
 
 		essential = {
-			command_control_equipment
+			cnc_equipment_1
 			util_vehicle_type
 		}
 		need = {
-			command_control_equipment = 30
+			cnc_equipment_1 = 30
 			util_vehicle_type = 20
 		}
 
@@ -4522,13 +4522,13 @@ sub_units = {
 		#Misc Abilities
 		training_time = 120
 		weight = 0.5
-		transport = command_control_equipment
+		transport = cnc_equipment_1
 
 		need = {
 			infantry_weapons_type = 250
 			L_AT_Equipment = 12
 			AA_Equipment = 8
-			command_control_equipment = 20
+			cnc_equipment_1 = 20
 		}
 
 		plains = {
@@ -4655,7 +4655,7 @@ sub_units = {
 
 		need = {
 			infantry_weapons_type = 250
-			command_control_equipment = 50
+			cnc_equipment_1 = 50
 			util_vehicle_type = 20
 		}
 
@@ -4735,7 +4735,7 @@ sub_units = {
 
 		need = {
 			super_heavy_tank_chassis = 42
-			command_control_equipment = 15
+			cnc_equipment_1 = 15
 		}
 
 		manpower = 240
@@ -4828,7 +4828,7 @@ sub_units = {
 
 		need = {
 			super_heavy_tank_destroyer_chassis = 42
-			command_control_equipment = 15
+			cnc_equipment_1 = 15
 		}
 
 		manpower = 240
@@ -4921,7 +4921,7 @@ sub_units = {
 
 		need = {
 			super_heavy_tank_artillery_chassis = 42
-			command_control_equipment = 15
+			cnc_equipment_1 = 15
 		}
 
 		manpower = 240

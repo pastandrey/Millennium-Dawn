@@ -137,7 +137,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 382 owner = BOS creator = USA } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 139 owner = BOS creator = USA } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 139 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 16 owner = BOS creator = CHI } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 11 owner = BOS creator = SOV } }
@@ -155,7 +155,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 872 owner = BOS creator = USA } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 134 owner = BOS creator = USA } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 134 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SOV } }
@@ -171,7 +171,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 872 owner = BOS creator = USA } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 134 owner = BOS creator = USA } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 134 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 19 owner = BOS creator = SOV version_name = "ZU-23-2" } }
@@ -187,7 +187,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 872 owner = BOS creator = USA } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 134 owner = BOS creator = USA } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 134 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SOV } }
@@ -203,7 +203,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 882 owner = BOS creator = USA } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 124 owner = BOS creator = USA } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 124 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SWE version_name = "Bofors L70" } }
@@ -218,7 +218,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 124 owner = BOS creator = USA } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 124 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SER version_name = "Zastava M55" } }
@@ -233,7 +233,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 124 owner = BOS creator = USA } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 124 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SWE version_name = "Bofors L70" } }
@@ -250,7 +250,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = BOS creator = SER } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 134 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SOV } }
@@ -266,7 +266,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = BOS creator = SER } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 134 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SER version_name = "Zastava M55" } }
@@ -282,7 +282,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = BOS creator = SER } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 134 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SWE version_name = "Bofors L70" } }
@@ -300,7 +300,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 335 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 124 owner = BOS creator = SER } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 124 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 16 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 11 owner = BOS creator = SOV } }
@@ -317,7 +317,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SOV } }
@@ -333,7 +333,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SER version_name = "Zastava M55" } }
@@ -349,7 +349,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SOV version_name = "ZU-23-2" } }
@@ -365,7 +365,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SER version_name = "Zastava M55" } }
@@ -382,7 +382,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
-		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
+		force_equipment_variants = { cnc_equipment_2 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = BOS creator = SWE version_name = "Bofors L70" } }
@@ -498,32 +498,32 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment			#
+		type = cnc_equipment_1			#
 		amount = 8000
 		producer = SER
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment			#
+		type = cnc_equipment_1			#
 		amount = 2000
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment			#
+		type = cnc_equipment_1			#
 		amount = 2000
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment			#
+		type = cnc_equipment_1			#
 		amount = 1000
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment			#
+		type = cnc_equipment_1			#
 		amount = 2000
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment1			#
+		type = cnc_equipment_2			#
 		amount = 1000
 		producer = USA
 	}

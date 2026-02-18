@@ -28,7 +28,7 @@
 		infantry_weapons_1 = 1
 		infantry_weapons_2 = 1
 
-		command_control_equipment = 1
+		cnc_equipment_1 = 1
 
 		land_drone_equipment = 1
 

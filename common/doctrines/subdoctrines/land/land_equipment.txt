@@ -106,7 +106,7 @@ light_infantry_load = {
 		}
 	}
 	equipment_bonus = {
-		cnc_equipment = {
+		cnc_equipment_type = {
 			build_cost_ic = -0.15
 			maximum_speed = 0.6
 			instant = yes
@@ -121,7 +121,7 @@ light_infantry_load = {
 		}
 		advanced_c2istar = {
 			equipment_bonus = {
-				cnc_equipment = {
+				cnc_equipment_type = {
 					max_organisation = 0.15
 					instant = yes
 				}
@@ -436,7 +436,7 @@ light_motorized_equipment = {
 			}
 			category_mot_inf = {
 				need = {
-					command_control_equipment = 10
+					cnc_equipment_1 = 10
 				}
 			}
 		}
@@ -711,7 +711,7 @@ apc_mechanized_equipment = {
 		enhanced_communications_equipment = {
 			category_apc = {
 				need = {
-					command_control_equipment = 10
+					cnc_equipment_1 = 10
 				}
 				max_organisation = 0.05
 			}

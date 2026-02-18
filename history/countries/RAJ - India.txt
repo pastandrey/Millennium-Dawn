@@ -528,8 +528,8 @@
 
 		Heavy_Anti_tank_0 = 1
 
-		command_control_equipment = 1
-		command_control_equipment1 = 1
+		cnc_equipment_1 = 1
+		cnc_equipment_2 = 1
 
 		night_vision_1 = 1
 

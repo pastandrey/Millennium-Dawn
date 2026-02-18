@@ -10,7 +10,7 @@
 	ai_strategy = { type = equipment_variant_production_factor id = infantry_weapons_type value = 2500 }
 	ai_strategy = { type = equipment_production_factor id = anti_tank value = -150 }
 	ai_strategy = { type = equipment_production_factor id = artillery value = -150 }
-	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment value = -150 }
+	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment_type value = -150 }
 	ai_strategy = { type = equipment_production_factor id = mechanized value = -150 }
 	ai_strategy = { type = equipment_production_factor id = armor value = -150 }
 	ai_strategy = { type = role_ratio id = L_Inf value = -500 }
@@ -47,7 +47,7 @@ MD_poor_production_strategy = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { type = equipment_variant_production_factor id = infantry_weapons_type value = 300 }
-	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment value = 100 }
+	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment_type value = 100 }
 	ai_strategy = { type = equipment_variant_production_factor id = util_vehicle_type value = 100 }
 	ai_strategy = { type = equipment_variant_production_factor id = train_equipment value = 20 }
 	ai_strategy = { type = equipment_variant_production_factor id = L_AT_Equipment value = 60 }
@@ -72,7 +72,7 @@ MD_default_production_strategy = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { type = equipment_variant_production_factor id = infantry_weapons_type value = 200 }
-	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment value = 80 }
+	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment_type value = 80 }
 	ai_strategy = { type = equipment_variant_production_factor id = util_vehicle_type value = 80 }
 	ai_strategy = { type = equipment_variant_production_factor id = train_equipment value = 20 }
 	ai_strategy = { type = equipment_variant_production_factor id = L_AT_Equipment value = 60 }
@@ -116,7 +116,7 @@ MD_major_production_strategy = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { type = equipment_variant_production_factor id = infantry_weapons_type value = 600 }
-	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment value = 60 }
+	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment_type value = 60 }
 	ai_strategy = { type = equipment_variant_production_factor id = util_vehicle_type value = 60 }
 	ai_strategy = { type = equipment_variant_production_factor id = train_equipment value = 10 }
 	ai_strategy = { type = equipment_variant_production_factor id = L_AT_Equipment value = 20 }
@@ -161,7 +161,7 @@ MD_superpower_production_strategy = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { type = equipment_variant_production_factor id = infantry_weapons_type value = 600 }
-	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment value = 50 }
+	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment_type value = 50 }
 	ai_strategy = { type = equipment_variant_production_factor id = util_vehicle_type value = 50 }
 	ai_strategy = { type = equipment_variant_production_factor id = train_equipment value = 10 }
 	ai_strategy = { type = equipment_variant_production_factor id = L_AT_Equipment value = 20 }
@@ -193,7 +193,7 @@ MD_build_equipment_not_units_while_at_war = {
 			has_equipment = { infantry_weapons_type < 1000 }
 			has_equipment = { L_AT_Equipment < 200 }
 			has_equipment = { util_vehicle_type < 400 }
-			has_equipment = { cnc_equipment < 500 }
+			has_equipment = { cnc_equipment_type < 500 }
 			has_equipment = { AA_Equipment < 200 }
 		}
 	}
@@ -215,10 +215,10 @@ MD_build_equipment_not_units_while_at_war = {
 
 MD_build_command_equipment = {
 	allowed = { ai_for_units_is_not_disabled = yes }
-	enable = { has_equipment = { cnc_equipment < 750 } }
+	enable = { has_equipment = { cnc_equipment_type < 750 } }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment value = 150 }
+	ai_strategy = { type = equipment_variant_production_factor id = cnc_equipment_type value = 150 }
 }
 
 default_stockpile_management = {

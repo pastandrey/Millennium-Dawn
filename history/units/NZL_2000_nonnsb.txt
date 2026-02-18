@@ -97,7 +97,7 @@ instant_effect = {
 		producer = AUS
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment2 #C2ISTAR Equipment
+		type = cnc_equipment_3 #C2ISTAR Equipment
 		amount = 150
 	}
 }

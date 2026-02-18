@@ -526,7 +526,7 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.15
 				}
-				cnc_equipment = {
+				cnc_equipment_type = {
 					instant = yes
 					build_cost_ic = -0.15
 				}

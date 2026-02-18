@@ -667,7 +667,7 @@
 
 		combat_eng_equipment = 1
 		night_vision_1 = 1
-		command_control_equipment = 1
+		cnc_equipment_1 = 1
 
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1

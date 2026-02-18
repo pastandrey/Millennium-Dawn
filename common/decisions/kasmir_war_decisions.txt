@@ -3,7 +3,7 @@ kasmir_war_decisions_category = {
 		available = {
 			has_war = no
 			has_equipment = { infantry_weapons_type > 30 }
-			has_equipment = { cnc_equipment > 7 }
+			has_equipment = { cnc_equipment_type > 7 }
 		}
 
 		days_remove = 15
@@ -24,7 +24,7 @@ kasmir_war_decisions_category = {
 				amount = -30
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = -7
 			}
 
@@ -1391,7 +1391,7 @@ kasmir_war_china_decisions_category = {
 		available = {
 			has_war = no
 			has_equipment = { infantry_weapons_type > 30 }
-			has_equipment = { cnc_equipment > 7 }
+			has_equipment = { cnc_equipment_type > 7 }
 		}
 
 		days_remove = 15
@@ -1412,7 +1412,7 @@ kasmir_war_china_decisions_category = {
 				amount = -30
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = -7
 			}
 

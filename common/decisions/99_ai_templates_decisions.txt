@@ -12,7 +12,7 @@ ai_templates_category = {
 			date > 2005.01.01
 			has_war = no
 			has_equipment = { infantry_weapons_type > 2000 }
-			has_equipment = { cnc_equipment > 500 }
+			has_equipment = { cnc_equipment_type > 500 }
 			num_of_military_factories > 5
 			any_country_division = {
 				division_has_majority_template = Militia_Bat

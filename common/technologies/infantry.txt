@@ -1322,14 +1322,14 @@ technologies = {
 	###Command & Control Equipment###
 
 	#1975
-	command_control_equipment = {
+	cnc_equipment_1 = {
 
 		enable_equipments = {
-			command_control_equipment
+			cnc_equipment_1
 		}
 
 		path = {
-			leads_to_tech = command_control_equipment1
+			leads_to_tech = cnc_equipment_2
 			research_cost_coeff = 1
 		}
 
@@ -1352,16 +1352,16 @@ technologies = {
 		}
 	}
 	#1985
-	command_control_equipment1 = {
+	cnc_equipment_2 = {
 
 		coordination_bonus = 0.03
 
 		enable_equipments = {
-			command_control_equipment1
+			cnc_equipment_2
 		}
 
 		path = {
-			leads_to_tech = command_control_equipment2
+			leads_to_tech = cnc_equipment_3
 			research_cost_coeff = 1
 		}
 
@@ -1382,16 +1382,16 @@ technologies = {
 		ai_will_do = { factor = 1 }
 	}
 	#1995
-	command_control_equipment2 = {
+	cnc_equipment_3 = {
 
 		coordination_bonus = 0.03
 
 		enable_equipments = {
-			command_control_equipment2
+			cnc_equipment_3
 		}
 
 		path = {
-			leads_to_tech = command_control_equipment3
+			leads_to_tech = cnc_equipment_4
 			research_cost_coeff = 1
 		}
 
@@ -1412,16 +1412,16 @@ technologies = {
 		ai_will_do = { factor = 1 }
 	}
 	#2005
-	command_control_equipment3 = {
+	cnc_equipment_4 = {
 
 		coordination_bonus = 0.03
 
 		enable_equipments = {
-			command_control_equipment3
+			cnc_equipment_4
 		}
 
 		path = {
-			leads_to_tech = command_control_equipment4
+			leads_to_tech = cnc_equipment_5
 			research_cost_coeff = 1
 		}
 
@@ -1452,7 +1452,7 @@ technologies = {
 		}
 	}
 	#2015
-	command_control_equipment4 = {
+	cnc_equipment_5 = {
 		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
@@ -1463,11 +1463,11 @@ technologies = {
 		coordination_bonus = 0.03
 
 		enable_equipments = {
-			command_control_equipment4
+			cnc_equipment_5
 		}
 
 		path = {
-			leads_to_tech = command_control_equipment5
+			leads_to_tech = cnc_equipment_6
 			research_cost_coeff = 1
 		}
 
@@ -1498,16 +1498,16 @@ technologies = {
 		}
 	}
 	#2025
-	command_control_equipment5 = {
+	cnc_equipment_6 = {
 
 		coordination_bonus = 0.03
 
 		enable_equipments = {
-			command_control_equipment5
+			cnc_equipment_6
 		}
 
 		path = {
-			leads_to_tech = command_control_equipment6
+			leads_to_tech = cnc_equipment_7
 			research_cost_coeff = 1
 		}
 
@@ -1538,16 +1538,16 @@ technologies = {
 		}
 	}
 	#2035
-	command_control_equipment6 = {
+	cnc_equipment_7 = {
 
 		coordination_bonus = 0.03
 
 		enable_equipments = {
-			command_control_equipment6
+			cnc_equipment_7
 		}
 
 		path = {
-			leads_to_tech = command_control_equipment7
+			leads_to_tech = cnc_equipment_8
 			research_cost_coeff = 1
 		}
 
@@ -1578,14 +1578,14 @@ technologies = {
 		}
 	}
 	#2045
-	command_control_equipment7 = {
+	cnc_equipment_8 = {
 
 		coordination_bonus = 0.03
 		enable_equipments = {
-			command_control_equipment7
+			cnc_equipment_8
 		}
 		path = {
-			leads_to_tech = command_control_equipment8
+			leads_to_tech = cnc_equipment_9
 			research_cost_coeff = 1
 		}
 		research_cost = 1.9
@@ -1618,14 +1618,14 @@ technologies = {
 		}
 	}
 	#2055
-	command_control_equipment8 = {
+	cnc_equipment_9 = {
 
 		coordination_bonus = 0.03
 		enable_equipments = {
-			command_control_equipment8
+			cnc_equipment_9
 		}
 		path = {
-			leads_to_tech = command_control_equipment9
+			leads_to_tech = cnc_equipment_10
 			research_cost_coeff = 1
 		}
 		research_cost = 1.9
@@ -1657,14 +1657,14 @@ technologies = {
 		}
 	}
 	#2065
-	command_control_equipment9 = {
+	cnc_equipment_10 = {
 
 		coordination_bonus = 0.03
 		enable_equipments = {
-			command_control_equipment9
+			cnc_equipment_10
 		}
 		path = {
-			leads_to_tech = command_control_equipment10
+			leads_to_tech = cnc_equipment_11
 			research_cost_coeff = 1
 		}
 		research_cost = 1.9
@@ -1696,11 +1696,11 @@ technologies = {
 		}
 	}
 	#2075
-	command_control_equipment10 = {
+	cnc_equipment_11 = {
 
 		coordination_bonus = 0.03
 		enable_equipments = {
-			command_control_equipment10
+			cnc_equipment_11
 		}
 
 		research_cost = 1.9

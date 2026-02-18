@@ -4787,7 +4787,7 @@ CHI_cetc_manufacturer = {
 	task_capacity = 18
 
 	equipment_type = {
-		cnc_equipment
+		cnc_equipment_type
 		mio_cat_eq_only_uav
 		medium_tank_rocket_chassis
 		medium_tank_aa_chassis
@@ -4820,7 +4820,7 @@ CHI_cetc_manufacturer = {
 
 		position = { x = 1 y = 0 }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = { reliability = 0.02 }
 
@@ -4849,7 +4849,7 @@ CHI_cetc_manufacturer = {
 		position = { x = 1 y = 1 }
 		all_parents = { CHI_cetc_A_root }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = { maximum_speed = 0.03 }
 
@@ -4878,7 +4878,7 @@ CHI_cetc_manufacturer = {
 		position = { x = 2 y = 1 }
 		all_parents = { CHI_cetc_A_root }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = { reliability = 0.025 }
 
@@ -4907,7 +4907,7 @@ CHI_cetc_manufacturer = {
 		position = { x = 0 y = 1 }
 		all_parents = { CHI_cetc_A_root }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		production_bonus = {
 			production_efficiency_cap_factor = 0.05
@@ -4938,7 +4938,7 @@ CHI_cetc_manufacturer = {
 		position = { x = -1 y = 2 }
 		all_parents = { CHI_cetc_A_root }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = { build_cost_ic = -0.03 }
 
@@ -4967,7 +4967,7 @@ CHI_cetc_manufacturer = {
 		position = { x = 1 y = 2 }
 		all_parents = { CHI_cetc_A_signal_processing_accel }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		production_bonus = {
 			production_efficiency_gain_factor = 0.10
@@ -4998,7 +4998,7 @@ CHI_cetc_manufacturer = {
 		position = { x = 2 y = 2 }
 		all_parents = { CHI_cetc_A_root }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = {
 			reliability = 0.02
@@ -5030,7 +5030,7 @@ CHI_cetc_manufacturer = {
 		position = { x = -1 y = 3 }
 		all_parents = { CHI_cetc_A_economy_of_scale }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = {
 			defense = 0.05
@@ -5061,7 +5061,7 @@ CHI_cetc_manufacturer = {
 		position = { x = 0 y = 3 }
 		all_parents = { CHI_cetc_A_org_throughput_boost }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = {
 			max_organisation = 0.075
@@ -5093,7 +5093,7 @@ CHI_cetc_manufacturer = {
 		position = { x = 1 y = 3 }
 		all_parents = { CHI_cetc_A_overclocked_dsps }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = {
 			build_cost_ic = -0.05
@@ -5124,7 +5124,7 @@ CHI_cetc_manufacturer = {
 		position = { x = 2 y = 3 }
 		all_parents = { CHI_cetc_B_prod_efficiency_armored }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		production_bonus = {
 			production_efficiency_gain_factor = 0.075
@@ -5156,7 +5156,7 @@ CHI_cetc_manufacturer = {
 		position = { x = -1 y = 4 }
 		all_parents = { CHI_cetc_A_encryption_overhead_opt }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = {
 			max_organisation = 0.05

@@ -2689,7 +2689,7 @@ JAP_jsw_tank_manufacturer = {
 		}
 
 		available = {
-			JAP = { has_tech = command_control_equipment4 }
+			JAP = { has_tech = cnc_equipment_5 }
 		}
 
 		equipment_bonus = {
@@ -3283,7 +3283,7 @@ JAP_mitsubishi_heavy_industries_tank_manufacturer = {
 		}
 
 		available = {
-			JAP = { has_tech = command_control_equipment3 }
+			JAP = { has_tech = cnc_equipment_4 }
 		}
 
 		limit_to_equipment_type = {
@@ -6847,7 +6847,7 @@ JAP_nec_materiel_manufacturer = {
 	name = JAP_nec_materiel_manufacturer
 
 	equipment_type = {
-		cnc_equipment
+		cnc_equipment_type
 	}
 
 	research_categories = {

@@ -5822,7 +5822,7 @@ BRA_embraer_aircraft_manufacturer = {
 	name = BRA_embraer_aircraft_manufacturer
 
 	equipment_type = {
-		cnc_equipment
+		cnc_equipment_type
 		mio_cat_eq_only_as_fighters
 		mio_cat_eq_only_transport
 	}
@@ -6563,7 +6563,7 @@ BRA_embraer_aircraft_manufacturer = {
 		position = { x = 8 y = 0 }
 
 		limit_to_equipment_type = {
-			cnc_equipment
+			cnc_equipment_type
 		}
 
 		equipment_bonus = {
@@ -6604,7 +6604,7 @@ BRA_embraer_aircraft_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			cnc_equipment
+			cnc_equipment_type
 		}
 
 		equipment_bonus = {
@@ -6645,7 +6645,7 @@ BRA_embraer_aircraft_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			cnc_equipment
+			cnc_equipment_type
 		}
 
 		equipment_bonus = {
@@ -6686,7 +6686,7 @@ BRA_embraer_aircraft_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			cnc_equipment
+			cnc_equipment_type
 		}
 
 		organization_modifier = {

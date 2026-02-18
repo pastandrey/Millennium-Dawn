@@ -2648,7 +2648,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_us_help_in_war_geo"
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2				#
+				type = cnc_equipment_3				#
 				amount = 150
 				producer = USA
 			}
@@ -12182,7 +12182,7 @@ focus_tree = {
 				create_production_license = {
 					target = GEO
 					equipment = {
-						type = command_control_equipment4
+						type = cnc_equipment_5
 					}
 					cost_factor = 155
 				}

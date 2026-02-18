@@ -439,7 +439,7 @@ instant_effect = {
 		producer = TUR
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment2
+		type = cnc_equipment_3
 		amount = 5500
 		producer = TUR
 	}

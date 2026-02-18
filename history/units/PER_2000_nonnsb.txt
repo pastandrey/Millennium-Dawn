@@ -936,7 +936,7 @@ instant_effect = {
 	#C&C
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment1 #C3
+		type = cnc_equipment_2 #C3
 		amount = 8300
 	}
 

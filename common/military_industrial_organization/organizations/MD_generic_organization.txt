@@ -66,7 +66,7 @@ generic_infantry_equipment_organization = {
 
 	equipment_type = {
 		infantry_weapons_type
-		cnc_equipment
+		cnc_equipment_type
 		L_AT_Equipment
 		AA_Equipment
 		artillery_equipment
@@ -464,7 +464,7 @@ generic_infantry_equipment_organization = {
 		position = { x = 2 y = 1 }
 		relative_position_id = generic_mio_inf_trait_inf_rel
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		production_bonus = {
 			production_cost_factor = -0.1
@@ -698,7 +698,7 @@ generic_infantry_equipment_organization = {
 		position = { x = -1 y = 1 }
 		relative_position_id = generic_mio_inf_at_ap
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			max_organisation = 0.15
 		}
@@ -737,7 +737,7 @@ generic_infantry_equipment_organization = {
 		position = { x = 1 y = 1 }
 		relative_position_id = generic_mio_inf_at_ap
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			reliability = 0.1
 		}
@@ -13851,7 +13851,7 @@ GER_generic_utility_vehicle_manufacturer = {
 	}
 }
 
-generic_cnc_equipment_organization = {
+generic_cnc_equipment_type_organization = {
 	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
 	name = generic_mio_general_cnc_org
 
@@ -13897,7 +13897,7 @@ generic_cnc_equipment_organization = {
 	}
 
 	equipment_type = {
-		cnc_equipment
+		cnc_equipment_type
 	}
 	research_categories = { CAT_cnc }
 
@@ -13961,7 +13961,7 @@ generic_cnc_equipment_organization = {
 		position = { x = 0 y = 1 }
 		relative_position_id = generic_mio_cnc_improve_software
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			reliability = 0.2
 		}
@@ -13999,7 +13999,7 @@ generic_cnc_equipment_organization = {
 		position = { x = -2 y = 1 }
 		relative_position_id = generic_mio_cnc_improve_software
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			max_organisation = 0.15
 		}
@@ -14038,7 +14038,7 @@ generic_cnc_equipment_organization = {
 		position = { x = -1 y = 1 }
 		relative_position_id = generic_mio_cnc_satcom
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			max_organisation = 0.1
 		}
@@ -14077,7 +14077,7 @@ generic_cnc_equipment_organization = {
 		position = { x = 1 y = 1 }
 		relative_position_id = generic_mio_cnc_satcom
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			reliability = 0.1
 		}
@@ -14115,7 +14115,7 @@ generic_cnc_equipment_organization = {
 		position = { x = 2 y = 1 }
 		relative_position_id = generic_mio_cnc_improve_software
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			max_organisation = 0.2
 		}
@@ -14154,7 +14154,7 @@ generic_cnc_equipment_organization = {
 		position = { x = -1 y = 1 }
 		relative_position_id = generic_mio_cnc_Digital_battlefield
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			reliability = 0.1
 		}
@@ -14193,7 +14193,7 @@ generic_cnc_equipment_organization = {
 		position = { x = 1 y = 1 }
 		relative_position_id = generic_mio_cnc_Digital_battlefield
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		production_bonus = {
 			production_efficiency_gain_factor = 0.1
 		}
@@ -14267,7 +14267,7 @@ generic_cnc_equipment_organization = {
 		position = { x = 0 y = 3 }
 		relative_position_id = generic_cnc_frequency_hopping
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			reliability = 0.1
 			max_organisation = 0.05
@@ -14306,7 +14306,7 @@ generic_cnc_equipment_organization = {
 		position = { x = 1 y = 1 }
 		relative_position_id = generic_mio_vehicle_based_c2
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		production_bonus = {
 			production_efficiency_gain_factor = 0.1
 		}
@@ -14345,7 +14345,7 @@ generic_cnc_equipment_organization = {
 		position = { x = -1 y = 1 }
 		relative_position_id = generic_mio_cnc_automated_date_fusion
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			max_organisation = 0.15
 		}
@@ -14384,7 +14384,7 @@ generic_cnc_equipment_organization = {
 		position = { x = 1 y = 1 }
 		relative_position_id = generic_mio_cnc_automated_date_fusion
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			reliability = 0.1
 		}
@@ -14426,7 +14426,7 @@ generic_cnc_equipment_organization = {
 		position = { x = 1 y = 1 }
 		relative_position_id = generic_mio_inf_cnc_org
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			reliability = 0.2
 			max_organisation = 0.05

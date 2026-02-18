@@ -69,7 +69,7 @@
 
 		#For Templates
 		infantry_weapons_1 = 1
-		command_control_equipment = 1
+		cnc_equipment_1 = 1
 		Anti_tank_0 = 1
 
 		basic_computing = 1

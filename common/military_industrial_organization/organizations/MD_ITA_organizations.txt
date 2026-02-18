@@ -29,7 +29,7 @@ ITA_leonardo = {
 		H_AT_Equipment
 		AA_Equipment
 		medium_tank_aa_chassis
-		cnc_equipment
+		cnc_equipment_type
 		artillery_equipment
 		train_equipment
 		heavy_tank_amphibious_chassis
@@ -727,7 +727,7 @@ ITA_leonardo = {
 
 		position = { x = @finmeccanica_cnc_position y = 0 }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		production_bonus = {
 			production_cost_factor = -0.1
 		}
@@ -759,7 +759,7 @@ ITA_leonardo = {
 		position = { x = 0 y = 1 }
 		relative_position_id = generic_mio_inf_trait_cnc_prod_cost
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			max_organisation = 0.1
 		}
@@ -791,7 +791,7 @@ ITA_leonardo = {
 		position = { x = 0 y = 1 }
 		relative_position_id = generic_mio_inf_cnc_org
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			reliability = 0.1
 		}
@@ -827,7 +827,7 @@ ITA_leonardo = {
 		position = { x = 0 y = 1 }
 		relative_position_id = generic_mio_inf_cnc_rel
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 
 		equipment_bonus = {
 			max_organisation = 0.1
@@ -6245,7 +6245,7 @@ ITA_finmeccanica = {
 	research_categories = { CAT_artillery CAT_inf CAT_sp_aa CAT_infrastructure }
 	research_bonus = 0.1
 	equipment_type = {
-		cnc_equipment
+		cnc_equipment_type
 		artillery_equipment
 		medium_tank_aa_chassis
 		train_equipment
@@ -6269,7 +6269,7 @@ ITA_finmeccanica = {
 
 		position = { x = 2 y = 0 }
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		production_bonus = {
 			production_cost_factor = -0.1
 		}
@@ -6304,7 +6304,7 @@ ITA_finmeccanica = {
 		position = { x = 0 y = 1 }
 		relative_position_id = generic_mio_inf_trait_cnc_prod_cost
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			max_organisation = 0.1
 		}
@@ -6339,7 +6339,7 @@ ITA_finmeccanica = {
 		position = { x = 0 y = 1 }
 		relative_position_id = generic_mio_inf_cnc_org
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			reliability = 0.1
 		}
@@ -6378,7 +6378,7 @@ ITA_finmeccanica = {
 		position = { x = 0 y = 1 }
 		relative_position_id = generic_mio_inf_cnc_rel
 
-		limit_to_equipment_type = { cnc_equipment }
+		limit_to_equipment_type = { cnc_equipment_type }
 		equipment_bonus = {
 			max_organisation = 0.1
 		}

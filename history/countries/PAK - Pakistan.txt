@@ -22,8 +22,8 @@
 
 		combat_eng_equipment = 1
 
-		command_control_equipment = 1
-		command_control_equipment1 = 1
+		cnc_equipment_1 = 1
+		cnc_equipment_2 = 1
 
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1

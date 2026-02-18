@@ -78,7 +78,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 550 owner = AUS creator = AUS } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 149 owner = AUS creator = AUS } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 149 owner = AUS creator = AUS } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = AUS creator = AUS } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 12 owner = AUS creator = USA } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = AUS creator = USA } }
@@ -96,7 +96,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 290 owner = AUS creator = AUS } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 139 owner = AUS creator = AUS } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 139 owner = AUS creator = AUS } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 40 owner = AUS creator = AUS } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = AUS creator = USA } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 12 owner = AUS creator = USA } }
@@ -114,7 +114,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_4 = { amount = 824 owner = AUS creator = AUS } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 134 owner = AUS creator = AUS } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 134 owner = AUS creator = AUS } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 160 owner = AUS creator = AUS } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = AUS creator = USA } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 36 owner = AUS creator = USA } }
@@ -131,7 +131,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 824 owner = AUS creator = AUS } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 134 owner = AUS creator = AUS } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 134 owner = AUS creator = AUS } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 160 owner = AUS creator = AUS } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = AUS creator = USA } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 36 owner = AUS creator = USA } }
@@ -148,7 +148,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 824 owner = AUS creator = AUS } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 134 owner = AUS creator = AUS } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 134 owner = AUS creator = AUS } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 160 owner = AUS creator = AUS } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 6 owner = AUS creator = USA } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 36 owner = AUS creator = USA } }
@@ -165,7 +165,7 @@ units = {
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.1
 		force_equipment_variants = { infantry_weapons_3 = { amount = 250 owner = AUS creator = AUS } }
-		force_equipment_variants = { command_control_equipment2 = { amount = 30 owner = AUS creator = AUS } }
+		force_equipment_variants = { cnc_equipment_3 = { amount = 30 owner = AUS creator = AUS } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 12 owner = AUS creator = USA } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 8 owner = AUS creator = USA } }
 	}
@@ -177,7 +177,7 @@ instant_effect = {
 		amount = 8000
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment1
+		type = cnc_equipment_2
 		amount = 1500
 	}
 	add_equipment_to_stockpile = {

@@ -1341,7 +1341,7 @@ focus_tree = {
 				producer = PER
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = 2000
 				producer = PER
 			}

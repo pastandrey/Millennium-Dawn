@@ -6626,7 +6626,7 @@ focus_tree = {
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment
+					type = cnc_equipment_1
 					amount = 1450
 					producer = USA
 				}
@@ -9498,7 +9498,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus CES_us_equip executed"
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				producer = USA
 			}
@@ -9534,7 +9534,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus CES_rus_equip executed"
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				producer = SOV
 			}
@@ -9572,7 +9572,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus CES_chinese_equip executed"
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				producer = CHI
 			}

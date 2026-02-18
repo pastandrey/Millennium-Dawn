@@ -143,7 +143,7 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
-		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
+		force_equipment_variants = { cnc_equipment_2 = { owner = "SOV" } }
 		force_equipment_variants = { util_vehicle_2 = { owner = "ISI" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "SOV" } }
@@ -177,7 +177,7 @@ units = {
 		division_template = "Liwa Milisha"
 		start_experience_factor = 0.4
 		force_equipment_variants = { infantry_weapons_3 = { owner = "USA" } }
-		force_equipment_variants = { command_control_equipment2 = { owner = "USA" } }
+		force_equipment_variants = { cnc_equipment_3 = { owner = "USA" } }
 		force_equipment_variants = { util_vehicle_2 = { owner = "ISI" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
@@ -212,7 +212,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.6
 		force_equipment_variants = { infantry_weapons_3 = { owner = "USA" } }
-		force_equipment_variants = { command_control_equipment2 = { owner = "USA" } }
+		force_equipment_variants = { cnc_equipment_3 = { owner = "USA" } }
 		force_equipment_variants = { util_vehicle_2 = { owner = "ISI" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
@@ -246,7 +246,7 @@ units = {
 		division_template = "Liwa Milisha"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_weapons_3 = { owner = "USA" } }
-		force_equipment_variants = { command_control_equipment2 = { owner = "USA" } }
+		force_equipment_variants = { cnc_equipment_3 = { owner = "USA" } }
 		force_equipment_variants = { util_vehicle_2 = { owner = "ISI" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "CHI" } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { owner = "USA" } }
@@ -259,7 +259,7 @@ units = {
 		division_template = "Liwa Ansar al-Islam"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
-		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
+		force_equipment_variants = { cnc_equipment_2 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
 	}
@@ -269,7 +269,7 @@ units = {
 		division_template = "Liwa Ansar al-Islam"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
-		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
+		force_equipment_variants = { cnc_equipment_2 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
 	}
@@ -371,13 +371,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment
+		type = cnc_equipment_1
 		amount = 700
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = command_control_equipment2
+		type = cnc_equipment_3
 		amount = 450
 		producer = USA
 	}
