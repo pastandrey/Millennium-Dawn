@@ -148,35 +148,35 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_body_armor_1_medium"
-		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor1.dds"
+		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor_1.dds"
 	}
 	spriteType = {
 		name = "GFX_body_armor_2_medium"
-		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor2.dds"
+		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor_2.dds"
 	}
 	spriteType = {
 		name = "GFX_body_armor_3_medium"
-		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor3.dds"
+		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor_3.dds"
 	}
 	spriteType = {
 		name = "GFX_body_armor_4_medium"
-		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor4.dds"
+		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor_4.dds"
 	}
 	spriteType = {
 		name = "GFX_eastern_european_2d_body_armor_1_medium"
-		texturefile = "gfx/interface/technologies/Generic/body_armor/EEU_body_armor1.dds"
+		texturefile = "gfx/interface/technologies/Generic/body_armor/EEU_body_armor_1.dds"
 	}
 	spriteType = {
 		name = "GFX_eastern_european_2d_body_armor_2_medium"
-		texturefile = "gfx/interface/technologies/Generic/body_armor/EEU_body_armor2.dds"
+		texturefile = "gfx/interface/technologies/Generic/body_armor/EEU_body_armor_2.dds"
 	}
 	spriteType = {
 		name = "GFX_eastern_european_2d_body_armor_3_medium"
-		texturefile = "gfx/interface/technologies/Generic/body_armor/EEU_body_armor3.dds"
+		texturefile = "gfx/interface/technologies/Generic/body_armor/EEU_body_armor_3.dds"
 	}
 	spriteType = {
 		name = "GFX_eastern_european_2d_body_armor_4_medium"
-		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor4.dds"
+		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor_4.dds"
 	}
 	spriteType = {
 		name = "GFX_exoskeleton_1_medium"
