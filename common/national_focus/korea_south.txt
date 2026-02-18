@@ -837,8 +837,8 @@ focus_tree = {
 				name = KOR_warrior_platform
 				bonus = 0.25
 				uses = 3
-				technology = body_armor_2010
-				technology = body_armor_2030
+				technology = body_armor_3
+				technology = body_armor_4
 				category = CAT_l_drone
 				category = CAT_nvg
 			}

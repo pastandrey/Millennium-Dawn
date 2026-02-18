@@ -16,15 +16,24 @@ technologies = {
 	@2025 = 24
 	@2030 = 26
 	@2035 = 28
+	@2040 = 30
+	@2045 = 32
+	@2050 = 34
+	@2055 = 36
+	@2060 = 38
+	@2065 = 40
+	@2070 = 42
+	@2075 = 44
+	@2080 = 46
 	#Y Axis
 	@row1 = -2
 	@row2 = 0
 	@row3 = 2
 	@row4 = 4
 	@row5 = 6
-	@row6 = 9
-	@row6half = 11
-	@row7 = 12
+	@row6 = 8
+	@row6half = 9
+	@row7 = 10
 
 	###Infantry Weapons###
 
@@ -313,6 +322,11 @@ technologies = {
 			infantry_weapons7
 		}
 
+        path = {
+        	leads_to_tech = infantry_weapons8
+        	research_cost_coeff = 1
+    	}
+
 		research_cost = 1.7
 		start_year = 2035
 		folder = {
@@ -339,6 +353,148 @@ technologies = {
 			}
 		}
 	}
+	#2045
+	infantry_weapons8 = {
+
+		enable_equipments = {
+			infantry_weapons8
+		}
+		path = {
+			leads_to_tech = infantry_weapons9
+			research_cost_coeff = 1
+		}
+		research_cost = 1.7
+		start_year = 2045
+		folder = {
+			name = infantry_folder
+			position = { x = @row1 y = @2045 }
+		}
+		categories = {
+			CAT_inf
+			CAT_inf_wep
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2045.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2040.01.01
+			}
+		}
+		special_project_specialization = { specialization_land }
+	}
+	#2055
+	infantry_weapons9 = {
+
+		enable_equipments = {
+			infantry_weapons9
+		}
+		path = {
+			leads_to_tech = infantry_weapons10
+			research_cost_coeff = 1
+		}
+		research_cost = 1.7
+		start_year = 2055
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row1
+				y = @2055
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_inf_wep
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2055.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2050.01.01
+			}
+		}
+		special_project_specialization = { specialization_land }
+	}
+	#2065
+	infantry_weapons10 = {
+
+		enable_equipments = {
+			infantry_weapons10
+		}
+		path = {
+			leads_to_tech = infantry_weapons11
+			research_cost_coeff = 1
+		}
+		research_cost = 1.7
+		start_year = 2065
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row1
+				y = @2065
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_inf_wep
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2065.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2060.01.01
+			}
+		}
+		special_project_specialization = { specialization_land }
+	}
+	#2075
+	infantry_weapons11 = {
+
+		enable_equipments = {
+			infantry_weapons11
+		}
+
+		research_cost = 1.7
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row1
+				y = @2075
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_inf_wep
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2075.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2070.01.01
+			}
+		}
+		special_project_specialization = { specialization_land }
+	}
 
 	#1965
 	util_vehicle_0 = {
@@ -357,7 +513,6 @@ technologies = {
 			leads_to_tech = util_vehicle_1
 			research_cost_coeff = 1
 		}
-
 
 		research_cost = 1
 		start_year = 1965
@@ -389,7 +544,6 @@ technologies = {
 			leads_to_tech = util_vehicle_2
 			research_cost_coeff = 1
 		}
-
 
 		research_cost = 1.1
 		start_year = 1975
@@ -443,8 +597,8 @@ technologies = {
 	}
 	#1995
 	util_vehicle_3 = {
-		on_research_complete = {
 
+		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_truck_modular_seating
@@ -459,7 +613,6 @@ technologies = {
 			leads_to_tech = util_vehicle_4
 			research_cost_coeff = 1
 		}
-
 
 		research_cost = 1.3
 		start_year = 1995
@@ -492,7 +645,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-
 		research_cost = 1.4
 		start_year = 2005
 		folder = {
@@ -522,8 +674,8 @@ technologies = {
 	}
 	#2015
 	util_vehicle_5 = {
-		on_research_complete = {
 
+		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_utility_vehicle_electric_engines
@@ -538,7 +690,6 @@ technologies = {
 			leads_to_tech = util_vehicle_6
 			research_cost_coeff = 1
 		}
-
 
 		research_cost = 1.5
 		start_year = 2015
@@ -579,7 +730,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-
 		research_cost = 1.6
 		start_year = 2025
 		folder = {
@@ -615,9 +765,9 @@ technologies = {
 		}
 
 		path = {
+			leads_to_tech = util_vehicle_8
 			research_cost_coeff = 1
 		}
-
 
 		research_cost = 1.7
 		start_year = 2035
@@ -638,6 +788,145 @@ technologies = {
 			}
 		}
 
+		categories = {
+			CAT_afv
+			CAT_util
+			CAT_armor
+			CAT_Military
+		}
+		special_project_specialization = { specialization_land }
+	}
+	#2045
+	util_vehicle_8 = {
+
+		enable_equipments = {
+			util_vehicle_8
+		}
+		path = {
+			leads_to_tech = util_vehicle_9
+			research_cost_coeff = 1
+		}
+		research_cost = 1.7
+		start_year = 2045
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row2
+				y = @2045
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2045.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2040.01.01
+			}
+		}
+		categories = {
+			CAT_afv
+			CAT_util
+			CAT_armor
+			CAT_Military
+		}
+		special_project_specialization = { specialization_land }
+	}
+	#2055
+	util_vehicle_9 = {
+
+		enable_equipments = {
+			util_vehicle_9
+		}
+		path = {
+			leads_to_tech = util_vehicle_10
+			research_cost_coeff = 1
+		}
+		research_cost = 1.7
+		start_year = 2055
+		folder = {
+			name = infantry_folder
+			position = { x = @row2 y = @2055 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2055.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2050.01.01
+			}
+		}
+		categories = {
+			CAT_afv
+			CAT_util
+			CAT_armor
+			CAT_Military
+		}
+		special_project_specialization = { specialization_land }
+	}
+	#2065
+	util_vehicle_10 = {
+
+		enable_equipments = {
+			util_vehicle_10
+		}
+		path = {
+			leads_to_tech = util_vehicle_11
+			research_cost_coeff = 1
+		}
+		research_cost = 1.7
+		start_year = 2065
+		folder = {
+			name = infantry_folder
+			position = { x = @row2 y = @2065 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2065.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2060.01.01
+			}
+		}
+		categories = {
+			CAT_afv
+			CAT_util
+			CAT_armor
+			CAT_Military
+		}
+		special_project_specialization = { specialization_land }
+	}
+	#2075
+	util_vehicle_11 = {
+
+		enable_equipments = {
+			util_vehicle_11
+		}
+		research_cost = 1.7
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = { x = @row2 y = @2075 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2075.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2070.01.01
+			}
+		}
 		categories = {
 			CAT_afv
 			CAT_util
@@ -853,6 +1142,11 @@ technologies = {
 		army_defence_factor = 0.1
 		army_personnel_cost_multiplier_modifier = 0.05
 
+		path = {
+			leads_to_tech = augmented_vision_3
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2.3
 		start_year = 2035
 
@@ -863,6 +1157,157 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = @row3 y = @2035 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_nvg
+			CAT_Military
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	#2045
+	augmented_vision_3 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_tactical_augmented_reality
+			}
+		}
+
+		is_special_project_tech = yes
+	
+		army_attack_factor = 0.10
+		army_personnel_cost_multiplier_modifier = 0.05
+
+		path = {
+			leads_to_tech = augmented_vision_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.4
+		start_year = 2045
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row3 y = @2045 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_nvg
+			CAT_Military
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	#2055
+	augmented_vision_4 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_tactical_augmented_reality
+			}
+		}
+
+		is_special_project_tech = yes
+
+		army_defence_factor = 0.10
+		army_personnel_cost_multiplier_modifier = 0.05
+
+		path = {
+			leads_to_tech = augmented_vision_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 2055
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row3 y = @2055 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_nvg
+			CAT_Military
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	#2065
+	augmented_vision_5 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_tactical_augmented_reality
+			}
+		}
+
+		is_special_project_tech = yes
+
+		army_attack_factor = 0.10
+		army_personnel_cost_multiplier_modifier = 0.05
+
+		path = {
+			leads_to_tech = augmented_vision_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.6
+		start_year = 2065
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row3 y = @2065 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_nvg
+			CAT_Military
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	#2075
+	augmented_vision_6 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_tactical_augmented_reality
+			}
+		}
+
+		is_special_project_tech = yes
+
+		army_defence_factor = 0.10
+		army_personnel_cost_multiplier_modifier = 0.05
+
+		research_cost = 2.7
+		start_year = 2075
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row3 y = @2075 }
 		}
 
 		categories = {
@@ -1009,7 +1454,6 @@ technologies = {
 	#2015
 	command_control_equipment4 = {
 		on_research_complete = {
-
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_tactical_augmented_reality
@@ -1102,6 +1546,11 @@ technologies = {
 			command_control_equipment6
 		}
 
+		path = {
+			leads_to_tech = command_control_equipment7
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1.9
 		start_year = 2035
 		folder = {
@@ -1125,6 +1574,160 @@ technologies = {
 			modifier = {
 				factor = 0.2
 				date < 2030.01.01
+			}
+		}
+	}
+	#2045
+	command_control_equipment7 = {
+
+		coordination_bonus = 0.03
+		enable_equipments = {
+			command_control_equipment7
+		}
+		path = {
+			leads_to_tech = command_control_equipment8
+			research_cost_coeff = 1
+		}
+		research_cost = 1.9
+		start_year = 2045
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row4
+				y = @2045
+			}
+		}
+
+		categories = {
+			CAT_inf
+			CAT_cnc
+			CAT_Military
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2045.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2040.01.01
+			}
+		}
+	}
+	#2055
+	command_control_equipment8 = {
+
+		coordination_bonus = 0.03
+		enable_equipments = {
+			command_control_equipment8
+		}
+		path = {
+			leads_to_tech = command_control_equipment9
+			research_cost_coeff = 1
+		}
+		research_cost = 1.9
+		start_year = 2055
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row4
+				y = @2055
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_cnc
+			CAT_Military
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2055.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2050.01.01
+			}
+		}
+	}
+	#2065
+	command_control_equipment9 = {
+
+		coordination_bonus = 0.03
+		enable_equipments = {
+			command_control_equipment9
+		}
+		path = {
+			leads_to_tech = command_control_equipment10
+			research_cost_coeff = 1
+		}
+		research_cost = 1.9
+		start_year = 2065
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row4
+				y = @2065
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_cnc
+			CAT_Military
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2065.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2060.01.01
+			}
+		}
+	}
+	#2075
+	command_control_equipment10 = {
+
+		coordination_bonus = 0.03
+		enable_equipments = {
+			command_control_equipment10
+		}
+
+		research_cost = 1.9
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row4
+				y = @2075
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_cnc
+			CAT_Military
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2075.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2070.01.01
 			}
 		}
 	}
@@ -1488,6 +2091,7 @@ technologies = {
 	#2035
 	land_Drone_equipment5 = {
 		is_special_project_tech = yes
+
 		L_Recce_Comp = {
 			recon = 0.25
 		}
@@ -1520,6 +2124,11 @@ technologies = {
 			land_drone_equipment_3
 		}
 
+		path = {
+			leads_to_tech = land_Drone_equipment6
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 2035
 		folder = {
@@ -1549,8 +2158,253 @@ technologies = {
 			}
 		}
 	}
+	#2045
+	land_Drone_equipment6 = {
 
-	body_armor_1980 = { #kevlar
+		L_Recce_Comp = {
+			recon = 0.25
+		}
+		L_Ranger_Recce_Comp = {
+			recon = 0.30
+		}
+		Mot_Recce_Comp = {
+			recon = 0.31
+		}
+		Mech_Recce_Comp = {
+			recon = 0.4
+		}
+		Arm_Recce_Comp = {
+			recon = 0.4
+		}
+		armor_Recce_Comp = {
+			recon = 0.5
+		}
+		drone_tactical_company = {
+			recon = 0.5
+		}
+		attack_helo_comp = {
+			recon = 0.6
+		}
+
+		path = {
+			leads_to_tech = land_Drone_equipment7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2045
+		folder = {
+			name = infantry_folder
+			position = { x = @row5 y = @2045 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_l_drone
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2045.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2040.01.01
+			}
+			modifier = {
+				factor = 2
+				check_variable = { gdp_per_capita > 14.999 }
+			}
+
+		}
+	}
+	#2055
+	land_Drone_equipment7 = {
+
+		L_Recce_Comp = {
+			recon = 0.25
+		}
+		L_Ranger_Recce_Comp = {
+			recon = 0.30
+		}
+		Mot_Recce_Comp = {
+			recon = 0.31
+		}
+		Mech_Recce_Comp = {
+			recon = 0.4
+		}
+		Arm_Recce_Comp = {
+			recon = 0.4
+		}
+		armor_Recce_Comp = {
+			recon = 0.5
+		}
+		drone_tactical_company = {
+			recon = 0.5
+		}
+		attack_helo_comp = {
+			recon = 0.6
+		}
+
+		path = {
+			leads_to_tech = land_Drone_equipment8
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2055
+		folder = {
+			name = infantry_folder
+			position = { x = @row5 y = @2055 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_l_drone
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2055.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2050.01.01
+			}
+			modifier = {
+				factor = 2
+				check_variable = { gdp_per_capita >14.999 }
+			}
+
+		}
+	}
+	#2065
+	land_Drone_equipment8 = {
+
+		L_Recce_Comp = {
+			recon = 0.25
+		}
+		L_Ranger_Recce_Comp = {
+			recon = 0.30
+		}
+		Mot_Recce_Comp = {
+			recon = 0.31
+		}
+		Mech_Recce_Comp = {
+			recon = 0.4
+		}
+		Arm_Recce_Comp = {
+			recon = 0.4
+		}
+		armor_Recce_Comp = {
+			recon = 0.5
+		}
+		drone_tactical_company = {
+			recon = 0.5
+		}
+		attack_helo_comp = {
+			recon = 0.6
+		}
+
+		path = {
+			leads_to_tech = land_Drone_equipment9
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2065
+		folder = {
+			name = infantry_folder
+			position = { x = @row5 y = @2065 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_l_drone
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2065.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2060.01.01
+			}
+			modifier = {
+				factor = 2
+				check_variable = { gdp_per_capita > 14.999 }
+			}
+		}
+	}
+	#2075
+	land_Drone_equipment9 = {
+
+		L_Recce_Comp = {
+			recon = 0.25
+		}
+		L_Ranger_Recce_Comp = {
+			recon = 0.30
+		}
+		Mot_Recce_Comp = {
+			recon = 0.31
+		}
+		Mech_Recce_Comp = {
+			recon = 0.4
+		}
+		Arm_Recce_Comp = {
+			recon = 0.4
+		}
+		armor_Recce_Comp = {
+			recon = 0.5
+		}
+		drone_tactical_company = {
+			recon = 0.5
+		}
+		attack_helo_comp = {
+			recon = 0.6
+		}
+
+		research_cost = 2
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = { x = @row5 y = @2075 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_l_drone
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				date < 2075.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2070.01.01
+			}
+			modifier = {
+				factor = 2
+				check_variable = { gdp_per_capita > 14.999 }
+			}
+		}
+	}
+
+	body_armor_1 = { #kevlar
 
 		category_light_infantry = {
 			max_strength = 2
@@ -1571,7 +2425,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = body_armor_2000
+			leads_to_tech = body_armor_2
 			research_cost_coeff = 1
 		}
 
@@ -1596,7 +2450,7 @@ technologies = {
 			factor = 10
 		}
 	}
-	body_armor_2000 = { #kevlar with ceramic ballistic plates
+	body_armor_2 = { #kevlar with ceramic ballistic plates
 
 		category_light_infantry = {
 			max_strength = 2
@@ -1617,7 +2471,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = body_armor_2010
+			leads_to_tech = body_armor_3
 			research_cost_coeff = 1
 		}
 
@@ -1642,7 +2496,7 @@ technologies = {
 			factor = 10
 		}
 	}
-	body_armor_2010 = { #improved outer tactical vest
+	body_armor_3 = { #improved outer tactical vest
 		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
@@ -1669,7 +2523,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = body_armor_2030
+			leads_to_tech = body_armor_4
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1706,7 +2560,7 @@ technologies = {
 			}
 		}
 	}
-	body_armor_2030 = {
+	body_armor_4 = {
 
 		category_light_infantry = {
 			max_strength = 2
@@ -1724,6 +2578,11 @@ technologies = {
 		helicopter_combat_service_support = {
 			casualty_trickleback = 0.05
 			experience_loss_factor = -0.05
+		}
+
+		path = {
+			leads_to_tech = body_armor_5
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2
@@ -1752,6 +2611,266 @@ technologies = {
 			modifier = {
 				factor = 0.2
 				date < 2020.01.01
+			}
+		}
+	}
+	#2040
+	body_armor_5 = {
+		category_light_infantry = {
+			max_strength = 2
+		}
+		category_apc = {
+			max_strength = 1.75
+		}
+		category_IFV = {
+			max_strength = 1.5
+		}
+		combat_service_support_company = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+		helicopter_combat_service_support = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+
+		path = {
+			leads_to_tech = body_armor_6
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 2040
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row6
+				y = @2040
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2040.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2030.01.01
+			}
+		}
+	}
+	#2050
+	body_armor_6 = {
+		category_light_infantry = {
+			max_strength = 2
+		}
+		category_apc = {
+			max_strength = 1.75
+		}
+		category_IFV = {
+			max_strength = 1.5
+		}
+		combat_service_support_company = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+		helicopter_combat_service_support = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+
+
+		path = {
+			leads_to_tech = body_armor_7
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 2050
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row6
+				y = @2050
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2050.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2040.01.01
+			}
+		}
+	}
+	#2060
+	body_armor_7 = {
+		category_light_infantry = {
+			max_strength = 2
+		}
+		category_apc = {
+			max_strength = 1.75
+		}
+		category_IFV = {
+			max_strength = 1.5
+		}
+		combat_service_support_company = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+		helicopter_combat_service_support = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+
+
+		path = {
+			leads_to_tech = body_armor_8
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 2060
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row6
+				y = @2060
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2060.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2050.01.01
+			}
+		}
+	}
+	#2070
+	body_armor_8 = {
+		category_light_infantry = {
+			max_strength = 2
+		}
+		category_apc = {
+			max_strength = 1.75
+		}
+		category_IFV = {
+			max_strength = 1.5
+		}
+		combat_service_support_company = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+		helicopter_combat_service_support = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+
+
+		path = {
+			leads_to_tech = body_armor_9
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 2070
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row6
+				y = @2070
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2070.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2060.01.01
+			}
+		}
+	}
+	#2080
+	body_armor_9 = {
+		category_light_infantry = {
+			max_strength = 2
+		}
+		category_apc = {
+			max_strength = 1.75
+		}
+		category_IFV = {
+			max_strength = 1.5
+		}
+		combat_service_support_company = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+		helicopter_combat_service_support = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
+		}
+
+		research_cost = 2
+		start_year = 2080
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position = {
+				x = @row6
+				y = @2080
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2080.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2070.01.01
 			}
 		}
 	}
@@ -1811,6 +2930,11 @@ technologies = {
 
 		is_special_project_tech = yes
 
+		path = {
+			leads_to_tech = exoskeleton_3
+			research_cost_coeff = 1
+		}
+
 		category_conventional_infantry = {
 			breakthrough = 0.1
 		}
@@ -1841,6 +2965,150 @@ technologies = {
 			modifier = {
 				factor = 0.2
 				date < 2015.01.01
+			}
+		}
+	}
+	#2040
+	exoskeleton_3 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_experimental_exoskeleton
+			}
+		}
+
+		is_special_project_tech = yes
+
+		path = {
+			leads_to_tech = exoskeleton_4
+			research_cost_coeff = 1
+		}
+		
+		category_conventional_infantry = {
+			breakthrough = 0.15
+		}
+
+		research_cost = 2.1
+		start_year = 2040
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row6half y = @2040 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2040.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2030.01.01
+			}
+		}
+	}
+
+	#2055
+	exoskeleton_4 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_experimental_exoskeleton
+			}
+		}
+
+		is_special_project_tech = yes
+
+		path = {
+			leads_to_tech = exoskeleton_5
+			research_cost_coeff = 1
+		}
+		
+		category_conventional_infantry = {
+			breakthrough = 0.20
+		}
+
+		research_cost = 2.2
+		start_year = 2055
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row6half y = @2055 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2055.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2045.01.01
+			}
+		}
+	}
+
+	#2070
+	exoskeleton_5 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_experimental_exoskeleton
+			}
+		}
+
+		is_special_project_tech = yes
+		
+		category_conventional_infantry = {
+			breakthrough = 0.25
+		}
+
+		research_cost = 2.3
+		start_year = 2070
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row6half y = @2070 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2070.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2060.01.01
 			}
 		}
 	}
@@ -2023,13 +3291,18 @@ technologies = {
 		is_special_project_tech = yes
 
 		category_light_infantry = {
-			defense = 0.30
+			defense = 0.25
 		}
 		category_apc = {
-			defense = 0.30
+			defense = 0.25
 		}
 		category_IFV = {
-			defense = 0.30
+			defense = 0.25
+		}
+
+		path = {
+			leads_to_tech = camouflage6
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2
@@ -2058,6 +3331,166 @@ technologies = {
 			modifier = {
 				factor = 0.2
 				date < 2025.01.01
+			}
+		}
+	}
+	#2050
+	camouflage6 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_active_camouflage
+			}
+		}
+
+		is_special_project_tech = yes
+
+		category_light_infantry = {
+			defense = 0.25
+		}
+		category_apc = {
+			defense = 0.25
+		}
+		category_IFV = {
+			defense = 0.25
+		}
+
+		path = {
+			leads_to_tech = camouflage7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.1
+		start_year = 2050
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row7 y = @2050 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2050.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2040.01.01
+			}
+		}
+	}
+	#2065
+	camouflage7 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_active_camouflage
+			}
+		}
+
+		is_special_project_tech = yes
+
+		category_light_infantry = {
+			defense = 0.25
+		}
+		category_apc = {
+			defense = 0.25
+		}
+		category_IFV = {
+			defense = 0.25
+		}
+
+		path = {
+			leads_to_tech = camouflage8
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.2
+		start_year = 2065
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row7 y = @2065 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2065.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2055.01.01
+			}
+		}
+	}
+	#2080
+	camouflage8 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_active_camouflage
+			}
+		}
+
+		is_special_project_tech = yes
+
+		category_light_infantry = {
+			defense = 0.25
+		}
+		category_apc = {
+			defense = 0.25
+		}
+		category_IFV = {
+			defense = 0.25
+		}
+
+		research_cost = 2.3
+		start_year = 2080
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = @row7 y = @2080 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_Military
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				date < 2080.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2070.01.01
 			}
 		}
 	}
@@ -2396,6 +3829,11 @@ technologies = {
 			soft_attack = 0.10
 		}
 
+		path = {
+			leads_to_tech = autonomous_fire_support_drone2
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1.5
 		start_year = 2035
 
@@ -2416,8 +3854,170 @@ technologies = {
 
 		ai_will_do = { factor = 1 }
 	}
+	#2045
+	autonomous_fire_support_drone2 = {
 
-	##Special Forces
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_fire_support_land_drone
+			}
+		}
+
+		is_special_project_tech = yes
+
+		category_non_militia = {
+			breakthrough = 0.10
+			soft_attack = 0.10
+		}
+
+		path = {
+			leads_to_tech = autonomous_fire_support_drone3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.6
+		start_year = 2045
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @2045 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_support_weapons
+			CAT_Military
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	#2055
+	autonomous_fire_support_drone3 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_fire_support_land_drone
+			}
+		}
+
+		is_special_project_tech = yes
+
+		category_non_militia = {
+			breakthrough = 0.10
+			soft_attack = 0.10
+		}
+
+		path = {
+			leads_to_tech = autonomous_fire_support_drone4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 2055
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @2055 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_support_weapons
+			CAT_Military
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	#2065
+	autonomous_fire_support_drone4 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_fire_support_land_drone
+			}
+		}
+
+		is_special_project_tech = yes
+
+		category_non_militia = {
+			breakthrough = 0.10
+			soft_attack = 0.10
+		}
+
+		path = {
+			leads_to_tech = autonomous_fire_support_drone5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.8
+		start_year = 2065
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @2065 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_support_weapons
+			CAT_Military
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	#2075
+	autonomous_fire_support_drone5 = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_fire_support_land_drone
+			}
+		}
+
+		is_special_project_tech = yes
+
+		category_non_militia = {
+			breakthrough = 0.10
+			soft_attack = 0.10
+		}
+
+		research_cost = 1.9
+		start_year = 2075
+
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.00
+
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @2075 }
+		}
+
+		categories = {
+			CAT_inf
+			CAT_support_weapons
+			CAT_Military
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	###Special Forces
 	special_forces = {
 		special_forces_cap = 0.05
 		path = {
@@ -2581,7 +4181,10 @@ technologies = {
 			hard_attack = 0.05
 			max_organisation = 5
 		}
-
+		path = {
+			leads_to_tech = special_forces7
+			research_cost_coeff = 1
+		}
 		research_cost = 5
 		start_year = 2030
 
@@ -2601,5 +4204,167 @@ technologies = {
 		}
 
 		ai_will_do = { factor = 1 }
+	}
+	#2040
+	special_forces7 = {
+
+		category_special_forces = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = special_forces8
+			research_cost_coeff = 1
+		}
+		research_cost = 5
+		start_year = 2040
+		xp_research_type = army
+		xp_boost_cost = 100
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = @2040
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_special_forces
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#2050
+	special_forces8 = {
+
+		category_special_forces = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = special_forces9
+			research_cost_coeff = 1
+		}
+		research_cost = 5
+		start_year = 2050
+		xp_research_type = army
+		xp_boost_cost = 100
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position ={
+				x = 2
+				y = @2050
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_special_forces
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#2060
+	special_forces9 = {
+
+		category_special_forces = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = special_forces10
+			research_cost_coeff = 1
+		}
+		research_cost = 5
+		start_year = 2060
+		xp_research_type = army
+		xp_boost_cost = 100
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = @2060
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_special_forces
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#2070
+	special_forces10 = {
+
+		category_special_forces = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = special_forces11
+			research_cost_coeff = 1
+		}
+		research_cost = 5
+		start_year = 2070
+		xp_research_type = army
+		xp_boost_cost = 100
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = @2070
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_special_forces
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#2080
+	special_forces11 = {
+
+		category_special_forces = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 5
+		}
+
+		research_cost = 5
+		start_year = 2080
+		xp_research_type = army
+		xp_boost_cost = 100
+		xp_research_bonus = 1
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = @2080
+			}
+		}
+		categories = {
+			CAT_inf
+			CAT_special_forces
+			CAT_Military
+		}
+		ai_will_do = {
+			factor = 1
+		}
 	}
 }

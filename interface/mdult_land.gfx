@@ -11972,33 +11972,33 @@ spriteTypes = {
 	### POL Body Armor ###
 
 	spriteType = {
-		name = "GFX_POL_body_armor_1980_medium"
+		name = "GFX_POL_body_armor_1_medium"
 		texturefile = "gfx/interface/technologies/POL/body_armor/body_armor1.dds"
 	}
 	spriteType = {
-		name = "GFX_POL_body_armor_2000_medium"
+		name = "GFX_POL_body_armor_2_medium"
 		texturefile = "gfx/interface/technologies/POL/body_armor/body_armor2.dds"
 	}
 	spriteType = {
-		name = "GFX_POL_body_armor_2010_medium"
+		name = "GFX_POL_body_armor_3_medium"
 		texturefile = "gfx/interface/technologies/POL/body_armor/body_armor3.dds"
 	}
 	spriteType = {
-		name = "GFX_POL_body_armor_2030_medium"
+		name = "GFX_POL_body_armor_4_medium"
 		texturefile = "gfx/interface/technologies/POL/body_armor/body_armor4.dds"
 	}
 
 	#ARM body armor
 	spriteType = {
-			name = "GFX_ARM_body_armor_2000_medium"
+			name = "GFX_ARM_body_armor_2_medium"
 			texturefile = "gfx/interface/technologies/ARM/body_armor/body_armor2.dds"
 	}
 	spriteType = {
-			name = "GFX_ARM_body_armor_2010_medium"
+			name = "GFX_ARM_body_armor_3_medium"
 			texturefile = "gfx/interface/technologies/ARM/body_armor/body_armor3.dds"
 	}
 	spriteType = {
-			name = "GFX_ARM_body_armor_2030_medium"
+			name = "GFX_ARM_body_armor_4_medium"
 			texturefile = "gfx/interface/technologies/ARM/body_armor/body_armor4.dds"
 	}
 	### BSH Artillery Tree ###

@@ -61,7 +61,7 @@
 
 		Air_UAV1 = 1
 
-		body_armor_2000 = 1
+		body_armor_2 = 1
 
 		microprocessors = 1
 		computing2 = 1

@@ -6848,10 +6848,10 @@
  POL_infantry_weapons6: "MSBS Grot M3"
  POL_infantry_weapons7: "MSBS Grot M4"
 
- POL_body_armor_1980: "Kamizelka przeciwodłamkowa DMV-98"
- POL_body_armor_2000: "Kamizelka KLV"
- POL_body_armor_2010: "Uniwersalna Kamizelka Ochronna KWM-02"
- POL_body_armor_2030: "Uniwersalna Kamizelka Ochronna KWM-02M"
+ POL_body_armor_1: "Kamizelka przeciwodłamkowa DMV-98"
+ POL_body_armor_2: "Kamizelka KLV"
+ POL_body_armor_3: "Uniwersalna Kamizelka Ochronna KWM-02"
+ POL_body_armor_4: "Uniwersalna Kamizelka Ochronna KWM-02M"
 
  POL_Anti_tank_0: "RPG-76 Komar"
  POL_Anti_tank_1: "9K111 Fagot"

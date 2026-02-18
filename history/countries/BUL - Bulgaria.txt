@@ -23,7 +23,7 @@
 		special_forces = 1
 		command_control_equipment = 1
 		util_vehicle_0 = 1
-		body_armor_1980 = 1
+		body_armor_1 = 1
 		camouflage = 1
 		basic_computing = 1
 		integrated_circuit = 1

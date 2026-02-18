@@ -147,35 +147,35 @@ spriteTypes = {
 	### Generic Body Armor ###
 
 	spriteType = {
-		name = "GFX_body_armor_1980_medium"
+		name = "GFX_body_armor_1_medium"
 		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor1.dds"
 	}
 	spriteType = {
-		name = "GFX_body_armor_2000_medium"
+		name = "GFX_body_armor_2_medium"
 		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor2.dds"
 	}
 	spriteType = {
-		name = "GFX_body_armor_2010_medium"
+		name = "GFX_body_armor_3_medium"
 		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor3.dds"
 	}
 	spriteType = {
-		name = "GFX_body_armor_2030_medium"
+		name = "GFX_body_armor_4_medium"
 		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor4.dds"
 	}
 	spriteType = {
-		name = "GFX_eastern_european_2d_body_armor_1980_medium"
+		name = "GFX_eastern_european_2d_body_armor_1_medium"
 		texturefile = "gfx/interface/technologies/Generic/body_armor/EEU_body_armor1.dds"
 	}
 	spriteType = {
-		name = "GFX_eastern_european_2d_body_armor_2000_medium"
+		name = "GFX_eastern_european_2d_body_armor_2_medium"
 		texturefile = "gfx/interface/technologies/Generic/body_armor/EEU_body_armor2.dds"
 	}
 	spriteType = {
-		name = "GFX_eastern_european_2d_body_armor_2010_medium"
+		name = "GFX_eastern_european_2d_body_armor_3_medium"
 		texturefile = "gfx/interface/technologies/Generic/body_armor/EEU_body_armor3.dds"
 	}
 	spriteType = {
-		name = "GFX_eastern_european_2d_body_armor_2030_medium"
+		name = "GFX_eastern_european_2d_body_armor_4_medium"
 		texturefile = "gfx/interface/technologies/Generic/body_armor/body_armor4.dds"
 	}
 	spriteType = {
@@ -1598,6 +1598,26 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_microchip_production_5_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_microchip_production_6_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_microchip_production_7_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_7.dds"
+	}
+	SpriteType = {
+		name = "GFX_microchip_production_8_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_8.dds"
+	}
+	SpriteType = {
+		name = "GFX_microchip_production_9_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_9.dds"
+	}
+	SpriteType = {
+		name = "GFX_microchip_production_10_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_10.dds"
 	}
 	SpriteType = {
 		name = "GFX_composite_production_1_medium"

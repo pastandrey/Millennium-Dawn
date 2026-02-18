@@ -385,7 +385,7 @@ guiTypes = {
 				format = "LEFT"
 			}
 			gridboxtype = {
-				name = "body_armor_1980_tree"
+				name = "body_armor_1_tree"
 				position = { x = 140 y = 520 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

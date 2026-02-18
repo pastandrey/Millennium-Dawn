@@ -9318,8 +9318,8 @@ focus_tree = {
 				name = ARM_our_own_armor
 				uses = 2
 				bonus = 0.5
-				technology = body_armor_2010
-				technology = body_armor_2000
+				technology = body_armor_3
+				technology = body_armor_2
 			}
 			set_temp_variable = { treasury_change = -5.00 }
 			modify_treasury_effect = yes

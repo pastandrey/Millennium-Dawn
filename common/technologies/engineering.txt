@@ -4121,6 +4121,47 @@ technologies = {
 		}
 	}
 
+	microchip_production_5 = {
+		start_year = 2025
+		research_cost = 1.6
+
+		force_use_small_tech_layout = yes
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = microchip_plant
+				resource = microchips
+				amount = 1
+			}
+		}
+
+		energy_use_modifier_microchip_plants = 0.05
+
+		path = {
+			leads_to_tech = microchip_production_6
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = electronics_folder
+			position = { x = @row5 y = @2025 }
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				check_variable = { microchip_plant_total > 0 }
+			}
+		}
+
+		categories = {
+			CAT_Civilian
+			CAT_computing_tech
+			CAT_microchips
+		}
+	}
+
 	microchip_production_6 = {
 		start_year = 2035
 		research_cost = 1.6
@@ -4304,42 +4345,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = @row5 y = @2075 }
-		}
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 10
-				check_variable = { microchip_plant_total > 0 }
-			}
-		}
-
-		categories = {
-			CAT_Civilian
-			CAT_computing_tech
-			CAT_microchips
-		}
-	}
-
-	microchip_production_5 = {
-		start_year = 2025
-		research_cost = 1.6
-
-		force_use_small_tech_layout = yes
-
-		on_research_complete = {
-			modify_building_resources = {
-				building = microchip_plant
-				resource = microchips
-				amount = 1
-			}
-		}
-
-		energy_use_modifier_microchip_plants = 0.05
-
-		folder = {
-			name = electronics_folder
-			position = { x = @row5 y = @2025 }
 		}
 
 		ai_will_do = {

@@ -1700,7 +1700,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = DEN_SOF
 				bonus = 0.25
-				technology = body_armor_2010
+				technology = body_armor_3
 				uses = 1
 			}
 			add_tech_bonus = {

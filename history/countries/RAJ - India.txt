@@ -541,7 +541,7 @@
 		infantry_weapons3 = 1
 		support_weapons = 1
 
-		body_armor_1980 = 1
+		body_armor_1 = 1
 		camouflage = 1
 		camouflage2 = 1
 
