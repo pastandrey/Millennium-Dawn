@@ -2654,7 +2654,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 	}
 	equipment_type = {
-		Inf_equipment
+		infantry_weapons
 		cnc_equipment
 	}
 	research_categories = {
@@ -2998,7 +2998,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -3038,7 +3038,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -3338,7 +3338,7 @@ HOL_Thales_equipment_manufacturer = {
 		position = { x = 5 y = 0 }
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -3378,7 +3378,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -3418,7 +3418,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -3458,7 +3458,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -3499,7 +3499,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -3539,7 +3539,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		production_bonus = {
@@ -3578,7 +3578,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		production_bonus = {
@@ -3617,7 +3617,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		production_bonus = {
@@ -3660,7 +3660,7 @@ HOL_Thales_equipment_manufacturer = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {

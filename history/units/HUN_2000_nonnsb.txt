@@ -65,7 +65,7 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		#AK-63
+		type = infantry_weapons_2		#AK-63
 		amount = 4000
 	}
 

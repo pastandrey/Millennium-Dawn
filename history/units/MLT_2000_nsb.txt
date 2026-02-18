@@ -18,7 +18,7 @@ units = {
 		division_template = "Armed Forces of Malta"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
-		force_equipment_variants = { infantry_weapons = { amount = 70 owner = MLT creator = SOV version_name = "AKM" } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 70 owner = MLT creator = SOV version_name = "AKM" } }
 		force_equipment_variants = { util_vehicle_0 = { amount = 10 owner = MLT creator = USA } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 12 owner = MLT creator = CHI } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 20 owner = MLT creator = ITA } }
@@ -59,30 +59,30 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		producer = ROM
 		amount = 70
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "Type 68"
 		producer = NKO
 		amount = 40
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "MPi-KM"
 		producer = GER
 		amount = 90
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "Type 56-2" #add in 2002 irl
 		producer = CHI
 		amount = 100
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		 #FN-FAL
+		type = infantry_weapons_1		 #FN-FAL
 		amount = 100
 		producer = BEL
 	}

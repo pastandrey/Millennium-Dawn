@@ -263,7 +263,7 @@ units = {
 		location = 4981
 		division_template = "Marine Regiment"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_weapons1 = { owner = "USA" } }
+		force_equipment_variants = { infantry_weapons_2 = { owner = "USA" } }
 		force_equipment_variants = { command_control_equipment3 = { owner = "USA" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { owner = "SPR" version_name = "Pegaso BMR" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "USA" } }
@@ -274,17 +274,17 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2 #AUG
+		type = infantry_weapons_3 #AUG
 		amount = 11000
 		producer = AUS
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #G3
+		type = infantry_weapons_2 #G3
 		amount = 9000
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #M16
+		type = infantry_weapons_2 #M16
 		amount = 1000
 		producer = USA
 	}

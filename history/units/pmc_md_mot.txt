@@ -5,7 +5,7 @@ units = {
 		division_template = "MD Motorized Unit"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons2 = { owner = USA } }
+		force_equipment_variants = { infantry_weapons_3 = { owner = USA } }
 		force_equipment_variants = { Anti_tank_1 = { owner = USA } }
 		force_equipment_variants = { Anti_Air_1 = { owner = USA } }
 		force_equipment_variants = { artillery_1 = { owner = USA } }

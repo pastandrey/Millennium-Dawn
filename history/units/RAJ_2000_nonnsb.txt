@@ -987,12 +987,12 @@ instant_effect = {
 	### Smaller Weaponry ###
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons #
+		type = infantry_weapons_1 #
 		amount = 150000
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #
+		type = infantry_weapons_2 #
 		amount = 10500
 	}
 

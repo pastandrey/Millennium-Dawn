@@ -47,10 +47,10 @@
 		post_conventional_rail = 1
 		early_freight_locomotive = 1
 		infantry_mass_assault = 1
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		infantry_weapons3 = 1 #1995
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
+		infantry_weapons_4 = 1 #1995
 		support_weapons = 1
 		tandem_charge_warheads = 1
 		squad_automatic_weapon = 1
@@ -1188,7 +1188,7 @@
 
 		create_equipment_variant = {
 			name = "Type 56 Carbine"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			upgrades = {
 				Inf_eq_heavy_weapons = 1
 			}
@@ -1197,7 +1197,7 @@
 		}
 		create_equipment_variant = {
 			name = "Type 56"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			upgrades = {
 				Inf_eq_heavy_weapons = 2
 			}
@@ -1205,13 +1205,13 @@
 		}
 		create_equipment_variant = {
 			name = "Type 56-2"
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			icon = "gfx/interface/technologies/CHI/INF/INF1.dds"
 			obsolete = yes
 		}
 		create_equipment_variant = {
 			name = "Type 81"
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			icon = "gfx/interface/technologies/CHI/INF/INF2.dds"
 			upgrades = {
 				Inf_eq_heavy_weapons = 1
@@ -1220,7 +1220,7 @@
 		}
 		create_equipment_variant = {
 			name = "Type 81-1"
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			icon = "gfx/interface/technologies/CHI/INF/TY81.dds"
 			upgrades = {
 				Inf_eq_heavy_weapons = 2

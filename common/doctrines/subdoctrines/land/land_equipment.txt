@@ -99,7 +99,7 @@ light_infantry_load = {
 
 	# EFFECTS
 	equipment_bonus = {
-		Inf_equipment = {
+		infantry_weapons = {
 			build_cost_ic = -0.15
 			maximum_speed = 0.5
 			instant = yes
@@ -244,7 +244,7 @@ heavy_infantry_load = {
 		}
 		overmatch_rifles = {
 			equipment_bonus = {
-				Inf_equipment = {
+				infantry_weapons = {
 					soft_attack = 0.15
 					hard_attack = 0.05
 					instant = yes

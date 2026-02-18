@@ -67,7 +67,7 @@ units = {
 		force_equipment_variants = { Anti_Air_0 = { amount = 29 owner = TAJ creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 44 owner = TAJ creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 5 owner = TAJ creator = SOV } }
-		force_equipment_variants = { infantry_weapons1 = { amount = 960 owner = TAJ creator = SOV } }
+		force_equipment_variants = { infantry_weapons_2 = { amount = 960 owner = TAJ creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 6 owner = TAJ creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 80 owner = TAJ creator = SOV version_name = "Ural-4320" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 12 owner = TAJ creator = SOV version_name = "BTR-80" } }
@@ -85,7 +85,7 @@ units = {
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = TAJ creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = TAJ creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = TAJ creator = SOV } }
-		force_equipment_variants = { infantry_weapons1 = { amount = 888 owner = TAJ creator = SOV } }
+		force_equipment_variants = { infantry_weapons_2 = { amount = 888 owner = TAJ creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 80 owner = TAJ creator = SOV version_name = "Ural-4320" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = TAJ creator = SOV version_name = "BTR-80" } }
 		force_equipment_variants = { medium_tank_chassis_1 = { amount = 5 owner = TAJ creator = SOV version_name = "T-72 Ural" } }
@@ -101,7 +101,7 @@ units = {
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = TAJ creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = TAJ creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = TAJ creator = SOV } }
-		force_equipment_variants = { infantry_weapons1 = { amount = 888 owner = TAJ creator = SOV } }
+		force_equipment_variants = { infantry_weapons_2 = { amount = 888 owner = TAJ creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 80 owner = TAJ creator = SOV version_name = "Ural-4320" } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 7 owner = TAJ creator = SOV version_name = "BTR-70" } }
 		force_equipment_variants = { medium_tank_chassis_1 = { amount = 14 owner = TAJ creator = SOV version_name = "T-72B" } }
@@ -117,7 +117,7 @@ units = {
 		force_equipment_variants = { Anti_Air_0 = { amount = 16 owner = TAJ creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = TAJ creator = SOV } }
 		force_equipment_variants = { transport_helicopter1 = { amount = 30 owner = TAJ creator = SOV } }
-		force_equipment_variants = { infantry_weapons1 = { amount = 500 owner = TAJ creator = SOV } }
+		force_equipment_variants = { infantry_weapons_2 = { amount = 500 owner = TAJ creator = SOV } }
 		force_equipment_variants = { medium_tank_rocket_chassis_0 = { amount = 2 owner = TAJ creator = SOV version_name = "BM-27 Uragan" } }
 	}
 }
@@ -209,12 +209,12 @@ instant_effect = {
 #		producer = SOV
 #	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		amount = 750
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 1750
 		producer = SOV
 	}

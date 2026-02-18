@@ -11358,7 +11358,7 @@ focus_tree = {
 				name = CHI_Air_Burst_Weapons
 				bonus = 0.5
 				uses = 1
-				technology = infantry_weapons5
+				technology = infantry_weapons_6
 			}
 			set_temp_variable = { temp_opinion = 8 }
 			change_defense_industry_opinion = yes

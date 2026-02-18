@@ -71,6 +71,6 @@ coordinated_strike_occupy_bridges = {
 	}
 
 	equipment = {
-		Inf_equipment = 500
+		infantry_weapons = 500
 	}
 }

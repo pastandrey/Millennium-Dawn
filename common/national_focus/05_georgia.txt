@@ -2658,7 +2658,7 @@ focus_tree = {
 				producer = USA
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 2000
 				producer = USA
 			}
@@ -11708,7 +11708,7 @@ focus_tree = {
 			}
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 2000
 				producer = USA
 			}
@@ -11794,7 +11794,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_ukr_guns"
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 1000
 				producer = UKR
 			}
@@ -12069,12 +12069,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_israel_guns"
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 5000
 				producer = ISR
 			}
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 1500
 				producer = ISR
 			}
@@ -12336,7 +12336,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_gi4"
 			add_equipment_production = {
 				equipment = {
-					type = infantry_weapons3
+					type = infantry_weapons_4
 					creator = USA
 				}
 				requested_factories = 1
@@ -12495,7 +12495,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_fin_snipes"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 100
 				producer = FIN
 			}
@@ -12948,7 +12948,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_romanian_guns"
 			custom_effect_tooltip = GEO_romanian_guns_TT
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 2000
 				producer = ROM
 			}

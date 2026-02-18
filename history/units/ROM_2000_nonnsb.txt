@@ -133,7 +133,7 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2			 #Pusca Automata Model 1986
+		type = infantry_weapons_3			 #Pusca Automata Model 1986
 		amount = 7000
 		producer = ROM
 	}

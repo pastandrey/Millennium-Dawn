@@ -100,7 +100,7 @@ instant_effect = {
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#AKM
+		type = infantry_weapons_1			#AKM
 		amount = 1500
 		producer = SOV
 	}

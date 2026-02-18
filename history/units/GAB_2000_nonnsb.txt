@@ -89,25 +89,25 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons				#AKM
+		type = infantry_weapons_1				#AKM
 		amount = 400
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1				#M16
+		type = infantry_weapons_2				#M16
 		amount = 400
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons				#FN FAL
+		type = infantry_weapons_1				#FN FAL
 		amount = 400
 		producer = BEL
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1				#FAMAS
+		type = infantry_weapons_2				#FAMAS
 		amount = 100
 		producer = FRA
 	}

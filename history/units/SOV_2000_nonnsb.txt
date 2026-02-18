@@ -444,7 +444,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 		force_equipment_variants = {
-		infantry_weapons1 = { owner = "SOV" }
+		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
 		command_control_equipment = { owner = "SOV" }
@@ -600,7 +600,7 @@ units = {
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.6
 		force_equipment_variants = {
-		infantry_weapons1 = { owner = "SOV" }
+		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
 		command_control_equipment = { owner = "SOV" }
@@ -620,7 +620,7 @@ units = {
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.6
 		force_equipment_variants = {
-		infantry_weapons1 = { owner = "SOV" }
+		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
 		command_control_equipment = { owner = "SOV" }
@@ -640,7 +640,7 @@ units = {
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.6
 		force_equipment_variants = {
-		infantry_weapons1 = { owner = "SOV" }
+		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
 		command_control_equipment = { owner = "SOV" }
@@ -660,7 +660,7 @@ units = {
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.6
 		force_equipment_variants = {
-		infantry_weapons1 = { owner = "SOV" }
+		infantry_weapons_2 = { owner = "SOV" }
 		APC_1 = { owner = "SOV" }
 		IFV_2 = { owner = "SOV" }
 		command_control_equipment = { owner = "SOV" }
@@ -1135,12 +1135,12 @@ instant_effect = {
 	### Small Arms ###
 
 	add_equipment_to_stockpile = {
-	type = infantry_weapons1 #1975
+	type = infantry_weapons_2 #1975
 	amount = 94000
 	}
 
 	add_equipment_to_stockpile = {
-	type = infantry_weapons2 #1985 AK-74M
+	type = infantry_weapons_3 #1985 AK-74M
 	amount = 20000
 	}
 

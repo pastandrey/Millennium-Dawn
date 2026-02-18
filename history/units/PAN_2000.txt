@@ -17,12 +17,12 @@ division_template = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons3
+		type = infantry_weapons_4
 		amount = 1050
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "MPi-KM"
 		producer = GER
 		amount = 1000

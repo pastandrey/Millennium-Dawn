@@ -7,7 +7,7 @@ ct_track_HVTs = {
 	picture = "GFX_phase_coordinated_strike_scout_target"
 	equipment = {
 		cnc_equipment = 5
-		Inf_equipment = 10
+		infantry_weapons = 10
 	}
 	return_on_complete = yes
 }
@@ -22,7 +22,7 @@ ct_drone_strike = {
 	equipment = {
 		small_plane_suicide_airframe = 5
 		cnc_equipment = 5
-		Inf_equipment = 10
+		infantry_weapons = 10
 	}
 	return_on_complete = yes
 }
@@ -37,7 +37,7 @@ ct_helicopter_strike = {
 	equipment = {
 		heavy_tank_chassis = 5
 		cnc_equipment = 5
-		Inf_equipment = 10
+		infantry_weapons = 10
 	}
 	return_on_complete = yes
 }
@@ -52,7 +52,7 @@ ct_fighter_strike = {
 	equipment = {
 		medium_plane_airframe = 5
 		cnc_equipment = 5
-		Inf_equipment = 10
+		infantry_weapons = 10
 	}
 	return_on_complete = yes
 }
@@ -92,7 +92,7 @@ raid_compound = {
 	picture = "GFX_phase_coordinated_strike_scout_target"
 	equipment = {
 		cnc_equipment = 25
-		Inf_equipment = 50
+		infantry_weapons = 50
 	}
 	return_on_complete = yes
 }
@@ -106,7 +106,7 @@ raid_cache = {
 	picture = "GFX_phase_coordinated_strike_scout_target"
 	equipment = {
 		cnc_equipment = 25
-		Inf_equipment = 50
+		infantry_weapons = 50
 	}
 	return_on_complete = yes
 }

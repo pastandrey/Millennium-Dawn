@@ -8861,7 +8861,7 @@ ITA_beretta = {
 	research_categories = { CAT_inf }
 	research_bonus = 0.1
 	equipment_type = {
-		Inf_equipment
+		infantry_weapons
 	}
 
 	initial_trait = {
@@ -8914,7 +8914,7 @@ ITA_beretta = {
 		position = { x = 0 y = 1 }
 		relative_position_id = generic_mio_inf_trait_inf_rel
 
-		limit_to_equipment_type = { Inf_equipment }
+		limit_to_equipment_type = { infantry_weapons }
 
 		equipment_bonus = {
 			soft_attack = 0.05
@@ -8950,7 +8950,7 @@ ITA_beretta = {
 		position = { x = 0 y = 1 }
 		relative_position_id = generic_mio_inf_trait_inf_eq_stats
 
-		limit_to_equipment_type = { Inf_equipment }
+		limit_to_equipment_type = { infantry_weapons }
 
 		equipment_bonus = {
 			soft_attack = 0.05

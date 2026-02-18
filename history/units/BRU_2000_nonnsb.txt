@@ -18,7 +18,7 @@ units = {
 		location = 6034
 		division_template = "Briged Infantri"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_weapons = { owner = "USA" } }
+		force_equipment_variants = { infantry_weapons_1 = { owner = "USA" } }
 		force_equipment_variants = { Anti_tank_0 = { owner = "ENG" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "ENG" } }
 		force_equipment_variants = { util_vehicle_2 = { owner = "ENG" } }

@@ -698,14 +698,14 @@ country_event = {
 				KOR = { has_tech = MBT_5 }
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons5
+				type = infantry_weapons_6
 				amount = 1000
 				producer = KOR
 			}
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 1000
 				producer = KOR
 			}
@@ -2410,7 +2410,7 @@ country_event = {
 			producer = NKO
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			amount = 900
 			producer = NKO
 		}
@@ -2453,7 +2453,7 @@ country_event = {
 			producer = NKO
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			amount = -900
 			producer = NKO
 		}

@@ -1748,7 +1748,7 @@ country_event = {
 		name = influence.52.a
 		trigger = {
 			OR = {
-				has_equipment = { Inf_equipment > 250 }
+				has_equipment = { infantry_weapons > 250 }
 				has_equipment = { L_AT_Equipment > 10 }
 				has_equipment = { AA_Equipment > 10 }
 			}
@@ -1756,19 +1756,19 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: influence.52.a executed"
 		set_country_flag = shipment_of_Inf_equipment
 		if = {
-			limit = { has_equipment = { Inf_equipment > 250 } }
+			limit = { has_equipment = { infantry_weapons > 250 } }
 			effect_tooltip = {
 				FROM = {
 					add_equipment_to_stockpile = {
 						amount = -250
-						type = Inf_equipment
+						type = infantry_weapons
 						producer = PREV
 					}
 				}
 				FROM.FROM = { #Should be the targeted influencing nation
 					add_equipment_to_stockpile = {
 						amount = 250
-						type = Inf_equipment
+						type = infantry_weapons
 						producer = FROM
 					}
 				}
@@ -1931,17 +1931,17 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: influence.53.a executed"
 		FROM = { clr_country_flag = shipment_of_Inf_equipment }
 		if = {
-			limit = { FROM = { has_equipment = { Inf_equipment > 250 } } }
+			limit = { FROM = { has_equipment = { infantry_weapons > 250 } } }
 			FROM = {
 				add_equipment_to_stockpile = {
 					amount = -250
-					type = Inf_equipment
+					type = infantry_weapons
 					producer = PREV
 				}
 			}
 			add_equipment_to_stockpile = {
 				amount = 250
-				type = Inf_equipment
+				type = infantry_weapons
 				producer = FROM
 			}
 		}
@@ -1985,7 +1985,7 @@ country_event = {
 			factor = 1
 			modifier = { #Sacrifice Influence for free guns
 				OR = {
-					has_equipment = { Inf_equipment < 250 }
+					has_equipment = { infantry_weapons < 250 }
 					has_equipment = { L_AT_Equipment < 10 }
 					has_equipment = { AA_Equipment < 10 }
 				}
@@ -2113,7 +2113,7 @@ country_event = {
 			factor = 1
 			modifier = { #Sacrifice Influence for free guns
 				OR = {
-					has_equipment = { Inf_equipment < 250 }
+					has_equipment = { infantry_weapons < 250 }
 					has_equipment = { L_AT_Equipment < 10 }
 					has_equipment = { AA_Equipment < 10 }
 				}
@@ -2478,7 +2478,7 @@ country_event = {
 		trigger = {
 			PREV = {
 				tag = PER
-				has_equipment = { Inf_equipment > 250 }
+				has_equipment = { infantry_weapons > 250 }
 			}
 		}
 		PER_scripted_effect_update_palestine_arms_via_land = yes
@@ -2493,7 +2493,7 @@ country_event = {
 		trigger = {
 			PREV = {
 				tag = PER
-				has_equipment = { Inf_equipment > 250 }
+				has_equipment = { infantry_weapons > 250 }
 			}
 			FROM = {
 				any_owned_state = {

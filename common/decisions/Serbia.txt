@@ -130,7 +130,7 @@ SER_the_castle_crumbles = {
 		}
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -1000
 			}
 			newline = yes
@@ -460,7 +460,7 @@ SER_The_Montenegro_Confederacy = {
 		fixed_random_seed = no
 		custom_cost_trigger = {
 			has_equipment = {
-				Inf_equipment > 30
+				infantry_weapons > 30
 			}
 		}
 		custom_cost_text = TUR_assualt_on_pkk
@@ -469,12 +469,12 @@ SER_The_Montenegro_Confederacy = {
 		}
 		available = {
 			has_equipment = {
-				Inf_equipment > 29
+				infantry_weapons > 29
 			}
 		}
 		complete_effect = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -30
 			}
 		}

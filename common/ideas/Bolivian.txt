@@ -522,7 +522,7 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.15
 				}
-				Inf_equipment = {
+				infantry_weapons = {
 					instant = yes
 					build_cost_ic = -0.15
 				}

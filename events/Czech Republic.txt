@@ -761,7 +761,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 250
 					producer = USA
 				}
@@ -789,7 +789,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 250
 					producer = USA
 				}
@@ -817,7 +817,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 250
 					producer = USA
 				}
@@ -845,7 +845,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 250
 					producer = USA
 				}
@@ -873,7 +873,7 @@ country_event = {
 				army_experience = 15
 				country_event = CZE_czech.23
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 250
 					producer = USA
 				}
@@ -2176,7 +2176,7 @@ country_event = {
 			}
 		}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons4
+				type = infantry_weapons_5
 				amount = 150
 				producer = USA
 			}
@@ -2202,7 +2202,7 @@ country_event = {
 		}
 
 			add_equipment_to_stockpile = {
-				type = infantry_weapons4
+				type = infantry_weapons_5
 				amount = 150
 				producer = BEL
 			}

@@ -817,15 +817,15 @@ instant_effect = {
 	### Land Equipment ###
 	#Inf Eq
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 60000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		amount = 20000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2
+		type = infantry_weapons_3
 		amount = 15000
 	}
 

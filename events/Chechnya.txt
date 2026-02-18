@@ -457,7 +457,7 @@ country_event = {
 		random_list = {
 			70 = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = 500
 					producer = SOV
 				}
@@ -474,7 +474,7 @@ country_event = {
 			}
 			30 = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = 100
 					producer = SOV
 				}
@@ -733,7 +733,7 @@ country_event = {
 			limit = { SOV = { owns_state = 671 } }
 			add_political_power = -100
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -500
 				producer = CHE
 			}
@@ -764,7 +764,7 @@ country_event = {
 			add_manpower = -1000
 			add_political_power = -100
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -500
 				producer = CHE
 			}
@@ -795,7 +795,7 @@ country_event = {
 			add_manpower = -1000
 			add_political_power = -100
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -500
 				producer = CHE
 			}
@@ -826,7 +826,7 @@ country_event = {
 			add_manpower = -1000
 			add_political_power = -100
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -500
 				producer = CHE
 			}
@@ -857,7 +857,7 @@ country_event = {
 			add_manpower = -1000
 			add_political_power = -100
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -500
 				producer = CHE
 			}

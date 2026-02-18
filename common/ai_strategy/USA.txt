@@ -23,22 +23,22 @@ USA_we_want_2005_rifle_early = {
 	enable = {
 		country_exists = USA
 		date > 2002.1.1
-		NOT = { has_tech = infantry_weapons4 }
+		NOT = { has_tech = infantry_weapons_5 }
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = research_tech id = infantry_weapons4 value = 100 }
+	ai_strategy = { type = research_tech id = infantry_weapons_5 value = 100 }
 }
 USA_we_want_2015_rifle_early = {
 	allowed = { original_tag = USA }
 	enable = {
 		country_exists = USA
 		date > 2013.1.1
-		NOT = { has_tech = infantry_weapons5 }
+		NOT = { has_tech = infantry_weapons_6 }
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = research_tech id = infantry_weapons5 value = 100 }
+	ai_strategy = { type = research_tech id = infantry_weapons_6 value = 100 }
 }
 USA_we_want_2005_mrap_ontime = {
 	allowed = { original_tag = USA }
@@ -1124,7 +1124,7 @@ USA_operation_iraqi_freedom = {
 USA_army_focus = {
 	allowed = { original_tag = USA }
 	enable = {
-		has_equipment = { Inf_equipment > 25000 }
+		has_equipment = { infantry_weapons > 25000 }
 		has_equipment = { medium_tank_artillery_chassis > 1000 }
 		has_equipment = { cnc_equipment > 500 }
 	}

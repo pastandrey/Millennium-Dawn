@@ -2303,7 +2303,7 @@ focus_tree = {
 			}
 			diplomatic_relation = { country = SAU relation = non_aggression_pact }
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = 4000
 				producer = SAU
 			}

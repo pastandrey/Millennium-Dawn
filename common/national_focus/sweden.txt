@@ -6666,7 +6666,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_Wargames_and_exercise }
 
 		available = {
-			has_equipment = { Inf_equipment > 12500 }
+			has_equipment = { infantry_weapons > 12500 }
 			has_equipment = { util_vehicle_equipment > 1000 }
 			has_equipment = { L_AT_Equipment > 800 }
 			has_equipment = { cnc_equipment > 800 }
@@ -6677,7 +6677,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_weapons_depots"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -12500
 				producer = SWE
 			}

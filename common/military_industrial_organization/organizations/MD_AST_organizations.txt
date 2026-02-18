@@ -6,7 +6,7 @@ AST_thales_australia_material = {
 	icon = GFX_idea_Thales_NL
 
 	equipment_type = {
-		Inf_equipment
+		infantry_weapons
 		util_vehicle_equipment
 		heavy_tank_chassis
 		heavy_tank_amphibious_chassis
@@ -57,7 +57,7 @@ AST_thales_australia_material = {
 		position = { x = 1 y = 0 }
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -99,7 +99,7 @@ AST_thales_australia_material = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		production_bonus = {
@@ -140,7 +140,7 @@ AST_thales_australia_material = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -181,7 +181,7 @@ AST_thales_australia_material = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		organization_modifier = {
@@ -223,7 +223,7 @@ AST_thales_australia_material = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -263,7 +263,7 @@ AST_thales_australia_material = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -304,7 +304,7 @@ AST_thales_australia_material = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -344,7 +344,7 @@ AST_thales_australia_material = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -386,7 +386,7 @@ AST_thales_australia_material = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -432,7 +432,7 @@ AST_thales_australia_material = {
 		}
 
 		limit_to_equipment_type = {
-			Inf_equipment
+			infantry_weapons
 		}
 
 		equipment_bonus = {
@@ -1866,7 +1866,7 @@ AST_nioa_australia_material = {
 	icon = GFX_idea_nioa_company
 
 	equipment_type = {
-		Inf_equipment
+		infantry_weapons
 	}
 
 	research_categories = {

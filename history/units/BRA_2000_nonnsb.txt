@@ -334,13 +334,13 @@ instant_effect = {
 		producer = BRA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons 	#M964 FAL
+		type = infantry_weapons_1 	#M964 FAL
 		amount = 31500
 		producer = BRA
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 	#MD-2
+		type = infantry_weapons_2 	#MD-2
 		amount = 3500 #Actual number produced unknown, forms minority of equipment in service
 		producer = BRA
 	}

@@ -136,7 +136,7 @@ units = {
 		division_template = "Oklopna Brigada BiH"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons2 = { amount = 382 owner = BOS creator = USA } }
+		force_equipment_variants = { infantry_weapons_3 = { amount = 382 owner = BOS creator = USA } }
 		force_equipment_variants = { command_control_equipment2 = { amount = 139 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 16 owner = BOS creator = CHI } }
@@ -154,7 +154,7 @@ units = {
 		division_template = "Pješadijska Brigada BiH (V1)"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons2 = { amount = 872 owner = BOS creator = USA } }
+		force_equipment_variants = { infantry_weapons_3 = { amount = 872 owner = BOS creator = USA } }
 		force_equipment_variants = { command_control_equipment2 = { amount = 134 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = BOS creator = SOV } }
@@ -170,7 +170,7 @@ units = {
 		division_template = "Pješadijska Brigada BiH (V1)"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons2 = { amount = 872 owner = BOS creator = USA } }
+		force_equipment_variants = { infantry_weapons_3 = { amount = 872 owner = BOS creator = USA } }
 		force_equipment_variants = { command_control_equipment2 = { amount = 134 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
@@ -186,7 +186,7 @@ units = {
 		division_template = "Pješadijska Brigada BiH (V1)"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons2 = { amount = 872 owner = BOS creator = USA } }
+		force_equipment_variants = { infantry_weapons_3 = { amount = 872 owner = BOS creator = USA } }
 		force_equipment_variants = { command_control_equipment2 = { amount = 134 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SER } }
@@ -202,7 +202,7 @@ units = {
 		division_template = "Pješadijska Brigada BiH (V2)"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons2 = { amount = 882 owner = BOS creator = USA } }
+		force_equipment_variants = { infantry_weapons_3 = { amount = 882 owner = BOS creator = USA } }
 		force_equipment_variants = { command_control_equipment2 = { amount = 124 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
@@ -217,7 +217,7 @@ units = {
 		division_template = "Pješadijska Brigada BiH (V2)"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 882 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment2 = { amount = 124 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
@@ -232,7 +232,7 @@ units = {
 		division_template = "Pješadijska Brigada BiH (V2)"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 882 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment2 = { amount = 124 owner = BOS creator = USA } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
@@ -249,7 +249,7 @@ units = {
 		division_template = "Gardijska Brigada HVO"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 882 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = BOS creator = SOV } }
@@ -265,7 +265,7 @@ units = {
 		division_template = "Gardijska Brigada HVO"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 882 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SER } }
@@ -281,7 +281,7 @@ units = {
 		division_template = "Gardijska Brigada HVO"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 882 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 882 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 134 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
@@ -299,7 +299,7 @@ units = {
 		division_template = "Oklopna Brigada VRS"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 335 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 335 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 124 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 16 owner = BOS creator = SOV } }
@@ -316,7 +316,7 @@ units = {
 		division_template = "Pješadijska Brigada VRS"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 892 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SER } }
@@ -332,7 +332,7 @@ units = {
 		division_template = "Pješadijska Brigada VRS"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 892 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
@@ -348,7 +348,7 @@ units = {
 		division_template = "Pješadijska Brigada VRS"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 892 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
@@ -364,7 +364,7 @@ units = {
 		division_template = "Pješadijska Brigada VRS"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 892 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SER } }
@@ -381,7 +381,7 @@ units = {
 		division_template = "Pješadijska Brigada VRS"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 892 owner = BOS creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 892 owner = BOS creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 140 owner = BOS creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 8 owner = BOS creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = BOS creator = SOV } }
@@ -408,71 +408,71 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#
+		type = infantry_weapons_1			#
 		amount = 33500
 		producer = SER
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#
+		type = infantry_weapons_1			#
 		amount = 8000
 		producer = CHI
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#
+		type = infantry_weapons_1			#
 		amount = 1500
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#
+		type = infantry_weapons_1			#
 		amount = 3000
 		producer = TUR
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "Mosin"
 		producer = SOV
 		amount = 1200
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "PPSH"
 		producer = SOV
 		amount = 800
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "SKS"
 		producer = SOV
 		amount = 2000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		amount = 8000
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#
+		type = infantry_weapons_1			#
 		amount = 14000
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#
+		type = infantry_weapons_1			#
 		amount = 3500
 		producer = ROM
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#
+		type = infantry_weapons_1			#
 		amount = 1500
 		producer = HUN
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 4000
 		variant_name = "Zastava M56"
 		producer = SER
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 10000
 		variant_name = "Zastava M59/66"
 		producer = SER

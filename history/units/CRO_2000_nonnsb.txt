@@ -107,7 +107,7 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		#Zastava M70
+		type = infantry_weapons_2		#Zastava M70
 		amount = 9000
 	}
 

@@ -2393,7 +2393,7 @@ focus_tree = {
 			if = {
 				limit = { has_completed_focus = AZE_aze_iran_dealw }
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					producer = PER
 					amount = 5000
 				}
@@ -2410,7 +2410,7 @@ focus_tree = {
 			}
 			else = {
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					producer = SOV
 					amount = 5000
 				}
@@ -4591,7 +4591,7 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -5 }
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				producer = AZE
 				amount = 1000
 			}
@@ -5380,7 +5380,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_the_last_straw"
 			set_temp_variable = { treasury_change = -5 }
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				producer = AZE
 				amount = 1000
 			}
@@ -6857,7 +6857,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_The_military_way"
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				producer = PER
 				amount = 1000
 			}

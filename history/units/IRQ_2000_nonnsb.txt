@@ -419,16 +419,16 @@ instant_effect = {
 	}
 	#Misc. Equipment
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #Tabuk
+		type = infantry_weapons_2 #Tabuk
 		amount = 15000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons #AKM
+		type = infantry_weapons_1 #AKM
 		amount = 20000
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #Z70
+		type = infantry_weapons_2 #Z70
 		amount = 16000
 		producer = SER
 	}

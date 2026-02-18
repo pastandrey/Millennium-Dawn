@@ -3695,17 +3695,17 @@
 		}
 		create_equipment_variant = {
 			name = "PPSH"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			icon = "gfx/interface/technologies/SOV/INF/PPSH.dds"
 		}
 		create_equipment_variant = {
 			name = "Mosin"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			icon = "gfx/interface/technologies/SOV/INF/mosin.dds"
 		}
 		create_equipment_variant = {
 			name = "SKS"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			upgrades = {
 				Inf_eq_heavy_weapons = 1
 			}
@@ -3713,7 +3713,7 @@
 		}
 		create_equipment_variant = {
 			name = "AKM"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			upgrades = {
 				Inf_eq_heavy_weapons = 2
 				Inf_eq_mortars = 1
@@ -3722,7 +3722,7 @@
 		}
 		#create_equipment_variant = {
 			#name = "AS VAL" #commented out for now because it replaced AK-74M
-			#type = infantry_weapons3
+			#type = infantry_weapons_4
 			#upgrades = {
 			#	Inf_eq_gadjets = 4
 			#	Inf_eq_heavy_weapons = 2
@@ -3732,7 +3732,7 @@
 		#}
 		#create_equipment_variant = {
 			#name = "AN-94" #commented out for now because it replaced AK-74M
-			#type = infantry_weapons3
+			#type = infantry_weapons_4
 			#upgrades = {
 			#	Inf_eq_gadjets = 2
 			#	Inf_eq_heavy_weapons = 2
@@ -3742,7 +3742,7 @@
 		#}
 		create_equipment_variant = {
 			name = "AK-74M"
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			upgrades = {
 				Inf_eq_mortars = 1
 			}
@@ -5096,10 +5096,10 @@
 
 		armoured_mass_assault = 1
 
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		infantry_weapons3 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
+		infantry_weapons_4 = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		support_weapons3 = 1

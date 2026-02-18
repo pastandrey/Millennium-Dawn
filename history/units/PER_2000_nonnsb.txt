@@ -815,7 +815,7 @@ instant_effect = {
 	### Land Equipment ###
 	#Inf Eq
 	add_equipment_to_stockpile = {
-		type = infantry_weapons #Licence produced German G3 rifle
+		type = infantry_weapons_1 #Licence produced German G3 rifle
 		amount = 70000
 	}
 

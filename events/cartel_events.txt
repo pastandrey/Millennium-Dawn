@@ -988,7 +988,7 @@ country_event = { # Infantry Equipment Stolen
 		has_cartels_penalties = yes
 		is_cartel_nation = yes
 		has_equipment = {
-			Inf_equipment > 250
+			infantry_weapons > 250
 		}
 	}
 
@@ -1033,7 +1033,7 @@ country_event = { # Infantry Equipment Stolen
 			25 = {
 				custom_effect_tooltip = cartels_equipment_theft_small_tt
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = -100
 				}
 			}
@@ -1051,7 +1051,7 @@ country_event = { # Infantry Equipment Stolen
 			75 = {
 				custom_effect_tooltip = cartels_equipment_theft_small_tt
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = -100
 				}
 				set_temp_variable = { cart_strength_change = 1 }
@@ -1060,7 +1060,7 @@ country_event = { # Infantry Equipment Stolen
 			25 = {
 				custom_effect_tooltip = cartels_equipment_theft_large_tt
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = -250
 				}
 				set_temp_variable = { cart_strength_change = 2 }
@@ -3228,7 +3228,7 @@ country_event = {
 				set_temp_variable = { equipment_change = 10 }
 				multiply_temp_variable = { equipment_change = strength_modifier }
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = var:equipment_change
 				}
 			}

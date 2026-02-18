@@ -70,13 +70,13 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		 #AKM
+		type = infantry_weapons_1		 #AKM
 		amount = 1000
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		 #Pistol Mitralieră model 1963
+		type = infantry_weapons_1		 #Pistol Mitralieră model 1963
 		amount = 1000
 		producer = ROM
 	}
@@ -93,7 +93,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		 #AK-74
+		type = infantry_weapons_2		 #AK-74
 		amount = 500
 		producer = SOV
 	}

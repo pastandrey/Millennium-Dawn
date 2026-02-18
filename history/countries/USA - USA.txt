@@ -1471,7 +1471,7 @@
 		}
 		create_equipment_variant = {
 			name = "Colt Commando"
-			type = infantry_weapons2
+			type = infantry_weapons_3
 			upgrades = {
 				Inf_eq_gadjets = 1
 				Inf_eq_heavy_weapons = 1
@@ -1482,7 +1482,7 @@
 		}
 		create_equipment_variant = {
 			name = "M16A2"
-			type = infantry_weapons2
+			type = infantry_weapons_3
 			upgrades = {
 				Inf_eq_gadjets = 1
 				Inf_eq_heavy_weapons = 1
@@ -1493,7 +1493,7 @@
 		}
 		create_equipment_variant = {
 			name = "M4 SOPMOD Block I"
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			upgrades = {
 				Inf_eq_gadjets = 2
 				Inf_eq_heavy_weapons = 2
@@ -1504,7 +1504,7 @@
 		}
 		create_equipment_variant = {
 			name = "Colt M16A4"
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			upgrades = {
 				Inf_eq_gadjets = 2
 				Inf_eq_heavy_weapons = 2
@@ -3267,10 +3267,10 @@
 
 		combined_arms = 1
 
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		infantry_weapons3 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
+		infantry_weapons_4 = 1
 		support_weapons = 1
 		squad_automatic_weapon = 1
 		tandem_charge_warheads = 1

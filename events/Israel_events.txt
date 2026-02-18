@@ -1546,7 +1546,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: israel_economy.1.a executed"
 		ROOT = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = -6000
 				producer = ROOT
 			}
@@ -1557,7 +1557,7 @@ country_event = {
 		}
 		ISR = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 6000
 				producer = ROOT
 			}
@@ -4167,7 +4167,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: israel_economy.56.a executed"
 		ISR = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons4
+				type = infantry_weapons_5
 				amount = -6000
 				producer = ROOT
 			}
@@ -4178,7 +4178,7 @@ country_event = {
 		}
 		ROOT = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons4
+				type = infantry_weapons_5
 				amount = 6000
 				producer = ROOT
 			}
@@ -5282,7 +5282,7 @@ country_event = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons4
+				type = infantry_weapons_5
 				amount = -6000
 				producer = ISR
 			}
@@ -5307,7 +5307,7 @@ country_event = {
 			}
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons4
+			type = infantry_weapons_5
 			amount = 6000
 			producer = ISR
 		}
@@ -5387,7 +5387,7 @@ country_event = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons4
+				type = infantry_weapons_5
 				amount = -6000
 				producer = ISR
 			}
@@ -6087,14 +6087,14 @@ country_event = {
 		newline = yes
 		ISR = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons4
+				type = infantry_weapons_5
 				amount = -6000
 				producer = ISR
 			}
 		}
 		PER = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons4
+				type = infantry_weapons_5
 				amount = 6000
 				producer = ISR
 			}
@@ -6204,7 +6204,7 @@ country_event = {
 				give_military_access = ISR
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons4
+				type = infantry_weapons_5
 				amount = -6000
 				producer = ISR
 			}
@@ -17245,7 +17245,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: israel.72.a executed"
 		PER = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = -4000
 				producer = PER
 			}
@@ -17340,7 +17340,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: israel.76.a executed"
 		PAL = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 4000
 				producer = PER
 			}
@@ -17614,7 +17614,7 @@ country_event = {
 			modify_radicalization_effect = yes
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons2
+			type = infantry_weapons_3
 			amount = -25
 			producer = ROOT
 		}
@@ -17652,7 +17652,7 @@ country_event = {
 			modify_radicalization_effect = yes
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons2
+			type = infantry_weapons_3
 			amount = -50
 			producer = ROOT
 		}
@@ -17814,7 +17814,7 @@ country_event = {
 			}
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			amount = 1000
 			producer = SOV
 		}
@@ -19548,7 +19548,7 @@ country_event = {
 		}
 		log = "[GetDateText]: [This.GetName]: israel.125.a executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons2
+			type = infantry_weapons_3
 			amount = 1000
 			producer = ISR
 		}
@@ -22638,7 +22638,7 @@ country_event = {
 		add_opinion_modifier = { target = ISR modifier = has_expressed_loyalty }
 		USA = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = -4000
 				producer = USA
 			}
@@ -22764,7 +22764,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: israel_likud.36.a"
 		ISR = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 4000
 				producer = USA
 			}

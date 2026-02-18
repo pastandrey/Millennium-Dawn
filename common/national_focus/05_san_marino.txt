@@ -4742,7 +4742,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus SMA_purchase_italian_weapons executed"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons2
+				type = infantry_weapons_3
 				amount = 1500
 				producer = ITA
 			}
@@ -5189,7 +5189,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus SMA_purchase_spanish_weapons executed"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons2
+				type = infantry_weapons_3
 				amount = 1500
 				producer = SPR
 			}

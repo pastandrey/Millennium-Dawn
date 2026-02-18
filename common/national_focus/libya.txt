@@ -931,7 +931,7 @@ focus_tree = {
 			else = {
 				add_manpower = 2250
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 1000
 					producer = SOV
 				}
@@ -5069,14 +5069,14 @@ focus_tree = {
 				limit = { has_idea = LBA_foreign_procurement_boosted }
 				custom_effect_tooltip = LBA_foreign_procurement_lines_cheap_tt
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 4375
 					producer = SOV
 				}
 			}
 			else = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 3500
 					producer = SOV
 				}
@@ -9147,7 +9147,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_arms_smuggling"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = 2500
 				producer = SOV
 			}
@@ -10392,7 +10392,7 @@ focus_tree = {
 				limit = { PAL = { neutrality_neutral_muslim_brotherhood_are_in_power = yes } }
 				PAL = { add_manpower = 2000 }
 				send_equipment = {
-					equipment = infantry_weapons
+					equipment = infantry_weapons_1
 					amount = 1000
 					target = PAL
 				}
@@ -10400,7 +10400,7 @@ focus_tree = {
 			else = {
 				HAM = { add_manpower = 2000 }
 				send_equipment = {
-					equipment = infantry_weapons
+					equipment = infantry_weapons_1
 					amount = 1000
 					target = HAM
 				}
@@ -11922,7 +11922,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_weapons_to_taylor"
 			LIB = { country_event = { id = LibyaFocus.78 hours = 6 } }
 			send_equipment = {
-				equipment = infantry_weapons
+				equipment = infantry_weapons_1
 				amount = 2000
 				target = LIB
 			}
@@ -13029,7 +13029,7 @@ focus_tree = {
 					}
 					country_event = { id = LibyaFocus.84 hours = 6 }
 					send_equipment = {
-						equipment = infantry_weapons
+						equipment = infantry_weapons_1
 						amount = 1000
 						target = THIS
 					}
@@ -16259,7 +16259,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_acquire_russian_weapons"
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 1000
 				producer = SOV
 			}
@@ -19024,7 +19024,7 @@ focus_tree = {
 						else = {
 							add_manpower = 2250
 							add_equipment_to_stockpile = {
-								type = infantry_weapons
+								type = infantry_weapons_1
 								amount = 1000
 								producer = SOV
 							}
@@ -19058,7 +19058,7 @@ focus_tree = {
 				else = {
 					add_manpower = 2250
 					add_equipment_to_stockpile = {
-						type = infantry_weapons
+						type = infantry_weapons_1
 						amount = 1000
 						producer = SOV
 					}

@@ -170,7 +170,7 @@ instant_effect = {
 
 	####Infantry Equipment###
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2
+		type = infantry_weapons_3
 		amount = 2600
 		producer = AUS
 	}

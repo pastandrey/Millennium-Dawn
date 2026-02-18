@@ -72,7 +72,7 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2 	#Colt C7
+		type = infantry_weapons_3 	#Colt C7
 		producer = CAN
 		amount = 3500
 	}

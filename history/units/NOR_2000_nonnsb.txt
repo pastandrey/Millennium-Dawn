@@ -274,7 +274,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons #1965
+		type = infantry_weapons_1 #1965
 		amount = 16000
 	}
 

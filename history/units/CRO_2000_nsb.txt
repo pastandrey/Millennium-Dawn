@@ -86,7 +86,7 @@ units = {
 		division_template = "Gardijska Brigada (V3)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 666 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 155 owner = CRO creator = SER } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SOV } }
@@ -106,7 +106,7 @@ units = {
 		division_template = "Gardijska Brigada (V1)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 666 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SOV } }
@@ -125,7 +125,7 @@ units = {
 		division_template = "Gardijska Brigada (V1)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 666 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
@@ -143,7 +143,7 @@ units = {
 		division_template = "Gardijska Brigada (V1)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 666 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
 		force_equipment_variants = { util_vehicle_2 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
@@ -161,7 +161,7 @@ units = {
 		division_template = "Gardijska Brigada (V1)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 666 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
@@ -179,7 +179,7 @@ units = {
 		division_template = "Gardijska Brigada (V1)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 666 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
@@ -197,7 +197,7 @@ units = {
 		division_template = "Gardijska Brigada (V2)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 666 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
 		force_equipment_variants = { util_vehicle_0 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
@@ -215,7 +215,7 @@ units = {
 		division_template = "Gardijska Brigada (V2)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 666 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 666 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 137 owner = CRO creator = SER } }
 		force_equipment_variants = { util_vehicle_0 = { amount = 60 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
@@ -233,7 +233,7 @@ units = {
 		division_template = "Pješaštvo Brigada"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 877 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 877 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 94 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = CRO creator = SER } }
@@ -247,7 +247,7 @@ units = {
 		division_template = "Pješaštvo Brigada"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 877 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 877 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 94 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = CRO creator = SER } }
@@ -261,7 +261,7 @@ units = {
 		division_template = "Pješaštvo Brigada"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons = { amount = 877 owner = CRO creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 877 owner = CRO creator = SER } }
 		force_equipment_variants = { command_control_equipment1 = { amount = 94 owner = CRO creator = SER } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = CRO creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = CRO creator = SER } }
@@ -273,56 +273,56 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		#Zastava M70
+		type = infantry_weapons_1		#Zastava M70
 		amount = 13000
 		producer = SER
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 3000
 		producer = BEL
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 500
 		producer = GER
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		amount = 500
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		amount = 1000
 		producer = HUN
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 1500
 		producer = ROM
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 2000
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 3000
 		variant_name = "Zastava M59/66"
 		producer = SER
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 1000
 		variant_name = "Zastava M56"
 		producer = SER

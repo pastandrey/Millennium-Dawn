@@ -14,9 +14,9 @@
 		post_conventional_rail = 1
 		early_freight_locomotive = 1
 		infantry_mass_assault = 1
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
 		combat_eng_equipment = 1
 		command_control_equipment = 1
 		land_drone_equipment = 1
@@ -199,9 +199,9 @@
 		early_freight_locomotive = 1
 		infantry_mass_assault = 1
 
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
 
 		combat_eng_equipment = 1
 		command_control_equipment = 1

@@ -5935,7 +5935,7 @@ JAP_howa_machinery_materiel_manufacturer = {
 	name = JAP_howa_machinery_materiel_manufacturer
 
 	equipment_type = {
-		Inf_equipment
+		infantry_weapons
 	}
 
 	research_categories = {

@@ -491,35 +491,35 @@ instant_effect = {
 	#Misc. Equipment
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1	#AK-74
+		type = infantry_weapons_2	#AK-74
 		amount = 9000
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons	#AKM
+		type = infantry_weapons_1	#AKM
 		amount = 8000
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "MPi-KM"
 		producer = GER
 		amount = 4000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "SKS"
 		producer = SOV
 		amount = 3000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "Mosin"
 		producer = SOV
 		amount = 200
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "PPSH"
 		producer = SOV
 		amount = 800

@@ -2149,9 +2149,9 @@ update_military_rate = {
 	set_variable = { equipment_operative_cost = 0 }
 
 	# Infantry equipment (per 1000 guns, cost: 0.3M yearly)
-	set_temp_variable = { temp_eq = num_equipment_in_armies_k@Inf_equipment }
+	set_temp_variable = { temp_eq = num_equipment_in_armies_k@infantry_weapons }
 	multiply_temp_variable = { temp_eq = 0.3 }
-	set_temp_variable = { temp_eq_stock = num_equipment@Inf_equipment }
+	set_temp_variable = { temp_eq_stock = num_equipment@infantry_weapons }
 	multiply_temp_variable = { temp_eq_stock = 0.00006 } # 0.001 (to thousands) × 0.2 (stockpile) × 0.3 (cost)
 	add_to_temp_variable = { temp_eq = temp_eq_stock }
 	add_to_variable = { equipment_operative_cost = temp_eq }

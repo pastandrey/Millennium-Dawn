@@ -92,7 +92,7 @@ instant_effect = {
 	###INFANTRY EQUIPMENT####
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #Steyr AUG
+		type = infantry_weapons_2 #Steyr AUG
 		amount = 2200
 		producer = AUS
 	}

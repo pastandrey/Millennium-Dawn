@@ -118,7 +118,7 @@ units = {
 		division_template = "Shura-e Nazar Brigade"
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.3
-		force_equipment_variants = { infantry_weapons = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
 		force_equipment_variants = { command_control_equipment = { amount = 50 owner = AFG creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = AFG creator = SOV } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 14 owner = AFG creator = SOV version_name = "T-55" } }
@@ -133,7 +133,7 @@ units = {
 		division_template = "Northern Alliance Brigade"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.3
-		force_equipment_variants = { infantry_weapons = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
 		force_equipment_variants = { command_control_equipment = { amount = 50 owner = AFG creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = AFG creator = SOV } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 14 owner = AFG creator = SOV version_name = "T-55" } }
@@ -148,7 +148,7 @@ units = {
 		division_template = "Junbish-i Milli Brigade"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
-		force_equipment_variants = { infantry_weapons = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
 		force_equipment_variants = { command_control_equipment = { amount = 30 owner = AFG creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = AFG creator = SOV } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 14 owner = AFG creator = SOV version_name = "T-55" } }
@@ -163,7 +163,7 @@ units = {
 		division_template = "Northern Alliance Militia"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
-		force_equipment_variants = { infantry_weapons = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
 		force_equipment_variants = { command_control_equipment = { amount = 10 owner = AFG creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = AFG creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = AFG creator = SOV version_name = "ZPU-1" } }
@@ -175,7 +175,7 @@ units = {
 		division_template = "Northern Alliance Militia"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
-		force_equipment_variants = { infantry_weapons = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
 		force_equipment_variants = { command_control_equipment = { amount = 10 owner = AFG creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 10 owner = AFG creator = SOV version_name = "RPG-7" } }
 		force_equipment_variants = { Anti_Air_0	 = { amount = 10 owner = AFG creator = SOV version_name = "ZPU-1" } }
@@ -187,7 +187,7 @@ units = {
 		division_template = "Northern Alliance Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
-		force_equipment_variants = { infantry_weapons = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 500 owner = AFG creator = SOV version_name = "AKM" } }
 		force_equipment_variants = { command_control_equipment = { amount = 50 owner = AFG creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_0 = { amount = 2 owner = AFG creator = SOV } }
 		force_equipment_variants = { medium_tank_chassis_0 = { amount = 14 owner = AFG creator = SOV version_name = "T-55" } }
@@ -202,7 +202,7 @@ units = {
 	# 	division_template = "Gurdan Ljstake Alagh"
 	# 	start_experience_factor = 0.1
 	# 	start_equipment_factor = 0.1
-	# 	force_equipment_variants = { infantry_weapons = { owner = "SOV" } }
+	# 	force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
 	# }
 	# division = {
 	# 	name = "Khawak Gurdan Ljstake Alagh" #Donkeys 2
@@ -210,7 +210,7 @@ units = {
 	# 	division_template = "Gurdan Ljstake Alagh"
 	# 	start_experience_factor = 0.2
 	# 	start_equipment_factor = 0.1
-	# 	force_equipment_variants = { infantry_weapons = { owner = "SOV" } }
+	# 	force_equipment_variants = { infantry_weapons_1 = { owner = "SOV" } }
 	# }
 }
 
@@ -423,30 +423,30 @@ instant_effect = {
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 	#AK-74
+		type = infantry_weapons_2 	#AK-74
 		amount = 550
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 3000 #3000 deployed
 		variant_name = "AKM"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "SKS"
 		producer = SOV
 		amount = 1000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "PPSH"
 		producer = SOV
 		amount = 500
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 300
 		producer = ROM
 	}

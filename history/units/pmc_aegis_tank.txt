@@ -5,7 +5,7 @@ units = {
 		division_template = "Aegis Tank Unit"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_weapons3 = { owner = ENG } }
+		force_equipment_variants = { infantry_weapons_4 = { owner = ENG } }
 		force_equipment_variants = { Anti_tank_2 = { owner = ENG } }
 		force_equipment_variants = { Anti_Air_1 = { owner = ENG } }
 		force_equipment_variants = { artillery_1 = { owner = ENG } }

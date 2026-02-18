@@ -96,36 +96,36 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#HK33
+		type = infantry_weapons_1			#HK33
 		amount = 500
 		producer = GER
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		#M16
+		type = infantry_weapons_2		#M16
 		amount = 1500
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		#FN FNC
+		type = infantry_weapons_2		#FN FNC
 		amount = 1500
 		producer = BEL
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#Type 65
+		type = infantry_weapons_1			#Type 65
 		amount = 500
 		producer = CHI
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		#IMI Galil
+		type = infantry_weapons_2		#IMI Galil
 		amount = 500
 		producer = ISR
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #AK-63
+		type = infantry_weapons_2 #AK-63
 		amount = 1000
 		producer = HUN
 	}
@@ -147,7 +147,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons4			#M4
+		type = infantry_weapons_5			#M4
 		amount = 1000
 		producer = USA
 	}

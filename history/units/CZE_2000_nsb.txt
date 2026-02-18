@@ -223,11 +223,11 @@ instant_effect = {
 		amount = 25
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 		#vz. 58
+		type = infantry_weapons_2 		#vz. 58
 		amount = 9000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2 		#vz. 58V
+		type = infantry_weapons_3 		#vz. 58V
 		amount = 1000
 	}
 
@@ -261,7 +261,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			creator = "CZE"
 		}
 		requested_factories = 1

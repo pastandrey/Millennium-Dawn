@@ -69,7 +69,7 @@ country_event = {
 		AZE = {
 			country_event = azeev.16
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 2000
 			}
 			add_equipment_to_stockpile = {
@@ -97,7 +97,7 @@ country_event = {
 		AZE = {
 			country_event = azeev.16
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 4000
 			}
 			add_equipment_to_stockpile = {
@@ -292,7 +292,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: azeev.7.a executed"
 		AZE = {
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 4000
 			}
 			add_equipment_to_stockpile = {

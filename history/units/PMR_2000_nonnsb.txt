@@ -74,13 +74,13 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		 #AKM
+		type = infantry_weapons_1		 #AKM
 		amount = 5000
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		 #AK-74
+		type = infantry_weapons_2		 #AK-74
 		amount = 5000
 		producer = SOV
 	}

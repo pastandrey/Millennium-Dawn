@@ -1640,10 +1640,10 @@
 
 		combined_arms = 1
 
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		infantry_weapons3 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
+		infantry_weapons_4 = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		tandem_charge_warheads = 1
@@ -1802,7 +1802,7 @@
 	#############################################
 	create_equipment_variant = {
 		name = "MPi-KM"
-		type = infantry_weapons
+		type = infantry_weapons_1
 		icon = "gfx/interface/technologies/GER/INF/MPIKM.dds"
 		upgrades = {
 			Inf_eq_heavy_weapons = 2
@@ -1810,7 +1810,7 @@
 	}
 	create_equipment_variant = {
 		name = "MPi-AK-74N"
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		icon = "gfx/interface/technologies/SOV/INF/INF2.dds"
 	}
 	create_equipment_variant = {
@@ -1834,7 +1834,7 @@
 	}
 	create_equipment_variant = {
 		name = "G3A2"
-		type = infantry_weapons
+		type = infantry_weapons_1
 		icon = "gfx/interface/technologies/GER/INF/INF1.dds"
 		upgrades = {
 			Inf_eq_heavy_weapons = 2
@@ -1844,13 +1844,13 @@
 	}
 	create_equipment_variant = {
 		name = "G3A3"
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		mark_older_equipment_obsolete = yes
 		design_team = mio:GER_heckler_koch_materiel_manufacturer
 	}
 	create_equipment_variant = {
 		name = "G3A3A1"
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		icon = "gfx/interface/technologies/GER/INF/G3A3A1.dds"
 		upgrades = {
 			Inf_eq_heavy_weapons = 1
@@ -1860,14 +1860,14 @@
 	}
 	create_equipment_variant = {
 		name = "G3A4"
-		type = infantry_weapons2
+		type = infantry_weapons_3
 		icon = "gfx/interface/technologies/GER/INF/G3A4.dds"
 		mark_older_equipment_obsolete = yes
 		design_team = mio:GER_heckler_koch_materiel_manufacturer
 	}
 	create_equipment_variant = {
 		name = "G3KA4"
-		type = infantry_weapons2
+		type = infantry_weapons_3
 		icon = "gfx/interface/technologies/GER/INF/G3KA4.dds"
 		upgrades = {
 			Inf_eq_heavy_weapons = 1
@@ -1877,7 +1877,7 @@
 	}
 	create_equipment_variant = {
 		name = "G36"
-		type = infantry_weapons3
+		type = infantry_weapons_4
 		upgrades = {
 			Inf_eq_gadjets = 1
 			Inf_eq_heavy_weapons = 1
@@ -2035,7 +2035,7 @@
 	create_production_license = {
 		target = SPR
 		equipment = {
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			version_name = "G36"
 		}
 		cost_factor = 1

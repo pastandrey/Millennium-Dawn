@@ -89,7 +89,7 @@ units = {
 		location = 14392  #
 		division_template = "Lîwaya IEK"
 		start_experience_factor = 0.25
-		force_equipment_variants = { infantry_weapons = { owner = "PER" } }
+		force_equipment_variants = { infantry_weapons_1 = { owner = "PER" } }
 		force_equipment_variants = { command_control_equipment = { owner = "PER" } }
 		force_equipment_variants = { Anti_tank_0 = { owner = "PER" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }
@@ -100,7 +100,7 @@ units = {
 		location = 14392  #
 		division_template = "Lîwaya IEK"
 		start_experience_factor = 0.25
-		force_equipment_variants = { infantry_weapons = { owner = "PER" } }
+		force_equipment_variants = { infantry_weapons_1 = { owner = "PER" } }
 		force_equipment_variants = { command_control_equipment = { owner = "PER" } }
 		force_equipment_variants = { Anti_tank_0 = { owner = "PER" } }
 		force_equipment_variants = { Anti_Air_0 = { owner = "SOV" } }

@@ -19,7 +19,7 @@ units = {
 		division_template = "Reformed Syrian Army Division"
 		start_experience_factor = 0.60
 		start_equipment_factor = 0.5
-		force_equipment_variants = { infantry_weapons1 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_weapons_2 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
 		force_equipment_variants = { MBT_1 = { owner = "SOV" } }
 		force_equipment_variants = { util_vehicle_1 = { owner = "SOV" } }
@@ -37,7 +37,7 @@ units = {
 		division_template = "Reformed Syrian Army Division"
 		start_experience_factor = 0.60
 		start_equipment_factor = 0.5
-		force_equipment_variants = { infantry_weapons1 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_weapons_2 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
 		force_equipment_variants = { MBT_1 = { owner = "SOV" } }
 		force_equipment_variants = { util_vehicle_1 = { owner = "SOV" } }
@@ -55,7 +55,7 @@ units = {
 		division_template = "Reformed Syrian Army Division"
 		start_experience_factor = 0.60
 		start_equipment_factor = 0.5
-		force_equipment_variants = { infantry_weapons1 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_weapons_2 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
 		force_equipment_variants = { MBT_1 = { owner = "SOV" } }
 		force_equipment_variants = { util_vehicle_1 = { owner = "SOV" } }

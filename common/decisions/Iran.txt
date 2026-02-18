@@ -1665,7 +1665,7 @@ PER_resitance_axis = {
 			HEZ = {
 				country_event = { id = message_from_iran.1 }
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 500
 					producer = PER
 				}
@@ -1696,7 +1696,7 @@ PER_resitance_axis = {
 				}
 				hidden_effect = {
 					add_equipment_to_stockpile = {
-						type = Inf_equipment
+						type = infantry_weapons
 						amount = -500
 						producer = PER
 					}
@@ -1826,7 +1826,7 @@ PER_resitance_axis = {
 			IRQ = {
 				country_event = { id = message_from_iran.1 }
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 500
 					producer = PER
 				}
@@ -1857,7 +1857,7 @@ PER_resitance_axis = {
 				}
 				hidden_effect = {
 					add_equipment_to_stockpile = {
-						type = Inf_equipment
+						type = infantry_weapons
 						amount = -500
 						producer = PER
 					}
@@ -2043,7 +2043,7 @@ PER_resitance_axis = {
 			SYR = {
 				country_event = { id = message_from_iran.1 }
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 500
 					producer = PER
 				}
@@ -2074,7 +2074,7 @@ PER_resitance_axis = {
 				}
 				hidden_effect = {
 					add_equipment_to_stockpile = {
-						type = Inf_equipment
+						type = infantry_weapons
 						amount = -500
 						producer = PER
 					}
@@ -2260,7 +2260,7 @@ PER_resitance_axis = {
 			HOU = {
 				country_event = { id = message_from_iran.1 }
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 500
 					producer = PER
 				}
@@ -2291,7 +2291,7 @@ PER_resitance_axis = {
 				}
 				hidden_effect = {
 					add_equipment_to_stockpile = {
-						type = Inf_equipment
+						type = infantry_weapons
 						amount = -500
 						producer = PER
 					}
@@ -2684,7 +2684,7 @@ PER_resitance_axis = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = infantry_weapons
+						type = infantry_weapons_1
 						amount = 10000
 						producer = PER
 					}
@@ -8462,7 +8462,7 @@ PER_new_majlis = {
 		}
 		available = {
 			has_equipment = {
-				Inf_equipment > 29999
+				infantry_weapons > 29999
 			}
 			OR = {
 				has_idea = police_01

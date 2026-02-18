@@ -3344,12 +3344,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SER_zakup"
 			add_stability = 0.02
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = 1000
 				producer = GER
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = 1000
 				producer = USA
 			}

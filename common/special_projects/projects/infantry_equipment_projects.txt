@@ -11,7 +11,7 @@ sp_caseless_ammunition = {
 
 	available = {
 		FROM = {
-			has_tech = infantry_weapons4
+			has_tech = infantry_weapons_5
 		}
 	}
 
@@ -25,7 +25,7 @@ sp_caseless_ammunition = {
 
 	project_output = {
 		equipment_bonus = {
-			Inf_equipment = {
+			infantry_weapons = {
 				build_cost_ic = -0.10
 				reliability = -0.04
 				instant = yes
@@ -71,7 +71,7 @@ sp_caseless_ammunition = {
 
 				iteration_output = {
 					equipment_bonus = {
-						Inf_equipment = {
+						infantry_weapons = {
 							reliability = 0.025
 						}
 					}
@@ -119,7 +119,7 @@ sp_smart_bullets = {
 
 	project_output = {
 		equipment_bonus = {
-			Inf_equipment = {
+			infantry_weapons = {
 				soft_attack = 0.15
 				build_cost_ic = 0.05
 				instant = yes
@@ -165,7 +165,7 @@ sp_smart_bullets = {
 
 				iteration_output = {
 					equipment_bonus = {
-						Inf_equipment = {
+						infantry_weapons = {
 							reliability = 0.025
 						}
 					}
@@ -609,7 +609,7 @@ sp_double_shot_rifle = {
 
 				iteration_output = {
 					equipment_bonus = {
-						Inf_equipment = {
+						infantry_weapons = {
 							soft_attack = 0.02
 						}
 					}
@@ -621,7 +621,7 @@ sp_double_shot_rifle = {
 
 				iteration_output = {
 					equipment_bonus = {
-						Inf_equipment = {
+						infantry_weapons = {
 							defense = 0.02
 						}
 					}
@@ -1116,7 +1116,7 @@ sp_coilgun_memes = {
 
 	available = {
 		FROM = {
-			has_tech = infantry_weapons7
+			has_tech = infantry_weapons_8
 		}
 	}
 

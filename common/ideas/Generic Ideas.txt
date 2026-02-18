@@ -714,7 +714,7 @@ ideas = {
 			picture = volunteer_defenders2
 			allowed_civil_war = { always = yes }
 			equipment_bonus = {
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.10
 					instant = yes
 				}
@@ -733,7 +733,7 @@ ideas = {
 			picture = volunteer_defenders2
 			allowed_civil_war = { always = yes }
 			equipment_bonus = {
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.15
 					instant = yes
 				}
@@ -1400,7 +1400,7 @@ ideas = {
 					build_cost_ic = -0.05
 					instant = yes
 				}
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.05
 					instant = yes
 				}

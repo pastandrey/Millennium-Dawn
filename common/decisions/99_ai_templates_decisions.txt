@@ -11,7 +11,7 @@ ai_templates_category = {
 		available = {
 			date > 2005.01.01
 			has_war = no
-			has_equipment = { Inf_equipment > 2000 }
+			has_equipment = { infantry_weapons > 2000 }
 			has_equipment = { cnc_equipment > 500 }
 			num_of_military_factories > 5
 			any_country_division = {

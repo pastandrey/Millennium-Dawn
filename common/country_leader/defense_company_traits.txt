@@ -288,7 +288,7 @@ leader_traits = {
 
 	CAT_inf_5 = {
 		equipment_bonus = {
-			Inf_equipment = {
+			infantry_weapons = {
 				reliability = 0.075
 				soft_attack = 0.075
 			}
@@ -363,7 +363,7 @@ leader_traits = {
 
 	CAT_inf_wep_5 = {
 		equipment_bonus = {
-			Inf_equipment = {
+			infantry_weapons = {
 				soft_attack = 0.075
 				reliability = 0.075
 			}

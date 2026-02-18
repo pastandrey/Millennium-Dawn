@@ -312,31 +312,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_1965.dds"
 	}
 	spriteType = {
-		name = "GFX_H_infantry_weapons1_medium"
+		name = "GFX_H_infantry_weapons_2_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_1975.dds"
 	}
 	spriteType = {
-		name = "GFX_H_infantry_weapons2_medium"
+		name = "GFX_H_infantry_weapons_3_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_1985.dds"
 	}
 	spriteType = {
-		name = "GFX_H_infantry_weapons3_medium"
+		name = "GFX_H_infantry_weapons_4_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_1995.dds"
 	}
 	spriteType = {
-		name = "GFX_H_infantry_weapons4_medium"
+		name = "GFX_H_infantry_weapons_5_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_2005.dds"
 	}
 	spriteType = {
-		name = "GFX_H_infantry_weapons5_medium"
+		name = "GFX_H_infantry_weapons_6_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_2015.dds"
 	}
 	spriteType = {
-		name = "GFX_H_infantry_weapons6_medium"
+		name = "GFX_H_infantry_weapons_7_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_2025.dds"
 	}
 	spriteType = {
-		name = "GFX_H_infantry_weapons7_medium"
+		name = "GFX_H_infantry_weapons_8_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_2035.dds"
 	}
 
@@ -347,31 +347,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_1965.dds"
 	}
 	spriteType = {
-		name = "GFX_heavy_infantry_weapons1_medium"
+		name = "GFX_heavy_infantry_weapons_2_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_1975.dds"
 	}
 	spriteType = {
-		name = "GFX_heavy_infantry_weapons2_medium"
+		name = "GFX_heavy_infantry_weapons_3_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_1985.dds"
 	}
 	spriteType = {
-		name = "GFX_heavy_infantry_weapons3_medium"
+		name = "GFX_heavy_infantry_weapons_4_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_1995.dds"
 	}
 	spriteType = {
-		name = "GFX_heavy_infantry_weapons4_medium"
+		name = "GFX_heavy_infantry_weapons_5_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_2005.dds"
 	}
 	spriteType = {
-		name = "GFX_heavy_infantry_weapons5_medium"
+		name = "GFX_heavy_infantry_weapons_6_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_2015.dds"
 	}
 	spriteType = {
-		name = "GFX_heavy_infantry_weapons6_medium"
+		name = "GFX_heavy_infantry_weapons_7_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_2025.dds"
 	}
 	spriteType = {
-		name = "GFX_heavy_infantry_weapons7_medium"
+		name = "GFX_heavy_infantry_weapons_8_medium"
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/Generic_HvySupport_2035.dds"
 	}
 	##############################

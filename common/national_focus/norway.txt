@@ -2772,7 +2772,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_tighten_arms_sales"
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 4000
 			}
 		}

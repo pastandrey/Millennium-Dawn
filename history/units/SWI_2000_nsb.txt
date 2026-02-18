@@ -205,7 +205,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2 #SIG SG 550
+		type = infantry_weapons_3 #SIG SG 550
 		amount = 25000
 	}
 	add_equipment_to_stockpile = {

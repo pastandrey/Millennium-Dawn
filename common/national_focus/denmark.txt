@@ -187,7 +187,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_G36"
 			mark_focus_tree_layout_dirty = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3 #Heckler & Koch G36
+				type = infantry_weapons_4 #Heckler & Koch G36
 				amount = 3000
 				producer = GER
 			}
@@ -236,7 +236,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_C7"
 			mark_focus_tree_layout_dirty = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons2 #C7
+				type = infantry_weapons_3 #C7
 				amount = 3000
 				producer = CAN
 			}
@@ -1528,7 +1528,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_liquidate_old_stockpiles"
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = -2500
 				producer = DEN
 			}
@@ -7071,7 +7071,7 @@ focus_tree = {
 			newline = yes
 			DEN = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 1000
 					producer = SOV
 				}
@@ -7123,7 +7123,7 @@ focus_tree = {
 			newline = yes
 			SOV = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = -1000
 					producer = SOV
 				}
@@ -10083,7 +10083,7 @@ focus_tree = {
 			add_manpower = 10000
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 1000
 				producer = SOV
 			}

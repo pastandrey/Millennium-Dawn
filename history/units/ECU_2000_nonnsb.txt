@@ -157,13 +157,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#FN FAL
+		type = infantry_weapons_1			#FN FAL
 		amount = 5100
 		producer = BEL
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#HK 33
+		type = infantry_weapons_1			#HK 33
 		amount = 3100
 		producer = GER
 	}

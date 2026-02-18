@@ -31,7 +31,7 @@ units = {
 		division_template = "Jalaväebrigaad"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.01
-		force_equipment_variants = { infantry_weapons1 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_weapons_2 = { owner = "SOV" } }
 		force_equipment_variants = { command_control_equipment1 = { owner = "SOV" } }
 		force_equipment_variants = { util_vehicle_1 = { owner = "SOV" } }
 		force_equipment_variants = { Anti_tank_1 = { owner = "SWE" } }
@@ -43,31 +43,31 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		amount = 1500
 		producer = ISR
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		amount = 500
 		producer = GER
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		amount = 250
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 15500 #40'000, reduced by a third for HoI4 systems
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 1000
 		producer = SOV
 	}

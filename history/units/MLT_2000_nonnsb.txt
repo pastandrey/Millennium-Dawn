@@ -33,13 +33,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2		 #Beretta AR70/90
+		type = infantry_weapons_3		 #Beretta AR70/90
 		amount = 150
 		producer = ITA
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		 #AK-47
+		type = infantry_weapons_1		 #AK-47
 		amount = 150
 		producer = SOV
 	}

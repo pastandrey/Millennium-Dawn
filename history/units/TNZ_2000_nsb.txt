@@ -131,7 +131,7 @@ instant_effect = {
 	##SMALL ARMS AND VARIOUS EQUIPMENT###
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 6200
 		producer = SOV
 	}

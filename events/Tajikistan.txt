@@ -2127,7 +2127,7 @@ country_event = { # China Accepts
 		name = tajik_focus.40.a
 		log = "[GetDateText]: [This.GetName]: tajik_focus.40.a executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons2
+			type = infantry_weapons_3
 			amount = 100
 			producer = CHI
 		}
@@ -3872,7 +3872,7 @@ country_event = {
 		custom_effect_tooltip = TAJ_lose_10_prod_TT
 		newline = yes
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_1
 			amount = -100
 		}
 		ai_chance = {
@@ -4068,7 +4068,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: tajik_radicalism.7.a executed"
 		add_manpower = -750
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_1
 			amount = -200
 		}
 		ai_chance = {
@@ -4192,7 +4192,7 @@ country_event = {
 			amount = -100
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons
+			type = infantry_weapons_1
 			amount = -350
 		}
 		ai_chance = {
@@ -5893,7 +5893,7 @@ country_event = { # Monthly Goods (Variation 1)
 			# Get some rifles
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = 100
 				producer = SOV
 			}
@@ -5923,7 +5923,7 @@ country_event = { # Monthly Goods (Variation 1)
 			# Get some rifles
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = 200
 				producer = SOV
 			}
@@ -5957,7 +5957,7 @@ country_event = { # Monthly Goods (Variation 1)
 			# Get some rifles
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = 350
 				producer = SOV
 			}

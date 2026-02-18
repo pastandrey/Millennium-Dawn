@@ -378,7 +378,7 @@ scripted_gui = {
 				set_country_flag = { flag = has_selected_small_arms value = 1 days = 60 }
 				#Costs:
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = -200
 				}
 
@@ -645,7 +645,7 @@ scripted_gui = {
 				custom_trigger_tooltip = {
 					tooltip = has_200_small_arms_stockpiled_TT
 					has_equipment = {
-						Inf_equipment > 199
+						infantry_weapons > 199
 					}
 				}
 			}
@@ -702,7 +702,7 @@ scripted_gui = {
 				}
 				has_manpower > 2000
 				has_equipment = {
-					Inf_equipment > 300
+					infantry_weapons > 300
 				}
 				has_equipment = {
 					cnc_equipment > 100

@@ -50,7 +50,7 @@ units = {
 		division_template = "Brigada de Mecanizata v2"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.01
-		force_equipment_variants = { infantry_weapons1 = { amount = 100 owner = MLV creator = SOV } }
+		force_equipment_variants = { infantry_weapons_2 = { amount = 100 owner = MLV creator = SOV } }
 		force_equipment_variants = { command_control_equipment = { amount = 134 owner = MLV creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 11 owner = MLV creator = SOV version_name = "BTR-D" } }
 		force_equipment_variants = { medium_tank_flame_chassis_0 = { amount = 54 owner = MLV creator = SOV version_name = "BMD-1" } }
@@ -62,7 +62,7 @@ units = {
 		division_template = "Brigada de Mecanizata"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.01
-		force_equipment_variants = { infantry_weapons1 = { amount = 100 owner = MLV creator = SOV } }
+		force_equipment_variants = { infantry_weapons_2 = { amount = 100 owner = MLV creator = SOV } }
 		force_equipment_variants = { command_control_equipment = { amount = 130 owner = MLV creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 10 owner = MLV creator = ROM version_name = "TAB-71" } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = MLV creator = SOV version_name = "Ural-4320" } }
@@ -74,7 +74,7 @@ units = {
 		division_template = "Brigada de Mecanizata"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.01
-		force_equipment_variants = { infantry_weapons1 = { amount = 100 owner = MLV creator = SOV } }
+		force_equipment_variants = { infantry_weapons_2 = { amount = 100 owner = MLV creator = SOV } }
 		force_equipment_variants = { command_control_equipment = { amount = 130 owner = MLV creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 10 owner = MLV creator = ROM version_name = "TAB-71" } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = MLV creator = SOV version_name = "Ural-4320" } }
@@ -86,20 +86,20 @@ units = {
 		division_template = "Batalion de Forte Speciale"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
-		force_equipment_variants = { infantry_weapons1 = { amount = 100 owner = MLV creator = SOV } }
+		force_equipment_variants = { infantry_weapons_2 = { amount = 100 owner = MLV creator = SOV } }
 		force_equipment_variants = { command_control_equipment = { amount = 30 owner = MLV creator = SOV } }
 	}
 }
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		 #AKM
+		type = infantry_weapons_1		 #AKM
 		amount = 1500
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		 #Pistol Mitralieră model 1963
+		type = infantry_weapons_1		 #Pistol Mitralieră model 1963
 		amount = 1500
 		producer = ROM
 	}
@@ -142,7 +142,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		 #AK-74
+		type = infantry_weapons_2		 #AK-74
 		amount = 1000
 		producer = SOV
 	}

@@ -118,19 +118,19 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		#AKM
+		type = infantry_weapons_1		#AKM
 		amount = 12000
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		#G3
+		type = infantry_weapons_1		#G3
 		amount = 1000
 		producer = GER
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		#Vz. 58
+		type = infantry_weapons_2		#Vz. 58
 		amount = 1000
 		producer = CZE
 	}

@@ -5325,7 +5325,7 @@ USA_foreign_policy = {
 			}
 			send_equipment = {
 				amount = 5000
-				type = infantry_weapons
+				type = infantry_weapons_1
 				target = UKR
 			}
 			send_equipment = {

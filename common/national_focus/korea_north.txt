@@ -8597,7 +8597,7 @@ focus_tree = {
 			}
 			NKO = {
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = -5000
 				}
 			}

@@ -3209,7 +3209,7 @@ focus_tree = {
 			set_temp_variable = { influence_target = ABK }
 			change_influence_percentage = yes
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 2000
 				producer = SOV
 			}
@@ -4037,7 +4037,7 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -5 }
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = 2500
 				producer = BUL
 			}
@@ -4210,7 +4210,7 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -8 }
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = 2500
 				producer = CHI
 			}
@@ -4320,7 +4320,7 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -8 }
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = 2500
 				producer = SOV
 			}

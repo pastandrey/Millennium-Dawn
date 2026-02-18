@@ -351,9 +351,9 @@
 		transport_helicopter2 = 1
 		nsb_transport_helicopter2 = 1
 
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		tandem_charge_warheads = 1

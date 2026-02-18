@@ -7291,7 +7291,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAN_new_rifles"
 			add_tech_bonus = {
-				name = infantry_weapons
+				name = infantry_weapons_1
 				bonus = 0.50
 				uses = 1
 				category = CAT_inf_wep
@@ -7391,84 +7391,84 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAN_manufacturer_companys"
 			if = {
-				limit = { SOV = { has_tech = infantry_weapons1 } }
+				limit = { SOV = { has_tech = infantry_weapons_2 } }
 				SOV = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons1 #Su-24
+							type = infantry_weapons_2 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { SOV = { has_tech = infantry_weapons2 } }
+				limit = { SOV = { has_tech = infantry_weapons_3 } }
 				SOV = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons2 #Su-24
+							type = infantry_weapons_3 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { SOV = { has_tech = infantry_weapons3 } }
+				limit = { SOV = { has_tech = infantry_weapons_4 } }
 				SOV = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons3 #Su-24
+							type = infantry_weapons_4 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { SOV = { has_tech = infantry_weapons4 } }
+				limit = { SOV = { has_tech = infantry_weapons_5 } }
 				SOV = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons4 #Su-24
+							type = infantry_weapons_5 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { SOV = { has_tech = infantry_weapons5 } }
+				limit = { SOV = { has_tech = infantry_weapons_6 } }
 				SOV = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons5 #Su-24
+							type = infantry_weapons_6 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { SOV = { has_tech = infantry_weapons6 } }
+				limit = { SOV = { has_tech = infantry_weapons_7 } }
 				SOV = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons6 #Su-24
+							type = infantry_weapons_7 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { SOV = { has_tech = infantry_weapons7 } }
+				limit = { SOV = { has_tech = infantry_weapons_8 } }
 				SOV = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons7 #Su-24
+							type = infantry_weapons_8 #Su-24
 						}
 						cost_factor = 0
 					}
@@ -7523,84 +7523,84 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAN_manufacturer_companys_2"
 			if = {
-				limit = { USA = { has_tech = infantry_weapons1 } }
+				limit = { USA = { has_tech = infantry_weapons_2 } }
 				USA = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons1 #Su-24
+							type = infantry_weapons_2 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons2 } }
+				limit = { USA = { has_tech = infantry_weapons_3 } }
 				USA = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons2 #Su-24
+							type = infantry_weapons_3 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons3 } }
+				limit = { USA = { has_tech = infantry_weapons_4 } }
 				USA = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons3 #Su-24
+							type = infantry_weapons_4 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons4 } }
+				limit = { USA = { has_tech = infantry_weapons_5 } }
 				USA = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons4 #Su-24
+							type = infantry_weapons_5 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons5 } }
+				limit = { USA = { has_tech = infantry_weapons_6 } }
 				USA = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons5 #Su-24
+							type = infantry_weapons_6 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons6 } }
+				limit = { USA = { has_tech = infantry_weapons_7 } }
 				USA = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons6 #Su-24
+							type = infantry_weapons_7 #Su-24
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons7 } }
+				limit = { USA = { has_tech = infantry_weapons_8 } }
 				USA = {
 					create_production_license = {
 						target = CAN
 						equipment = {
-							type = infantry_weapons7 #Su-24
+							type = infantry_weapons_8 #Su-24
 						}
 						cost_factor = 0
 					}

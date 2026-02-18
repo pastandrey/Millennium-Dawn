@@ -4185,13 +4185,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_back_assad"
 			send_embargo = FSA
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = -400
 				producer = TUR
 			}
 			SYR = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = 400
 					producer = TUR
 				}
@@ -4249,13 +4249,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_back_fsa"
 			send_embargo = SYR
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = -400
 				producer = TUR
 			}
 			FSA = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = 400
 					producer = TUR
 				}

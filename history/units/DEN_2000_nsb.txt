@@ -132,15 +132,15 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 	#M/66
+		type = infantry_weapons_2 	#M/66
 		amount = 3500
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2 	#M/75
+		type = infantry_weapons_3 	#M/75
 		amount = 20000 #70'000 thousand in service in 1985, not sure how many scrapped by 2000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons3 	#Colt C7
+		type = infantry_weapons_4 	#Colt C7
 		amount = 3500
 	}
 

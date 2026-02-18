@@ -25,7 +25,7 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2
+		type = infantry_weapons_3
 		amount = 400
 		producer = USA
 	}

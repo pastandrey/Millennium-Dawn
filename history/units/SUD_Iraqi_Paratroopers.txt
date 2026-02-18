@@ -25,7 +25,7 @@ units = {
 			Anti_Air_0 = { owner = "SOV" }
 			Anti_tank_0 = { owner = "SOV" }
 			artillery_0 = { owner = "SOV" }
-			infantry_weapons1 = { owner = "IRQ" }
+			infantry_weapons_2 = { owner = "IRQ" }
 		}
 	}
 }

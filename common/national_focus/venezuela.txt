@@ -4219,13 +4219,13 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus VEN_democratic_socialism"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -1000
 				producer = VEN
 			}
 			CUB = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 1000
 					producer = VEN
 				}
@@ -4931,7 +4931,7 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -5 }
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				producer = SOV
 				amount = 5000
 			}
@@ -9528,84 +9528,84 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus VEN_licenses_for_american_small_arms"
 			if = {
-				limit = { USA = { has_tech = infantry_weapons7 } }
+				limit = { USA = { has_tech = infantry_weapons_8 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = infantry_weapons7
+							type = infantry_weapons_8
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons6 } }
+				limit = { USA = { has_tech = infantry_weapons_7 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = infantry_weapons6
+							type = infantry_weapons_7
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons5 } }
+				limit = { USA = { has_tech = infantry_weapons_6 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = infantry_weapons5
+							type = infantry_weapons_6
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons4 } }
+				limit = { USA = { has_tech = infantry_weapons_5 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = infantry_weapons4
+							type = infantry_weapons_5
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons3 } }
+				limit = { USA = { has_tech = infantry_weapons_4 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = infantry_weapons3
+							type = infantry_weapons_4
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons2 } }
+				limit = { USA = { has_tech = infantry_weapons_3 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = infantry_weapons2
+							type = infantry_weapons_3
 						}
 						cost_factor = 0
 					}
 				}
 			}
 			else_if = {
-				limit = { USA = { has_tech = infantry_weapons1 } }
+				limit = { USA = { has_tech = infantry_weapons_2 } }
 				USA = {
 					create_production_license = {
 						target = VEN
 						equipment = {
-							type = infantry_weapons1
+							type = infantry_weapons_2
 						}
 						cost_factor = 0
 					}
@@ -10039,7 +10039,7 @@ focus_tree = {
 
 			# 3 batallions of marine motorized infantry with heavy engineers, motorized recon and CSS
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 1000
 				producer = USA
 			}
@@ -11178,12 +11178,12 @@ focus_tree = {
 			set_temp_variable = { influence_target = COL }
 			change_influence_percentage = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -700
 			}
 			COL = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 700
 				}
 			}

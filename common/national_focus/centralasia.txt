@@ -6621,7 +6621,7 @@ focus_tree = {
 			log = "[GetDateText]: [This.GetName]: focus CES_black_market executed"
 			ROOT = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 6650
 					producer = SOV
 				}
@@ -9398,7 +9398,7 @@ focus_tree = {
 				days = 365
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 15000
 				producer = SOV
 			}
@@ -9433,7 +9433,7 @@ focus_tree = {
 				days = 365
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 15000
 				producer = CHI
 			}
@@ -9468,7 +9468,7 @@ focus_tree = {
 				days = 365
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 15000
 				producer = USA
 			}

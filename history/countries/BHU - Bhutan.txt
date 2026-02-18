@@ -35,7 +35,7 @@
 		night_vision_1 = 1
 
 		#For templates
-		infantry_weapons = 1
+		infantry_weapons_1 = 1
 		support_weapons = 1
 		special_forces = 1
 

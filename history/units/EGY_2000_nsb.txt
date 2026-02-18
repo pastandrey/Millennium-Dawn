@@ -395,28 +395,28 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		 #Maadi
+		type = infantry_weapons_1		 #Maadi
 		amount = 27000
 		producer = EGY
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2		 #Beretta AR70/90
+		type = infantry_weapons_3		 #Beretta AR70/90
 		amount = 3000
 		producer = ITA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1		 #M16
+		type = infantry_weapons_2		 #M16
 		amount = 3000
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "SKS"
 		producer = SOV
 		amount = 5000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		variant_name = "Mosin"
 		producer = SOV
 		amount = 500

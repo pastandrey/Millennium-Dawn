@@ -416,7 +416,7 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1			#Licensed AK-74s/Type 56
+		type = infantry_weapons_2			#Licensed AK-74s/Type 56
 		amount = 12000
 		producer = ALG
 	}

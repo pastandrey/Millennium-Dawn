@@ -11898,7 +11898,7 @@ focus_tree = {
 			change_influence_percentage = yes
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -500
 				producer = GER
 			}
@@ -11915,7 +11915,7 @@ focus_tree = {
 			newline = yes
 			LIT = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 500
 					producer = GER
 				}
@@ -11965,7 +11965,7 @@ focus_tree = {
 			change_influence_percentage = yes
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -500
 				producer = GER
 			}
@@ -11982,7 +11982,7 @@ focus_tree = {
 			newline = yes
 			LAT = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 500
 					producer = GER
 				}
@@ -12032,7 +12032,7 @@ focus_tree = {
 			change_influence_percentage = yes
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -500
 				producer = GER
 			}
@@ -12049,7 +12049,7 @@ focus_tree = {
 			newline = yes
 			EST = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 500
 					producer = GER
 				}
@@ -12436,7 +12436,7 @@ focus_tree = {
 				producer = GER
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -1230
 				producer = GER
 			}
@@ -16501,7 +16501,7 @@ focus_tree = {
 				producer = GER
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -930
 				producer = GER
 			}

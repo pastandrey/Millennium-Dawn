@@ -3310,7 +3310,7 @@ focus_tree = {
 					country_event = russia.66
 				}
 				send_equipment = {
-					equipment = Inf_equipment
+					equipment = infantry_weapons
 					amount = 1000
 					target = LPR
 				}
@@ -3324,7 +3324,7 @@ focus_tree = {
 					country_event = russia.67
 				}
 				send_equipment = {
-					equipment = Inf_equipment
+					equipment = infantry_weapons
 					amount = 1000
 					target = DPR
 				}
@@ -3338,7 +3338,7 @@ focus_tree = {
 					country_event = russia.68
 				}
 				send_equipment = {
-					equipment = Inf_equipment
+					equipment = infantry_weapons
 					amount = 1000
 					target = HPR
 				}
@@ -3597,7 +3597,7 @@ focus_tree = {
 				amount = 1000
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons2
+				type = infantry_weapons_3
 				amount = 6000
 				producer = SOV
 			}
@@ -22197,7 +22197,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SOV_wagner_cadres"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons2
+				type = infantry_weapons_3
 				amount = -3000
 				producer = SOV
 			}

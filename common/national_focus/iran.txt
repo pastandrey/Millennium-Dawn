@@ -8399,17 +8399,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus PER_rearm_the_nation"
 			if = {
-				limit = { has_tech = infantry_weapons2 }
+				limit = { has_tech = infantry_weapons_3 }
 					add_equipment_to_stockpile = {
-					type = infantry_weapons2
+					type = infantry_weapons_3
 					amount = 7000
 					producer = PER
 				}
 			}
 			else_if = {
-				limit = { has_tech = infantry_weapons1 }
+				limit = { has_tech = infantry_weapons_2 }
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = 7000
 					producer = PER
 				}
@@ -9529,7 +9529,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus PER_anti_riot_equipment"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons2
+				type = infantry_weapons_3
 				amount = 5000
 			}
 			newline = yes
@@ -12091,7 +12091,7 @@ focus_tree = {
 			change_influence_percentage = yes
 			newline = yes
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -4500
 			}
 			newline = yes
@@ -13018,7 +13018,7 @@ focus_tree = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = infantry_weapons
+						type = infantry_weapons_1
 						amount = 5000
 						producer = PER
 					}
@@ -13260,7 +13260,7 @@ focus_tree = {
 							producer = PER
 						}
 						add_equipment_to_stockpile = {
-							type = infantry_weapons
+							type = infantry_weapons_1
 							amount = 10000
 							producer = PER
 						}
@@ -15533,7 +15533,7 @@ focus_tree = {
 				producer = PER
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -5000
 				producer = PER
 			}
@@ -15659,7 +15659,7 @@ focus_tree = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = infantry_weapons
+						type = infantry_weapons_1
 						amount = 5000
 						producer = PER
 					}
@@ -17124,7 +17124,7 @@ focus_tree = {
 						producer = PER
 					}
 					add_equipment_to_stockpile = {
-						type = infantry_weapons
+						type = infantry_weapons_1
 						amount = 10000
 						producer = PER
 					}
@@ -28859,7 +28859,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus PER_redefining_iranian_nationalism"
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = 2000
 				producer = PER
 			}

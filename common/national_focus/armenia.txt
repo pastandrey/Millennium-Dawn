@@ -10228,7 +10228,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARM_foreign_legion_france"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 1500
 				producer = FRA
 			}
@@ -10285,7 +10285,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARM_foreign_legion_india"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 1500
 				producer = RAJ
 			}
@@ -14365,7 +14365,7 @@ focus_tree = {
 				custom_effect_tooltip = effect_if_they_rec_tt
 				effect_tooltip = {
 					add_equipment_to_stockpile = {
-						type = infantry_weapons3
+						type = infantry_weapons_4
 						amount = 6000
 						producer = SOV
 					}
@@ -15374,7 +15374,7 @@ focus_tree = {
 					set_temp_variable = { treasury_change = 20 }
 					modify_treasury_effect = yes
 					add_equipment_to_stockpile = {
-						type = infantry_weapons3
+						type = infantry_weapons_4
 						amount = -6000
 						producer = SOV
 					}
@@ -18107,7 +18107,7 @@ focus_tree = {
 						producer = POL
 					}
 					add_equipment_to_stockpile = {
-						type = infantry_weapons
+						type = infantry_weapons_1
 						amount = 4500
 						producer = POL
 					}

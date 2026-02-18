@@ -3720,7 +3720,7 @@ local_resources_chromium_factor = -0.05
 			picture = sov_kalashnikov_idea
 			allowed_civil_war = { always = yes }
 			equipment_bonus = {
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.07
 					instant = yes
 				}
@@ -3815,7 +3815,7 @@ local_resources_chromium_factor = -0.05
 				naval_bomber = {
 					build_cost_ic = -0.07
 				}
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.07
 				}
 			}
@@ -3859,7 +3859,7 @@ local_resources_chromium_factor = -0.05
 				naval_bomber = {
 					build_cost_ic = -0.07
 				}
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.10
 					instant = yes
 				}
@@ -3904,7 +3904,7 @@ local_resources_chromium_factor = -0.05
 				naval_bomber = {
 					build_cost_ic = -0.07
 				}
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.15
 					instant = yes
 				}
@@ -3949,7 +3949,7 @@ local_resources_chromium_factor = -0.05
 				naval_bomber = {
 					build_cost_ic = -0.07
 				}
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.20
 					instant = yes
 				}
@@ -3994,7 +3994,7 @@ local_resources_chromium_factor = -0.05
 				naval_bomber = {
 					build_cost_ic = -0.09
 				}
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.23
 					instant = yes
 				}

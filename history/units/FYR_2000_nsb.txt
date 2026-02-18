@@ -49,7 +49,7 @@ units = {
 		division_template = "Mekhanizirana Peshadiska Brigada"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.1
-		force_equipment_variants = { infantry_weapons = { amount = 550 owner = FYR creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 550 owner = FYR creator = SER } }
 		force_equipment_variants = { command_control_equipment = { amount = 144 owner = FYR creator = SER } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 24 owner = FYR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 16 owner = FYR creator = SOV } }
@@ -68,7 +68,7 @@ units = {
 		division_template = "Peshadiska Brigada"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
-		force_equipment_variants = { infantry_weapons = { amount = 872 owner = FYR creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 872 owner = FYR creator = SER } }
 		force_equipment_variants = { command_control_equipment = { amount = 110 owner = FYR creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = FYR creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = FYR creator = SOV } }
@@ -83,7 +83,7 @@ units = {
 		division_template = "Peshadiska Brigada"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
-		force_equipment_variants = { infantry_weapons = { amount = 872 owner = FYR creator = SER } }
+		force_equipment_variants = { infantry_weapons_1 = { amount = 872 owner = FYR creator = SER } }
 		force_equipment_variants = { command_control_equipment = { amount = 110 owner = FYR creator = SER } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 40 owner = FYR creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = FYR creator = SOV } }
@@ -98,7 +98,7 @@ units = {
 		division_template = "Bataljon Za Specijalni Operacii"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.1
-		force_equipment_variants = { infantry_weapons3 = { amount = 250 owner = FYR creator = USA } }
+		force_equipment_variants = { infantry_weapons_4 = { amount = 250 owner = FYR creator = USA } }
 		force_equipment_variants = { command_control_equipment2 = { amount = 30 owner = FYR creator = USA } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = FYR creator = FRA } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = FYR creator = SOV } }

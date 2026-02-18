@@ -841,7 +841,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = {
-			infantry_weapons1 = { owner = "CHI" }
+			infantry_weapons_2 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_1 = { owner = "CHI" }
 			MBT_3 = { owner = "CHI" }
@@ -856,7 +856,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = {
-			infantry_weapons = { owner = "CHI" }
+			infantry_weapons_1 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_0 = { owner = "CHI" }
 			MBT_1 = { owner = "CHI" }
@@ -871,7 +871,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = {
-			infantry_weapons = { owner = "CHI" }
+			infantry_weapons_1 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_0 = { owner = "CHI" }
 			MBT_1 = { owner = "CHI" }
@@ -902,7 +902,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = {
-			infantry_weapons = { owner = "CHI" }
+			infantry_weapons_1 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_0 = { owner = "CHI" }
 		}
@@ -914,7 +914,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = {
-			infantry_weapons = { owner = "CHI" }
+			infantry_weapons_1 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_0 = { owner = "CHI" }
 		}
@@ -926,7 +926,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		force_equipment_variants = {
-			infantry_weapons = { owner = "CHI" }
+			infantry_weapons_1 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_0 = { owner = "CHI" }
 			MBT_1 = { owner = "CHI" }
@@ -940,7 +940,7 @@ units = {
 		division_template = "Zhuangjia Lu"
 		start_experience_factor = 0.2
 		force_equipment_variants = {
-			infantry_weapons1 = { owner = "CHI" }
+			infantry_weapons_2 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_1 = { owner = "CHI" }
 			MBT_3 = { owner = "CHI" }
@@ -963,7 +963,7 @@ units = {
 		division_template = "Zhuangjia Shi"
 		start_experience_factor = 0.3
 		force_equipment_variants = {
-			infantry_weapons1 = { owner = "CHI" }
+			infantry_weapons_2 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_1 = { owner = "CHI" }
 			MBT_3 = { owner = "CHI" }
@@ -1003,7 +1003,7 @@ units = {
 		division_template = "Jidong (motorized)"
 		start_experience_factor = 0.2
 		force_equipment_variants = {
-			infantry_weapons1 = { owner = "CHI" }
+			infantry_weapons_2 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_1 = { owner = "CHI" }
 			MBT_1 = { owner = "CHI" }
@@ -1016,7 +1016,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.01
 		force_equipment_variants = {
-			infantry_weapons = { owner = "CHI" }
+			infantry_weapons_1 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_0 = { owner = "CHI" }
 		}
@@ -1028,7 +1028,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.01
 		force_equipment_variants = {
-			infantry_weapons = { owner = "CHI" }
+			infantry_weapons_1 = { owner = "CHI" }
 			Anti_Air_0 = { owner = "CHI" }
 			Anti_tank_0 = { owner = "CHI" }
 		}
@@ -1480,17 +1480,17 @@ instant_effect = {
 	### Small Arms ###
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons #1965
+		type = infantry_weapons_1 #1965
 		amount = 20000
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #1975
+		type = infantry_weapons_2 #1975
 		amount = 90000
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons3 #1995
+		type = infantry_weapons_4 #1995
 		amount = 7500
 	}
 

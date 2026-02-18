@@ -1,7 +1,7 @@
 #Written by Hiddengearz, TheGeneral
 # All infantry equipment
 equipments = {
-	Inf_equipment = {
+	infantry_weapons = {
 		is_archetype = yes
 		#is_buildable = no
 		type = infantry
@@ -42,10 +42,10 @@ equipments = {
 		}
 	}
 	#1965
-	infantry_weapons = {
+	infantry_weapons_1 = {
 		year = 1965
 
-		archetype = Inf_equipment
+		archetype = infantry_weapons
 
 		#priority = 5
 		visual_level = 0
@@ -75,11 +75,11 @@ equipments = {
 
 	}
 	#1975
-	infantry_weapons1 = {
+	infantry_weapons_2 = {
 		year = 1975
 
-		archetype = Inf_equipment
-		parent = infantry_weapons
+		archetype = infantry_weapons
+		parent = infantry_weapons_1
 		#priority = 5
 		visual_level = 1
 
@@ -106,11 +106,11 @@ equipments = {
 		}
 	}
 	#1985
-	infantry_weapons2 = {
+	infantry_weapons_3 = {
 		year = 1985
 
-		archetype = Inf_equipment
-		parent = infantry_weapons1
+		archetype = infantry_weapons
+		parent = infantry_weapons_2
 		#priority = 5
 		visual_level = 2
 
@@ -137,11 +137,11 @@ equipments = {
 		}
 	}
 	#1995
-	infantry_weapons3 = {
+	infantry_weapons_4 = {
 		year = 1995
 
-		archetype = Inf_equipment
-		parent = infantry_weapons2
+		archetype = infantry_weapons
+		parent = infantry_weapons_3
 		#priority = 5
 		visual_level = 3
 
@@ -165,11 +165,11 @@ equipments = {
 		}
 	}
 	#2005
-	infantry_weapons4 = {
+	infantry_weapons_5 = {
 		year = 2005
 
-		archetype = Inf_equipment
-		parent = infantry_weapons3
+		archetype = infantry_weapons
+		parent = infantry_weapons_4
 		#priority = 5
 		visual_level = 4
 
@@ -193,11 +193,11 @@ equipments = {
 		}
 	}
 	#2015
-	infantry_weapons5 = {
+	infantry_weapons_6 = {
 		year = 2015
 
-		archetype = Inf_equipment
-		parent = infantry_weapons4
+		archetype = infantry_weapons
+		parent = infantry_weapons_5
 		#priority = 5
 		visual_level = 5
 
@@ -221,11 +221,11 @@ equipments = {
 		}
 	}
 	#2025
-	infantry_weapons6 = {
+	infantry_weapons_7 = {
 		year = 2025
 
-		archetype = Inf_equipment
-		parent = infantry_weapons5
+		archetype = infantry_weapons
+		parent = infantry_weapons_6
 		#priority = 5
 		visual_level = 6
 
@@ -250,11 +250,11 @@ equipments = {
 		}
 	}
 	#2035
-	infantry_weapons7 = {
+	infantry_weapons_8 = {
 		year = 2035
 
-		archetype = Inf_equipment
-		parent = infantry_weapons6
+		archetype = infantry_weapons
+		parent = infantry_weapons_7
 		#priority = 5
 		visual_level = 7
 
@@ -278,11 +278,11 @@ equipments = {
 			chromium = 2
 		}
 	}
-	infantry_weapons8 = {
+	infantry_weapons_9 = {
 		year = 2045
 
-		archetype = Inf_equipment
-		parent = infantry_weapons7
+		archetype = infantry_weapons
+		parent = infantry_weapons_8
 		visual_level = 7
 
 		reliability = 0.925
@@ -303,11 +303,11 @@ equipments = {
 			chromium = 2
 		}
 	}
-	infantry_weapons9 = {
+	infantry_weapons_10 = {
 		year = 2055
 
-		archetype = Inf_equipment
-		parent = infantry_weapons8
+		archetype = infantry_weapons
+		parent = infantry_weapons_9
 		visual_level = 7
 
 		reliability = 0.925
@@ -328,11 +328,11 @@ equipments = {
 			chromium = 2
 		}
 	}
-	infantry_weapons10 = {
+	infantry_weapons_11 = {
 		year = 2065
 
-		archetype = Inf_equipment
-		parent = infantry_weapons9
+		archetype = infantry_weapons
+		parent = infantry_weapons_10
 		visual_level = 7
 
 		reliability = 0.950
@@ -353,11 +353,11 @@ equipments = {
 			chromium = 2
 		}
 	}
-	infantry_weapons11 = {
+	infantry_weapons_12 = {
 		year = 2075
 
-		archetype = Inf_equipment
-		parent = infantry_weapons10
+		archetype = infantry_weapons
+		parent = infantry_weapons_11
 		visual_level = 7
 
 		reliability = 0.950

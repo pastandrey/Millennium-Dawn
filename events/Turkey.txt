@@ -759,7 +759,7 @@ country_event = {
 			}
 		}
 		newline = yes
-		add_equipment_to_stockpile = { type = infantry_weapons amount = -500 producer = TUR }
+		add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -500 producer = TUR }
 		add_equipment_to_stockpile = { type = util_vehicle_equipment amount = -75 producer = TUR }
 		newline = yes
 		add_timed_idea = {
@@ -774,13 +774,13 @@ country_event = {
 	option = {
 		name = TUR_pkk.200.b
 		log = "[GetDateText]: [This.GetName]: TUR_pkk.200.b executed"
-		add_equipment_to_stockpile = { type = infantry_weapons amount = -500 producer = TUR }
+		add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -500 producer = TUR }
 		add_equipment_to_stockpile = { type = util_vehicle_equipment amount = -75 producer = TUR }
 		custom_effect_tooltip = TUR_2X_LOSS_TT
 		hidden_effect = {
 			random_list = {
 				50 = {
-					add_equipment_to_stockpile = { type = infantry_weapons amount = -500 producer = TUR }
+					add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -500 producer = TUR }
 					add_equipment_to_stockpile = { type = util_vehicle_equipment amount = -75 producer = TUR }
 				}
 				50 = {
@@ -851,7 +851,7 @@ country_event = {
 			category = CAT_cnc
 		}
 		newline = yes
-		add_equipment_to_stockpile = { type = infantry_weapons amount = -900 producer = TUR }
+		add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -900 producer = TUR }
 		add_equipment_to_stockpile = { type = cnc_equipment amount = -575 producer = TUR }
 		add_equipment_to_stockpile = { type = util_vehicle_equipment amount = -175 producer = TUR }
 		newline = yes
@@ -915,7 +915,7 @@ country_event = {
 	option = {
 		name = TUR_pkk.202.a
 		log = "[GetDateText]: [This.GetName]: TUR_pkk.202.a executed"
-		add_equipment_to_stockpile = { type = infantry_weapons amount = -1000 producer = TUR }
+		add_equipment_to_stockpile = { type = infantry_weapons_1 amount = -1000 producer = TUR }
 		add_equipment_to_stockpile = { type = util_vehicle_equipment amount = -275 producer = TUR }
 		newline = yes
 		random_army_leader = {
@@ -1056,7 +1056,7 @@ country_event = {
 	option = {
 		name = TUR_pkk.203.b
 		log = "[GetDateText]: [This.GetName]: TUR_pkk.203.b executed"
-		add_equipment_to_stockpile = { type = infantry_weapons amount = 2500 producer = TUR }
+		add_equipment_to_stockpile = { type = infantry_weapons_1 amount = 2500 producer = TUR }
 		add_equipment_to_stockpile = { type = util_vehicle_equipment amount = 450 producer = TUR }
 		newline = yes
 		set_temp_variable = { temp_opinion = -10 }
@@ -4370,7 +4370,7 @@ country_event = { #Who Revolts?
 		name = TurkeyFocusEvents.31.a
 		log = "[GetDateText]: [This.GetName]: TurkeyFocusEvents.31.a executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			amount = -1000
 			producer = TUR
 		}
@@ -4412,7 +4412,7 @@ country_event = { #Who Revolts?
 		name = TurkeyFocusEvents.31.b
 		log = "[GetDateText]: [This.GetName]: TurkeyFocusEvents.31.b executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			amount = -5000
 			producer = TUR
 		}
@@ -6839,7 +6839,7 @@ country_event = { # Turkish mafia weapon cache discovered
 		name = Turkish_mafia.3.a
 		log = "[GetDateText]: [This.GetName]: Turkish_mafia.3.a executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			amount = 300
 			producer = TUR
 		}
@@ -6913,7 +6913,7 @@ country_event = { # Police Lose
 		name = Turkish_mafia.31.a
 		log = "[GetDateText]: [This.GetName]: Turkish_mafia.31.a executed"
 		add_equipment_to_stockpile = {
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			amount = -100
 			producer = TUR
 		}

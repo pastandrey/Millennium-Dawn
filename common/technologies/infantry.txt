@@ -38,10 +38,10 @@ technologies = {
 	###Infantry Weapons###
 
 	#1965
-	infantry_weapons = {
+	infantry_weapons_1 = {
 
 		enable_equipments = {
-			infantry_weapons
+			infantry_weapons_1
 		}
 		enable_equipment_modules = {
 			afv_machine_gun
@@ -79,7 +79,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = infantry_weapons1
+			leads_to_tech = infantry_weapons_2
 			research_cost_coeff = 1
 		}
 
@@ -102,14 +102,14 @@ technologies = {
 		}
 	}
 	#1975
-	infantry_weapons1 = {
+	infantry_weapons_2 = {
 
 		enable_equipments = {
-			infantry_weapons1
+			infantry_weapons_2
 		}
 
 		path = {
-			leads_to_tech = infantry_weapons2
+			leads_to_tech = infantry_weapons_3
 			research_cost_coeff = 1
 		}
 
@@ -130,17 +130,17 @@ technologies = {
 		ai_will_do = { factor = 1 }
 	}
 	#1985
-	infantry_weapons2 = {
+	infantry_weapons_3 = {
 
 		enable_equipments = {
-			infantry_weapons2
+			infantry_weapons_3
 		}
 		enable_equipment_modules = {
 			afv_machine_gun_2
 		}
 
 		path = {
-			leads_to_tech = infantry_weapons3
+			leads_to_tech = infantry_weapons_4
 			research_cost_coeff = 1
 		}
 
@@ -161,14 +161,14 @@ technologies = {
 		ai_will_do = { factor = 1 }
 	}
 	#1995
-	infantry_weapons3 = {
+	infantry_weapons_4 = {
 
 		enable_equipments = {
-			infantry_weapons3
+			infantry_weapons_4
 		}
 
 		path = {
-			leads_to_tech = infantry_weapons4
+			leads_to_tech = infantry_weapons_5
 			research_cost_coeff = 1
 		}
 
@@ -189,7 +189,7 @@ technologies = {
 		ai_will_do = { factor = 1 }
 	}
 	#2005
-	infantry_weapons4 = {
+	infantry_weapons_5 = {
 		on_research_complete = {
 
 			custom_effect_tooltip = {
@@ -199,14 +199,14 @@ technologies = {
 		}
 
 		enable_equipments = {
-			infantry_weapons4
+			infantry_weapons_5
 		}
 		enable_equipment_modules = {
 			afv_machine_gun_3
 		}
 
 		path = {
-			leads_to_tech = infantry_weapons5
+			leads_to_tech = infantry_weapons_6
 			research_cost_coeff = 1
 		}
 
@@ -237,14 +237,14 @@ technologies = {
 		}
 	}
 	#2015
-	infantry_weapons5 = {
+	infantry_weapons_6 = {
 
 		enable_equipments = {
-			infantry_weapons5
+			infantry_weapons_6
 		}
 
 		path = {
-			leads_to_tech = infantry_weapons6
+			leads_to_tech = infantry_weapons_7
 			research_cost_coeff = 1
 		}
 
@@ -275,17 +275,17 @@ technologies = {
 		}
 	}
 	#2025
-	infantry_weapons6 = {
+	infantry_weapons_7 = {
 
 		enable_equipments = {
-			infantry_weapons6
+			infantry_weapons_7
 		}
 		enable_equipment_modules = {
 			afv_machine_gun_4
 		}
 
 		path = {
-			leads_to_tech = infantry_weapons7
+			leads_to_tech = infantry_weapons_8
 			research_cost_coeff = 1
 		}
 
@@ -316,14 +316,14 @@ technologies = {
 		}
 	}
 	#2035
-	infantry_weapons7 = {
+	infantry_weapons_8 = {
 
 		enable_equipments = {
-			infantry_weapons7
+			infantry_weapons_8
 		}
 
         path = {
-        	leads_to_tech = infantry_weapons8
+        	leads_to_tech = infantry_weapons_9
         	research_cost_coeff = 1
     	}
 
@@ -354,13 +354,13 @@ technologies = {
 		}
 	}
 	#2045
-	infantry_weapons8 = {
+	infantry_weapons_9 = {
 
 		enable_equipments = {
-			infantry_weapons8
+			infantry_weapons_9
 		}
 		path = {
-			leads_to_tech = infantry_weapons9
+			leads_to_tech = infantry_weapons_10
 			research_cost_coeff = 1
 		}
 		research_cost = 1.7
@@ -388,13 +388,13 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2055
-	infantry_weapons9 = {
+	infantry_weapons_10 = {
 
 		enable_equipments = {
-			infantry_weapons9
+			infantry_weapons_10
 		}
 		path = {
-			leads_to_tech = infantry_weapons10
+			leads_to_tech = infantry_weapons_11
 			research_cost_coeff = 1
 		}
 		research_cost = 1.7
@@ -425,13 +425,13 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2065
-	infantry_weapons10 = {
+	infantry_weapons_11 = {
 
 		enable_equipments = {
-			infantry_weapons10
+			infantry_weapons_11
 		}
 		path = {
-			leads_to_tech = infantry_weapons11
+			leads_to_tech = infantry_weapons_12
 			research_cost_coeff = 1
 		}
 		research_cost = 1.7
@@ -462,10 +462,10 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 	#2075
-	infantry_weapons11 = {
+	infantry_weapons_12 = {
 
 		enable_equipments = {
-			infantry_weapons11
+			infantry_weapons_12
 		}
 
 		research_cost = 1.7

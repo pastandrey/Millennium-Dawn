@@ -12,7 +12,7 @@ PER_scripted_effect_update_palestine_arms_via_land = {
 		#THIS IS FOR AT & ATT COST and Travel
 		if = { limit = { any_neighbor_country = { NOT = { OR = { emerging_hardline_shiite_are_in_power = yes emerging_moderate_shiite_are_in_power = yes } } } } divide_temp_variable = { hamas_arms_temp_var = 1.5 } }
 		subtract_from_temp_variable = { hamas_arms_temp_var = 20 }
-		PREV = { add_equipment_to_stockpile = { amount = hamas_arms_temp_var type = Inf_equipment producer = PREV } }
+		PREV = { add_equipment_to_stockpile = { amount = hamas_arms_temp_var type = infantry_weapons producer = PREV } }
 		newline = yes
 	}
 	if = {
@@ -27,7 +27,7 @@ PER_scripted_effect_update_palestine_arms_via_land = {
 		#THIS IS FOR AT & ATT COST and Travel
 		if = { limit = { any_neighbor_country = { NOT = { OR = { emerging_hardline_shiite_are_in_power = yes emerging_moderate_shiite_are_in_power = yes } } } } divide_temp_variable = { hamas_arms_temp_var = 1.5 } }
 		subtract_from_temp_variable = { PIJ_arms_temp_var = 10 }
-		PREV = { add_equipment_to_stockpile = { amount = PIJ_arms_temp_var type = Inf_equipment producer = PREV } }
+		PREV = { add_equipment_to_stockpile = { amount = PIJ_arms_temp_var type = infantry_weapons producer = PREV } }
 		newline = yes
 	}
 	if = {
@@ -41,7 +41,7 @@ PER_scripted_effect_update_palestine_arms_via_land = {
 		#THIS IS FOR AT & ATT COST and Travel
 		if = { limit = { any_neighbor_country = { NOT = { OR = { emerging_hardline_shiite_are_in_power = yes emerging_moderate_shiite_are_in_power = yes } } } } divide_temp_variable = { hamas_arms_temp_var = 1.5 } }
 		subtract_from_temp_variable = { PFLP_arms_temp_var = 10 }
-		PREV = { add_equipment_to_stockpile = { amount = PFLP_arms_temp_var type = Inf_equipment producer = PREV } }
+		PREV = { add_equipment_to_stockpile = { amount = PFLP_arms_temp_var type = infantry_weapons producer = PREV } }
 		newline = yes
 	}
 	if = {
@@ -55,7 +55,7 @@ PER_scripted_effect_update_palestine_arms_via_land = {
 		#THIS IS FOR AT & ATT COST and Travel
 		if = { limit = { any_neighbor_country = { NOT = { OR = { emerging_hardline_shiite_are_in_power = yes emerging_moderate_shiite_are_in_power = yes } } } } divide_temp_variable = { hamas_arms_temp_var = 1.5 } }
 		subtract_from_temp_variable = { PRC_arms_temp_var = 10 }
-		PREV = { add_equipment_to_stockpile = { amount = PRC_arms_temp_var type = Inf_equipment producer = PREV } }
+		PREV = { add_equipment_to_stockpile = { amount = PRC_arms_temp_var type = infantry_weapons producer = PREV } }
 		newline = yes
 	}
 }
@@ -72,7 +72,7 @@ PER_scripted_effect_update_palestine_arms_via_sea = {
 		#THIS IS FOR AT & ATT COST and Travel
 		divide_temp_variable = { hamas_arms_temp_var = 1.2 }
 		subtract_from_temp_variable = { hamas_arms_temp_var = 4 }
-		PREV = { add_equipment_to_stockpile = { amount = hamas_arms_temp_var type = Inf_equipment producer = PREV } }
+		PREV = { add_equipment_to_stockpile = { amount = hamas_arms_temp_var type = infantry_weapons producer = PREV } }
 		newline = yes
 	}
 	if = {
@@ -87,7 +87,7 @@ PER_scripted_effect_update_palestine_arms_via_sea = {
 		#THIS IS FOR AT & ATT COST and Travel
 		divide_temp_variable = { hamas_arms_temp_var = 1.2 }
 		subtract_from_temp_variable = { PIJ_arms_temp_var = 2 }
-		PREV = { add_equipment_to_stockpile = { amount = PIJ_arms_temp_var type = Inf_equipment producer = PREV } }
+		PREV = { add_equipment_to_stockpile = { amount = PIJ_arms_temp_var type = infantry_weapons producer = PREV } }
 		newline = yes
 	}
 	if = {
@@ -101,7 +101,7 @@ PER_scripted_effect_update_palestine_arms_via_sea = {
 		#THIS IS FOR AT & ATT COST and Travel
 		divide_temp_variable = { hamas_arms_temp_var = 1.2 }
 		subtract_from_temp_variable = { PFLP_arms_temp_var = 2 }
-		PREV = { add_equipment_to_stockpile = { amount = PFLP_arms_temp_var type = Inf_equipment producer = PREV } }
+		PREV = { add_equipment_to_stockpile = { amount = PFLP_arms_temp_var type = infantry_weapons producer = PREV } }
 		newline = yes
 	}
 	if = {
@@ -115,7 +115,7 @@ PER_scripted_effect_update_palestine_arms_via_sea = {
 		#THIS IS FOR AT & ATT COST and Travel
 		divide_temp_variable = { hamas_arms_temp_var = 1.2 }
 		subtract_from_temp_variable = { PRC_arms_temp_var = 2 }
-		PREV = { add_equipment_to_stockpile = { amount = PRC_arms_temp_var type = Inf_equipment producer = PREV } }
+		PREV = { add_equipment_to_stockpile = { amount = PRC_arms_temp_var type = infantry_weapons producer = PREV } }
 		newline = yes
 	}
 }
@@ -199,7 +199,7 @@ PER_SAZ_independence = {
 			target = SAZ
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons
 			amount = 10000
 			target = SAZ
 		}
@@ -287,7 +287,7 @@ PER_BLC_independence = {
 			target = BLC
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons
 			amount = 10000
 			target = BLC
 		}
@@ -470,7 +470,7 @@ PER_IKR_independence = {
 			target = IKR
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons
 			amount = 10000
 			target = IKR
 		}
@@ -557,7 +557,7 @@ PER_ARA_independence = {
 			target = ARA
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons
 			amount = 10000
 			target = ARA
 		}

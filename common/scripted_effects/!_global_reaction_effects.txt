@@ -50,7 +50,7 @@ GLOBAL_russian_create_georgia_revoult_script = {
 			target = SOV
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons
 			amount = 3000
 			target = SOV
 		}
@@ -114,7 +114,7 @@ GLOBAL_russian_create_azer_revoult_script = {
 			target = SOV
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons
 			amount = 3000
 			target = SOV
 		}
@@ -172,7 +172,7 @@ GLOBAL_russian_create_abk_revoult_script = {
 			target = SOV
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons
 			amount = 3000
 			target = SOV
 		}
@@ -223,7 +223,7 @@ GLOBAL_turkey_create_adj_revoult_script = {
 			target = TUR
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons
 			amount = 3000
 			target = TUR
 		}
@@ -279,7 +279,7 @@ GLOBAL_putin_start_armenia_revoult_script = {
 			target = SOV
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons
 			amount = 3000
 			target = SOV
 		}

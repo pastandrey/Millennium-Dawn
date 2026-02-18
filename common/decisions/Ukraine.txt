@@ -2889,7 +2889,7 @@ UKR_hur_decision_category = {
 			has_war_with = SOV
 			SOV = {
 				has_equipment = {
-					Inf_equipment > 1000
+					infantry_weapons > 1000
 				}
 			}
 			OR = {

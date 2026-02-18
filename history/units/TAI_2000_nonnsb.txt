@@ -275,18 +275,18 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #"Steyr AUG A1"
+		type = infantry_weapons_2 #"Steyr AUG A1"
 		amount = 2500
 		producer = AUS
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 # "T65"
+		type = infantry_weapons_2 # "T65"
 		amount = 42000
 		producer = TAI
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons3 # "T86"
+		type = infantry_weapons_4 # "T86"
 		amount = 200
 		producer = TAI
 	}

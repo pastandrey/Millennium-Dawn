@@ -326,19 +326,19 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons #G3	(made by license)
+		type = infantry_weapons_1 #G3	(made by license)
 		amount = 20000
 		producer = GRE
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2 #M16A2
+		type = infantry_weapons_3 #M16A2
 		amount = 200
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons4 #M4
+		type = infantry_weapons_5 #M4
 		amount = 200
 		producer = USA
 	}

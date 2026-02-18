@@ -215,11 +215,11 @@ CHI_build_Inf_equipment = {
 	allowed = { original_tag = CHI }
 	enable = {
 		date < 2006.1.1
-		has_equipment = { Inf_equipment < 1 }
+		has_equipment = { infantry_weapons < 1 }
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_variant_production_factor id = Inf_equipment value = 1000 }
+	ai_strategy = { type = equipment_variant_production_factor id = infantry_weapons value = 1000 }
 }
 
 CHI_build_util_vehicle_equipment = {

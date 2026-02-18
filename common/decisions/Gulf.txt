@@ -2814,7 +2814,7 @@ subversive_activities = {
 					}
 				}
 			}
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			has_equipment = { L_AT_Equipment > 9 }
 			has_equipment = { AA_Equipment > 9 }
 			has_equipment = { util_vehicle_equipment > 4 }
@@ -2831,7 +2831,7 @@ subversive_activities = {
 			if = {
 				limit = { country_exists = HAM }
 				send_equipment = {
-					equipment = infantry_weapons
+					equipment = infantry_weapons_1
 					amount = 100
 					target = HAM
 				}
@@ -2854,7 +2854,7 @@ subversive_activities = {
 			}
 			else = {
 				send_equipment = {
-					equipment = infantry_weapons
+					equipment = infantry_weapons_1
 					amount = 100
 					target = PAL
 				}
@@ -2888,7 +2888,7 @@ subversive_activities = {
 		}
 		available = {
 			country_exists = HEZ
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			has_equipment = { L_AT_Equipment > 9 }
 			has_equipment = { AA_Equipment > 9 }
 			has_equipment = { util_vehicle_equipment > 4 }
@@ -2902,7 +2902,7 @@ subversive_activities = {
 		days_remove = 50
 		remove_effect = {
 			send_equipment = {
-				equipment = infantry_weapons
+				equipment = infantry_weapons_1
 				amount = 100
 				target = HEZ
 			}
@@ -2934,7 +2934,7 @@ subversive_activities = {
 		available = {
 			country_exists = IRQ
 			IRQ = { has_government = communism }
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			has_equipment = { L_AT_Equipment > 9 }
 			has_equipment = { AA_Equipment > 9 }
 			has_equipment = { util_vehicle_equipment > 4 }
@@ -2948,7 +2948,7 @@ subversive_activities = {
 		days_remove = 50
 		remove_effect = {
 			send_equipment = {
-				equipment = infantry_weapons
+				equipment = infantry_weapons_1
 				amount = 100
 				target = IRQ
 			}
@@ -2985,7 +2985,7 @@ subversive_activities = {
 		available = {
 			country_exists = SYR
 			SYR = { has_government = communism }
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			has_equipment = { L_AT_Equipment > 9 }
 			has_equipment = { AA_Equipment > 9 }
 			has_equipment = { util_vehicle_equipment > 4 }
@@ -2999,7 +2999,7 @@ subversive_activities = {
 		days_remove = 50
 		remove_effect = {
 			send_equipment = {
-				equipment = infantry_weapons
+				equipment = infantry_weapons_1
 				amount = 100
 				target = SYR
 			}
@@ -3034,7 +3034,7 @@ subversive_activities = {
 		icon = GFX_decision_generic_prepare_civil_war_new
 		visible = { has_completed_focus = GCC_back_the_syrian_opposition }
 		available = {
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			has_equipment = { L_AT_Equipment > 9 }
 			has_equipment = { AA_Equipment > 9 }
 			has_equipment = { util_vehicle_equipment > 4 }
@@ -3050,7 +3050,7 @@ subversive_activities = {
 		days_remove = 50
 		remove_effect = {
 			send_equipment = {
-				equipment = infantry_weapons
+				equipment = infantry_weapons_1
 				amount = 100
 				target = FSA
 			}
@@ -3080,7 +3080,7 @@ subversive_activities = {
 		icon = GFX_decision_generic_prepare_civil_war_new
 		visible = { has_completed_focus = GCC_support_iranian_separatists }
 		available = {
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			PER = { owns_state = 399 }
 		}
 		highlight_states = {
@@ -3092,7 +3092,7 @@ subversive_activities = {
 		days_remove = 50
 		complete_effect = {
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = -100
 			}
 		}
@@ -3109,7 +3109,7 @@ subversive_activities = {
 		icon = GFX_decision_generic_prepare_civil_war_new
 		visible = { has_completed_focus = GCC_support_iranian_separatists }
 		available = {
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			PER = { owns_state = 401 }
 		}
 		highlight_states = {
@@ -3121,7 +3121,7 @@ subversive_activities = {
 		days_remove = 50
 		complete_effect = {
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons
 				amount = -100
 			}
 		}
@@ -3142,7 +3142,7 @@ subversive_activities = {
 			country_exists = GNA
 		}
 		available = {
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			has_equipment = { L_AT_Equipment > 9 }
 			has_equipment = { AA_Equipment > 9 }
 			has_equipment = { util_vehicle_equipment > 4 }
@@ -3156,7 +3156,7 @@ subversive_activities = {
 		days_remove = 50
 		remove_effect = {
 			send_equipment = {
-				equipment = infantry_weapons
+				equipment = infantry_weapons_1
 				amount = 100
 				target = GNA
 			}
@@ -3191,7 +3191,7 @@ subversive_activities = {
 			NOT = { country_exists = GNA }
 		}
 		available = {
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			has_equipment = { L_AT_Equipment > 9 }
 			has_equipment = { AA_Equipment > 9 }
 			has_equipment = { util_vehicle_equipment > 4 }
@@ -3205,7 +3205,7 @@ subversive_activities = {
 		days_remove = 50
 		remove_effect = {
 			send_equipment = {
-				equipment = infantry_weapons
+				equipment = infantry_weapons_1
 				amount = 100
 				target = GNC
 			}
@@ -3239,7 +3239,7 @@ subversive_activities = {
 			country_exists = HOR
 		}
 		available = {
-			has_equipment = { Inf_equipment > 99 }
+			has_equipment = { infantry_weapons > 99 }
 			has_equipment = { L_AT_Equipment > 9 }
 			has_equipment = { AA_Equipment > 9 }
 			has_equipment = { util_vehicle_equipment > 4 }
@@ -3253,7 +3253,7 @@ subversive_activities = {
 		days_remove = 60
 		remove_effect = {
 			send_equipment = {
-				equipment = infantry_weapons
+				equipment = infantry_weapons_1
 				amount = 100
 				target = HOR
 			}

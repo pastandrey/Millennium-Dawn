@@ -80,7 +80,7 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2			#FN FNC
+		type = infantry_weapons_3			#FN FNC
 		amount = 4000
 		producer = BEL
 	}

@@ -66,10 +66,10 @@
 		combined_arms = 1
 
 		#Colt C8
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		infantry_weapons3 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
+		infantry_weapons_4 = 1
 
 		support_weapons = 1
 		support_weapons2 = 1

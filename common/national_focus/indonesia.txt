@@ -2543,7 +2543,7 @@ focus_tree = {
 
 		available = {
 			has_equipment = {
-				Inf_equipment > 999
+				infantry_weapons > 999
 			}
 		}
 
@@ -2551,7 +2551,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus IND_back_muslims_send_guns"
 			IND = {
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = -1000
 				}
 			}
@@ -2761,7 +2761,7 @@ focus_tree = {
 			add_ideas = IND_equipped_police
 			IND = {
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = -300
 				}
 			}
@@ -3222,7 +3222,7 @@ focus_tree = {
 			decrease_policing_budget = yes
 			IND = {
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 4000
 				}
 			}
@@ -3831,17 +3831,17 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_tech = infantry_weapons2 }
+				limit = { has_tech = infantry_weapons_3 }
 					add_equipment_to_stockpile = {
-					type = infantry_weapons2
+					type = infantry_weapons_3
 					amount = 5000
 					producer = CHI
 				}
 			}
 			else_if = {
-				limit = { has_tech = infantry_weapons1 }
+				limit = { has_tech = infantry_weapons_2 }
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = 5000
 					producer = CHI
 				}

@@ -421,7 +421,7 @@ units = {
 instant_effect = {
 	### Smaller Weaponry ###
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 #Heckler & Koch G3A4
+		type = infantry_weapons_2 #Heckler & Koch G3A4
 		amount = 87000
 		producer = GER
 	}

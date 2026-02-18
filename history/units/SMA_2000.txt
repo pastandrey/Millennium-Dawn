@@ -8,12 +8,12 @@ division_template = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		amount = 150
 		producer = SMA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 300
 		producer = SMA
 	}

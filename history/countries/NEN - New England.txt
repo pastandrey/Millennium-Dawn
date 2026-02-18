@@ -202,7 +202,7 @@
 
 		create_equipment_variant = {
 			name = "Colt M16A4"
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			upgrades = {
 				Inf_eq_gadjets = 2
 				Inf_eq_heavy_weapons = 2

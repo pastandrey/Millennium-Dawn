@@ -183,13 +183,13 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons		#RK-62
+		type = infantry_weapons_1		#RK-62
 		amount = 90000				#One Rifle for every possible reservist, so about 400k pieces
 		producer = FIN
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons3		#RK-95
+		type = infantry_weapons_4		#RK-95
 		amount = 3300				#About 10k pieces
 		producer = FIN
 	}

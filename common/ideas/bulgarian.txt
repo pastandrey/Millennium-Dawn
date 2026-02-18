@@ -163,7 +163,7 @@ ideas = {
 		BUL_arms_arsenal = {
 			picture = bul_military_industry_idea
 			equipment_bonus = {
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.05
 					instant = yes
 				}
@@ -184,7 +184,7 @@ ideas = {
 		BUL_arms_sopot_kentox = {
 			picture = bul_military_industry_idea
 			equipment_bonus = {
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.05
 					instant = yes
 				}
@@ -239,7 +239,7 @@ ideas = {
 					build_cost_ic = -0.13
 					instant = yes
 				}
-				Inf_equipment = {
+				infantry_weapons = {
 					build_cost_ic = -0.13
 					instant = yes
 				}
@@ -664,7 +664,7 @@ ideas = {
 		BUL_quantity_small_arms_idea = {
 			picture = volunteer_defenders2
 			equipment_bonus = {
-				Inf_equipment = {
+				infantry_weapons = {
 					instant = yes
 					build_cost_ic = -0.05
 				}

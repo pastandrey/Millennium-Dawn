@@ -226,7 +226,7 @@ country_event = {
 		set_temp_variable = { influence_target = IRQ }
 		change_influence_percentage = yes
 		add_equipment_to_stockpile = {
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			amount = 1350
 			producer = EGY
 		}
@@ -1315,7 +1315,7 @@ country_event = {
 			popularity = 0.05
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			amount = 2500
 			producer = EGY
 		}
@@ -2117,7 +2117,7 @@ country_event = {
 		set_temp_variable = { treasury_change = -2 }
 		modify_treasury_effect = yes
 		add_equipment_to_stockpile = {
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			amount = -2500
 			producer = SAU
 		}
@@ -2387,7 +2387,7 @@ country_event = {
 		set_temp_variable = { treasury_change = -2 }
 		modify_treasury_effect = yes
 		add_equipment_to_stockpile = {
-			type = infantry_weapons1
+			type = infantry_weapons_2
 			amount = -2500
 			producer = SAU
 		}
@@ -2850,7 +2850,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: egypt.135.a executed"
 		USA = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = -6000
 				producer = USA
 			}
@@ -2859,7 +2859,7 @@ country_event = {
 		}
 		EGY = {
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 6000
 				producer = USA
 			}
@@ -3025,7 +3025,7 @@ country_event = {
 				load_focus_tree = egypt_focus
 				states = { 215 213 217 }
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons
 					amount = 10000
 					producer = EGY
 				}
@@ -3058,7 +3058,7 @@ country_event = {
 		EGY = {
 			give_guarantee = PAL
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = -2500
 				producer = PAL
 			}
