@@ -244,42 +244,42 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/rc_fire_support_drone.dds"
 	}
 	spriteType = {
-		name = "GFX_autonomous_fire_support_drone_medium"
-		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/autonomous_fire_support_drone.dds"
+		name = "GFX_afs_drone_1_medium"
+		texturefile = "gfx/interface/technologies/Generic/Hvy_Inf_Weapons/afs_drone_1.dds"
 	}
 
 	##Generic Special Forces
 	spriteType = {
 		name = "GFX_special_forces_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces.dds"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_1.dds"
 	}
 	spriteType = {
-		name = "GFX_special_forces2_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces2.dds"
+		name = "GFX_special_forces_tech_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_2.dds"
 	}
 	spriteType = {
-		name = "GFX_eastern_european_2d_special_forces2_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces/EEU_special_forces2.dds"
+		name = "GFX_eastern_european_2d_special_forces_tech_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/EEU_special_forces_tech_2.dds"
 	}
 	spriteType = {
-		name = "GFX_special_forces3_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces3.dds"
+		name = "GFX_special_forces_tech_3_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_3.dds"
 	}
 	spriteType = {
-		name = "GFX_special_forces4_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces4.dds"
+		name = "GFX_special_forces_tech_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_4.dds"
 	}
 	spriteType = {
-		name = "GFX_eastern_european_2d_special_forces4_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces/EEU_special_forces4.dds"
+		name = "GFX_eastern_european_2d_special_forces_tech_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/EEU_special_forces_tech_4.dds"
 	}
 	spriteType = {
-		name = "GFX_special_forces5_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces5.dds"
+		name = "GFX_special_forces_tech_5_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_5.dds"
 	}
 	spriteType = {
-		name = "GFX_special_forces6_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces6.dds"
+		name = "GFX_special_forces_tech_6_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_6.dds"
 	}
 
 	### Generic Camouflage ###

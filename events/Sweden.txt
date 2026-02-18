@@ -318,9 +318,9 @@ country_event = {
 #		army_experience = 30
 #
 #		set_technology = {
-#			special_forces2 = 1
-#			special_forces3 = 1
-#			special_forces4 = 1
+#			special_forces_tech_2 = 1
+#			special_forces_tech_3 = 1
+#			special_forces_tech_4 = 1
 #		}
 #
 #		set_temp_variable = { treasury_change = -4 }

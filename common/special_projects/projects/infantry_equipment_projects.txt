@@ -445,7 +445,7 @@ sp_double_shot_rifle = {
 
 	available = {
 		FROM = {
-			has_tech = special_forces4
+			has_tech = special_forces_tech_4
 		}
 	}
 

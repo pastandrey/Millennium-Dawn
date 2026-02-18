@@ -25,8 +25,8 @@
 		support_weapons2 = 1
 		squad_automatic_weapon = 1
 		tandem_charge_warheads = 1
-		special_forces = 1
-		special_forces2 = 1
+		special_forces_tech_1 = 1
+		special_forces_tech_2 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1

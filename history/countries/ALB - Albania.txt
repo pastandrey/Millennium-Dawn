@@ -22,7 +22,7 @@
 		util_vehicle_1 = 1
 		Heavy_Anti_tank_0 = 1
 		support_weapons = 1
-		special_forces = 1
+		special_forces_tech_1 = 1
 		body_armor_1 = 1
 		camouflage_1 = 1
 		camouflage_2 = 1

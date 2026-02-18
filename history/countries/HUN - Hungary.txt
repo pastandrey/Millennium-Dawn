@@ -326,7 +326,7 @@
 		support_weapons2 = 1
 		tandem_charge_warheads = 1
 		squad_automatic_weapon = 1
-		special_forces = 1
+		special_forces_tech_1 = 1
 
 		industrial_electrospun_polymeric_nanofibers = 1
 		multiwalled_carbon_nanotubes = 1

@@ -83,10 +83,10 @@
 		tandem_charge_warheads = 1
 		support_weapons2 = 1
 		support_weapons3 = 1
-		special_forces = 1
-		special_forces2 = 1
-		special_forces3 = 1
-		special_forces4 = 1
+		special_forces_tech_1 = 1
+		special_forces_tech_2 = 1
+		special_forces_tech_3 = 1
+		special_forces_tech_4 = 1
 
 		combat_eng_equipment = 1
 

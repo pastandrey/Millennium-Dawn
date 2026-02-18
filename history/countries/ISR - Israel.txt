@@ -167,8 +167,8 @@
 		squad_automatic_weapon = 1
 		support_weapons2 = 1
 		support_weapons3 = 1
-		special_forces = 1
-		special_forces2 = 1
+		special_forces_tech_1 = 1
+		special_forces_tech_2 = 1
 
 		#Spike
 		Anti_tank_0 = 1

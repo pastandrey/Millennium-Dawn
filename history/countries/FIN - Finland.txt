@@ -29,7 +29,7 @@
 		support_weapons2 = 1
 		support_weapons3 = 1
 		combat_eng_equipment = 1
-		special_forces = 1
+		special_forces_tech_1 = 1
 		night_vision_1 = 1
 		night_vision_2 = 1
 		cnc_equipment_1 = 1

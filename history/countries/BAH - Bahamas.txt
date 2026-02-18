@@ -8,7 +8,7 @@
 		infantry_mass_assault = 1
 		night_vision_1 = 1
 		night_vision_2 = 1
-		special_forces = 1
+		special_forces_tech_1 = 1
 		support_weapons = 1
 		infantry_weapons_1 = 1
 		cnc_equipment_1 = 1

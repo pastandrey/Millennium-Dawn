@@ -17,7 +17,7 @@
 		Anti_tank_0 = 1
 		Heavy_Anti_tank_0 = 1
 		support_weapons = 1
-		special_forces = 1
+		special_forces_tech_1 = 1
 		basic_computing = 1
 		integrated_circuit = 1
 		computing1 = 1
