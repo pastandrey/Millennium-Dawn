@@ -1,4 +1,4 @@
-# Author(s): AngriestBird, Hiddengearz, Lynx, TheGeneral
+# Author(s): AngriestBird, Hiddengearz, Lynxivium, TheGeneral
 technologies = {
 	#X axis
 	@1965 = 0
@@ -840,10 +840,12 @@ technologies = {
 		enable_equipments = {
 			util_vehicle_10
 		}
+
 		path = {
 			leads_to_tech = util_vehicle_11
 			research_cost_coeff = 1
 		}
+
 		research_cost = 1.7
 		start_year = 2055
 		folder = {
@@ -875,10 +877,12 @@ technologies = {
 		enable_equipments = {
 			util_vehicle_11
 		}
+
 		path = {
 			leads_to_tech = util_vehicle_12
 			research_cost_coeff = 1
 		}
+
 		research_cost = 1.7
 		start_year = 2065
 		folder = {
@@ -910,6 +914,7 @@ technologies = {
 		enable_equipments = {
 			util_vehicle_12
 		}
+
 		research_cost = 1.7
 		start_year = 2075
 		folder = {
