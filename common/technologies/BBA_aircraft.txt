@@ -1680,11 +1680,6 @@ technologies = {
 			kamikaze_drone_3
 		}
 
-		path = {
-			leads_to_tech = drone_4
-			research_cost_coeff = 1
-		}
-
 		research_cost = 3.5
 		start_year = 2030
 		folder = {
@@ -2331,7 +2326,7 @@ technologies = {
 		path = {
 			leads_to_tech = internal_weapons_4
 			research_cost_coeff = 1
-		}	
+		}
 		folder = {
 			name = bba_aircraft_folder
 			position = { x = @row14 y = @2045 }
@@ -3108,7 +3103,7 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 		}
-		
+
 		categories = {
 			CAT_air_eqp
 			CAT_air_wpn
