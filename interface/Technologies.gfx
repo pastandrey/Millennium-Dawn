@@ -251,11 +251,11 @@ spriteTypes = {
 	##Generic Special Forces
 	spriteType = {
 		name = "GFX_special_forces_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_1.dds"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_1.dds"
 	}
 	spriteType = {
 		name = "GFX_special_forces_tech_2_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_2.dds"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_2.dds"
 	}
 	spriteType = {
 		name = "GFX_eastern_european_2d_special_forces_tech_2_medium"
@@ -263,11 +263,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_special_forces_tech_3_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_3.dds"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_3.dds"
 	}
 	spriteType = {
 		name = "GFX_special_forces_tech_4_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_4.dds"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_4.dds"
 	}
 	spriteType = {
 		name = "GFX_eastern_european_2d_special_forces_tech_4_medium"
@@ -275,34 +275,34 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_special_forces_tech_5_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_5.dds"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_5.dds"
 	}
 	spriteType = {
 		name = "GFX_special_forces_tech_6_medium"
-		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_6.dds"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_6.dds"
 	}
 
 	### Generic Camouflage ###
 
 	spriteType = {
 		name = "GFX_camouflage_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_1.dds"
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_1.dds"
 	}
 	spriteType = {
 		name = "GFX_camouflage_2_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_2.dds"
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_2.dds"
 	}
 	spriteType = {
 		name = "GFX_camouflage_3_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_3.dds"
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_3.dds"
 	}
 	spriteType = {
 		name = "GFX_camouflage_4_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_4.dds"
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_4.dds"
 	}
 	spriteType = {
 		name = "GFX_camouflage_5_medium"
-		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_5.dds"
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_5.dds"
 	}
 
 	### Generic Heavy Infantry Weapons ### For Production Qeue ####
@@ -2882,7 +2882,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Generic/mtg/BLUEPRINT.dds"
 	}
 	spriteType = {
-		name = "GFX_tech_submarine_engineering_medium"
+		name = "GFX_tech_submarine_engineering_1_medium"
 		texturefile = "gfx/interface/technologies/Generic/mtg/BLUEPRINT.dds"
 	}
 	spriteType = {

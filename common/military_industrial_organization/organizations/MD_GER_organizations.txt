@@ -8578,7 +8578,7 @@ GER_HDW_naval_manufacturer = {
 		}
 
 		available = {
-			GER = { has_tech = tech_rail_guns }
+			GER = { has_tech = tech_rail_guns_1 }
 		}
 
 		equipment_bonus = {

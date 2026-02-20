@@ -8572,7 +8572,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_Goalkeeper_Modernization"
 			if = {
-				limit = { has_tech = tech_fire_control_2 }
+				limit = { has_tech = tech_fire_control_3 }
 				add_tech_bonus = {
 					name = HOL_Goalkeeper_Modernization
 					uses = 1
@@ -8581,7 +8581,7 @@ focus_tree = {
 				}
 			}
 			else = {
-				set_technology = { tech_fire_control_2 = 1 }
+				set_technology = { tech_fire_control_3 = 1 }
 			}
 			if = {
 				limit = { has_dlc = "Arms Against Tyranny" }
@@ -8627,16 +8627,16 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_SMARTL_Radar_Construction"
 			if = {
-				limit = { has_tech = tech_combat_radar_3 }
+				limit = { has_tech = tech_combat_radar_4 }
 				add_tech_bonus = {
 					name = HOL_SMARTL_Radar_Construction
 					uses = 1
 					bonus = 0.25
-					technology = tech_combat_radar_4
+					technology = tech_combat_radar_5
 				}
 			}
 			else = {
-				set_technology = { tech_combat_radar_3 = 1 }
+				set_technology = { tech_combat_radar_4 = 1 }
 			}
 			46 = {
 				add_building_construction = {
@@ -9793,8 +9793,8 @@ focus_tree = {
 			custom_effect_tooltip = HOL_Nuke_Navy_tt
 			if = {
 				limit = {
-					has_tech = tech_nuclear_power_systems
-					NOT = { has_tech = tech_nuclear_power_systems_1 }
+					has_tech = tech_nuclear_power_systems_1
+					NOT = { has_tech = tech_nuclear_power_systems_2 }
 				}
 				add_tech_bonus = {
 					name = HOL_Nuke_Navy
@@ -9805,24 +9805,6 @@ focus_tree = {
 				add_tech_bonus = {
 					name = HOL_Nuke_Navy
 					uses = 1
-					bonus = 0.25
-					category = CAT_naval_modules
-				}
-			}
-			else_if = {
-				limit = {
-					has_tech = tech_nuclear_power_systems_1
-					NOT = { has_tech = tech_nuclear_power_systems_2 }
-				}
-				add_tech_bonus = {
-					name = HOL_Nuke_Navy
-					uses = 2
-					bonus = 0.25
-					category = CAT_naval_reactors
-				}
-				add_tech_bonus = {
-					name = HOL_Nuke_Navy
-					uses = 2
 					bonus = 0.25
 					category = CAT_naval_modules
 				}
@@ -9834,6 +9816,24 @@ focus_tree = {
 				}
 				add_tech_bonus = {
 					name = HOL_Nuke_Navy
+					uses = 2
+					bonus = 0.25
+					category = CAT_naval_reactors
+				}
+				add_tech_bonus = {
+					name = HOL_Nuke_Navy
+					uses = 2
+					bonus = 0.25
+					category = CAT_naval_modules
+				}
+			}
+			else_if = {
+				limit = {
+					has_tech = tech_nuclear_power_systems_3
+					NOT = { has_tech = tech_nuclear_power_systems_4 }
+				}
+				add_tech_bonus = {
+					name = HOL_Nuke_Navy
 					uses = 1
 					bonus = 0.25
 					category = CAT_naval_reactors
@@ -9846,7 +9846,7 @@ focus_tree = {
 				}
 			}
 			else_if = {
-				limit = { has_tech = tech_nuclear_power_systems_3 }
+				limit = { has_tech = tech_nuclear_power_systems_4 }
 				add_tech_bonus = {
 					name = HOL_Nuke_Navy
 					uses = 4
@@ -9855,7 +9855,7 @@ focus_tree = {
 				}
 			}
 			else_if = {
-				limit = { has_tech = tech_nuclear_power_systems }
+				limit = { has_tech = tech_nuclear_power_systems_1 }
 				add_tech_bonus = {
 					name = HOL_Nuke_Navy
 					uses = 4

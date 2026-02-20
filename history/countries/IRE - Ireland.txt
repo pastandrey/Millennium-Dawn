@@ -58,7 +58,7 @@
 		tech_naval_systems_engineering = 1
 		tech_combat_support_systems = 1
 		tech_early_naval_weapon_systems = 1
-		tech_landing_craft = 1
+		tech_landing_craft_1 = 1
 	}
 	if = { limit = { has_dlc = "No Step Back" }
 		set_oob = "IRE_2000_nsb"

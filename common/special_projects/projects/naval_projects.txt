@@ -202,7 +202,7 @@ sp_medium_naval_nuclear_engines = {
 	project_output = {
 		country_effects = {
 			set_technology = {
-				tech_nuclear_power_systems = 1
+				tech_nuclear_power_systems_1 = 1
 			}
 		}
 	}
@@ -243,7 +243,7 @@ sp_advanced_ballistic_propulsion_systems = {
 
 	available = {
 		FROM = {
-			has_tech = tech_light_guns_1
+			has_tech = tech_light_guns_2
 		}
 	}
 
@@ -391,7 +391,7 @@ sp_rail_gun_naval_cannons = {
 	project_output = {
 		country_effects = {
 			set_technology = {
-				tech_rail_guns = 1
+				tech_rail_guns_1 = 1
 			}
 		}
 	}
@@ -438,7 +438,7 @@ sp_rail_gun_naval_battery = {
 	}
 
 	available = {
-		FROM = { has_tech = tech_rail_guns }
+		FROM = { has_tech = tech_rail_guns_1 }
 	}
 
 	special_project_parent = {
@@ -497,7 +497,7 @@ sp_drone_torpedoes = {
 	}
 
 	available = {
-		FROM = { has_tech = tech_torpedoes_3 }
+		FROM = { has_tech = tech_torpedoes_4 }
 	}
 
 	prototype_time = sp_time.prototype.medium
@@ -559,7 +559,7 @@ sp_nuclear_torpedoes = {
 	}
 
 	available = {
-		FROM = { has_tech = tech_torpedoes_3 }
+		FROM = { has_tech = tech_torpedoes_4 }
 	}
 
 	special_project_parent = {
@@ -626,7 +626,7 @@ sp_anti_torpedo_module = {
 	}
 
 	available = {
-		FROM = { has_tech = tech_torpedoes_2 }
+		FROM = { has_tech = tech_torpedoes_3 }
 	}
 
 	prototype_time = sp_time.prototype.medium
@@ -706,7 +706,7 @@ sp_anti_drone_laser_modules = {
 		country_effects = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = tech_anti_drone_laser1
+				TECH = tech_anti_drone_laser_1
 			}
 		}
 		enable_equipment_modules = {
@@ -1086,7 +1086,7 @@ sp_fusion_reactor_engine = {
 	}
 
 	available = {
-		FROM = { has_tech = tech_nuclear_power_systems_2 }
+		FROM = { has_tech = tech_nuclear_power_systems_3 }
 	}
 
 	special_project_parent = {
@@ -1153,7 +1153,7 @@ sp_naval_swarm_module = {
 	}
 
 	available = {
-		FROM = { has_tech = tech_turret_missiles_surface_3 }
+		FROM = { has_tech = tech_turret_missiles_surface_4 }
 	}
 
 	project_output = {
