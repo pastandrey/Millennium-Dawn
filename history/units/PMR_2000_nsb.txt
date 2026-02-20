@@ -75,7 +75,7 @@ units = {
 		force_equipment_variants = { cnc_equipment_1 = { amount = 55 owner = PMR creator = SOV } }
 		force_equipment_variants = { util_vehicle_1 = { amount = 60 owner = PMR creator = SOV version_name = "GAZ-66" } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 11 owner = PMR creator = SOV } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 11 owner = PMR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 11 owner = PMR creator = SOV } }
 	}
 	division = {
 		#name = "1-ya Strelkovaya Brigada"
@@ -372,7 +372,7 @@ instant_effect = {
 	}
 
 #	add_equipment_to_stockpile = {
-#		type = transport_helicopter1		#9 Mi-8 and 2 Mi-2 (not present in game)
+#		type = transport_helicopter_1		#9 Mi-8 and 2 Mi-2 (not present in game)
 #		amount = 11
 #		producer = SOV
 #	}

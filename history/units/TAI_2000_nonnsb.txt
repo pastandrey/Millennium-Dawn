@@ -429,32 +429,32 @@ instant_effect = {
 
 	#Helicopters
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1	#USA_transport_helicopter1:0 "Bell UH-1 Iroquois"
+		type = transport_helicopter_1	#USA_transport_helicopter_1:0 "Bell UH-1 Iroquois"
 		amount = 110
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 	#USA_transport_helicopter1:0 "Bell 206 aka TH-67"
+		type = transport_helicopter_1 	#USA_transport_helicopter_1:0 "Bell 206 aka TH-67"
 		amount = 30
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #USA_transport_helicopter1:0 "Bell 206 aka TH-67" 30
+		type = transport_helicopter_1 #USA_transport_helicopter_1:0 "Bell 206 aka TH-67" 30
 		amount = 30
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter2  #USA_attack_helicopter2_variant:0 "OH-58D Kiowa Warrior 26
+		type = attack_helicopter_2  #USA_attack_helicopter_2_variant:0 "OH-58D Kiowa Warrior 26
 		amount = 26
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1  #AH-1
+		type = attack_helicopter_1  #AH-1
 		amount = 53
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Boeing CH-47 Chinook
+		type = transport_helicopter_1 #Boeing CH-47 Chinook
 		amount = 8
 		producer = USA
 	}

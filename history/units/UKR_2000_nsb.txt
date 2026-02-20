@@ -331,7 +331,7 @@ units = {
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 36 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 48 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 36 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 18	 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { medium_tank_flame_chassis_0 = { amount = 76 owner = UKR creator = SOV version_name = "BMD-2" } }
@@ -914,7 +914,7 @@ units = {
 		force_equipment_variants = { Anti_Air_1 = { amount = 16 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 120 owner = UKR creator = SOV version_name = "BTR-80" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 18 owner = UKR creator = SOV version_name = "Mi-24P" } }
@@ -938,7 +938,7 @@ units = {
 		force_equipment_variants = { Anti_Air_1 = { amount = 16 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 120 owner = UKR creator = SOV version_name = "BTR-80" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 18 owner = UKR creator = SOV version_name = "Mi-24P" } }
@@ -962,7 +962,7 @@ units = {
 		force_equipment_variants = { Anti_Air_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 120 owner = UKR creator = SOV version_name = "BTR-80" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 18 owner = UKR creator = SOV version_name = "Mi-24P" } }
@@ -987,7 +987,7 @@ units = {
 		force_equipment_variants = { Anti_Air_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 120 owner = UKR creator = SOV version_name = "BTR-80" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { medium_tank_artillery_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "2S9 Nona" } }
@@ -1010,7 +1010,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = UKR creator = SOV } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = UKR creator = SOV version_name = "BTR-80" } }
 	}
 
@@ -1030,7 +1030,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = UKR creator = SOV } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = UKR creator = SOV version_name = "BTR-80" } }
 	}
 
@@ -1050,7 +1050,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = UKR creator = SOV } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = UKR creator = SOV version_name = "BTR-80" } }
 	}
 }
@@ -1344,19 +1344,19 @@ instant_effect = {
 
 	#Helicopters
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Mi-8+Mi-2
+		type = transport_helicopter_1		#Mi-8+Mi-2
 		amount = 447
 		variant_name = "Mil Mi-8"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 59
 		variant_name = "Mil Mi-6"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Mil Mi-26
+		type = transport_helicopter_2 #Mil Mi-26
 		amount = 11
 		producer = SOV
 	}

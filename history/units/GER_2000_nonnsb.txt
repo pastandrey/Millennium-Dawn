@@ -625,41 +625,41 @@ instant_effect = {
 		amount = 143
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1 #MBB Bo 105
+		type = attack_helicopter_1 #MBB Bo 105
 		amount = 199
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Bell UH-1 Iroquois
+		type = transport_helicopter_1 #Bell UH-1 Iroquois
 		amount = 188
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Sikorsky CH-53 Sea Stallion
+		type = transport_helicopter_1 #Sikorsky CH-53 Sea Stallion
 		amount = 107
 		producer = USA
 		#version_name = "Sikorsky CH-53 Sea Stallion"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Bo 105
+		type = transport_helicopter_1 #Bo 105
 		amount = 60
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Aérospatiale SA-316
+		type = transport_helicopter_1 #Aérospatiale SA-316
 		amount = 28
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter3
+		type = transport_helicopter_3
 		amount = 13
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Westland WG-13 Lynx
+		type = transport_helicopter_2 #Westland WG-13 Lynx
 		amount = 22
 		producer = ENG
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Sea King HU5
+		type = transport_helicopter_1 #Sea King HU5
 		amount = 21
 		#version_name = "Sea King HU5"
 		producer = USA

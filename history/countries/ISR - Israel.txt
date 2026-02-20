@@ -234,8 +234,8 @@
 		excavation1 = 1
 		excavation2 = 1
 
-		transport_helicopter1 = 1
-		transport_helicopter2 = 1
+		transport_helicopter_1 = 1
+		transport_helicopter_2 = 1
 	}
 
 	if = { limit = { has_dlc = "Gotterdammerung" }
@@ -1144,7 +1144,7 @@
 		}
 		create_equipment_variant = {
 			name = "CH-53 Sea Stallion"
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			upgrades = {
 			}
 			obsolete = yes
@@ -1152,7 +1152,7 @@
 		}
 		create_equipment_variant = {
 			name = "UH-60 Black Hawk"
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			upgrades = {
 			}
 			obsolete = yes
@@ -1205,9 +1205,9 @@
 				#RAM-V-2
 				Rec_tank_0 = 1
 				Rec_tank_1 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
-				attack_helicopter3 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
+				attack_helicopter_3 = 1
 			}
 		}
 	}
@@ -1384,8 +1384,8 @@
 
 			tgp_recon_1 = 1
 			tgp_recon_2 = 1
-			nsb_transport_helicopter1 = 1
-			nsb_transport_helicopter2 = 1
+			nsb_transport_helicopter_1 = 1
+			nsb_transport_helicopter_2 = 1
 		}
 
 		##BBA Designs##

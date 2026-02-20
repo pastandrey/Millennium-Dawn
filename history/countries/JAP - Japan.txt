@@ -459,8 +459,8 @@
 				AA_upgrade_1 = 1
 				Rec_tank_0 = 1
 				Rec_tank_1 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
 			}
 		}
 	}
@@ -946,8 +946,8 @@
 
 		#Kawasaki OH-1
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
 
 		night_vision_1 = 1
 		night_vision_2 = 1

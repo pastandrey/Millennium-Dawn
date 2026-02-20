@@ -22,7 +22,7 @@ units = {
 		force_equipment_variants = { util_vehicle_1 = { amount = 10 owner = MLT creator = USA } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 12 owner = MLT creator = CHI } }
 		force_equipment_variants = { cnc_equipment_2 = { amount = 20 owner = MLT creator = ITA } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 5 owner = MLT creator = FRA version_name = "Aérospatiale SA-319 Alouette III" } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 5 owner = MLT creator = FRA version_name = "Aérospatiale SA-319 Alouette III" } }
 	}
 }
 
@@ -87,13 +87,13 @@ instant_effect = {
 		producer = BEL
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2
+		type = transport_helicopter_2
 		amount = 2
 		variant_name = "MH-6 Little Bird"
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 2
 		producer = ITA
 	}

@@ -306,7 +306,7 @@ instant_effect = {
 	#Aircraft
 
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1	#Mi-24 Hind
+		type = attack_helicopter_1	#Mi-24 Hind
 		amount = 18
 		producer = SOV
 	}

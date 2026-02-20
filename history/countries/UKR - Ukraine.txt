@@ -316,7 +316,7 @@ capital = 698
 				AA_upgrade_2 = 1
 				AA_upgrade_3 = 1
 				Rec_tank_0 = 1 #BRDM-2
-				attack_helicopter1 = 1
+				attack_helicopter_1 = 1
 			}
 		}
 	}
@@ -612,8 +612,8 @@ capital = 698
 		util_vehicle_3 = 1
 		util_vehicle_4 = 1
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
 
 		night_vision_1 = 1
 		night_vision_2 = 1

@@ -158,8 +158,8 @@
 		util_vehicle_3 = 1
 		util_vehicle_4 = 1
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
 
 		body_armor_1 = 1
 

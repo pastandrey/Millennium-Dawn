@@ -8799,7 +8799,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_uh_60_black_hawk"
 
 			add_equipment_to_stockpile = {
-				type = transport_helicopter2
+				type = transport_helicopter_2
 				amount = 45
 				producer = USA
 			}

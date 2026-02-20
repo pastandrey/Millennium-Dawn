@@ -334,8 +334,8 @@
 				Rec_tank_0 = 1
 				Rec_tank_1 = 1
 				Rec_tank_2 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1		#Rooivalk
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1		#Rooivalk
 			}
 		}
 	}
@@ -469,8 +469,8 @@
 		util_vehicle_3 = 1
 		util_vehicle_4 = 1
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
 
 		body_armor_1 = 1
 		camouflage_1 = 1

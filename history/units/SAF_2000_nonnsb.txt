@@ -221,12 +221,12 @@ instant_effect = {
 
 	#Helicopters
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Atlas Oryx
+		type = transport_helicopter_2 #Atlas Oryx
 		amount = 51
 		producer = SAF
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter2 #Rooivalk
+		type = attack_helicopter_2 #Rooivalk
 		amount = 11
 		producer = SAF
 	}

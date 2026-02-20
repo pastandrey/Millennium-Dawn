@@ -72,7 +72,7 @@ capital = 504
 
 		set_oob = "BRM_2000_nsb"
 		set_technology = {
-			nsb_transport_helicopter1 = 1
+			nsb_transport_helicopter_1 = 1
 			mbt_tech_ops = 1
 			mbt_tech = 1
 			early_cold_war_ammo = 1
@@ -135,7 +135,7 @@ capital = 504
 		else = {
 			set_oob = "BRM_2000_nonnsb"
 			set_technology = {
-				transport_helicopter1 = 1
+				transport_helicopter_1 = 1
 				MBT_1 = 1
 				Early_APC = 1
 				APC_1 = 1

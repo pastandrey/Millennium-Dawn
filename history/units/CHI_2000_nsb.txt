@@ -1413,51 +1413,51 @@ units = {
 		variant_name = "Z-11"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 30
 		variant_name = "Mil Mi-8"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 3
 		variant_name = "Mil Mi-6"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 124 #84 PLA + 30 PLAAF + 10 Marines Mi-17
 		variant_name = "Mil Mi-17"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #PLA Mi-26 Halo
+		type = transport_helicopter_2 #PLA Mi-26 Halo
 		amount = 3
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #PLAAF Mi-4
+		type = transport_helicopter_1 #PLAAF Mi-4
 		amount = 100
 		variant_name = "Z-4"
 		producer = CHI
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #PLA+Marines Z-8
+		type = transport_helicopter_1 #PLA+Marines Z-8
 		amount = 16
 		variant_name = "Z-8"
 		producer = CHI
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #PLAAF Z-9
+		type = transport_helicopter_2 #PLAAF Z-9
 		amount = 30
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #PLA S-70 Blackhawk
+		type = transport_helicopter_2 #PLA S-70 Blackhawk
 		amount = 20
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 7
 		variant_name = "Aérospatiale SA 321 Super Frelon"
 		producer = FRA
@@ -1528,7 +1528,7 @@ units = {
 
 	add_equipment_production = {
 		equipment = {
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			creator = "CHI"
 		}
 		requested_factories = 2

@@ -301,7 +301,7 @@ units = {
 		force_equipment_variants = { artillery_1 = { amount = 18 owner = SER creator = SER } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 20 owner = SER creator = SER } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = SER creator = SER version_name = "BOV" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = SER creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = SER creator = SOV } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 6 owner = SER creator = FRA version_name = "SA-342 Gazelle" } }
 		force_equipment_variants = { medium_tank_rocket_chassis_0 = { amount = 18 owner = SER creator = SER version_name = "M-63" } }
 	}
@@ -623,7 +623,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = SER creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = SER creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = SER creator = SER version_name = "BOV" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = SER creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = SER creator = SOV } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 6 owner = SER creator = FRA version_name = "SA-342 Gazelle" } }
 	}
 	division = {
@@ -638,7 +638,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = SER creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 27 owner = SER creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = SER creator = SER version_name = "BOV" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = SER creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = SER creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = SER creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 18 owner = SER creator = FRA version_name = "SA-342 Gazelle" } }
 	}
@@ -758,7 +758,7 @@ instant_effect = {
 		producer = SER
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Mil Mi-17
+		type = transport_helicopter_1 #Mil Mi-17
 		amount = 13
 		producer = SOV
 	}

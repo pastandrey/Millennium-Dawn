@@ -473,13 +473,13 @@ instant_effect = {
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1			#CH-47
+		type = transport_helicopter_1			#CH-47
 		#version_name = "Boeing CH-47 Chinook"
 		amount = 18
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1			#Mi-8
+		type = transport_helicopter_1			#Mi-8
 		amount = 34
 		producer = SOV
 	}

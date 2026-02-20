@@ -495,27 +495,27 @@ instant_effect = {
 
 	# Helis
 		add_equipment_to_stockpile = { ## Super Lynx
-			type = attack_helicopter2
+			type = attack_helicopter_2
 			producer = ENG
 			amount = 14
 		}
 		add_equipment_to_stockpile = { ## AS550 Esquilo II
-			type = attack_helicopter1
+			type = attack_helicopter_1
 			producer = BRA
 			amount = 16
 		}
 		add_equipment_to_stockpile = { ## AS565 Panther
-			type = attack_helicopter2
+			type = attack_helicopter_2
 			producer = BRA
 			amount = 36
 		}
 		add_equipment_to_stockpile = { ## SA330 Puma
-			type = transport_helicopter1
+			type = transport_helicopter_1
 			producer = BRA
 			amount = 12
 		}
 		add_equipment_to_stockpile = { ## UH60 Blackhawk
-			type = transport_helicopter3
+			type = transport_helicopter_3
 			producer = USA
 			amount = 16
 		}

@@ -124,10 +124,10 @@
 		Heavy_Anti_tank_2 = 1
 
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
-		transport_helicopter2 = 1
-		nsb_transport_helicopter2 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
+		transport_helicopter_2 = 1
+		nsb_transport_helicopter_2 = 1
 
 
 
@@ -282,7 +282,7 @@
 			 upgrades = {
 				 helicopter_nsb_upgrade = 5
 			 }
-			 icon = "GFX_USA_attack_helicopter3_medium"
+			 icon = "GFX_USA_attack_helicopter_3_medium"
 			 model = "USA_attack_helo_bat_entity"
 		 }
 
@@ -483,7 +483,7 @@
 		}
 			create_equipment_variant = {
 			name = "UH-60A"
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			upgrades = {
 			}
 		}
@@ -526,8 +526,8 @@
 				AA_upgrade_2 = 1
 				Anti_Air_2 = 1
 				AA_upgrade_3 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
 			}
 		}
 	}

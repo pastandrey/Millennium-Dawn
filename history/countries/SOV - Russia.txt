@@ -3182,24 +3182,24 @@
 		}
 		create_equipment_variant = {
 			name = "Mil Mi-4"
-			type = transport_helicopter1
+			type = transport_helicopter_1
 			obsolete = yes
 			icon = "gfx/interface/technologies/CHI/AIR/UH1_alt1.dds"
 		}
 		create_equipment_variant = {
 			name = "Mil Mi-6"
-			type = transport_helicopter1
+			type = transport_helicopter_1
 			obsolete = yes
 			#need GFX
 		}
 		create_equipment_variant = {
 			name = "Mil Mi-8"
-			type = transport_helicopter1
+			type = transport_helicopter_1
 			obsolete = yes
 		}
 		create_equipment_variant = {
 			name = "Mil Mi-17"
-			type = transport_helicopter1
+			type = transport_helicopter_1
 			obsolete = yes
 			#need GFX
 		}
@@ -3222,7 +3222,7 @@
 				helicopter_nsb_upgrade = 0
 			}
 			obsolete = yes
-			icon = "GFX_SOV_attack_helicopter1_medium"
+			icon = "GFX_SOV_attack_helicopter_1_medium"
 		}
 
 		create_equipment_variant = {
@@ -3359,7 +3359,7 @@
 			upgrades = {
 				helicopter_nsb_upgrade = 4
 			}
-			icon = "GFX_SOV_attack_helicopter2_medium"
+			icon = "GFX_SOV_attack_helicopter_2_medium"
 		}
 		create_equipment_variant = {
 			name = "Ka-50N"
@@ -3837,9 +3837,9 @@
 				AA_upgrade_3 = 1
 				Anti_Air_2 = 1
 				SP_Anti_Air_2 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
-				attack_helicopter3 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
+				attack_helicopter_3 = 1
 			}
 
 			create_equipment_variant = {
@@ -5134,10 +5134,10 @@
 		Heavy_Anti_tank_1 = 1
 
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
-		transport_helicopter2 = 1
-		nsb_transport_helicopter2 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
+		transport_helicopter_2 = 1
+		nsb_transport_helicopter_2 = 1
 
 
 

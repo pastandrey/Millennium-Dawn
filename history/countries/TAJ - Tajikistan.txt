@@ -52,7 +52,7 @@
 			nsb_AA_autocannon_0 = 1
 			nsb_SHORAD_missile_0 = 1
 			nsb_artillery_0 = 1
-			nsb_transport_helicopter1 = 1
+			nsb_transport_helicopter_1 = 1
 			nsb_Anti_Air_0 = 1
 		}
 
@@ -68,7 +68,7 @@
 				tech_arty_0 = 1
 				SP_R_arty_0 = 1
 				Anti_Air_0 = 1
-				transport_helicopter1 = 1
+				transport_helicopter_1 = 1
 			}
 		}
 	}

@@ -11998,7 +11998,7 @@ country_event = { #Heeresflieger
 				icon = "gfx/interface/technologies/GER/AIR/AH3.dds"
 			}
 		}
-		set_technology = { transport_helicopter3 = 1 }
+		set_technology = { transport_helicopter_3 = 1 }
 	}
 	option = {	# order CH-53 GS and Apache
 		name = GER_Cold_War.23.b
@@ -12007,7 +12007,7 @@ country_event = { #Heeresflieger
 		set_temp_variable = { treasury_change = GER.gdp_per_capita }
 		multiply_temp_variable = { treasury_change = -0.20 }
 		modify_treasury_effect = yes
-		set_technology = { transport_helicopter3 = 1 }
+		set_technology = { transport_helicopter_3 = 1 }
 		add_equipment_to_stockpile = {
 			type = heavy_tank_chassis_2
 			variant_name = "AH-64D Apache Longbow"
@@ -16035,7 +16035,7 @@ country_event = {
 			}
 		}
 		else = {
-			set_technology = { attack_helicopter3 = 1 }
+			set_technology = { attack_helicopter_3 = 1 }
 
 			add_equipment_to_stockpile = {
 				type = heavy_tank_chassis_2 #Eurocopter
@@ -16080,7 +16080,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = attack_helicopter1
+				type = attack_helicopter_1
 				amount = 50
 				producer = ITA
 			}
@@ -16121,10 +16121,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_technology = { attack_helicopter3 = 1 }
+			set_technology = { attack_helicopter_3 = 1 }
 
 			add_equipment_to_stockpile = {
-				type = attack_helicopter2 #Eurocopter
+				type = attack_helicopter_2 #Eurocopter
 				variant_name = "AH-64A Apache"
 				amount = 50
 				producer = USA
@@ -16156,9 +16156,9 @@ country_event = {
 		set_temp_variable = { treasury_change = GER.gdp_per_capita }
 		multiply_temp_variable = { treasury_change = -0.15 }
 		modify_treasury_effect = yes
-		set_technology = { transport_helicopter3 = 1 }
+		set_technology = { transport_helicopter_3 = 1 }
 		add_equipment_to_stockpile = {
-			type = transport_helicopter3
+			type = transport_helicopter_3
 			amount = 50
 		}
 		ai_chance = {
@@ -16173,7 +16173,7 @@ country_event = {
 		multiply_temp_variable = { treasury_change = -0.15 }
 		modify_treasury_effect = yes
 		add_equipment_to_stockpile = {
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			variant_name = "UH-60A"
 			amount = 50
 			producer = USA
@@ -16190,7 +16190,7 @@ country_event = {
 		multiply_temp_variable = { treasury_change = -0.15 }
 		modify_treasury_effect = yes
 		add_equipment_to_stockpile = {
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			variant_name = "AgustaWestland AW101"
 			amount = 50
 			producer = ENG
@@ -16348,7 +16348,7 @@ country_event = {
 			}
 		}
 		else = {
-			set_technology = { attack_helicopter4 = 1 }
+			set_technology = { attack_helicopter_4 = 1 }
 
 			add_tech_bonus = {
 				name = GER_invest_in_heli
@@ -16357,7 +16357,7 @@ country_event = {
 				category = CAT_atk_heli
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter4
+				type = attack_helicopter_4
 				amount = 50
 			}
 		}
@@ -16446,7 +16446,7 @@ country_event = {
 			}
 		}
 		else = {
-			set_technology = { attack_helicopter4 = 1 }
+			set_technology = { attack_helicopter_4 = 1 }
 
 			add_tech_bonus = {
 				name = GER_invest_in_heli
@@ -16455,7 +16455,7 @@ country_event = {
 				category = CAT_atk_heli
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter4
+				type = attack_helicopter_4
 				amount = 50
 			}
 		}
@@ -16506,7 +16506,7 @@ country_event = {
 			}
 		}
 		else = {
-			set_technology = { attack_helicopter4 = 1 }
+			set_technology = { attack_helicopter_4 = 1 }
 
 			add_tech_bonus = {
 				name = GER_invest_in_heli
@@ -16515,7 +16515,7 @@ country_event = {
 				category = CAT_atk_heli
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter4
+				type = attack_helicopter_4
 				amount = 50
 			}
 		}

@@ -58,7 +58,7 @@
 			nsb_artillery_0 = 1
 			nsb_Anti_Air_0 = 1
 			helo_ops_tech = 1
-			nsb_transport_helicopter1 = 1
+			nsb_transport_helicopter_1 = 1
 		}
 
 		else = {
@@ -73,7 +73,7 @@
 				SP_Anti_Air_0 = 1
 				Anti_Air_0 = 1
 				Rec_tank_0 = 1
-				transport_helicopter1 = 1
+				transport_helicopter_1 = 1
 			}
 		}
 	}
@@ -95,7 +95,7 @@
 				MR_Fighter1 = 1
 				L_Strike_fighter1 = 1
 				transport_plane1 = 1
-				attack_helicopter1 = 1
+				attack_helicopter_1 = 1
 			}
 		}
 	}

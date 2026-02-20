@@ -347,7 +347,7 @@ units = {
 		force_equipment_variants = { util_vehicle_2 = { amount = 20 owner = BUL creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = BUL creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 26 owner = BUL creator = SOV } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = BUL creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = BUL creator = SOV } }
 	}
 	division = {
 		name = "1-i Parashuten Razuznavatelen Polk"
@@ -359,7 +359,7 @@ units = {
 		force_equipment_variants = { cnc_equipment_2 = { amount = 108 owner = BUL creator = SOV } }
 		force_equipment_variants = { Anti_tank_1 = { amount = 28 owner = BUL creator = SOV } }
 		force_equipment_variants = { Anti_Air_0 = { amount = 18 owner = BUL creator = SOV } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = BUL creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = BUL creator = SOV } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 18 owner = BUL creator = SOV version_name = "Mi-24V" } }
 	}
 }

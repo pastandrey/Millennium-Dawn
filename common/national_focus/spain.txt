@@ -16434,7 +16434,7 @@ focus_tree = {
 				create_production_license = {
 					target = SPR
 					equipment = {
-						type = attack_helicopter3
+						type = attack_helicopter_3
 					}
 					cost_factor = 0
 				}
@@ -16486,7 +16486,7 @@ focus_tree = {
 				create_production_license = {
 					target = SPR
 					equipment = {
-						type = attack_helicopter3
+						type = attack_helicopter_3
 					}
 					cost_factor = 0
 				}
@@ -16652,7 +16652,7 @@ focus_tree = {
 				create_production_license = {
 					target = SPR
 					equipment = {
-						type = transport_helicopter2
+						type = transport_helicopter_2
 					}
 					cost_factor = 0
 				}
@@ -16704,7 +16704,7 @@ focus_tree = {
 				create_production_license = {
 					target = SPR
 					equipment = {
-						type = transport_helicopter3
+						type = transport_helicopter_3
 					}
 					cost_factor = 0
 				}

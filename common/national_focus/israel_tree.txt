@@ -27295,7 +27295,7 @@ focus_tree = {
 			}
 			else = {
 				add_equipment_to_stockpile = {
-					type = attack_helicopter2
+					type = attack_helicopter_2
 					amount = 15
 					producer = FRA
 				}
@@ -27324,12 +27324,12 @@ focus_tree = {
 			FOCUS_FILTER_ISRMILITARY
 		}
 		available = {
-			has_tech = transport_helicopter4
+			has_tech = transport_helicopter_4
 		}
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus ISR_yassur executed"
 			add_equipment_to_stockpile = {
-				type = transport_helicopter4
+				type = transport_helicopter_4
 				amount = 50
 			}
 			add_tech_bonus = {
@@ -27364,7 +27364,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus ISR_yanshuf executed"
 			add_equipment_to_stockpile = {
-				type = transport_helicopter2
+				type = transport_helicopter_2
 				amount = 50
 			}
 			add_tech_bonus = {
@@ -27401,7 +27401,7 @@ focus_tree = {
 				has_tech = nsb_attack_helicopter_tech_4
 			}
 			else = {
-				has_tech = attack_helicopter4
+				has_tech = attack_helicopter_4
 			}
 		}
 		completion_reward = {
@@ -27436,7 +27436,7 @@ focus_tree = {
 			}
 			else = {
 				add_equipment_to_stockpile = {
-					type = attack_helicopter4
+					type = attack_helicopter_4
 					amount = 50
 				}
 			}

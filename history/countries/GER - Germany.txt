@@ -1071,9 +1071,9 @@
 				Rec_tank_0 = 1
 				Rec_tank_1 = 1
 				Rec_tank_2 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
-				attack_helicopter3 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
+				attack_helicopter_3 = 1
 			}
 
 			create_equipment_variant = {
@@ -1718,10 +1718,10 @@
 		excavation1 = 1
 		excavation2 = 1
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
-		transport_helicopter2 = 1
-		nsb_transport_helicopter2 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
+		transport_helicopter_2 = 1
+		nsb_transport_helicopter_2 = 1
 
 		COMSAT1 = 1
 		COMSAT2 = 1
@@ -1924,14 +1924,14 @@
 	}
 	create_equipment_variant = {
 		name = "Sea King Mk.41"
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		upgrades = { }
 		icon = "gfx/interface/technologies/GER/AIR/UH1_alt2.dds"
 		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "UH-1D"
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		upgrades = { }
 		design_team = mio:GER_MBB_helicopters_tank_manufacturer
 		icon = "gfx/interface/technologies/GER/AIR/UH1.dds"
@@ -1939,7 +1939,7 @@
 	}
 	create_equipment_variant = {
 		name = "Bo 105"
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		upgrades = { }
 		design_team = mio:GER_MBB_helicopters_tank_manufacturer
 		icon = "gfx/interface/technologies/GER/AIR/UH1_alt1.dds"

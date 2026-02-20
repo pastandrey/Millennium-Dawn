@@ -541,7 +541,7 @@ units = {
 		division_template = "Special Forces Regiment"
 		start_equipment_factor = 0.01
 		start_experience_factor = 0.75
-		force_equipment_variants = { transport_helicopter2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
+		force_equipment_variants = { transport_helicopter_2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
 	}
 	division = {
 		division_name = {
@@ -552,7 +552,7 @@ units = {
 		division_template = "Special Forces Battalion"
 		start_equipment_factor = 0.01
 		start_experience_factor = 0.75
-		force_equipment_variants = { transport_helicopter2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
+		force_equipment_variants = { transport_helicopter_2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
 	}
 	division = {
 		division_name = {
@@ -563,7 +563,7 @@ units = {
 		division_template = "Special Forces Battalion"
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
-		force_equipment_variants = { transport_helicopter2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
+		force_equipment_variants = { transport_helicopter_2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
 		force_equipment_variants = { infantry_weapons_4 = { amount = 342 owner = SWI } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 11 owner = USA } }
 		force_equipment_variants = { Anti_tank_2 = { amount = 16 owner = USA } }
@@ -577,7 +577,7 @@ units = {
 		division_template = "Special Forces Battalion"
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
-		force_equipment_variants = { transport_helicopter2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
+		force_equipment_variants = { transport_helicopter_2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
 		force_equipment_variants = { infantry_weapons_4 = { amount = 342 owner = SWI } }
 	}
 }
@@ -660,42 +660,42 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Puma French Army
+		type = transport_helicopter_1 #Puma French Army
 		amount = 128
 		variant_name = "Eurocopter AS330 Puma"
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Puma French Army
+		type = transport_helicopter_1 #Puma French Army
 		amount = 3
 		variant_name = "Aérospatiale SA-319 Alouette III"
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Cougar French Army
+		type = transport_helicopter_2 #Cougar French Army
 		amount = 31
 		variant_name = "AS532 Cougar"
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Puma French Airforce
+		type = transport_helicopter_1 #Puma French Airforce
 		variant_name = "Eurocopter AS330 Puma"
 		amount = 29
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Cougar French Airforce
+		type = transport_helicopter_2 #Cougar French Airforce
 		amount = 10
 		variant_name = "AS532 Cougar"
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Fennec French Airforce
+		type = transport_helicopter_2 #Fennec French Airforce
 		amount = 2 #45 deployed
 		variant_name = "AS555 Fennec"
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Fennec French Airforce
+		type = transport_helicopter_2 #Fennec French Airforce
 		amount = 4
 		variant_name = "AS350B Ecureuil"
 		producer = FRA
@@ -727,7 +727,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			creator = "FRA"
 			version_name = "AS532 Cougar"
 		}

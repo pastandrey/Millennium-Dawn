@@ -855,18 +855,18 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Bell UH-1 Iroquois
+		type = transport_helicopter_1 #Bell UH-1 Iroquois
 		amount = 9
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Aérospatiale SA-316 Alouette III
+		type = transport_helicopter_1 #Aérospatiale SA-316 Alouette III
 		amount = 8
 		producer = FRA
 		#version_name = "Aérospatiale SA-316 Alouette III"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Westland WG-13 Lynx
+		type = transport_helicopter_2 #Westland WG-13 Lynx
 		amount = 15
 		producer = ENG
 		#version_name = "Aérospatiale SA-316 Alouette III"
@@ -884,22 +884,22 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Bell UH-1 Iroquois
+		type = transport_helicopter_1 #Bell UH-1 Iroquois
 		amount = 175
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Bo 105
+		type = transport_helicopter_1 #Bo 105
 		amount = 12
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Sikorsky UH-60 Black Hawk
+		type = transport_helicopter_2 #Sikorsky UH-60 Black Hawk
 		amount = 116
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Eurocopter AS332 Super Puma
+		type = transport_helicopter_1 #Eurocopter AS332 Super Puma
 		amount = 3
 		producer = FRA
 		#version_name = 'Eurocopter AS332 Super Puma"

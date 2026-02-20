@@ -658,12 +658,12 @@ instant_effect = {
 		variant_name = "SA-342 Gazelle"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 33
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 66
 		producer = SOV
 	}

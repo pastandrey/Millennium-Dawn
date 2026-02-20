@@ -39,19 +39,19 @@
 			nsb_Anti_Air_0 = 1
 			nsb_artillery_0 = 1
 			helo_ops_tech = 1
-			nsb_transport_helicopter1 = 1
+			nsb_transport_helicopter_1 = 1
 		}
 
 		else = {
 			set_oob = "KEN_2000_nonnsb"
 
 			set_technology = {
-				transport_helicopter1 = 1
+				transport_helicopter_1 = 1
 				MBT_1 = 1
 				Early_APC = 1
 				Anti_Air_0 = 1
 				Rec_tank_0 = 1
-				attack_helicopter1 = 1
+				attack_helicopter_1 = 1
 			}
 		}
 	}

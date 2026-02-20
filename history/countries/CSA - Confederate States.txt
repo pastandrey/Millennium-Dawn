@@ -27,7 +27,7 @@
 			 upgrades = {
 				 helicopter_nsb_upgrade = 5
 			 }
-			 icon = "GFX_USA_attack_helicopter3_medium"
+			 icon = "GFX_USA_attack_helicopter_3_medium"
 			 model = "USA_attack_helo_bat_entity"
 		 }
 
@@ -228,7 +228,7 @@
 		}
 			create_equipment_variant = {
 			name = "UH-60A"
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			upgrades = {
 			}
 		}

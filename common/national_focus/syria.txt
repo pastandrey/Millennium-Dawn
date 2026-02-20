@@ -12140,7 +12140,7 @@ shared_focus = {
 					producer = FRA
 				}
 				add_equipment_to_stockpile = {
-					type = attack_helicopter2		#Eurocopter Panther
+					type = attack_helicopter_2		#Eurocopter Panther
 					amount = 24
 					producer = FRA
 				}
@@ -12174,7 +12174,7 @@ shared_focus = {
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = attack_helicopter2		#Mi-28
+					type = attack_helicopter_2		#Mi-28
 					amount = 24
 					producer = SOV
 				}
@@ -12208,7 +12208,7 @@ shared_focus = {
 					producer = CHI
 				}
 				add_equipment_to_stockpile = {
-					type = attack_helicopter1		#ZSL-92
+					type = attack_helicopter_1		#ZSL-92
 					amount = 24
 					producer = CHI
 				}
@@ -12242,7 +12242,7 @@ shared_focus = {
 					producer = FRA
 				}
 				add_equipment_to_stockpile = {
-					type = attack_helicopter2		#Eurocopter Panther
+					type = attack_helicopter_2		#Eurocopter Panther
 					amount = 24
 					producer = FRA
 				}
@@ -12276,7 +12276,7 @@ shared_focus = {
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = attack_helicopter2		#Mi-28
+					type = attack_helicopter_2		#Mi-28
 					amount = 24
 					producer = SOV
 				}

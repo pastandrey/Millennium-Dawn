@@ -231,8 +231,8 @@
 			nsb_rocket_pods_tech_2 = 1
 			nsb_gun_pods_tech_2 = 1
 			nsb_light_nose_gun_tech_2 = 1
-			nsb_transport_helicopter1 = 1
-			nsb_transport_helicopter2 = 1
+			nsb_transport_helicopter_1 = 1
+			nsb_transport_helicopter_2 = 1
 		}
 		# MBT
 		create_equipment_variant = {
@@ -1229,7 +1229,7 @@
 		}
 		create_equipment_variant = {
 			name = "Z-4"
-			type = transport_helicopter1
+			type = transport_helicopter_1
 			upgrades = {
 			}
 			icon = "gfx/interface/technologies/CHI/AIR/UH1_alt1.dds"
@@ -1237,7 +1237,7 @@
 		}
 		create_equipment_variant = {
 			name = "Z-8"
-			type = transport_helicopter1
+			type = transport_helicopter_1
 			upgrades = {
 			}
 			icon = "gfx/interface/technologies/CHI/AIR/UH1.dds"
@@ -1274,14 +1274,14 @@
 				Anti_Air_1 = 1
 				Rec_tank_0 = 1
 				Rec_tank_1 = 1
-				attack_helicopter1 = 1
+				attack_helicopter_1 = 1
 				Anti_Air_0 = 1
 				SP_Anti_Air_0 = 1
 				AA_upgrade_1 = 1
 				Anti_Air_1 = 1
 
-				transport_helicopter1 = 1
-				transport_helicopter2 = 1
+				transport_helicopter_1 = 1
+				transport_helicopter_2 = 1
 			}
 
 			create_equipment_variant = {

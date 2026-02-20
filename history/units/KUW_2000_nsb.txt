@@ -235,13 +235,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2		#AS-332
+		type = transport_helicopter_2		#AS-332
 		amount = 5
 		producer = FRA
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#SA-330
+		type = transport_helicopter_1		#SA-330
 		amount = 8
 		producer = FRA
 		variant_name = "Eurocopter AS330 Puma"

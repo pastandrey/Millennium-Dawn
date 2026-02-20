@@ -9465,7 +9465,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = attack_helicopter1
+				type = attack_helicopter_1
 				amount = 18
 				producer = USA
 			}
@@ -9502,7 +9502,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = attack_helicopter2
+				type = attack_helicopter_2
 				amount = 13
 				producer = ITA
 			}
@@ -9539,7 +9539,7 @@ country_event = {
 		}
 
 		add_equipment_to_stockpile = {
-			type = transport_helicopter1
+			type = transport_helicopter_1
 			amount = 13
 			producer = SOV
 		}
@@ -9565,7 +9565,7 @@ country_event = {
 		}
 
 		add_equipment_to_stockpile = {
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			amount = 9
 			producer = USA
 		}
@@ -9591,7 +9591,7 @@ country_event = {
 		}
 
 		add_equipment_to_stockpile = {
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			amount = 10
 			producer = FRA
 		}
@@ -9637,7 +9637,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = attack_helicopter2
+				type = attack_helicopter_2
 				amount = 20
 				producer = SOV
 			}
@@ -9664,7 +9664,7 @@ country_event = {
 		}
 
 		add_equipment_to_stockpile = {
-			type = transport_helicopter3
+			type = transport_helicopter_3
 			amount = 12
 			producer = USA
 		}
@@ -9911,7 +9911,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = attack_helicopter2
+				type = attack_helicopter_2
 				amount = 14
 				producer = SOV
 			}
@@ -9948,7 +9948,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = attack_helicopter4
+				type = attack_helicopter_4
 				amount = 10
 				producer = USA
 			}
@@ -9985,7 +9985,7 @@ country_event = {
 		}
 		else = {
 			add_equipment_to_stockpile = {
-				type = attack_helicopter4
+				type = attack_helicopter_4
 				amount = 12
 				producer = ITA
 			}

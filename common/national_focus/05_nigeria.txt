@@ -5804,7 +5804,7 @@ focus_tree = {
 			if = {
 				limit = { has_opinion = { target = USA value > 40 } }
 				add_equipment_to_stockpile = {
-					type = attack_helicopter2
+					type = attack_helicopter_2
 					amount = 30
 					producer = USA
 				}
@@ -5812,7 +5812,7 @@ focus_tree = {
 			else_if = {
 				limit = { has_opinion = { target = SOV value > 40 } }
 				add_equipment_to_stockpile = {
-					type = attack_helicopter2
+					type = attack_helicopter_2
 					amount = 30
 					producer = SOV
 				}
@@ -5820,7 +5820,7 @@ focus_tree = {
 			else_if = {
 				limit = { has_opinion = { target = CHI value > 40 } }
 				add_equipment_to_stockpile = {
-					type = attack_helicopter2
+					type = attack_helicopter_2
 					amount = 30
 					producer = CHI
 				}

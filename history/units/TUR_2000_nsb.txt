@@ -576,7 +576,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #UH-1
+		type = transport_helicopter_1 #UH-1
 		amount = 114
 		producer = USA
 	}

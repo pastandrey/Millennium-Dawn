@@ -566,17 +566,17 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#AS-330
+		type = transport_helicopter_1		#AS-330
 		amount = 18
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#bo 105
+		type = transport_helicopter_1		#bo 105
 		amount = 26
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Bell 205
+		type = transport_helicopter_1		#Bell 205
 		amount = 80
 		producer = USA
 	}

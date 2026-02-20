@@ -116,7 +116,7 @@
 			mbt_tech_ops = 1
 			nsb_artillery_0 = 1
 			nsb_Anti_Air_0 = 1
-			nsb_transport_helicopter1 = 1
+			nsb_transport_helicopter_1 = 1
 		}
 		else = {
 			set_oob = "NZL_2000_nonnsb"
@@ -127,7 +127,7 @@
 				IFV_1 = 1
 				tech_arty_0 = 1
 				Anti_Air_0 = 1
-				transport_helicopter1 = 1
+				transport_helicopter_1 = 1
 			}
 		}
 	}

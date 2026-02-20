@@ -2826,7 +2826,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: LIC_invest_helicopters"
 			add_equipment_to_stockpile = {
-				type = transport_helicopter2
+				type = transport_helicopter_2
 				amount = 300
 				producer = USA
 			}

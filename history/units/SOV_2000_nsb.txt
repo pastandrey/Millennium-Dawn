@@ -2336,26 +2336,26 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Mi-8
+		type = transport_helicopter_1		#Mi-8
 		amount = 490
 		variant_name = "Mil Mi-8"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 20
 		variant_name = "Mil Mi-6"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 500
 		variant_name = "Mil Mi-17"
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2		#Mi-26
+		type = transport_helicopter_2		#Mi-26
 		amount = 70
 		producer = SOV
 	}
@@ -2694,7 +2694,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = transport_helicopter2
+			type = transport_helicopter_2
 			creator = "SOV"
 		}
 		requested_factories = 1

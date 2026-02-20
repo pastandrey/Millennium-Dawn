@@ -1244,31 +1244,31 @@ instant_effect = {
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		variant_name = "Aérospatiale SA 321 Super Frelon"
 		amount = 16
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		variant_name = "Mil Mi-6"
 		amount = 10
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		variant_name = "Mil Mi-8"
 		amount = 100
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		variant_name = "Mil Mi-4"
 		amount = 20
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		variant_name = "Mil Mi-17"
 		amount = 140
 		producer = SOV

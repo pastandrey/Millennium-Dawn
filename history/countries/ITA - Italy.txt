@@ -243,12 +243,12 @@
 			nsb_AA_upgrade_1 = 1
 			nsb_Anti_Air_1 = 1
 			nsb_AA_upgrade_2 = 1
-			transport_helicopter1 = 1
-			nsb_transport_helicopter1 = 1
-			transport_helicopter2 = 1
-			nsb_transport_helicopter2 = 1
-			transport_helicopter3 = 1
-			nsb_transport_helicopter3 = 1 #Merlin early prod
+			transport_helicopter_1 = 1
+			nsb_transport_helicopter_1 = 1
+			transport_helicopter_2 = 1
+			nsb_transport_helicopter_2 = 1
+			transport_helicopter_3 = 1
+			nsb_transport_helicopter_3 = 1 #Merlin early prod
 			helo_ops_tech = 1
 			nsb_attack_helicopter_tech_1 = 1
 			nsb_engine_tech_1 = 1
@@ -267,8 +267,8 @@
 			nsb_rocket_pods_tech_2 = 1
 			nsb_gun_pods_tech_2 = 1
 			nsb_light_nose_gun_tech_2 = 1
-			nsb_transport_helicopter1 = 1
-			nsb_transport_helicopter2 = 1
+			nsb_transport_helicopter_1 = 1
+			nsb_transport_helicopter_2 = 1
 		}
 
 		create_equipment_variant = {
@@ -290,7 +290,7 @@
 			upgrades = {
 				helicopter_nsb_upgrade = 3
 			}
-			icon = "GFX_ITA_attack_helicopter2_medium"
+			icon = "GFX_ITA_attack_helicopter_2_medium"
 		}
 		 create_equipment_variant = {
 			 name = "OF-40 Mk.2"
@@ -756,10 +756,10 @@
 				Anti_Air_1 = 1
 				SP_Anti_Air_1 = 1
 				AA_upgrade_2 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
-				transport_helicopter1 = 1
-				transport_helicopter2 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
+				transport_helicopter_1 = 1
+				transport_helicopter_2 = 1
 			}
 		}
 	}

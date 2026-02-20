@@ -571,20 +571,20 @@ script_enum_equipment_bonus_type = {
 	MR_Fighter5
 	MR_Fighter6
 	MR_Fighter7
-	attack_helicopter1
-	attack_helicopter2
-	attack_helicopter3
-	attack_helicopter4
-	attack_helicopter5
-	attack_helicopter6
-	attack_helicopter7
-	transport_helicopter1
-	transport_helicopter2
-	transport_helicopter3
-	transport_helicopter4
-	transport_helicopter5
-	transport_helicopter6
-	transport_helicopter7
+	attack_helicopter_1
+	attack_helicopter_2
+	attack_helicopter_3
+	attack_helicopter_4
+	attack_helicopter_5
+	attack_helicopter_6
+	attack_helicopter_7
+	transport_helicopter_1
+	transport_helicopter_2
+	transport_helicopter_3
+	transport_helicopter_4
+	transport_helicopter_5
+	transport_helicopter_6
+	transport_helicopter_7
 	naval_plane1
 	naval_plane2
 	naval_plane3

@@ -389,7 +389,7 @@
 		else = {
 			set_oob = "CUB_2000_nonnsb"
 			set_technology = {
-				transport_helicopter1 = 1
+				transport_helicopter_1 = 1
 				MBT_1 = 1
 				Early_APC = 1
 				Rec_tank_0 = 1

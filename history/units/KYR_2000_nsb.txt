@@ -236,7 +236,7 @@ instant_effect = {
 		amount = 16
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Hip
+		type = transport_helicopter_1 #Hip
 		amount = 19
 		producer = SOV
 	}

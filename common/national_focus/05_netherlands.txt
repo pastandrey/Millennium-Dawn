@@ -6261,40 +6261,40 @@ focus_tree = {
 			if = {
 				limit = { has_dlc = "No Step Back" }
 				if = {
-					limit = { has_tech = nsb_transport_helicopter3 }
+					limit = { has_tech = nsb_transport_helicopter_3 }
 					add_tech_bonus = {
 						name = HOL_CH47D_Modernization
 						uses = 1
 						bonus = 0.25
-						technology = nsb_transport_helicopter4
+						technology = nsb_transport_helicopter_4
 					}
 				}
 				else = {
 					set_technology = {
-						nsb_transport_helicopter3 = 1
+						nsb_transport_helicopter_3 = 1
 					}
 					add_equipment_to_stockpile = {
-						type = transport_helicopter3
+						type = transport_helicopter_3
 						amount = 25
 					}
 				}
 			}
 			else = {
 				if = {
-					limit = { has_tech = transport_helicopter3 }
+					limit = { has_tech = transport_helicopter_3 }
 					add_tech_bonus = {
 						name = HOL_CH47D_Modernization
 						uses = 1
 						bonus = 0.25
-						technology = transport_helicopter4
+						technology = transport_helicopter_4
 					}
 				}
 				else = {
 					set_technology = {
-						transport_helicopter3 = 1
+						transport_helicopter_3 = 1
 					}
 					add_equipment_to_stockpile = {
-						type = transport_helicopter3
+						type = transport_helicopter_3
 						amount = 25
 					}
 				}
@@ -6332,7 +6332,7 @@ focus_tree = {
 				has_tech = nsb_attack_helicopter_tech_3
 			}
 			else = {
-				has_tech = attack_helicopter3
+				has_tech = attack_helicopter_3
 			}
 		}
 
@@ -6370,7 +6370,7 @@ focus_tree = {
 						upgrades = {
 							helicopter_nsb_upgrade = 5
 						}
-						icon = "GFX_USA_attack_helicopter3_medium"
+						icon = "GFX_USA_attack_helicopter_3_medium"
 					}
 					newline = yes
 					add_equipment_to_stockpile = {
@@ -6381,20 +6381,20 @@ focus_tree = {
 			}
 			else = {
 				if = {
-					limit = { has_tech = attack_helicopter4 }
+					limit = { has_tech = attack_helicopter_4 }
 					add_tech_bonus = {
 						name = HOL_AH46D_Upgrade
 						uses = 1
 						bonus = 0.15
-						technology = attack_helicopter5
+						technology = attack_helicopter_5
 					}
 				}
 				else = {
-					set_technology = { attack_helicopter4 = 1 }
+					set_technology = { attack_helicopter_4 = 1 }
 					newline = yes
 				}
 				add_equipment_to_stockpile = {
-						type = attack_helicopter4
+						type = attack_helicopter_4
 						amount = 35
 						variant_name = "AH-64D"
 					}
@@ -7637,7 +7637,7 @@ focus_tree = {
 			}
 			else = {
 				add_equipment_to_stockpile = {
-					type = attack_helicopter4
+					type = attack_helicopter_4
 					amount = 50
 					variant_name = "AH-1W SuperCobra"
 				}
@@ -8988,7 +8988,7 @@ focus_tree = {
 			}
 			else = {
 					add_equipment_to_stockpile = {
-						type = attack_helicopter3
+						type = attack_helicopter_3
 						amount = 35
 						variant_name = "NH90"
 					}

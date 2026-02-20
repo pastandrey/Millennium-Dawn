@@ -7738,7 +7738,7 @@ focus_tree = {
 			}
 			else = {
 				add_equipment_to_stockpile = {
-					type = attack_helicopter1
+					type = attack_helicopter_1
 					amount = 350
 					producer = PER
 				}

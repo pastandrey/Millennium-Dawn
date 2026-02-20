@@ -272,17 +272,17 @@ instant_effect = {
 
 	#HELOS
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1		#Mi-24
+		type = attack_helicopter_1		#Mi-24
 		amount = 69
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Mi-8
+		type = transport_helicopter_1		#Mi-8
 		amount = 160
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2		#Mi-26
+		type = transport_helicopter_2		#Mi-26
 		amount = 14
 		producer = SOV
 	}

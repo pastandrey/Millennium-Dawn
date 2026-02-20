@@ -21326,7 +21326,7 @@ focus_tree = {
 				name = GER_invest_in_heli
 				bonus = 0.50
 				uses = 1
-				technology = transport_helicopter4
+				technology = transport_helicopter_4
 			}
 			add_tech_bonus = {
 				name = GER_invest_in_heli

@@ -11559,7 +11559,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_switzerland_help"
 			add_equipment_to_stockpile = {
-				type = transport_helicopter1
+				type = transport_helicopter_1
 				amount = 5
 				producer = SWI
 			}
@@ -13262,7 +13262,7 @@ focus_tree = {
 				}
 			}
 			USA = {
-				has_tech = attack_helicopter2
+				has_tech = attack_helicopter_2
 			}
 		}
 
@@ -13273,7 +13273,7 @@ focus_tree = {
 			}
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = attack_helicopter2
+				type = attack_helicopter_2
 				amount = 15
 				producer = USA
 			}
@@ -13412,7 +13412,7 @@ focus_tree = {
 				}
 			}
 			USA = {
-				has_tech = transport_helicopter1
+				has_tech = transport_helicopter_1
 			}
 		}
 
@@ -13423,7 +13423,7 @@ focus_tree = {
 			}
 			modify_treasury_effect = yes
 			add_equipment_to_stockpile = {
-				type = transport_helicopter1
+				type = transport_helicopter_1
 				amount = 25
 				producer = USA
 			}
@@ -13456,7 +13456,7 @@ focus_tree = {
 				}
 			}
 			FRA = {
-				has_tech = transport_helicopter1
+				has_tech = transport_helicopter_1
 			}
 		}
 
@@ -13487,7 +13487,7 @@ focus_tree = {
 			}
 			change_influence_percentage = yes
 			add_equipment_to_stockpile = {
-				type = transport_helicopter1
+				type = transport_helicopter_1
 				amount = 12
 				producer = FRA
 			}

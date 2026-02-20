@@ -25,7 +25,7 @@
 
 		set_technology = {
 			helo_ops_tech = 1
-			nsb_transport_helicopter1 = 1
+			nsb_transport_helicopter_1 = 1
 			mbt_tech_ops = 1
 
 			nsb_artillery_0 = 1

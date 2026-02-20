@@ -634,7 +634,7 @@ instant_effect = {
 		variant_name = "SA-342 Gazelle"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1	#Mi-8 and similar
+		type = transport_helicopter_1	#Mi-8 and similar
 		amount = 110
 		producer = SOV
 	}

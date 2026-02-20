@@ -468,12 +468,12 @@ instant_effect = {
 	}
 	#Helicopters
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Various B-206/212/214/UH-1
+		type = transport_helicopter_1 #Various B-206/212/214/UH-1
 		amount = 320
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Sikorsky UH-60 Black Hawk
+		type = transport_helicopter_2 #Sikorsky UH-60 Black Hawk
 		amount = 12
 		producer = USA
 	}

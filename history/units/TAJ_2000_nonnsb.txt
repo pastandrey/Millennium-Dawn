@@ -89,7 +89,7 @@ units = {
 instant_effect = {
 
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1
+		type = attack_helicopter_1
 		amount = 45
 		producer = SOV
 	}

@@ -327,9 +327,9 @@
 				Anti_Air_0 = 1
 				SP_Anti_Air_0 = 1
 				SP_Anti_Air_1 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
-				attack_helicopter3 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
+				attack_helicopter_3 = 1
 			}
 		}
 	}
@@ -530,8 +530,8 @@
 		land_drone_equipment_type = 1
 
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
 
 		#For templates
 

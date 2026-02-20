@@ -153,7 +153,7 @@
 				Anti_Air_0 = 1
 				SP_Anti_Air_0 = 1
 				Rec_tank_0 = 1
-				attack_helicopter1 = 1
+				attack_helicopter_1 = 1
 			}
 		}
 	}
@@ -368,10 +368,10 @@
 
 				L_Strike_fighter1 = 1
 
-				transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
-				transport_helicopter2 = 1
-		nsb_transport_helicopter2 = 1
+				transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
+				transport_helicopter_2 = 1
+		nsb_transport_helicopter_2 = 1
 			}
 		}
 	}
@@ -448,8 +448,8 @@
 		Heavy_Anti_tank_0 = 1
 
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
 
 		body_armor_1 = 1
 		camouflage_1 = 1

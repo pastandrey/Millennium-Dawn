@@ -3024,7 +3024,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: Montenegro.16.a executed"
 		SOV = {
 			add_equipment_to_stockpile = {
-				type = transport_helicopter2
+				type = transport_helicopter_2
 				amount = -20
 				producer = SOV
 			}
@@ -3033,7 +3033,7 @@ country_event = {
 		}
 		MNT = {
 			add_equipment_to_stockpile = {
-				type = transport_helicopter2
+				type = transport_helicopter_2
 				amount = 20
 				producer = SOV
 			}
@@ -3085,7 +3085,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: Montenegro.17.a executed"
 		USA = {
 			add_equipment_to_stockpile = {
-				type = transport_helicopter2
+				type = transport_helicopter_2
 				amount = -20
 				producer = USA
 			}
@@ -3094,7 +3094,7 @@ country_event = {
 		}
 		MNT = {
 			add_equipment_to_stockpile = {
-				type = transport_helicopter2
+				type = transport_helicopter_2
 				amount = 20
 				producer = USA
 			}

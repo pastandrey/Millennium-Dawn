@@ -146,31 +146,31 @@ spriteTypes = {
 	}
 			##### GEN Helis #####
 	SpriteType = {
-		name = "GFX_transport_helicopter1_medium"
+		name = "GFX_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_transport_helicopter2_medium"
+		name = "GFX_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_transport_helicopter3_medium"
+		name = "GFX_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_transport_helicopter4_medium"
+		name = "GFX_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_transport_helicopter5_medium"
+		name = "GFX_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_transport_helicopter6_medium"
+		name = "GFX_transport_helicopter_6_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_transport_helicopter7_medium"
+		name = "GFX_transport_helicopter_7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 
@@ -185,59 +185,59 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_nsb_transport_helicopter1_medium"
+		name = "GFX_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_nsb_transport_helicopter2_medium"
+		name = "GFX_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_nsb_transport_helicopter3_medium"
+		name = "GFX_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_nsb_transport_helicopter4_medium"
+		name = "GFX_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_nsb_transport_helicopter5_medium"
+		name = "GFX_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_nsb_transport_helicopter6_medium"
+		name = "GFX_nsb_transport_helicopter_6_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_nsb_transport_helicopter7_medium"
+		name = "GFX_nsb_transport_helicopter_7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_attack_helicopter1_medium"
+		name = "GFX_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH1W.dds"
 	}
 	SpriteType = {
-		name = "GFX_attack_helicopter2_medium"
+		name = "GFX_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/OH58D.dds"
 	}
 	SpriteType = {
-		name = "GFX_attack_helicopter3_medium"
+		name = "GFX_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_attack_helicopter4_medium"
+		name = "GFX_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_attack_helicopter5_medium"
+		name = "GFX_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_attack_helicopter6_medium"
+		name = "GFX_attack_helicopter_6_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_attack_helicopter7_medium"
+		name = "GFX_attack_helicopter_7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
 	}
 	SpriteType = {
@@ -491,44 +491,44 @@ spriteTypes = {
 	######## BRA Airforce Tab ########
  			##### BRA Helis #####
 	SpriteType = {
-		name = "GFX_BRA_transport_helicopter1_medium"
+		name = "GFX_BRA_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_BRA_transport_helicopter2_medium"
+		name = "GFX_BRA_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_BRA_transport_helicopter3_medium"
+		name = "GFX_BRA_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_BRA_transport_helicopter4_medium"
+		name = "GFX_BRA_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_BRA_transport_helicopter5_medium"
+		name = "GFX_BRA_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH5.dds"
 	}
 	##Below, eventually be changed to be BRA unique graphic
 	SpriteType = {
-		name = "GFX_BRA_attack_helicopter1_medium"
+		name = "GFX_BRA_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_BRA_attack_helicopter2_medium"
+		name = "GFX_BRA_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_BRA_attack_helicopter3_medium"
+		name = "GFX_BRA_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_BRA_attack_helicopter4_medium"
+		name = "GFX_BRA_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_BRA_attack_helicopter5_medium"
+		name = "GFX_BRA_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH5.dds"
 	}
 			####### BRA Light Attack ######
@@ -730,43 +730,43 @@ spriteTypes = {
 	}
 		##CHI HELIS##
 	SpriteType = {
-		name = "GFX_CHI_attack_helicopter1_medium"
+		name = "GFX_CHI_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_attack_helicopter2_medium"
+		name = "GFX_CHI_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_attack_helicopter3_medium"
+		name = "GFX_CHI_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_attack_helicopter4_medium"
+		name = "GFX_CHI_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_attack_helicopter5_medium"
+		name = "GFX_CHI_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/AH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_transport_helicopter1_medium"
+		name = "GFX_CHI_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_transport_helicopter2_medium"
+		name = "GFX_CHI_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_transport_helicopter3_medium"
+		name = "GFX_CHI_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_transport_helicopter4_medium"
+		name = "GFX_CHI_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_transport_helicopter5_medium"
+		name = "GFX_CHI_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH5.dds"
 	}
 		###### CHI Strat Bombers ######
@@ -968,43 +968,43 @@ spriteTypes = {
 	}
 			##### ISR Helis #####
 	SpriteType = {
-		name = "GFX_ISR_transport_helicopter1_medium"
+		name = "GFX_ISR_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_transport_helicopter2_medium"
+		name = "GFX_ISR_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_transport_helicopter3_medium"
+		name = "GFX_ISR_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_transport_helicopter4_medium"
+		name = "GFX_ISR_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_transport_helicopter5_medium"
+		name = "GFX_ISR_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_ISR_attack_helicopter1_medium"
+		name = "GFX_ISR_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_attack_helicopter2_medium"
+		name = "GFX_ISR_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_attack_helicopter3_medium"
+		name = "GFX_ISR_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_attack_helicopter4_medium"
+		name = "GFX_ISR_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_attack_helicopter5_medium"
+		name = "GFX_ISR_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/AH5.dds"
 	}
 		####### ISR Light Attack ######
@@ -1126,23 +1126,23 @@ spriteTypes = {
 		######## GER Airforce Tab ########
 		##GER HELIS##
 	SpriteType = {
-		name = "GFX_GER_attack_helicopter1_medium"
+		name = "GFX_GER_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_attack_helicopter2_medium"
+		name = "GFX_GER_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_attack_helicopter3_medium"
+		name = "GFX_GER_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_attack_helicopter4_medium"
+		name = "GFX_GER_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_attack_helicopter5_medium"
+		name = "GFX_GER_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/AH5.dds"
 	}
 	SpriteType = {
@@ -1166,23 +1166,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GER/AIR/AH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_transport_helicopter1_medium"
+		name = "GFX_GER_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_transport_helicopter2_medium"
+		name = "GFX_GER_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_transport_helicopter3_medium"
+		name = "GFX_GER_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_transport_helicopter4_medium"
+		name = "GFX_GER_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_transport_helicopter5_medium"
+		name = "GFX_GER_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH5.dds"
 	}
 	##### GER Superiority Fighters #####
@@ -1607,43 +1607,43 @@ spriteTypes = {
 	}
 			##### USA Helis #####
 	SpriteType = {
-		name = "GFX_USA_transport_helicopter1_medium"
+		name = "GFX_USA_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_transport_helicopter2_medium"
+		name = "GFX_USA_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_transport_helicopter3_medium"
+		name = "GFX_USA_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_transport_helicopter4_medium"
+		name = "GFX_USA_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_transport_helicopter5_medium"
+		name = "GFX_USA_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_USA_attack_helicopter1_medium"
+		name = "GFX_USA_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH1W.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_attack_helicopter2_medium"
+		name = "GFX_USA_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/OH58D.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_attack_helicopter3_medium"
+		name = "GFX_USA_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_attack_helicopter4_medium"
+		name = "GFX_USA_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_attack_helicopter5_medium"
+		name = "GFX_USA_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
 	}
 		####### USA Light Attack ######
@@ -1909,43 +1909,43 @@ spriteTypes = {
 	}
 			##### JAP Helis #####
 	SpriteType = {
-		name = "GFX_JAP_transport_helicopter1_medium"
+		name = "GFX_JAP_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_transport_helicopter2_medium"
+		name = "GFX_JAP_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_transport_helicopter3_medium"
+		name = "GFX_JAP_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_transport_helicopter4_medium"
+		name = "GFX_JAP_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_transport_helicopter5_medium"
+		name = "GFX_JAP_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_JAP_attack_helicopter1_medium"
+		name = "GFX_JAP_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_attack_helicopter2_medium"
+		name = "GFX_JAP_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_attack_helicopter3_medium"
+		name = "GFX_JAP_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_attack_helicopter4_medium"
+		name = "GFX_JAP_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_attack_helicopter5_medium"
+		name = "GFX_JAP_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/AH5.dds"
 	}
 		####### JAP Light Attack ######
@@ -2217,43 +2217,43 @@ spriteTypes = {
 	}
 			##### UKR Helis #####
 	SpriteType = {
-		name = "GFX_UKR_transport_helicopter1_medium"
+		name = "GFX_UKR_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_transport_helicopter2_medium"
+		name = "GFX_UKR_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_transport_helicopter3_medium"
+		name = "GFX_UKR_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_transport_helicopter4_medium"
+		name = "GFX_UKR_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_transport_helicopter5_medium"
+		name = "GFX_UKR_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_UKR_attack_helicopter1_medium"
+		name = "GFX_UKR_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_attack_helicopter2_medium"
+		name = "GFX_UKR_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_attack_helicopter3_medium"
+		name = "GFX_UKR_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_attack_helicopter4_medium"
+		name = "GFX_UKR_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_attack_helicopter5_medium"
+		name = "GFX_UKR_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### UKR Light Attack ######
@@ -2536,63 +2536,63 @@ spriteTypes = {
 	}
 			##### SOV Helis #####
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter1_medium"
+		name = "GFX_SOV_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter2_medium"
+		name = "GFX_SOV_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter3_medium"
+		name = "GFX_SOV_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter4_medium"
+		name = "GFX_SOV_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter5_medium"
+		name = "GFX_SOV_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_eastern_european_2d_transport_helicopter1_medium"
+		name = "GFX_eastern_european_2d_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_eastern_european_2d_transport_helicopter2_medium"
+		name = "GFX_eastern_european_2d_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_eastern_european_2d_transport_helicopter3_medium"
+		name = "GFX_eastern_european_2d_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_eastern_european_2d_transport_helicopter4_medium"
+		name = "GFX_eastern_european_2d_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_eastern_european_2d_transport_helicopter5_medium"
+		name = "GFX_eastern_european_2d_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter1_medium"
+		name = "GFX_SOV_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter2_medium"
+		name = "GFX_SOV_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter3_medium"
+		name = "GFX_SOV_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter4_medium"
+		name = "GFX_SOV_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter5_medium"
+		name = "GFX_SOV_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### SOV Light Attack ######
@@ -2879,63 +2879,63 @@ spriteTypes = {
 
 			##### FRA Helis #####
 	SpriteType = {
-		name = "GFX_FRA_transport_helicopter1_medium"
+		name = "GFX_FRA_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_transport_helicopter2_medium"
+		name = "GFX_FRA_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_transport_helicopter3_medium"
+		name = "GFX_FRA_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_transport_helicopter4_medium"
+		name = "GFX_FRA_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_transport_helicopter5_medium"
+		name = "GFX_FRA_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_nsb_transport_helicopter1_medium"
+		name = "GFX_FRA_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_nsb_transport_helicopter2_medium"
+		name = "GFX_FRA_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_nsb_transport_helicopter3_medium"
+		name = "GFX_FRA_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_nsb_transport_helicopter4_medium"
+		name = "GFX_FRA_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_nsb_transport_helicopter5_medium"
+		name = "GFX_FRA_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_attack_helicopter1_medium"
+		name = "GFX_FRA_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_attack_helicopter2_medium"
+		name = "GFX_FRA_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_attack_helicopter3_medium"
+		name = "GFX_FRA_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_attack_helicopter4_medium"
+		name = "GFX_FRA_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_attack_helicopter5_medium"
+		name = "GFX_FRA_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/AH5.dds"
 	}
 		SpriteType = {
@@ -3233,43 +3233,43 @@ spriteTypes = {
 	}
  			##### ENG Helis #####
 	SpriteType = {
-		name = "GFX_ENG_transport_helicopter1_medium"
+		name = "GFX_ENG_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_transport_helicopter2_medium"
+		name = "GFX_ENG_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_transport_helicopter3_medium"
+		name = "GFX_ENG_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_transport_helicopter4_medium"
+		name = "GFX_ENG_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_transport_helicopter5_medium"
+		name = "GFX_ENG_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_ENG_attack_helicopter1_medium"
+		name = "GFX_ENG_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_attack_helicopter2_medium"
+		name = "GFX_ENG_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_attack_helicopter3_medium"
+		name = "GFX_ENG_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_attack_helicopter4_medium"
+		name = "GFX_ENG_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_attack_helicopter5_medium"
+		name = "GFX_ENG_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/AH5.dds"
 	}
 		###### ENG Strat/TRA/NAVAL Bombers ######
@@ -3519,43 +3519,43 @@ spriteTypes = {
 	}
 		##### KOR Helis #####
 	SpriteType = {
-		name = "GFX_KOR_transport_helicopter1_medium"
+		name = "GFX_KOR_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/KOR/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_transport_helicopter2_medium"
+		name = "GFX_KOR_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_transport_helicopter3_medium"
+		name = "GFX_KOR_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_transport_helicopter4_medium"
+		name = "GFX_KOR_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/KOR/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_transport_helicopter5_medium"
+		name = "GFX_KOR_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_KOR_attack_helicopter1_medium"
+		name = "GFX_KOR_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/KOR/AIR/AH1K.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_attack_helicopter2_medium"
+		name = "GFX_KOR_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_attack_helicopter3_medium"
+		name = "GFX_KOR_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_attack_helicopter4_medium"
+		name = "GFX_KOR_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_attack_helicopter5_medium"
+		name = "GFX_KOR_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
 	}
 		####### KOR Light Attack ######
@@ -3679,43 +3679,43 @@ spriteTypes = {
 	}
 			##### NKO Helis #####
 	SpriteType = {
-		name = "GFX_NKO_transport_helicopter1_medium"
+		name = "GFX_NKO_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/NKO/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_transport_helicopter2_medium"
+		name = "GFX_NKO_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/NKO/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_transport_helicopter3_medium"
+		name = "GFX_NKO_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_transport_helicopter4_medium"
+		name = "GFX_NKO_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_transport_helicopter5_medium"
+		name = "GFX_NKO_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_NKO_attack_helicopter1_medium"
+		name = "GFX_NKO_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/NKO/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_attack_helicopter2_medium"
+		name = "GFX_NKO_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/NKO/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_attack_helicopter3_medium"
+		name = "GFX_NKO_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/NKO/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_attack_helicopter4_medium"
+		name = "GFX_NKO_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/NKO/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_attack_helicopter5_medium"
+		name = "GFX_NKO_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### NKO Light Attack ######
@@ -3949,43 +3949,43 @@ spriteTypes = {
 	}
 			##### SWE Helis #####
 	SpriteType = {
-		name = "GFX_SWE_transport_helicopter1_medium"
+		name = "GFX_SWE_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SWE/AIR/UH3.dds" #gfx/interface/technologies/FRA/AIR/UH1.dds
 	}
 	SpriteType = {
-		name = "GFX_SWE_transport_helicopter2_medium"
+		name = "GFX_SWE_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH1.dds" #gfx/interface/technologies/USA/AIR/UH2.dds
 	}
 	SpriteType = {
-		name = "GFX_SWE_transport_helicopter3_medium"
+		name = "GFX_SWE_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH2.dds" #gfx/interface/technologies/SWE/AIR/UH3.dds
 	}
 	SpriteType = {
-		name = "GFX_SWE_transport_helicopter4_medium"
+		name = "GFX_SWE_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH4.dds" #gfx/interface/technologies/FRA/AIR/UH4.dds
 	}
 	SpriteType = {
-		name = "GFX_SWE_transport_helicopter5_medium"
+		name = "GFX_SWE_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_SWE_attack_helicopter1_medium"
+		name = "GFX_SWE_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SWE_attack_helicopter2_medium"
+		name = "GFX_SWE_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SWE_attack_helicopter3_medium"
+		name = "GFX_SWE_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SWE_attack_helicopter4_medium"
+		name = "GFX_SWE_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SWE_attack_helicopter5_medium"
+		name = "GFX_SWE_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
 	}
 	######## GRE Airforce Tab ########
@@ -4108,43 +4108,43 @@ spriteTypes = {
 	}
 			##### TUR Helis #####
 	SpriteType = {
-		name = "GFX_TUR_transport_helicopter1_medium"
+		name = "GFX_TUR_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/TUR/AIR/UH01T.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_transport_helicopter2_medium"
+		name = "GFX_TUR_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/TUR/AIR/UH60T.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_transport_helicopter3_medium"
+		name = "GFX_TUR_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/TUR/AIR/CH47T.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_transport_helicopter4_medium"
+		name = "GFX_TUR_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_transport_helicopter5_medium"
+		name = "GFX_TUR_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_TUR_attack_helicopter1_medium"
+		name = "GFX_TUR_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/TUR/AIR/AH1T.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_attack_helicopter2_medium"
+		name = "GFX_TUR_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_attack_helicopter3_medium"
+		name = "GFX_TUR_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/TUR/AIR/T129.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_attack_helicopter4_medium"
+		name = "GFX_TUR_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/TUR/AIR/T130.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_attack_helicopter5_medium"
+		name = "GFX_TUR_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
 	}
 		####### TUR Light Attack ######
@@ -4308,43 +4308,43 @@ spriteTypes = {
 	}
 			##### PER Helis #####
 	SpriteType = {
-		name = "GFX_PER_transport_helicopter1_medium"
+		name = "GFX_PER_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/PER/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_transport_helicopter2_medium"
+		name = "GFX_PER_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_transport_helicopter3_medium"
+		name = "GFX_PER_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_transport_helicopter4_medium"
+		name = "GFX_PER_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_transport_helicopter5_medium"
+		name = "GFX_PER_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_PER_attack_helicopter1_medium"
+		name = "GFX_PER_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/PER/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_attack_helicopter2_medium"
+		name = "GFX_PER_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/PER/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_attack_helicopter3_medium"
+		name = "GFX_PER_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_attack_helicopter4_medium"
+		name = "GFX_PER_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_attack_helicopter5_medium"
+		name = "GFX_PER_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### SOV Light Attack ######
@@ -4600,43 +4600,43 @@ spriteTypes = {
 	}
 			##### ITA Helis #####
 	SpriteType = {
-		name = "GFX_ITA_transport_helicopter1_medium"
+		name = "GFX_ITA_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_transport_helicopter2_medium"
+		name = "GFX_ITA_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_transport_helicopter3_medium"
+		name = "GFX_ITA_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_transport_helicopter4_medium"
+		name = "GFX_ITA_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_transport_helicopter5_medium"
+		name = "GFX_ITA_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_ITA_attack_helicopter1_medium"
+		name = "GFX_ITA_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/AH0.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_attack_helicopter2_medium"
+		name = "GFX_ITA_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_attack_helicopter3_medium"
+		name = "GFX_ITA_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_attack_helicopter4_medium"
+		name = "GFX_ITA_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_attack_helicopter5_medium"
+		name = "GFX_ITA_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/AH4.dds"
 	}
 	SpriteType = {
@@ -4893,43 +4893,43 @@ spriteTypes = {
 	}
 			##### RAJ Helis #####
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter1_medium"
+		name = "GFX_SOV_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter2_medium"
+		name = "GFX_SOV_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter3_medium"
+		name = "GFX_SOV_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter4_medium"
+		name = "GFX_SOV_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter5_medium"
+		name = "GFX_SOV_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_SOV_attack_helicopter1_medium"
+		name = "GFX_SOV_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter2_medium"
+		name = "GFX_SOV_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter3_medium"
+		name = "GFX_SOV_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter4_medium"
+		name = "GFX_SOV_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter5_medium"
+		name = "GFX_SOV_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### RAJ Light Attack ######
@@ -5191,43 +5191,43 @@ spriteTypes = {
 	}
 			##### SOV Helis #####
 	SpriteType = {
-		name = "GFX_SYR_transport_helicopter1_medium"
+		name = "GFX_SYR_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_transport_helicopter2_medium"
+		name = "GFX_SYR_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_transport_helicopter3_medium"
+		name = "GFX_SYR_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_transport_helicopter4_medium"
+		name = "GFX_SYR_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_transport_helicopter5_medium"
+		name = "GFX_SYR_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_SYR_attack_helicopter1_medium"
+		name = "GFX_SYR_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_attack_helicopter2_medium"
+		name = "GFX_SYR_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_attack_helicopter3_medium"
+		name = "GFX_SYR_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_attack_helicopter4_medium"
+		name = "GFX_SYR_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_attack_helicopter5_medium"
+		name = "GFX_SYR_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### SOV Light Attack ######
@@ -5513,43 +5513,43 @@ spriteTypes = {
 	}
 			##### SPR Helis #####
 	SpriteType = {
-		name = "GFX_SPR_transport_helicopter1_medium"
+		name = "GFX_SPR_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SPR/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_transport_helicopter2_medium"
+		name = "GFX_SPR_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_transport_helicopter3_medium"
+		name = "GFX_SPR_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SPR/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_transport_helicopter4_medium"
+		name = "GFX_SPR_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_transport_helicopter5_medium"
+		name = "GFX_SPR_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_SPR_attack_helicopter1_medium"
+		name = "GFX_SPR_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SPR/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_attack_helicopter2_medium"
+		name = "GFX_SPR_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SPR/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_attack_helicopter3_medium"
+		name = "GFX_SPR_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SPR/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_attack_helicopter4_medium"
+		name = "GFX_SPR_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SPR/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_attack_helicopter5_medium"
+		name = "GFX_SPR_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SPR/AIR/AH5.dds"
 	}
 		####### SPR Light Attack ######
@@ -5694,19 +5694,19 @@ spriteTypes = {
 	}
 	# HOL
 	SpriteType = {
-		name = "GFX_HOL_nsb_transport_helicopter1_medium"
+		name = "GFX_HOL_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/AH0.dds"
 	}
 	SpriteType = {
-		name = "GFX_HOL_nsb_transport_helicopter2_medium"
+		name = "GFX_HOL_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH1_alt2.dds"
 	}
 	SpriteType = {
-		name = "GFX_HOL_nsb_transport_helicopter3_medium"
+		name = "GFX_HOL_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH2_alt4.dds"
 	}
 	SpriteType = {
-		name = "GFX_HOL_nsb_transport_helicopter4_medium"
+		name = "GFX_HOL_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/NH90.dds"
 	}
 	######## SOV Airforce Tab ########
@@ -5861,43 +5861,43 @@ spriteTypes = {
 	}
 			##### BSH Helis #####
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter1_medium"
+		name = "GFX_SOV_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_transport_helicopter2_medium"
+		name = "GFX_BSH_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_transport_helicopter3_medium"
+		name = "GFX_BSH_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_transport_helicopter4_medium"
+		name = "GFX_BSH_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_transport_helicopter5_medium"
+		name = "GFX_BSH_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_BSH_attack_helicopter1_medium"
+		name = "GFX_BSH_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_attack_helicopter2_medium"
+		name = "GFX_BSH_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_attack_helicopter3_medium"
+		name = "GFX_BSH_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_attack_helicopter4_medium"
+		name = "GFX_BSH_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_attack_helicopter5_medium"
+		name = "GFX_BSH_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### BSH Light Attack ######
@@ -6056,43 +6056,43 @@ spriteTypes = {
 	}
 			##### KHM Helis #####
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter1_medium"
+		name = "GFX_SOV_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_transport_helicopter2_medium"
+		name = "GFX_KHM_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_transport_helicopter3_medium"
+		name = "GFX_KHM_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_transport_helicopter4_medium"
+		name = "GFX_KHM_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_transport_helicopter5_medium"
+		name = "GFX_KHM_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_KHM_attack_helicopter1_medium"
+		name = "GFX_KHM_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_attack_helicopter2_medium"
+		name = "GFX_KHM_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_attack_helicopter3_medium"
+		name = "GFX_KHM_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_attack_helicopter4_medium"
+		name = "GFX_KHM_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_attack_helicopter5_medium"
+		name = "GFX_KHM_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### KHM Light Attack ######
@@ -6252,43 +6252,43 @@ spriteTypes = {
 	}
 			##### TAT Helis #####
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter1_medium"
+		name = "GFX_SOV_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_transport_helicopter2_medium"
+		name = "GFX_TAT_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_transport_helicopter3_medium"
+		name = "GFX_TAT_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_transport_helicopter4_medium"
+		name = "GFX_TAT_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_transport_helicopter5_medium"
+		name = "GFX_TAT_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_TAT_attack_helicopter1_medium"
+		name = "GFX_TAT_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_attack_helicopter2_medium"
+		name = "GFX_TAT_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_attack_helicopter3_medium"
+		name = "GFX_TAT_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_attack_helicopter4_medium"
+		name = "GFX_TAT_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_attack_helicopter5_medium"
+		name = "GFX_TAT_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### TAT Light Attack ######
@@ -6449,43 +6449,43 @@ spriteTypes = {
 	}
 			##### CRM Helis #####
 	SpriteType = {
-		name = "GFX_CRM_transport_helicopter1_medium"
+		name = "GFX_CRM_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_transport_helicopter2_medium"
+		name = "GFX_CRM_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_transport_helicopter3_medium"
+		name = "GFX_CRM_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_transport_helicopter4_medium"
+		name = "GFX_CRM_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_transport_helicopter5_medium"
+		name = "GFX_CRM_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_CRM_attack_helicopter1_medium"
+		name = "GFX_CRM_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_attack_helicopter2_medium"
+		name = "GFX_CRM_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_attack_helicopter3_medium"
+		name = "GFX_CRM_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_attack_helicopter4_medium"
+		name = "GFX_CRM_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_attack_helicopter5_medium"
+		name = "GFX_CRM_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### CRM Light Attack ######
@@ -6645,43 +6645,43 @@ spriteTypes = {
 	}
 			##### PMR Helis #####
 	SpriteType = {
-		name = "GFX_PMR_transport_helicopter1_medium"
+		name = "GFX_PMR_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_transport_helicopter2_medium"
+		name = "GFX_PMR_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_transport_helicopter3_medium"
+		name = "GFX_PMR_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_transport_helicopter4_medium"
+		name = "GFX_PMR_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_transport_helicopter5_medium"
+		name = "GFX_PMR_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_attack_helicopter1_medium"
+		name = "GFX_PMR_attack_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_attack_helicopter2_medium"
+		name = "GFX_PMR_attack_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_attack_helicopter3_medium"
+		name = "GFX_PMR_attack_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_attack_helicopter4_medium"
+		name = "GFX_PMR_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_attack_helicopter5_medium"
+		name = "GFX_PMR_attack_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### PMR Light Attack ######
@@ -6832,504 +6832,504 @@ spriteTypes = {
 
 ## CAN
 SpriteType = {
-		name = "GFX_CAN_transport_helicopter1_medium"
+		name = "GFX_CAN_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CAN_transport_helicopter2_medium"
+		name = "GFX_CAN_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CAN_transport_helicopter3_medium"
+		name = "GFX_CAN_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_CAN_transport_helicopter4_medium"
+		name = "GFX_CAN_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/CAN/AIR/UH4.dds"
     }
 
 ### ROM
 SpriteType = {
-		name = "GFX_ROM_transport_helicopter1_medium"
+		name = "GFX_ROM_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ROM/AIR/UH1.dds"
 	}
 
 ### SAF
 SpriteType = {
-		name = "GFX_SAF_transport_helicopter1_medium"
+		name = "GFX_SAF_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SAF/AIR/UH1.dds"
 	}
 ### POL
 SpriteType = {
-		name = "GFX_POL_transport_helicopter2_medium"
+		name = "GFX_POL_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/POL/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_nsb_transport_helicopter1_medium"
+		name = "GFX_CHI_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_nsb_transport_helicopter2_medium"
+		name = "GFX_CHI_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_nsb_transport_helicopter3_medium"
+		name = "GFX_CHI_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_nsb_transport_helicopter4_medium"
+		name = "GFX_CHI_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_nsb_transport_helicopter5_medium"
+		name = "GFX_CHI_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_nsb_transport_helicopter1_medium"
+		name = "GFX_ISR_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_nsb_transport_helicopter2_medium"
+		name = "GFX_ISR_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_nsb_transport_helicopter3_medium"
+		name = "GFX_ISR_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_nsb_transport_helicopter4_medium"
+		name = "GFX_ISR_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_ISR_nsb_transport_helicopter5_medium"
+		name = "GFX_ISR_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/ISR/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_nsb_transport_helicopter1_medium"
+		name = "GFX_GER_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_nsb_transport_helicopter2_medium"
+		name = "GFX_GER_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_nsb_transport_helicopter3_medium"
+		name = "GFX_GER_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_nsb_transport_helicopter4_medium"
+		name = "GFX_GER_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_nsb_transport_helicopter5_medium"
+		name = "GFX_GER_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_nsb_transport_helicopter1_medium"
+		name = "GFX_USA_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_nsb_transport_helicopter2_medium"
+		name = "GFX_USA_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_nsb_transport_helicopter3_medium"
+		name = "GFX_USA_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_nsb_transport_helicopter4_medium"
+		name = "GFX_USA_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_nsb_transport_helicopter5_medium"
+		name = "GFX_USA_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_nsb_transport_helicopter1_medium"
+		name = "GFX_JAP_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_nsb_transport_helicopter2_medium"
+		name = "GFX_JAP_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_nsb_transport_helicopter3_medium"
+		name = "GFX_JAP_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_nsb_transport_helicopter4_medium"
+		name = "GFX_JAP_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_nsb_transport_helicopter5_medium"
+		name = "GFX_JAP_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/JAP/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_nsb_transport_helicopter1_medium"
+		name = "GFX_UKR_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_nsb_transport_helicopter2_medium"
+		name = "GFX_UKR_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_nsb_transport_helicopter3_medium"
+		name = "GFX_UKR_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_nsb_transport_helicopter4_medium"
+		name = "GFX_UKR_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_nsb_transport_helicopter5_medium"
+		name = "GFX_UKR_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter1_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter2_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter3_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter4_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter5_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter1_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter2_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter3_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter4_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter5_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_nsb_transport_helicopter1_medium"
+		name = "GFX_ENG_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_nsb_transport_helicopter2_medium"
+		name = "GFX_ENG_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_nsb_transport_helicopter3_medium"
+		name = "GFX_ENG_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_nsb_transport_helicopter4_medium"
+		name = "GFX_ENG_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_nsb_transport_helicopter5_medium"
+		name = "GFX_ENG_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_nsb_transport_helicopter1_medium"
+		name = "GFX_KOR_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/KOR/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_nsb_transport_helicopter2_medium"
+		name = "GFX_KOR_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_nsb_transport_helicopter3_medium"
+		name = "GFX_KOR_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_nsb_transport_helicopter4_medium"
+		name = "GFX_KOR_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/KOR/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_KOR_nsb_transport_helicopter5_medium"
+		name = "GFX_KOR_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_nsb_transport_helicopter1_medium"
+		name = "GFX_NKO_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/NKO/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_nsb_transport_helicopter2_medium"
+		name = "GFX_NKO_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/NKO/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_nsb_transport_helicopter3_medium"
+		name = "GFX_NKO_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_nsb_transport_helicopter4_medium"
+		name = "GFX_NKO_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_NKO_nsb_transport_helicopter5_medium"
+		name = "GFX_NKO_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_SWE_nsb_transport_helicopter1_medium"
+		name = "GFX_SWE_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SWE/AIR/UH3.dds" #gfx/interface/technologies/FRA/AIR/UH1.dds
 	}
 	SpriteType = {
-		name = "GFX_SWE_nsb_transport_helicopter2_medium"
+		name = "GFX_SWE_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH1.dds" #gfx/interface/technologies/USA/AIR/UH2.dds
 	}
 	SpriteType = {
-		name = "GFX_SWE_nsb_transport_helicopter3_medium"
+		name = "GFX_SWE_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH2.dds" #gfx/interface/technologies/SWE/AIR/UH3.dds
 	}
 	SpriteType = {
-		name = "GFX_SWE_nsb_transport_helicopter4_medium"
+		name = "GFX_SWE_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH4.dds" #gfx/interface/technologies/FRA/AIR/UH4.dds
 	}
 	SpriteType = {
-		name = "GFX_SWE_nsb_transport_helicopter5_medium"
+		name = "GFX_SWE_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_nsb_transport_helicopter1_medium"
+		name = "GFX_TUR_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/TUR/AIR/UH01T.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_nsb_transport_helicopter2_medium"
+		name = "GFX_TUR_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/TUR/AIR/UH60T.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_nsb_transport_helicopter3_medium"
+		name = "GFX_TUR_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/TUR/AIR/CH47T.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_nsb_transport_helicopter4_medium"
+		name = "GFX_TUR_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_TUR_nsb_transport_helicopter5_medium"
+		name = "GFX_TUR_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_nsb_transport_helicopter1_medium"
+		name = "GFX_PER_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/PER/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_nsb_transport_helicopter2_medium"
+		name = "GFX_PER_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_nsb_transport_helicopter3_medium"
+		name = "GFX_PER_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_nsb_transport_helicopter4_medium"
+		name = "GFX_PER_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_PER_nsb_transport_helicopter5_medium"
+		name = "GFX_PER_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_nsb_transport_helicopter1_medium"
+		name = "GFX_ITA_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_nsb_transport_helicopter2_medium"
+		name = "GFX_ITA_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_nsb_transport_helicopter3_medium"
+		name = "GFX_ITA_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_nsb_transport_helicopter4_medium"
+		name = "GFX_ITA_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_nsb_transport_helicopter5_medium"
+		name = "GFX_ITA_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/ITA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_nsb_transport_helicopter1_medium"
+		name = "GFX_SYR_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_nsb_transport_helicopter2_medium"
+		name = "GFX_SYR_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_nsb_transport_helicopter3_medium"
+		name = "GFX_SYR_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_nsb_transport_helicopter4_medium"
+		name = "GFX_SYR_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SYR_nsb_transport_helicopter5_medium"
+		name = "GFX_SYR_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_nsb_transport_helicopter1_medium"
+		name = "GFX_SPR_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SPR/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_nsb_transport_helicopter2_medium"
+		name = "GFX_SPR_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_nsb_transport_helicopter3_medium"
+		name = "GFX_SPR_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SPR/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_nsb_transport_helicopter4_medium"
+		name = "GFX_SPR_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SPR_nsb_transport_helicopter5_medium"
+		name = "GFX_SPR_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter1_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_nsb_transport_helicopter2_medium"
+		name = "GFX_BSH_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_nsb_transport_helicopter3_medium"
+		name = "GFX_BSH_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_nsb_transport_helicopter4_medium"
+		name = "GFX_BSH_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_BSH_nsb_transport_helicopter5_medium"
+		name = "GFX_BSH_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter1_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_nsb_transport_helicopter2_medium"
+		name = "GFX_KHM_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_nsb_transport_helicopter3_medium"
+		name = "GFX_KHM_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_nsb_transport_helicopter4_medium"
+		name = "GFX_KHM_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_KHM_nsb_transport_helicopter5_medium"
+		name = "GFX_KHM_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_nsb_transport_helicopter1_medium"
+		name = "GFX_SOV_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_nsb_transport_helicopter2_medium"
+		name = "GFX_TAT_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_nsb_transport_helicopter3_medium"
+		name = "GFX_TAT_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_nsb_transport_helicopter4_medium"
+		name = "GFX_TAT_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_TAT_nsb_transport_helicopter5_medium"
+		name = "GFX_TAT_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_nsb_transport_helicopter1_medium"
+		name = "GFX_CRM_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_nsb_transport_helicopter2_medium"
+		name = "GFX_CRM_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_nsb_transport_helicopter3_medium"
+		name = "GFX_CRM_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_nsb_transport_helicopter4_medium"
+		name = "GFX_CRM_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_CRM_nsb_transport_helicopter5_medium"
+		name = "GFX_CRM_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_nsb_transport_helicopter1_medium"
+		name = "GFX_PMR_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_nsb_transport_helicopter2_medium"
+		name = "GFX_PMR_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_nsb_transport_helicopter3_medium"
+		name = "GFX_PMR_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_nsb_transport_helicopter4_medium"
+		name = "GFX_PMR_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_PMR_nsb_transport_helicopter5_medium"
+		name = "GFX_PMR_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 	SpriteType = {
-		name = "GFX_CAN_nsb_transport_helicopter1_medium"
+		name = "GFX_CAN_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CAN_nsb_transport_helicopter2_medium"
+		name = "GFX_CAN_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_CAN_nsb_transport_helicopter3_medium"
+		name = "GFX_CAN_nsb_transport_helicopter_3_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_CAN_nsb_transport_helicopter4_medium"
+		name = "GFX_CAN_nsb_transport_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/CAN/AIR/UH4.dds"
     }
 	SpriteType = {
-		name = "GFX_ROM_nsb_transport_helicopter1_medium"
+		name = "GFX_ROM_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/ROM/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SAF_nsb_transport_helicopter1_medium"
+		name = "GFX_SAF_nsb_transport_helicopter_1_medium"
 		texturefile = "gfx/interface/technologies/SAF/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_POL_nsb_transport_helicopter2_medium"
+		name = "GFX_POL_nsb_transport_helicopter_2_medium"
 		texturefile = "gfx/interface/technologies/POL/AIR/UH2.dds"
 	}
 }

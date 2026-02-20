@@ -948,7 +948,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COM_expand_available_helicopters executed"
 			add_equipment_to_stockpile = {
-				type = transport_helicopter1
+				type = transport_helicopter_1
 				amount = 5
 				producer = SWI
 			}

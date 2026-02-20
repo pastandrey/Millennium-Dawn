@@ -1183,7 +1183,7 @@ country_event = { # Transport Helicopters Stolen
 		has_cartels_penalties = yes
 		is_cartel_nation = yes
 		has_equipment = {
-			transport_helicopter1 > 5
+			transport_helicopter_1 > 5
 		}
 	}
 
@@ -1228,7 +1228,7 @@ country_event = { # Transport Helicopters Stolen
 			25 = {
 				custom_effect_tooltip = cartels_equipment_theft_small_tt
 				add_equipment_to_stockpile = {
-					type = transport_helicopter1
+					type = transport_helicopter_1
 					amount = -2
 				}
 				set_temp_variable = { cart_strength_change = 2 }
@@ -1248,7 +1248,7 @@ country_event = { # Transport Helicopters Stolen
 			75 = {
 				custom_effect_tooltip = cartels_equipment_theft_small_tt
 				add_equipment_to_stockpile = {
-					type = transport_helicopter1
+					type = transport_helicopter_1
 					amount = -2
 				}
 				set_temp_variable = { cart_strength_change = 2 }
@@ -1257,7 +1257,7 @@ country_event = { # Transport Helicopters Stolen
 			25 = {
 				custom_effect_tooltip = cartels_equipment_theft_large_tt
 				add_equipment_to_stockpile = {
-					type = transport_helicopter1
+					type = transport_helicopter_1
 					amount = -5
 				}
 				set_temp_variable = { cart_strength_change = 3 }
@@ -2871,7 +2871,7 @@ country_event = { # Cartels Destroy Helicopter
 		has_cartels_penalties = yes
 		is_cartel_nation = yes
 		has_equipment = {
-			transport_helicopter1 > 2
+			transport_helicopter_1 > 2
 		}
 	}
 
@@ -2881,7 +2881,7 @@ country_event = { # Cartels Destroy Helicopter
 
 		add_manpower = -3
 		add_equipment_to_stockpile = {
-			type = transport_helicopter1
+			type = transport_helicopter_1
 			amount = -1
 		}
 

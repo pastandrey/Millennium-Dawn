@@ -13890,7 +13890,7 @@ focus_tree = {
 			CZE_airforce_program_upgrade = yes
 			air_experience = 21
 			add_equipment_to_stockpile = {
-				type = transport_helicopter1
+				type = transport_helicopter_1
 				amount = 12
 				producer = USA
 			}

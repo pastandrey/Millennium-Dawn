@@ -539,29 +539,29 @@ instant_effect = {
 	#### Helicopters ####
 	#####################
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 39
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		variant_name = "Sea King HC"
 		producer = ENG
 		amount = 58
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2
+		type = transport_helicopter_2
 		amount = 38
 		producer = ENG
 		variant_name = "Chinook HC2"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2
+		type = transport_helicopter_2
 		variant_name = "Lynx AH.1"
 		producer = ENG
 		amount = 60
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2
+		type = transport_helicopter_2
 		variant_name = "Lynx HAS.3"
 		producer = ENG
 		amount = 36

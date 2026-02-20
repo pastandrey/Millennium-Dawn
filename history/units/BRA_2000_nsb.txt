@@ -517,12 +517,12 @@ instant_effect = {
 		variant_name = "AS565 Panther"
 	}
 	add_equipment_to_stockpile = { ## SA330 Puma
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		producer = BRA
 		amount = 12
 	}
 	add_equipment_to_stockpile = { ## UH60 Blackhawk
-		type = transport_helicopter3
+		type = transport_helicopter_3
 		producer = USA
 		amount = 16
 	}

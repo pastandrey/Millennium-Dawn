@@ -348,13 +348,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1			#Mi-24
+		type = attack_helicopter_1			#Mi-24
 		amount = 8
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1			#Mi-8
+		type = transport_helicopter_1			#Mi-8
 		amount = 20
 		producer = SOV
 	}

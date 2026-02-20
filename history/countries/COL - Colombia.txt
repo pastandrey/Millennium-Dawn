@@ -140,8 +140,8 @@
 		cnc_equipment_1 = 1
 
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
 		body_armor_1 = 1
 
 		basic_computing = 1

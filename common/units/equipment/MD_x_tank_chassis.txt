@@ -2283,7 +2283,7 @@ equipments = {
 	}
 
 	#1965
-	attack_helicopter1 = {
+	attack_helicopter_1 = {
 		year = 1965
 
 		archetype = heavy_tank_chassis
@@ -2315,10 +2315,10 @@ equipments = {
 		}
 	}
 	#1995
-	attack_helicopter2 = {
+	attack_helicopter_2 = {
 		year = 1995
 		archetype = heavy_tank_chassis
-		parent = attack_helicopter1
+		parent = attack_helicopter_1
 		priority = 5
 
 		#Misc Abilities
@@ -2348,11 +2348,11 @@ equipments = {
 		}
 	}
 	#2005
-	attack_helicopter3 = {
+	attack_helicopter_3 = {
 		year = 2005
 
 		archetype = heavy_tank_chassis
-		parent = attack_helicopter2
+		parent = attack_helicopter_2
 		priority = 5
 
 		#Misc Abilities
@@ -2383,11 +2383,11 @@ equipments = {
 		}
 	}
 	#2015
-	attack_helicopter4 = {
+	attack_helicopter_4 = {
 		year = 2015
 
 		archetype = heavy_tank_chassis
-		parent = attack_helicopter3
+		parent = attack_helicopter_3
 		priority = 5
 
 		#Misc Abilities
@@ -2415,10 +2415,10 @@ equipments = {
 		}
 	}
 	#2035
-	attack_helicopter5 = {
+	attack_helicopter_5 = {
 		year = 2035
 		archetype = heavy_tank_chassis
-		parent = attack_helicopter4
+		parent = attack_helicopter_4
 		priority = 5
 
 		#Misc Abilities
@@ -2449,10 +2449,10 @@ equipments = {
 		}
 	}
 	#2055
-	attack_helicopter6 = {
+	attack_helicopter_6 = {
 		year = 2055
 		archetype = heavy_tank_chassis
-		parent = attack_helicopter5
+		parent = attack_helicopter_5
 		priority = 5
 
 		maximum_speed = 64
@@ -2479,10 +2479,10 @@ equipments = {
 		}
 	}
 	#2075
-	attack_helicopter7 = {
+	attack_helicopter_7 = {
 		year = 2075
 		archetype = heavy_tank_chassis
-		parent = attack_helicopter6
+		parent = attack_helicopter_6
 		priority = 5
 
 		maximum_speed = 68
@@ -2508,7 +2508,7 @@ equipments = {
 			tungsten = 1
 		}
 	}
-	transport_helicopter1 = {
+	transport_helicopter_1 = {
 		year = 1965
 
 		archetype = heavy_tank_amphibious_chassis
@@ -2547,11 +2547,11 @@ equipments = {
 		}
 	}
 	#1995
-	transport_helicopter2 = {
+	transport_helicopter_2 = {
 		year = 1995
 
 		archetype = heavy_tank_amphibious_chassis
-		parent = transport_helicopter1
+		parent = transport_helicopter_1
 		priority = 5
 
 		#Misc Abilities
@@ -2581,11 +2581,11 @@ equipments = {
 
 	}
 	#2005
-	transport_helicopter3 = {
+	transport_helicopter_3 = {
 		year = 2005
 
 		archetype = heavy_tank_amphibious_chassis
-		parent = transport_helicopter2
+		parent = transport_helicopter_2
 		priority = 5
 
 		#Misc Abilities
@@ -2616,11 +2616,11 @@ equipments = {
 
 	}
 	#2015
-	transport_helicopter4 = {
+	transport_helicopter_4 = {
 		year = 2015
 
 		archetype = heavy_tank_amphibious_chassis
-		parent = transport_helicopter3
+		parent = transport_helicopter_3
 		priority = 5
 
 		#Misc Abilities
@@ -2648,11 +2648,11 @@ equipments = {
 
 	}
 	#2035
-	transport_helicopter5 = {
+	transport_helicopter_5 = {
 		year = 2035
 
 		archetype = heavy_tank_amphibious_chassis
-		parent = transport_helicopter4
+		parent = transport_helicopter_4
 		priority = 5
 
 		#Misc Abilities
@@ -2683,11 +2683,11 @@ equipments = {
 	}
 
 	#2055
-	transport_helicopter6 = {
+	transport_helicopter_6 = {
 		year = 2055
 
 		archetype = heavy_tank_amphibious_chassis
-		parent = transport_helicopter5
+		parent = transport_helicopter_5
 		priority = 5
 
 		maximum_speed = 64
@@ -2715,11 +2715,11 @@ equipments = {
 	}
 
 	#2075
-	transport_helicopter7 = {
+	transport_helicopter_7 = {
 		year = 2075
 
 		archetype = heavy_tank_amphibious_chassis
-		parent = transport_helicopter6
+		parent = transport_helicopter_6
 		priority = 5
 
 		maximum_speed = 68

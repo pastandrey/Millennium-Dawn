@@ -205,27 +205,27 @@ instant_effect = {
 
 	###	HELICOPTERS	###
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1 #TAH-1P
+		type = attack_helicopter_1 #TAH-1P
 		amount = 6
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1	#AH-1 Cobra
+		type = attack_helicopter_1	#AH-1 Cobra
 		amount = 24
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #AB 212
+		type = transport_helicopter_1 #AB 212
 		amount = 12
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #BO-105
+		type = transport_helicopter_1 #BO-105
 		amount = 3
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #UH-60L + S-70a
+		type = transport_helicopter_2 #UH-60L + S-70a
 		amount = 1
 		producer = USA
 	}

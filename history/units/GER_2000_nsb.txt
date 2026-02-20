@@ -1021,31 +1021,31 @@ instant_effect = {
 		variant_name = "MBB Bo 105"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #UH-1D Army
+		type = transport_helicopter_1 #UH-1D Army
 		amount = 145
 		variant_name = "UH-1D"
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Luftwaffe UH-1D
+		type = transport_helicopter_1 #Luftwaffe UH-1D
 		amount = 99
 		variant_name = "UH-1D"
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Bo 105 Luftwaffe
+		type = transport_helicopter_1 #Bo 105 Luftwaffe
 		amount = 95
 		variant_name = "Bo 105"
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Sea King navy
+		type = transport_helicopter_1 #Sea King navy
 		amount = 21
 		variant_name = "Sea King Mk.41"
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Sikorsky CH-53 Sea Stallion
+		type = transport_helicopter_2 #Sikorsky CH-53 Sea Stallion
 		amount = 108
 		#version_name = "Sikorsky CH-53 Sea Stallion"
 	}

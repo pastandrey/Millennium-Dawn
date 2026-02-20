@@ -2504,7 +2504,7 @@ focus_tree = {
 				name = DEN_the_Eurocopter
 				bonus = 0.50
 				uses = 1
-				technology = attack_helicopter4
+				technology = attack_helicopter_4
 			}
 		}
 
@@ -2555,7 +2555,7 @@ focus_tree = {
 			}
 			else = {
 				add_equipment_to_stockpile = {
-					type = attack_helicopter3
+					type = attack_helicopter_3
 					amount = 25
 					producer = USA
 				}

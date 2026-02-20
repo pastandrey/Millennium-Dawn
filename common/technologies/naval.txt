@@ -2714,11 +2714,11 @@ technologies = {
 				OR = {
 					AND = {
 						has_dlc = "No Step Back"
-						has_tech = nsb_transport_helicopter1
+						has_tech = nsb_transport_helicopter_1
 					}
 					AND = {
 						NOT = { has_dlc = "No Step Back" }
-						has_tech = transport_helicopter1
+						has_tech = transport_helicopter_1
 					}
 				}
 			}

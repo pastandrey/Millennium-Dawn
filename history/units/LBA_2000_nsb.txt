@@ -621,19 +621,19 @@ instant_effect = {
 		variant_name = "Crotale"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2			#CH-47
+		type = transport_helicopter_2			#CH-47
 		#version_name = "CH-47 Chinook"
 		amount = 18
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 7
 		variant_name = "Aérospatiale SA 321 Super Frelon"
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1			#Mi-8
+		type = transport_helicopter_1			#Mi-8
 		amount = 34
 		producer = SOV
 	}

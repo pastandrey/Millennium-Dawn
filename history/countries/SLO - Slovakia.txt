@@ -179,8 +179,8 @@
 		util_vehicle_1 = 1
 
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
+		transport_helicopter_1 = 1
+		nsb_transport_helicopter_1 = 1
 
 		night_vision_1 = 1
 

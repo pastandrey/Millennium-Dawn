@@ -140,13 +140,13 @@ instant_effect = {
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		variant_name = "AS350B Ecureuil"
 		amount = 1
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		variant_name = "Aérospatiale SE.3130 Alouette II"
 		amount = 1
 		producer = FRA
