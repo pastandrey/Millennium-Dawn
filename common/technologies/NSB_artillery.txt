@@ -23,10 +23,10 @@ technologies = {
 	@row1 = -6
 	@row2 = -4
 	@row3 = -2
-	@row4 = 2
-	@row5 = 4
-	@row6 = 6
-	@row7 = 8
+	@row4 = 0
+	@row5 = 2
+	@row6 = 4
+	@row7 = 6
 
 	#1965
 	nsb_artillery_ammo_1 = {
@@ -67,6 +67,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_artillery_ammo_2 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -92,7 +93,7 @@ technologies = {
 		start_year = 1985
 		folder = {
 			name = artillery_folder
-			position = { x = 4 y = @1985 }
+			position = { x = @row5 y = @1985 }
 		}
 
 		categories = {
@@ -107,6 +108,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_artillery_ammo_3 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -119,12 +121,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = nsb_special_ammo_2
+			leads_to_tech = nsb_artillery_ammo_4
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = nsb_artillery_ammo_4
+			leads_to_tech = nsb_special_ammo_2
 			research_cost_coeff = 1
 		}
 
@@ -147,6 +149,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_artillery_ammo_4 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -178,7 +181,7 @@ technologies = {
 		start_year = 2025
 		folder = {
 			name = artillery_folder
-			position = { x = 4 y = @2025 }
+			position = { x = @row5 y = @2025 }
 		}
 
 		categories = {
@@ -193,6 +196,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_artillery_ammo_5 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -204,11 +208,21 @@ technologies = {
 			artillery_heavy_ammo_5
 		}
 
+		path = {
+			leads_to_tech = nsb_artillery_ammo_6
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = nsb_special_ammo_4
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1.2
-		start_year = 2035
+		start_year = 2045
 		folder = {
 			name = artillery_folder
-			position = { x = @row5 y = @2035 }
+			position = { x = @row5 y = @2045 }
 		}
 
 		categories = {
@@ -223,6 +237,38 @@ technologies = {
 			factor = 5
 		}
 	}
+
+	nsb_artillery_ammo_6 = {
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+
+		enable_equipment_modules = {
+			artillery_light_ammo_5
+			artillery_medium_ammo_5
+			artillery_heavy_ammo_5
+		}
+
+		research_cost = 1.2
+		start_year = 2065
+		folder = {
+			name = artillery_folder
+			position = { x = @row5 y = @2065 }
+		}
+
+		categories = {
+			CAT_Military
+			CAT_artillery #Generic for all artillery
+			CAT_arty
+			CAT_art_ammo
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
 	nsb_special_ammo_0 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -256,6 +302,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_special_ammo_1 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -284,6 +331,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_special_ammo_2 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -316,6 +364,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_special_ammo_3 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -352,6 +401,73 @@ technologies = {
 			factor = 5
 		}
 	}
+
+	nsb_special_ammo_4 = {
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+
+		enable_equipment_modules = {
+			fire_ammo_4
+			cluster_ammo_4
+			laser_guided_ammo_4
+			mine_ammo_4
+			heat_ammo_4
+		}
+
+		research_cost = 1.2
+		start_year = 2045
+		folder = {
+			name = artillery_folder
+			position = { x = @row6 y = @2045 }
+		}
+
+		categories = {
+			CAT_Military
+			CAT_artillery #Generic for all artillery
+			CAT_arty
+			CAT_art_ammo
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	nsb_special_ammo_5 = {
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+
+		enable_equipment_modules = {
+			fire_ammo_5
+			cluster_ammo_5
+			laser_guided_ammo_5
+			mine_ammo_5
+			heat_ammo_5
+		}
+
+		research_cost = 1.2
+		start_year = 2065
+		folder = {
+			name = artillery_folder
+			position = { x = @row6 y = @2065 }
+		}
+
+		categories = {
+			CAT_Military
+			CAT_artillery #Generic for all artillery
+			CAT_arty
+			CAT_art_ammo
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
 	nsb_drone_artillery_ammo_1 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -391,6 +507,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_drone_artillery_ammo_2 = {
 		is_special_project_tech = yes
 		force_use_small_tech_layout = yes
@@ -422,6 +539,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_drone_artillery_ammo_3 = {
 		is_special_project_tech = yes
 		force_use_small_tech_layout = yes
@@ -453,6 +571,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_gun_technology_1 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -489,6 +608,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_gun_technology_2 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -523,6 +643,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_gun_technology_3 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -557,6 +678,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_gun_technology_4 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -591,6 +713,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_gun_technology_5 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -601,11 +724,16 @@ technologies = {
 			art_med_rocket_gen5
 		}
 
+		path = {
+			leads_to_tech = nsb_gun_technology_6
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1.2
-		start_year = 2035
+		start_year = 2045
 		folder = {
 			name = artillery_folder
-			position = { x = @row4 y = @2035 }
+			position = { x = @row4 y = @2045 }
 		}
 
 		categories = {
@@ -620,6 +748,37 @@ technologies = {
 			factor = 5
 		}
 	}
+
+	nsb_gun_technology_6 = {
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+
+		enable_equipment_modules = {
+			art_med_gun_gen6
+			art_med_rocket_gen6
+		}
+
+		research_cost = 1.2
+		start_year = 2065
+		folder = {
+			name = artillery_folder
+			position = { x = @row4 y = @2065 }
+		}
+
+		categories = {
+			CAT_Military
+			CAT_artillery #Generic for all artillery
+			CAT_arty
+			CAT_art_ammo
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
 	nsb_barrel_conversions = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -651,6 +810,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_fire_modes_1 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -679,6 +839,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_fire_modes_2 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -707,6 +868,7 @@ technologies = {
 			factor = 5
 		}
 	}
+
 	nsb_fire_modes_3 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -715,7 +877,6 @@ technologies = {
 		enable_equipment_modules = {
 			burst_fire_gun_medium_gen3
 		}
-
 
 		research_cost = 1.2
 		start_year = 2025
@@ -736,6 +897,67 @@ technologies = {
 			factor = 5
 		}
 	}
+
+	nsb_fire_modes_4 = {
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+
+		enable_equipment_modules = {
+			burst_fire_gun_medium_gen4
+		}
+
+
+		research_cost = 1.2
+		start_year = 2045
+		folder = {
+			name = artillery_folder
+			position = { x = @row1 y = @2045 }
+		}
+
+		categories = {
+			CAT_Military
+			CAT_artillery #Generic for all artillery
+			CAT_arty
+			CAT_art_ammo
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	nsb_fire_modes_5 = {
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+
+		enable_equipment_modules = {
+			burst_fire_gun_medium_gen5
+		}
+
+
+		research_cost = 1.2
+		start_year = 2065
+		folder = {
+			name = artillery_folder
+			position = { x = @row1 y = @2065 }
+		}
+
+		categories = {
+			CAT_Military
+			CAT_artillery #Generic for all artillery
+			CAT_arty
+			CAT_art_ammo
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
 	nsb_artillery_0 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -825,12 +1047,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = nsb_fire_modes_2
+			leads_to_tech = nsb_Arty_upgrade_3
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = nsb_Arty_upgrade_3
+			leads_to_tech = nsb_fire_modes_2
 			research_cost_coeff = 1
 		}
 
@@ -915,6 +1137,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = nsb_fire_modes_4
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1.6
 		start_year = 2045
 		folder = {
@@ -932,15 +1159,58 @@ technologies = {
 			factor = 5
 			modifier = {
 				factor = 0.5
-				date < 2035.01.01
+				date < 2045.01.01
 			}
 			modifier = {
 				factor = 0.2
-				date < 2030.01.01
+				date < 2040.01.01
 			}
 		}
 		special_project_specialization = { specialization_land }
 	}
+
+	nsb_artillery_5 = {
+		enable_equipments = {
+			artillery_4
+		}
+
+		path = {
+			leads_to_tech = nsb_Arty_upgrade_6
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = nsb_fire_modes_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.6
+		start_year = 2065
+		folder = {
+			name = artillery_folder
+			position = { x = @row2 y = @2065 }
+		}
+
+		categories = {
+			CAT_Military
+			CAT_artillery #Generic for all artillery
+			CAT_arty
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0.5
+				date < 2065.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2060.01.01
+			}
+		}
+		special_project_specialization = { specialization_land }
+	}
+
 	nsb_Arty_upgrade_1 = {
 		path = {
 			leads_to_tech = nsb_artillery_1
@@ -1165,6 +1435,56 @@ technologies = {
 			modifier = {
 				factor = 0.2
 				date < 2025.01.01
+			}
+		}
+	}
+
+	nsb_Arty_upgrade_6 = {
+		Arty_Bat = {
+			soft_attack = 0.05
+		}
+		Arty_Battery = {
+			soft_attack = 0.05
+		}
+		SP_Arty_Bat = {
+			soft_attack = 0.05
+		}
+		SP_Arty_Battery = {
+			soft_attack = 0.05
+		}
+		enable_equipment_modules = {
+			multiple_rounds_medium_gen4
+		}
+
+		research_cost = 1
+		start_year = 2065
+		xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+
+		folder = {
+			name = artillery_folder
+			position = { x = @row3 y = @2065 }
+		}
+
+		categories = {
+			CAT_Military
+			CAT_artillery #Generic for all artillery
+			CAT_arty
+			CAT_sp_arty
+			CAT_sp_r_arty
+			CAT_art_ammo
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0.5
+				date < 2040.01.01
+			}
+			modifier = {
+				factor = 0.2
+				date < 2035.01.01
 			}
 		}
 	}

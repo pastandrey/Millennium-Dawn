@@ -2406,7 +2406,7 @@ technologies = {
 	}
 
 	#2075 Multiple ATGM Tech
-	nsb_multiple_atgm_tech_5 = {
+	nsb_multiple_atgm_tech_7 = {
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_helicopter_project
@@ -3021,7 +3021,7 @@ technologies = {
 	}
 
 	#2075 Gun Pods Tech
-	nsb_gun_pods_tech_5 = {
+	nsb_gun_pods_tech_7 = {
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_helicopter_project
