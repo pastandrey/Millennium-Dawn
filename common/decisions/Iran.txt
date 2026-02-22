@@ -2653,8 +2653,7 @@ PER_resitance_axis = {
 			modify_treasury_effect = yes
 			hidden_effect = {
 				QTF = {
-					add_ideas = rival_government
-					add_to_array = { global.rival_governments = THIS }
+					add_ideas = Lacks_International_Recognition
 					transfer_state = 174
 					add_ideas = iranian_aid
 					set_politics = {
@@ -7205,10 +7204,8 @@ PER_new_majlis = {
 					influence_higher_20 = yes
 				}
 			}
-			custom_trigger_tooltip = {
-				tooltip = PER_domestic_independence_TT
-				check_variable = { domestic_influence_amount > 84.99 }
-			}
+			set_temp_variable = { temp_value = 84.99 }
+			has_domestic_independence_greater_than = yes
 		}
 		days_mission_timeout = 500
 		is_good = no
