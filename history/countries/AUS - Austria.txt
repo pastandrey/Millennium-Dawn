@@ -90,7 +90,7 @@
 			nsb_AA_autocannon_0 = 1
 			nsb_SHORAD_missile_0 = 1
 			helo_ops_tech = 1
-			nsb_transport_helicopter1 = 1
+			nsb_transport_helicopter_2 = 1
 			tank_components_tech = 1
 			tank_components_tech_2 = 1
 			small_medium_gun_tech = 1

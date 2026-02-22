@@ -58,7 +58,7 @@
 			nsb_rocket_pods_tech_2 = 1
 			nsb_gun_pods_tech_2 = 1
 			nsb_light_nose_gun_tech_2 = 1
-			nsb_transport_helicopter1 = 1
+			nsb_transport_helicopter_2 = 1
 		}
 		create_equipment_variant = {
 			name = "Olifant Mark 1A"
@@ -338,9 +338,9 @@
 				Rec_tank_0 = 1
 				Rec_tank_1 = 1
 				Rec_tank_2 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1		#Rooivalk
-				transport_helicopter1 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1		#Rooivalk
+				transport_helicopter_2 = 1
 			}
 		}
 	}

@@ -272,8 +272,8 @@
 
 			nsb_attack_helicopter_tech_3 = 1
 			helo_ops_tech = 1
-			nsb_transport_helicopter1 = 1
-			nsb_transport_helicopter2 = 1
+			nsb_transport_helicopter_2 = 1
+			nsb_transport_helicopter_2 = 1
 		}
 
 		complete_special_project = sp:sp_armoured_vehicle_project
@@ -314,10 +314,10 @@
 				AA_upgrade_2 = 1
 				Anti_Air_2 = 1
 				AA_upgrade_3 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
-				transport_helicopter1 = 1
-				transport_helicopter2 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
+				transport_helicopter_2 = 1
+				transport_helicopter_2 = 1
 			}
 		}
 	}

@@ -110,8 +110,8 @@
 			nsb_gun_pods_tech_2 = 1
 			nsb_light_nose_gun_tech_2 = 1
 			nsb_defense_tech_2 = 1
-			nsb_transport_helicopter1 = 1
-			nsb_transport_helicopter2 = 1
+			nsb_transport_helicopter_2 = 1
+			nsb_transport_helicopter_2 = 1
 		}
 
 		create_equipment_variant = {
@@ -1073,11 +1073,11 @@
 				Rec_tank_0 = 1
 				Rec_tank_1 = 1
 				Rec_tank_2 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
-				attack_helicopter3 = 1
-				transport_helicopter1 = 1
-				transport_helicopter2 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
+				attack_helicopter_3 = 1
+				transport_helicopter_2 = 1
+				transport_helicopter_2 = 1
 			}
 
 			create_equipment_variant = {
@@ -1821,13 +1821,13 @@
 	}
 	create_equipment_variant = {
 		name = "IFA W 50"
-		type = util_vehicle_0
+		type = util_vehicle_1
 		icon = "gfx/interface/technologies/GER/LAND/W50.dds"
 		mark_older_equipment_obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Mercedes-Benz Unimog"
-		type = util_vehicle_0
+		type = util_vehicle_1
 		icon = "gfx/interface/technologies/GER/LAND/U2.dds"
 		mark_older_equipment_obsolete = yes
 		design_team = mio:GER_Mercedes

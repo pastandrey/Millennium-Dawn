@@ -88,9 +88,9 @@
 			nsb_gun_pods_tech_2 = 1
 			nsb_light_nose_gun_tech_2 = 1
 			nsb_attack_helicopter_tech_3 = 1
-			nsb_transport_helicopter1 = 1
-			nsb_transport_helicopter2 = 1
-			nsb_transport_helicopter3 = 1
+			nsb_transport_helicopter_2 = 1
+			nsb_transport_helicopter_2 = 1
+			nsb_transport_helicopter_3 = 1
 		}
 		 create_equipment_variant = {
 			 name = "Centurion"
@@ -746,11 +746,11 @@
 				SP_Anti_Air_0 = 1
 				SP_Anti_Air_0 = 1
 				SP_Anti_Air_1 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
-				transport_helicopter1 = 1
-				transport_helicopter2 = 1
-				transport_helicopter3 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
+				transport_helicopter_2 = 1
+				transport_helicopter_2 = 1
+				transport_helicopter_3 = 1
 			}
 			create_equipment_variant = {
 				name = "Vickers MBT Mk 1"

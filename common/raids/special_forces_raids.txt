@@ -2420,13 +2420,13 @@ types = {
 
 		# Can prepare
 		available = {
-			has_tech = special_forces
+			has_tech = special_forces_tech_1
 			custom_trigger_tooltip = {
 				tooltip = has_spec_ops_4_TT
 				if = {
 					limit = {
 						NOT = {
-							has_tech = special_forces4
+							has_tech = special_forces_tech_4
 						}
 					}
 					FROM = {
@@ -2838,13 +2838,13 @@ types = {
 
 		# Can prepare
 		available = {
-			has_tech = special_forces
+			has_tech = special_forces_tech_1
 			custom_trigger_tooltip = {
 				tooltip = has_spec_ops_4_TT
 				if = {
 					limit = {
 						NOT = {
-							has_tech = special_forces4
+							has_tech = special_forces_tech_4
 						}
 					}
 					FROM = {
@@ -3256,13 +3256,13 @@ types = {
 
 		# Can prepare
 		available = {
-			has_tech = special_forces
+			has_tech = special_forces_tech_1
 			custom_trigger_tooltip = {
 				tooltip = has_spec_ops_4_TT
 				if = {
 					limit = {
 						NOT = {
-							has_tech = special_forces4
+							has_tech = special_forces_tech_4
 						}
 					}
 					FROM = {
@@ -3674,13 +3674,13 @@ types = {
 
 		# Can prepare
 		available = {
-			has_tech = special_forces
+			has_tech = special_forces_tech_1
 			custom_trigger_tooltip = {
 				tooltip = has_spec_ops_4_TT
 				if = {
 					limit = {
 						NOT = {
-							has_tech = special_forces4
+							has_tech = special_forces_tech_4
 						}
 					}
 					FROM = {
@@ -4053,13 +4053,13 @@ types = {
 
 		# Can prepare
 		available = {
-			has_tech = special_forces
+			has_tech = special_forces_tech_1
 			custom_trigger_tooltip = {
 				tooltip = has_spec_ops_4_TT
 				if = {
 					limit = {
 						NOT = {
-							has_tech = special_forces4
+							has_tech = special_forces_tech_4
 						}
 					}
 					FROM = {
@@ -4331,13 +4331,13 @@ types = {
 
 		# Can prepare
 		available = {
-			has_tech = special_forces
+			has_tech = special_forces_tech_1
 			custom_trigger_tooltip = {
 				tooltip = has_spec_ops_4_TT
 				if = {
 					limit = {
 						NOT = {
-							has_tech = special_forces4
+							has_tech = special_forces_tech_4
 						}
 					}
 					FROM = {
@@ -4609,13 +4609,13 @@ types = {
 
 		# Can prepare
 		available = {
-			has_tech = special_forces
+			has_tech = special_forces_tech_1
 			custom_trigger_tooltip = {
 				tooltip = has_spec_ops_4_TT
 				if = {
 					limit = {
 						NOT = {
-							has_tech = special_forces4
+							has_tech = special_forces_tech_4
 						}
 					}
 					FROM = {

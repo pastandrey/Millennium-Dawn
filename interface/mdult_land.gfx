@@ -5130,11 +5130,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/UKR/INF/INF3.dds"
 	}
 	spriteType = {
-		name = "GFX_UKR_infantry_weapons3_medium"
+		name = "GFX_UKR_infantry_weapons_3_medium"
 		texturefile = "gfx/interface/technologies/UKR/INF/INF4.dds"
 	}
 	spriteType = {
-		name = "GFX_UKR_infantry_weapons4_medium"
+		name = "GFX_UKR_infantry_weapons_4_medium"
 		texturefile = "gfx/interface/technologies/UKR/INF/INF5.dds"
 	}
 	spriteType = {
@@ -9041,7 +9041,7 @@ spriteTypes = {
 	#### SWE Utility Vehicles ####
 
 	spriteType = {
-		name = "GFX_SWE_util_vehicle_0_medium"
+		name = "GFX_SWE_util_vehicle_1_medium"
 		texturefile = "gfx/interface/technologies/SWE/LAND/U1.dds"
 	}
 	spriteType = {
@@ -9804,7 +9804,7 @@ spriteTypes = {
 	#### TUR Utility Vehicles ####
 
 	spriteType = {
-		name = "GFX_TUR_util_vehicle_0_medium"
+		name = "GFX_TUR_util_vehicle_1_medium"
 		texturefile = "gfx/interface/technologies/TUR/LAND/U1.dds"
 	}
 	spriteType = {

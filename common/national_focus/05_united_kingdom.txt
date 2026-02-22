@@ -3476,7 +3476,7 @@ focus_tree = {
 				}
 				else = {
 					add_equipment_to_stockpile = {
-						type = attack_helicopter3
+						type = attack_helicopter_3
 						amount = 80
 					}
 				}
@@ -5205,7 +5205,7 @@ focus_tree = {
 				name = ENG_focusing_on_research_and_development
 				bonus = 0.70
 				uses = 1
-				technology = infantry_weapons4
+				technology = infantry_weapons_4
 			}
 			set_temp_variable = { treasury_change = -5 }
 			modify_treasury_effect = yes
@@ -16090,7 +16090,7 @@ focus_tree = {
 				var = commonwealth_total_gdp
 				value = AST.gdp_per_capita
 			}
-			
+
 			# Pulling army size
 			add_to_variable = {
 				var = commonwealth_total_army

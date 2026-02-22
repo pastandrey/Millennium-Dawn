@@ -177,7 +177,7 @@
 			nsb_gun_pods_tech_1 = 1
 			nsb_light_nose_gun_tech_1 = 1
 			nsb_defense_tech_1 = 1
-			nsb_transport_helicopter1 = 1
+			nsb_transport_helicopter_2 = 1
 		}
 
 		create_equipment_variant = {
@@ -563,8 +563,8 @@
 				Anti_Air_1 = 1 #SA-16 Igla
 				Rec_tank_0 = 1 #1965
 				Rec_tank_1 = 1 #PT-85 Shin'heung
-				attack_helicopter1 = 1
-				transport_helicopter1 = 1
+				attack_helicopter_1 = 1
+				transport_helicopter_2 = 1
 			}
 		}
 	}
