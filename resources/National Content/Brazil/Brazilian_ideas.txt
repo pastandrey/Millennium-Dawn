@@ -627,7 +627,7 @@ ideas = {
 			initiative_factor = 0.10
 		}
 		equipment_bonus = {
-			Inf_equipment = {
+			infantry_weapons_type = {
 				build_cost_ic = -0.05
 				soft_attack = 0.1
 				instant = yes
@@ -655,7 +655,7 @@ ideas = {
 			}
 		}
 		equipment_bonus = {
-			Inf_equipment = {
+			infantry_weapons_type = {
 				build_cost_ic = -0.05
 				soft_attack = 0.1
 				instant = yes
@@ -904,7 +904,7 @@ ideas = {
 			picture = volunteer_defenders2
 
 			equipment_bonus = {
-				Inf_equipment = {
+				infantry_weapons_type = {
 					build_cost_ic = -0.10
 					instant = yes
 				}

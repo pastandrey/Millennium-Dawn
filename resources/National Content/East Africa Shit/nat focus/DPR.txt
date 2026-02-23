@@ -332,7 +332,7 @@ focus_tree = {
 			modify_treasury_effect = yes
 			remove_ideas = DPR_unproffesional_army
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				amount = 2000
 				producer = SOV
 			}

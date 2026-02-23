@@ -36,7 +36,7 @@ leader_traits = {
 				armor_value = 0.15
 				soft_attack = 0.15
 			}
-			util_vehicle_equipment = {
+			util_vehicle_type = {
 				armor_value = 0.15
 				soft_attack = 0.15
 			}

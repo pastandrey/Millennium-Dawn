@@ -23,7 +23,7 @@ operation_track_hvt = { ### 1 1/35
 	}
 
 	equipment = {
-		cnc_equipment = 2
+		cnc_equipment_type = 2
 	}
 
 	available = {
@@ -183,7 +183,7 @@ operation_locate_arms_caches = { ### 1 1/35
 	}
 
 	equipment = {
-		cnc_equipment = 2
+		cnc_equipment_type = 2
 	}
 
 	available = {
@@ -343,7 +343,7 @@ operation_locate_training_camps = { ### 1 1/35
 	}
 
 	equipment = {
-		cnc_equipment = 2
+		cnc_equipment_type = 2
 	}
 
 	available = {
@@ -504,7 +504,7 @@ operation_locate_regional_headquarters = { ### 1 1/35
 	}
 
 	equipment = {
-		cnc_equipment = 2
+		cnc_equipment_type = 2
 	}
 
 	available = {

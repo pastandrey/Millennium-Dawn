@@ -35,7 +35,7 @@ country_event = {
 				}
 				states = { 539 1079 972 44 545 }
 				add_equipment_to_stockpile = {
-					type = Inf_equipment
+					type = infantry_weapons_type
 					amount = 10000
 					producer = SOV
 				}

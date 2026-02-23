@@ -2753,7 +2753,7 @@ Supported scopes: country
 Supported targets:
 
 set_technology - sets technology level(s) on country. example : set_technology = { 
-	infantry_weapons = 1 
+	infantry_weapons_type = 1 
 	infantry_weapons1 = 1 
 	infantry_weapons2 = 1 
 	improved_infantry_weapons = 1 

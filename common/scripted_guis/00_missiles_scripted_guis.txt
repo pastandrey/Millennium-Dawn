@@ -6013,7 +6013,7 @@ scripted_gui = {
 					clr_country_pmc_flag = yes
 					set_sel_pmc_units = yes
 					add_equipment_to_stockpile = {
-						type = Inf_equipment
+						type = infantry_weapons_type
 						amount = 1500
 					}
 					if = {
@@ -6456,7 +6456,7 @@ scripted_gui = {
 						producer = CHI
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment
+						type = cnc_equipment_type
 						amount = 500
 						producer = CHI
 					}

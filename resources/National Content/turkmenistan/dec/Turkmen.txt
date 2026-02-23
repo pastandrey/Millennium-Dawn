@@ -61,7 +61,7 @@ TRK_uzbek_category = {
 			set_temp_variable = { influence_target = UZB }
 			change_influence_percentage = yes
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				amount = -500
 				producer = ROOT
 			}
@@ -246,7 +246,7 @@ TRK_uzbek_category = {
 			set_temp_variable = { influence_target = KRP }
 			change_influence_percentage = yes
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				amount = -1500
 				producer = ROOT
 			}
@@ -257,7 +257,7 @@ TRK_uzbek_category = {
 				add_stability = 0.10
 				add_war_support = 0.10
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				amount = 1500
 				producer = ROOT
 			}
@@ -292,7 +292,7 @@ TRK_uzbek_category = {
 			set_temp_variable = { influence_target = KRP }
 			change_influence_percentage = yes
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				amount = -2500
 				producer = ROOT
 			}

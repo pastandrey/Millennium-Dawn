@@ -4435,7 +4435,7 @@ focus_tree = {
 		completion_reward = {
 			set_temp_variable = { treasury_change = -5 }
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				producer = SOV
 				amount = 1000
 			}
@@ -4445,12 +4445,12 @@ focus_tree = {
 				amount = 50
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				producer = SOV
 				amount = 200
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				producer = SOV
 				amount = 100
 			}					
@@ -4499,7 +4499,7 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -4 }
 			modify_treasury_effect = yes	
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				producer = ISR
 				amount = 1000
 			}
@@ -4509,7 +4509,7 @@ focus_tree = {
 				amount = 50
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				producer = ISR
 				amount = 200
 			}					
