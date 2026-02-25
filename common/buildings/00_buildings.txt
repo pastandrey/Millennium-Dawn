@@ -733,7 +733,7 @@ buildings = {
 			group_by = infrastructure_keystone
 		}
 		state_modifiers = {
-			local_resource_gain_efficiency_per_infrastructure = 0.25
+			local_resource_gain_efficiency_per_infrastructure = 0.15
 		}
 	}
 }
