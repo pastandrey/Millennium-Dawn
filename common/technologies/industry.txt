@@ -9951,7 +9951,7 @@ technologies = {
 				OR = {
 					has_idea = large_power
 					has_idea = regional_power
-					has_idea = superpower
+					has_idea = super_power
 					has_idea = great_power
 					is_major = yes
 				}
@@ -10012,7 +10012,7 @@ technologies = {
 				OR = {
 					has_idea = large_power
 					has_idea = regional_power
-					has_idea = superpower
+					has_idea = super_power
 					has_idea = great_power
 					is_major = yes
 				}
@@ -10073,7 +10073,7 @@ technologies = {
 				OR = {
 					has_idea = large_power
 					has_idea = regional_power
-					has_idea = superpower
+					has_idea = super_power
 					has_idea = great_power
 					is_major = yes
 				}
@@ -10129,7 +10129,7 @@ technologies = {
 				OR = {
 					has_idea = large_power
 					has_idea = regional_power
-					has_idea = superpower
+					has_idea = super_power
 					has_idea = great_power
 					is_major = yes
 				}
@@ -10185,7 +10185,7 @@ technologies = {
 				OR = {
 					has_idea = large_power
 					has_idea = regional_power
-					has_idea = superpower
+					has_idea = super_power
 					has_idea = great_power
 					is_major = yes
 				}
