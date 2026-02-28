@@ -2388,11 +2388,6 @@ technologies = {
 		research_cost = 3.5
 		start_year = 2075
 
-		path = {
-			leads_to_tech = cruiser_hull_8
-			research_cost_coeff = 1
-		}
-
 		folder = {
 			name = naval_folder
 			position = { x = @row10 y = @2075 }
@@ -2615,11 +2610,6 @@ technologies = {
 		enable_equipments = {
 			battleship_hull_5
 			battle_cruiser_hull_5
-		}
-
-		path = {
-			leads_to_tech = battleship_hull_6
-			research_cost_coeff = 1
 		}
 
 		research_cost = 3

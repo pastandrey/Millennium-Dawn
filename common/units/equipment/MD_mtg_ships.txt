@@ -3973,8 +3973,35 @@ equipments = {
 		manpower = @battlecruiser_hp
 		resources = {
 			steel = 5
-			aluminium = 2
-			composites = 1
+			aluminium = 3
+			composites = 2
+		}
+
+		naval_dominance_factor = 220
+	}
+
+	battle_cruiser_hull_5 = {
+		year = 2075
+		is_archetype = no
+		is_buildable = yes
+		archetype = battle_cruiser
+		parent = battle_cruiser_hull_3
+		priority = 100
+		module_slots = inherit
+		visual_level = 3
+
+		armor_value = @battlecruiser_armor
+		surface_visibility = 18.625
+		naval_speed = @battlecruiser_speed
+		max_strength = @battlecruiser_hp
+		max_organisation = @battlecruiser_org
+		fuel_consumption = @battlecruiser_fuel_consumption
+		build_cost_ic = @battlecruiser_build_cost
+		manpower = @battlecruiser_hp
+		resources = {
+			steel = 6
+			aluminium = 4
+			composites = 3
 		}
 
 		naval_dominance_factor = 220
@@ -6495,6 +6522,7 @@ equipments = {
 
 		naval_dominance_factor = 10
 	}
+
 	patrol_boat_hull_2 = {
 		year = 2015
 		archetype = patrol_boat
@@ -6559,8 +6587,261 @@ equipments = {
 
 		naval_dominance_factor = 10
 	}
+
 	patrol_boat_hull_3 = {
 		year = 2030
+		archetype = patrol_boat
+		priority = 100
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = {
+					module_light_guns_category
+					module_point_defense_system_category
+					module_naval_adl_category
+					module_torpedoes_category
+					module_nuclear_torpedoes_category
+					module_anti_ship_torpedoes_category
+					module_anti_ship_drone_torpedoes_category
+					module_anti_ship_nuclear_torpedoes_category
+					module_anti_submarine_mortar_category
+					module_drone_radar_category
+					module_radar_jammer_category
+				}
+			}
+			fixed_ship_radar_slot = {
+				required = yes
+				allowed_module_categories = {
+					module_radar_category
+					module_sonar_category
+				}
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = {
+					module_fire_control_system_category
+					module_patrol_boat_drone_control_category
+				}
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					module_light_surface_power_source_category
+				}
+			}
+			fixed_ship_auxillary_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					module_light_helipad_category
+					module_fuel_tanks_category
+					module_fire_control_system_category
+					module_patrol_boat_drone_control_category
+					module_point_defense_system_category
+					module_naval_adl_category
+					module_light_guns_category
+					module_point_defense_system_category
+					module_radar_category
+					module_drone_radar_category
+					module_radar_jammer_category
+					module_sonar_category
+					module_minelaying_category
+					module_mineclearing_category
+				}
+			}
+			fixed_ship_auxillary_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					module_light_helipad_category
+					module_fuel_tanks_category
+					module_fire_control_system_category
+					module_patrol_boat_drone_control_category
+					module_point_defense_system_category
+					module_naval_adl_category
+					module_light_guns_category
+					module_point_defense_system_category
+					module_radar_category
+					module_drone_radar_category
+					module_radar_jammer_category
+					module_sonar_category
+					module_minelaying_category
+					module_mineclearing_category
+				}
+			}
+		}
+
+		naval_dominance_factor = 10
+	}
+
+	patrol_boat_hull_4 = {
+		year = 2045
+		archetype = patrol_boat
+		priority = 100
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = {
+					module_light_guns_category
+					module_point_defense_system_category
+					module_naval_adl_category
+					module_torpedoes_category
+					module_nuclear_torpedoes_category
+					module_anti_ship_torpedoes_category
+					module_anti_ship_drone_torpedoes_category
+					module_anti_ship_nuclear_torpedoes_category
+					module_anti_submarine_mortar_category
+					module_drone_radar_category
+					module_radar_jammer_category
+				}
+			}
+			fixed_ship_radar_slot = {
+				required = yes
+				allowed_module_categories = {
+					module_radar_category
+					module_sonar_category
+				}
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = {
+					module_fire_control_system_category
+					module_patrol_boat_drone_control_category
+				}
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					module_light_surface_power_source_category
+				}
+			}
+			fixed_ship_auxillary_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					module_light_helipad_category
+					module_fuel_tanks_category
+					module_fire_control_system_category
+					module_patrol_boat_drone_control_category
+					module_point_defense_system_category
+					module_naval_adl_category
+					module_light_guns_category
+					module_point_defense_system_category
+					module_radar_category
+					module_drone_radar_category
+					module_radar_jammer_category
+					module_sonar_category
+					module_minelaying_category
+					module_mineclearing_category
+				}
+			}
+			fixed_ship_auxillary_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					module_light_helipad_category
+					module_fuel_tanks_category
+					module_fire_control_system_category
+					module_patrol_boat_drone_control_category
+					module_point_defense_system_category
+					module_naval_adl_category
+					module_light_guns_category
+					module_point_defense_system_category
+					module_radar_category
+					module_drone_radar_category
+					module_radar_jammer_category
+					module_sonar_category
+					module_minelaying_category
+					module_mineclearing_category
+				}
+			}
+		}
+
+		naval_dominance_factor = 10
+	}
+
+	patrol_boat_hull_5 = {
+		year = 2060
+		archetype = patrol_boat
+		priority = 100
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = {
+					module_light_guns_category
+					module_point_defense_system_category
+					module_naval_adl_category
+					module_torpedoes_category
+					module_nuclear_torpedoes_category
+					module_anti_ship_torpedoes_category
+					module_anti_ship_drone_torpedoes_category
+					module_anti_ship_nuclear_torpedoes_category
+					module_anti_submarine_mortar_category
+					module_drone_radar_category
+					module_radar_jammer_category
+				}
+			}
+			fixed_ship_radar_slot = {
+				required = yes
+				allowed_module_categories = {
+					module_radar_category
+					module_sonar_category
+				}
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = {
+					module_fire_control_system_category
+					module_patrol_boat_drone_control_category
+				}
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					module_light_surface_power_source_category
+				}
+			}
+			fixed_ship_auxillary_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					module_light_helipad_category
+					module_fuel_tanks_category
+					module_fire_control_system_category
+					module_patrol_boat_drone_control_category
+					module_point_defense_system_category
+					module_naval_adl_category
+					module_light_guns_category
+					module_point_defense_system_category
+					module_radar_category
+					module_drone_radar_category
+					module_radar_jammer_category
+					module_sonar_category
+					module_minelaying_category
+					module_mineclearing_category
+				}
+			}
+			fixed_ship_auxillary_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					module_light_helipad_category
+					module_fuel_tanks_category
+					module_fire_control_system_category
+					module_patrol_boat_drone_control_category
+					module_point_defense_system_category
+					module_naval_adl_category
+					module_light_guns_category
+					module_point_defense_system_category
+					module_radar_category
+					module_drone_radar_category
+					module_radar_jammer_category
+					module_sonar_category
+					module_minelaying_category
+					module_mineclearing_category
+				}
+			}
+		}
+
+		naval_dominance_factor = 10
+	}
+
+	patrol_boat_hull_6 = {
+		year = 2075
 		archetype = patrol_boat
 		priority = 100
 		module_slots = {
