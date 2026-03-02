@@ -270,7 +270,7 @@
 			front_1_custom_slot = module_helipads_1
 			front_2_custom_slot = module_helipads_1
 			mid_1_custom_slot = module_ciws_2
-			mid_2_custom_slot = module_ciws_2
+			mid_2_custom_slot = module_aa_missiles_1
 			mid_3_custom_slot = module_ciws_2
 		}
 		icon = "gfx/interface/technologies/SOV/NAV/Kiev.dds"

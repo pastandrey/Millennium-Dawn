@@ -38,7 +38,7 @@ capital = 255
 
 		cnc_equipment_type = 1
 
-		land_drone_equipment = 1
+		land_drone_equipment_type = 1
 
 		Anti_tank_0 = 1
 
@@ -290,7 +290,7 @@ capital = 255
 
 		cnc_equipment_type = 1
 
-		land_drone_equipment = 1
+		land_drone_equipment_type = 1
 
 		Anti_tank_0 = 1
 

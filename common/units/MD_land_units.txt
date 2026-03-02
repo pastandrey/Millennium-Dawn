@@ -4803,6 +4803,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 30
 		active = no
+		affects_speed = yes
 		ai_priority = 3
 		type = {
 			armor
@@ -4858,13 +4859,13 @@ sub_units = {
 			defence = 0.15
 		}
 		mountain = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		jungle = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		marsh = {
-			maximum_speed = -0.15
+			movement = -0.15
 		}
 		amphibious = {
 			attack = -0.80
@@ -4876,6 +4877,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 30
 		active = no
+		affects_speed = yes
 		ai_priority = 3
 		type = {
 			armor
@@ -4931,13 +4933,13 @@ sub_units = {
 			defence = 0.15
 		}
 		mountain = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		jungle = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		marsh = {
-			maximum_speed = -0.15
+			movement = -0.15
 		}
 		amphibious = {
 			attack = -0.80
@@ -4949,6 +4951,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 30
 		active = no
+		affects_speed = yes
 		ai_priority = 3
 		type = {
 			armor
@@ -5003,13 +5006,13 @@ sub_units = {
 			defence = 0.15
 		}
 		mountain = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		jungle = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		marsh = {
-			maximum_speed = -0.15
+			movement = -0.15
 		}
 		amphibious = {
 			attack = -0.80
@@ -5021,6 +5024,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 30
 		active = no
+		affects_speed = yes
 		ai_priority = 3
 		type = {
 			armor
@@ -5076,13 +5080,13 @@ sub_units = {
 			defence = 0.15
 		}
 		mountain = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		jungle = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		marsh = {
-			maximum_speed = -0.15
+			movement = -0.15
 		}
 		amphibious = {
 			attack = -0.80
@@ -5094,6 +5098,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 30
 		active = no
+		affects_speed = yes
 		ai_priority = 3
 		type = {
 			armor
@@ -5149,13 +5154,13 @@ sub_units = {
 			defence = 0.15
 		}
 		mountain = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		jungle = {
-			maximum_speed = -0.10
+			movement = -0.10
 		}
 		marsh = {
-			maximum_speed = -0.15
+			movement = -0.15
 		}
 		amphibious = {
 			attack = -0.80

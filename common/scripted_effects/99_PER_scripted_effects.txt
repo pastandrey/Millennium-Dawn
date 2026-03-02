@@ -293,12 +293,12 @@ PER_SAZ_independence_alt = {
 			}
 		}
 		send_equipment = {
-			equipment = util_vehicle_equipment
+			equipment = util_vehicle_type
 			amount = 5000
 			target = SAZ
 		}
 		send_equipment = {
-			equipment = Inf_equipment
+			equipment = infantry_weapons_type
 			amount = 10000
 			target = SAZ
 		}

@@ -303,7 +303,7 @@ script_enum_equipment_bonus_type = {
 	artillery_3
 	artillery_4
 	artillery
-	space_artillery_equipment
+	space_artillery_equipment_type
 	space_artillery_equipment_1
 
 	train_equipment
@@ -322,6 +322,8 @@ script_enum_equipment_bonus_type = {
 	carrier_hull_3
 	carrier_hull_4
 	carrier_hull_5
+	carrier_hull_6
+	carrier_hull_7
 	capital_ship
 	heavy_frigate
 	screen_destroyer
