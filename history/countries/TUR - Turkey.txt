@@ -299,7 +299,6 @@
 		post_conventional_rail = 1
 		early_freight_locomotive = 1
 
-
 		infantry_mass_assault = 1
 
 		#Infantry weapons, only licensed G3A3
@@ -351,8 +350,6 @@
 		basic_computing = 1
 		integrated_circuit = 1
 		computing1 = 1
-		decryption1 = 1
-		encryption1 = 1
 		microprocessors = 1
 
 		radar = 1
@@ -375,8 +372,14 @@
 		electrification_1 = 1
 		construction1 = 1
 
+	}
 
-
+	if = {
+		limit = { NOT = { has_dlc = "La Resistance" } }
+		set_technology = {
+			decryption1 = 1
+			encryption1 = 1
+		}
 	}
 
 	complete_special_project = sp:sp_helicopter_project
@@ -717,5 +720,17 @@
 
 
 	set_variable = { overall_productivity = 603 }
+
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		create_intelligence_agency = {
+			name = "National Intelligence Organisation (MIT)"
+			icon = GFX_intelligence_agency_logo_generic
+		}
+		upgrade_intelligence_agency = upgrade_form_department
+		upgrade_intelligence_agency = upgrade_establish_cyber_operations_division
+	}
 
 }
