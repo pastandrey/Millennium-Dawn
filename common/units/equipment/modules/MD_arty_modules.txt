@@ -672,13 +672,13 @@ equipment_modules = {
 		}
 
 		add_stats = {
-			build_cost_ic = 18.2
-			maximum_speed = -1.25
-			soft_attack = 46.25
-			hard_attack = 15.5
-			ap_attack = 19.6
-			breakthrough = 19.52
-			defense = 4.87
+			build_cost_ic = 23.17
+			maximum_speed = -1.35
+			soft_attack = 57.81
+			hard_attack = 23.23
+			ap_attack = 25.26
+			breakthrough = 24.40
+			defense = 6.08
 		}
 
 		build_cost_resources = {
@@ -722,13 +722,13 @@ equipment_modules = {
 		}
 
 		add_stats = {
-			build_cost_ic = 18.2
-			maximum_speed = -1.25
-			soft_attack = 46.25
-			hard_attack = 15.5
-			ap_attack = 19.6
-			breakthrough = 19.52
-			defense = 4.87
+			build_cost_ic = 29.49
+			maximum_speed = -1.47
+			soft_attack = 72.27
+			hard_attack = 34.83
+			ap_attack = 32.57
+			breakthrough = 30.50
+			defense = 7.60
 		}
 
 		build_cost_resources = {
@@ -772,13 +772,13 @@ equipment_modules = {
 		}
 
 		add_stats = {
-			build_cost_ic = 18.2
-			maximum_speed = -1.25
-			soft_attack = 46.25
-			hard_attack = 15.5
-			ap_attack = 19.6
-			breakthrough = 19.52
-			defense = 4.87
+			build_cost_ic = 37.55
+			maximum_speed = -1.59
+			soft_attack = 90.33
+			hard_attack = 52.21
+			ap_attack = 41.98
+			breakthrough = 38.13
+			defense = 9.49
 		}
 
 		build_cost_resources = {

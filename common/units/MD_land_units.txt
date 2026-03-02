@@ -4857,38 +4857,18 @@ sub_units = {
 			attack = 0.25
 			defence = 0.15
 		}
-		forest = {
-			attack = -0.3
-			defence = -0.1
-		}
-		hills = {
-			attack = -0.15
-		}
 		mountain = {
-			attack = -0.6
-			defence = -0.3
+			maximum_speed = -0.10
 		}
 		jungle = {
-			attack = -0.45
-			defence = -0.2
+			maximum_speed = -0.10
 		}
 		marsh = {
-			attack = -0.45
-			defence = -0.2
-		}
-		urban = {
-			attack = -0.4
-			defence = -0.2
-		}
-		supercity = {
-			attack = -0.7
-			defence = -0.5
-		}
-		river = {
-			attack = -0.6
+			maximum_speed = -0.15
 		}
 		amphibious = {
-			attack = -0.4 #was 0.4
+			attack = -0.80
+			defence = -0.80
 		}
 	}
 	heavy_walker_tank_battalion = {
@@ -4950,38 +4930,18 @@ sub_units = {
 			attack = 0.25
 			defence = 0.15
 		}
-		forest = {
-			attack = -0.3
-			defence = -0.1
-		}
-		hills = {
-			attack = -0.15
-		}
 		mountain = {
-			attack = -0.6
-			defence = -0.3
+			maximum_speed = -0.10
 		}
 		jungle = {
-			attack = -0.45
-			defence = -0.2
+			maximum_speed = -0.10
 		}
 		marsh = {
-			attack = -0.45
-			defence = -0.2
-		}
-		urban = {
-			attack = -0.4
-			defence = -0.2
-		}
-		supercity = {
-			attack = -0.7
-			defence = -0.5
-		}
-		river = {
-			attack = -0.6
+			maximum_speed = -0.15
 		}
 		amphibious = {
-			attack = -0.4 #was 0.4
+			attack = -0.80
+			defence = -0.80
 		}
 	}
 	light_medium_walker_battalion = {
@@ -5042,38 +5002,18 @@ sub_units = {
 			attack = 0.25
 			defence = 0.15
 		}
-		forest = {
-			attack = -0.3
-			defence = -0.1
-		}
-		hills = {
-			attack = -0.15
-		}
 		mountain = {
-			attack = -0.6
-			defence = -0.3
+			maximum_speed = -0.10
 		}
 		jungle = {
-			attack = -0.45
-			defence = -0.2
+			maximum_speed = -0.10
 		}
 		marsh = {
-			attack = -0.45
-			defence = -0.2
-		}
-		urban = {
-			attack = -0.4
-			defence = -0.2
-		}
-		supercity = {
-			attack = -0.7
-			defence = -0.5
-		}
-		river = {
-			attack = -0.6
+			maximum_speed = -0.15
 		}
 		amphibious = {
-			attack = -0.4 #was 0.4
+			attack = -0.80
+			defence = -0.80
 		}
 	}
 	light_light_walker_tank_battalion = {
@@ -5135,38 +5075,18 @@ sub_units = {
 			attack = 0.25
 			defence = 0.15
 		}
-		forest = {
-			attack = -0.3
-			defence = -0.1
-		}
-		hills = {
-			attack = -0.15
-		}
 		mountain = {
-			attack = -0.6
-			defence = -0.3
+			maximum_speed = -0.10
 		}
 		jungle = {
-			attack = -0.45
-			defence = -0.2
+			maximum_speed = -0.10
 		}
 		marsh = {
-			attack = -0.45
-			defence = -0.2
-		}
-		urban = {
-			attack = -0.4
-			defence = -0.2
-		}
-		supercity = {
-			attack = -0.7
-			defence = -0.5
-		}
-		river = {
-			attack = -0.6
+			maximum_speed = -0.15
 		}
 		amphibious = {
-			attack = -0.4 #was 0.4
+			attack = -0.80
+			defence = -0.80
 		}
 	}
 	light_heavy_walker_tank_battalion = {
@@ -5228,38 +5148,18 @@ sub_units = {
 			attack = 0.25
 			defence = 0.15
 		}
-		forest = {
-			attack = -0.3
-			defence = -0.1
-		}
-		hills = {
-			attack = -0.15
-		}
 		mountain = {
-			attack = -0.6
-			defence = -0.3
+			maximum_speed = -0.10
 		}
 		jungle = {
-			attack = -0.45
-			defence = -0.2
+			maximum_speed = -0.10
 		}
 		marsh = {
-			attack = -0.45
-			defence = -0.2
-		}
-		urban = {
-			attack = -0.4
-			defence = -0.2
-		}
-		supercity = {
-			attack = -0.7
-			defence = -0.5
-		}
-		river = {
-			attack = -0.6
+			maximum_speed = -0.15
 		}
 		amphibious = {
-			attack = -0.4 #was 0.4
+			attack = -0.80
+			defence = -0.80
 		}
 	}
 	space_artillery_support_company = {
@@ -5275,6 +5175,13 @@ sub_units = {
 			support
 		}
 
+		breakthrough = 80
+
+		battalion_mult = {
+			category = category_artillery
+			attack = 1
+		}
+
 		group = support
 
 		categories = {
@@ -5286,7 +5193,7 @@ sub_units = {
 		combat_width = 0
 
 		need = {
-			space_artillery_equipment = 6
+			space_artillery_equipment_type = 60
 		}
 
 		manpower = 80

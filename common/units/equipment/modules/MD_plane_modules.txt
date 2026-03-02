@@ -4882,7 +4882,6 @@ equipment_modules = {
 	weap_ag_gunship_2 = { 						## Gunship Howitzer
 		abbreviation = "spectre"
 		category = plane_gunship_modules
-		#parent = weap_ag_gunship_1 #commented to hopefully avoid autoupgrade
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = cas
 
@@ -4969,7 +4968,7 @@ equipment_modules = {
 		add_equipment_type = suicide
 
 		add_stats = {
-			build_cost_ic = 90
+			build_cost_ic = 110
 		}
 
 		allow_mission_type = {
@@ -4985,8 +4984,8 @@ equipment_modules = {
 				port_strike
 			}
 			add_stats = {
-				air_bombing = 40
-				naval_strike_attack = 14
+				air_bombing = 55
+				naval_strike_attack = 25
 				air_defence = -15
 				weight = 25
 			}
@@ -5013,7 +5012,7 @@ equipment_modules = {
 		add_equipment_type = suicide
 
 		add_stats = {
-			build_cost_ic = 90
+			build_cost_ic = 178.65
 		}
 
 		allow_mission_type = {
@@ -5029,17 +5028,17 @@ equipment_modules = {
 				port_strike
 			}
 			add_stats = {
-				air_bombing = 40
-				naval_strike_attack = 14
+				air_bombing = 65.28
+				naval_strike_attack = 25.2
 				air_defence = -15
-				weight = 25
+				weight = 40
 			}
 			add_average_stats = {
-				naval_strike_targetting = 15
+				naval_strike_targetting = 17.15
 			}
 			multiply_stats = {
-				air_agility = -0.24
-				air_defence = -0.2
+				air_agility = -0.48
+				air_defence = -0.4
 			}
 		}
 
@@ -5057,7 +5056,7 @@ equipment_modules = {
 		add_equipment_type = suicide
 
 		add_stats = {
-			build_cost_ic = 90
+			build_cost_ic = 354.62
 		}
 
 		allow_mission_type = {
@@ -5073,17 +5072,17 @@ equipment_modules = {
 				port_strike
 			}
 			add_stats = {
-				air_bombing = 40
-				naval_strike_attack = 14
+				air_bombing = 106.54
+				naval_strike_attack = 45.36
 				air_defence = -15
-				weight = 25
+				weight = 64
 			}
 			add_average_stats = {
-				naval_strike_targetting = 15
+				naval_strike_targetting = 19.60
 			}
 			multiply_stats = {
-				air_agility = -0.24
-				air_defence = -0.2
+				air_agility = -0.96
+				air_defence = -0.8
 			}
 		}
 
@@ -5101,7 +5100,7 @@ equipment_modules = {
 		add_equipment_type = suicide
 
 		add_stats = {
-			build_cost_ic = 90
+			build_cost_ic = 703.92
 		}
 
 		allow_mission_type = {
@@ -5117,17 +5116,17 @@ equipment_modules = {
 				port_strike
 			}
 			add_stats = {
-				air_bombing = 40
-				naval_strike_attack = 14
+				air_bombing = 173.87
+				naval_strike_attack = 81.65
 				air_defence = -15
-				weight = 25
+				weight = 102.4
 			}
 			add_average_stats = {
-				naval_strike_targetting = 15
+				naval_strike_targetting = 22.40
 			}
 			multiply_stats = {
-				air_agility = -0.24
-				air_defence = -0.2
+				air_agility = -1.92
+				air_defence = -1.6
 			}
 		}
 
@@ -8001,11 +8000,11 @@ equipment_modules = {
 		add_equipment_type = naval_bomber
 
 		add_stats = {
-			build_cost_ic = 38.5
+			build_cost_ic = 40.43
 		}
 
 		multiply_stats = {
-			air_agility = 0.10
+			air_agility = 0.11
 		}
 
 		build_cost_resources = {
@@ -8022,9 +8021,9 @@ equipment_modules = {
 				port_strike
 			}
 			add_stats = {
-				naval_strike_targetting = 35
+				naval_strike_targetting = 43.75
 				weight = 8
-				naval_strike_attack = 15
+				naval_strike_attack = 16.88
 			}
 		}
 		xp_cost = 2
@@ -8037,11 +8036,11 @@ equipment_modules = {
 		add_equipment_type = naval_bomber
 
 		add_stats = {
-			build_cost_ic = 38.5
+			build_cost_ic = 42.45
 		}
 
 		multiply_stats = {
-			air_agility = 0.10
+			air_agility = 0.12
 		}
 
 		build_cost_resources = {
@@ -8058,9 +8057,9 @@ equipment_modules = {
 				port_strike
 			}
 			add_stats = {
-				naval_strike_targetting = 35
+				naval_strike_targetting = 54.69
 				weight = 8
-				naval_strike_attack = 15
+				naval_strike_attack = 18.98
 			}
 		}
 		xp_cost = 2
@@ -8073,11 +8072,11 @@ equipment_modules = {
 		add_equipment_type = naval_bomber
 
 		add_stats = {
-			build_cost_ic = 38.5
+			build_cost_ic = 44.57
 		}
 
 		multiply_stats = {
-			air_agility = 0.10
+			air_agility = 0.13
 		}
 
 		build_cost_resources = {
@@ -8094,9 +8093,9 @@ equipment_modules = {
 				port_strike
 			}
 			add_stats = {
-				naval_strike_targetting = 35
+				naval_strike_targetting = 68.36
 				weight = 8
-				naval_strike_attack = 15
+				naval_strike_attack = 21.36
 			}
 		}
 		xp_cost = 2
@@ -8129,10 +8128,10 @@ equipment_modules = {
 		sfx = x
 
 		add_stats = {
-			maximum_speed = 2865
-			thrust = 85
-			build_cost_ic = 183
-			fuel_consumption = 4.2
+			maximum_speed = 3094.20
+			thrust = 109.48
+			build_cost_ic = 216.31
+			fuel_consumption = 4.12
 			reliability = -0.10
 		}
 
@@ -8172,9 +8171,9 @@ equipment_modules = {
 		sfx = x
 
 		add_stats = {
-			air_attack = 9.5
-			build_cost_ic = 26
-			weight = 5
+			air_attack = 11.09
+			build_cost_ic = 34.01
+			weight = 6.43
 		}
 
 		multiply_stats = {
@@ -8195,9 +8194,9 @@ equipment_modules = {
 		sfx = x
 
 		add_stats = {
-			air_attack = 9.5
-			build_cost_ic = 26
-			weight = 5
+			air_attack = 12.94
+			build_cost_ic = 44.48
+			weight = 8.27
 		}
 
 		multiply_stats = {
@@ -8236,9 +8235,9 @@ equipment_modules = {
 		xp_cost = 2
 
 		add_stats = {
-			air_defence = 13.5
-			build_cost_ic = 6
-			weight = 6.5
+			air_defence = 15.96
+			build_cost_ic = 7.5
+			weight = 7.8
 		}
 
 		multiply_stats = {
@@ -8254,13 +8253,13 @@ equipment_modules = {
 		xp_cost = 2
 
 		add_stats = {
-			air_defence = 13.5
-			build_cost_ic = 6
-			weight = 6.5
+			air_defence = 18.86
+			build_cost_ic = 9.38
+			weight = 9.36
 		}
 
 		multiply_stats = {
-			air_defence = 0.02
+			air_defence = 0.03
 			armor_value = 0.05
 		}
 	}
@@ -8272,13 +8271,13 @@ equipment_modules = {
 		xp_cost = 2
 
 		add_stats = {
-			air_defence = 13.5
-			build_cost_ic = 6
-			weight = 6.5
+			air_defence = 22.29
+			build_cost_ic = 11.72
+			weight = 11.23
 		}
 
 		multiply_stats = {
-			air_defence = 0.02
+			air_defence = 0.03
 			armor_value = 0.05
 		}
 	}

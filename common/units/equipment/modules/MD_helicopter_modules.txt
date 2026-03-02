@@ -1588,9 +1588,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 8.5
-			ap_attack = 6.5
-			hard_attack = 5
+			build_cost_ic = 13.25
+			ap_attack = 12.5
+			hard_attack = 6.5
 			maximum_speed = -4
 		}
 		xp_cost = 3
@@ -1602,9 +1602,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 8.5
-			ap_attack = 6.5
-			hard_attack = 5
+			build_cost_ic = 16.31
+			ap_attack = 14.38
+			hard_attack = 8.66
 			maximum_speed = -4
 		}
 		xp_cost = 3
@@ -1616,9 +1616,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 8.5
-			ap_attack = 6.5
-			hard_attack = 5
+			build_cost_ic = 20.08
+			ap_attack = 16.53
+			hard_attack = 11.55
 			maximum_speed = -4
 		}
 		xp_cost = 3
@@ -1630,9 +1630,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 8.5
-			ap_attack = 6.5
-			hard_attack = 5
+			build_cost_ic = 24.72
+			ap_attack = 19.01
+			hard_attack = 15.40
 			maximum_speed = -4
 		}
 		xp_cost = 3

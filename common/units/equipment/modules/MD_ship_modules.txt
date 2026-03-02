@@ -1937,7 +1937,8 @@ equipment_modules = {
 			hg_armor_piercing = 0.2
 			naval_speed = 0.03
 			sub_visibility = -0.025
-			sub_detection = 0.025
+			sub_detection = 0.10
+			surface_detection = 0.05
 		}
 
 		dismantle_cost_ic = 50
@@ -1968,7 +1969,8 @@ equipment_modules = {
 			hg_armor_piercing = 0.2
 			naval_speed = 0.03
 			sub_visibility = -0.025
-			sub_detection = 0.025
+			sub_detection = 0.10
+			surface_detection = 0.05
 		}
 
 		dismantle_cost_ic = 50
@@ -1999,7 +2001,8 @@ equipment_modules = {
 			hg_armor_piercing = 0.2
 			naval_speed = 0.03
 			sub_visibility = -0.025
-			sub_detection = 0.025
+			sub_detection = 0.10
+			surface_detection = 0.05
 		}
 
 		dismantle_cost_ic = 50
@@ -2254,25 +2257,25 @@ equipment_modules = {
 		parent = module_naval_adl_1
 
 		add_stats = {
-			build_cost_ic = 600
+			build_cost_ic = 582.45
 			fuel_consumption = 4.5
 			max_strength = 5
 			max_organisation = 0.07
-			surface_visibility = 0.15
-			anti_air_attack = 1.35
-			armor_value = 12
+			surface_visibility = 0.14
+			anti_air_attack = 1.39
+			armor_value = 14.4
 		}
 
 		add_average_stats = {
-			armor_value = 120
+			armor_value = 180
 		}
 		manpower = 5
 
-		dismantle_cost_ic = 27.5
+		dismantle_cost_ic = 30.25
 
 		can_convert_from = {
 			module_category = module_naval_adl_category
-			convert_cost_ic = 200
+			convert_cost_ic = 222.2
 		}
 
 	}
@@ -2281,25 +2284,25 @@ equipment_modules = {
 		parent = module_naval_adl_2
 
 		add_stats = {
-			build_cost_ic = 650
+			build_cost_ic = 616.81
 			fuel_consumption = 5.5
 			max_strength = 5
 			max_organisation = 0.07
-			surface_visibility = 0.15
-			anti_air_attack = 1.45
-			armor_value = 12
+			surface_visibility = 0.13
+			anti_air_attack = 1.54
+			armor_value = 17.28
 		}
 
 		add_average_stats = {
-			armor_value = 120
+			armor_value = 270
 		}
 		manpower = 5
 
-		dismantle_cost_ic = 27.5
+		dismantle_cost_ic = 33.28
 
 		can_convert_from = {
 			module_category = module_naval_adl_category
-			convert_cost_ic = 200
+			convert_cost_ic = 246.86
 		}
 	}
 	module_naval_adl_4 = {
@@ -2307,25 +2310,25 @@ equipment_modules = {
 		parent = module_naval_adl_3
 
 		add_stats = {
-			build_cost_ic = 700
+			build_cost_ic = 653.21
 			fuel_consumption = 5.5
 			max_strength = 5
 			max_organisation = 0.07
-			surface_visibility = 0.15
-			anti_air_attack = 1.55
-			armor_value = 12
+			surface_visibility = 0.12
+			anti_air_attack = 1.71
+			armor_value = 20.74
 		}
 
 		add_average_stats = {
-			armor_value = 120
+			armor_value = 405
 		}
 		manpower = 5
 
-		dismantle_cost_ic = 27.5
+		dismantle_cost_ic = 36.60
 
 		can_convert_from = {
 			module_category = module_naval_adl_category
-			convert_cost_ic = 200
+			convert_cost_ic = 274.27
 		}
 
 	}
@@ -2892,6 +2895,11 @@ equipment_modules = {
 
 		dismantle_cost_ic = 175
 
+		can_convert_from = {
+			module_category = module_railgun_battery_category
+			convert_cost_ic = 600
+		}
+
 		build_cost_resources = {
 			steel = 4
 			composites = 4
@@ -2904,13 +2912,13 @@ equipment_modules = {
 		parent = module_naval_railgun_battery_1
 
 		add_stats = {
-			build_cost_ic = 2100
+			build_cost_ic = 2179.80
 			fuel_consumption = 10
 			max_strength = 25
 			max_organisation = 0.30
-			surface_visibility = 0.85
-			lg_attack = 22
-			hg_attack = 16
+			surface_visibility = 0.62
+			lg_attack = 21.6
+			hg_attack = 14.4
 		}
 
 		manpower = 35
@@ -2919,7 +2927,17 @@ equipment_modules = {
 			lg_armor_piercing = 0
 		}
 
-		dismantle_cost_ic = 175
+		dismantle_cost_ic = 210
+
+		can_convert_from = {
+			module_category = module_railgun_battery_category
+			convert_cost_ic = 600
+		}
+
+		can_convert_from = {
+			module = module_naval_railgun_battery_1
+			convert_cost_ic = 200
+		}
 
 		build_cost_resources = {
 			steel = 4
@@ -2933,13 +2951,13 @@ equipment_modules = {
 		parent = module_naval_railgun_battery_2
 
 		add_stats = {
-			build_cost_ic = 2100
+			build_cost_ic = 2639.74
 			fuel_consumption = 10
 			max_strength = 25
 			max_organisation = 0.30
-			surface_visibility = 0.85
-			lg_attack = 22
-			hg_attack = 16
+			surface_visibility = 0.52
+			lg_attack = 25.92
+			hg_attack = 17.28
 		}
 
 		manpower = 35
@@ -2948,7 +2966,17 @@ equipment_modules = {
 			lg_armor_piercing = 0
 		}
 
-		dismantle_cost_ic = 175
+		dismantle_cost_ic = 252
+
+		can_convert_from = {
+			module_category = module_railgun_battery_category
+			convert_cost_ic = 600
+		}
+
+		can_convert_from = {
+			module = module_naval_railgun_battery_2
+			convert_cost_ic = 200
+		}
 
 		build_cost_resources = {
 			steel = 4
@@ -3159,22 +3187,22 @@ equipment_modules = {
 		parent = module_naval_vls_drone_swarm_1
 
 		add_stats = {
-			build_cost_ic = 1800
-			hg_attack = 85
+			build_cost_ic = 1859.4
+			hg_attack = 90.70
 			max_strength = 20
 			max_organisation = 0.28
 			fuel_consumption = 5
-			hg_armor_piercing = 80
+			hg_armor_piercing = 90.32
 			lg_attack = 10
 		}
 
 		manpower = -1
 
-		dismantle_cost_ic = 150
+		dismantle_cost_ic = 165
 
 		can_convert_from = {
 			module_category = module_vls_category
-			convert_cost_ic = 300
+			convert_cost_ic = 350.1
 		}
 
 		build_cost_resources = {
@@ -3186,22 +3214,22 @@ equipment_modules = {
 		parent = module_naval_vls_drone_swarm_2
 
 		add_stats = {
-			build_cost_ic = 1800
-			hg_attack = 85
+			build_cost_ic = 1920.76
+			hg_attack = 96.77
 			max_strength = 20
 			max_organisation = 0.28
 			fuel_consumption = 5
-			hg_armor_piercing = 80
+			hg_armor_piercing = 101.97
 			lg_attack = 10
 		}
 
 		manpower = -1
 
-		dismantle_cost_ic = 150
+		dismantle_cost_ic = 181.5
 
 		can_convert_from = {
 			module_category = module_vls_category
-			convert_cost_ic = 300
+			convert_cost_ic = 408.57
 		}
 
 		build_cost_resources = {
@@ -3213,22 +3241,22 @@ equipment_modules = {
 		parent = module_naval_vls_drone_swarm_3
 
 		add_stats = {
-			build_cost_ic = 1800
-			hg_attack = 85
+			build_cost_ic = 1984.15
+			hg_attack = 103.26
 			max_strength = 20
 			max_organisation = 0.28
 			fuel_consumption = 5
-			hg_armor_piercing = 80
+			hg_armor_piercing = 115.13
 			lg_attack = 10
 		}
 
 		manpower = -1
 
-		dismantle_cost_ic = 150
+		dismantle_cost_ic = 199.65
 
 		can_convert_from = {
 			module_category = module_vls_category
-			convert_cost_ic = 300
+			convert_cost_ic = 476.80
 		}
 
 		build_cost_resources = {
@@ -4475,22 +4503,22 @@ equipment_modules = {
 		parent = module_naval_anti_torpedo_1
 
 		add_stats = {
-			build_cost_ic = 1200
+			build_cost_ic = 1254
 			fuel_consumption = 5
 			max_strength = 10
 			max_organisation = 0.14
 		}
 		multiply_stats = {
-			naval_torpedo_damage_reduction_factor = 0.08
+			naval_torpedo_damage_reduction_factor = 0.09
 			naval_torpedo_enemy_critical_chance_factor = -0.04
 		}
 
 		manpower = 10
-		dismantle_cost_ic = 110
+		dismantle_cost_ic = 122.21
 
 		can_convert_from = {
 			module_category = module_turret_missile_category
-			convert_cost_ic = 350
+			convert_cost_ic = 420
 		}
 
 	}
@@ -4499,22 +4527,22 @@ equipment_modules = {
 		parent = module_naval_anti_torpedo_2
 
 		add_stats = {
-			build_cost_ic = 1200
+			build_cost_ic = 1310.43
 			fuel_consumption = 5
 			max_strength = 10
 			max_organisation = 0.14
 		}
 		multiply_stats = {
-			naval_torpedo_damage_reduction_factor = 0.08
-			naval_torpedo_enemy_critical_chance_factor = -0.04
+			naval_torpedo_damage_reduction_factor = 0.10
+			naval_torpedo_enemy_critical_chance_factor = -0.05
 		}
 
 		manpower = 10
-		dismantle_cost_ic = 110
+		dismantle_cost_ic = 135.78
 
 		can_convert_from = {
 			module_category = module_turret_missile_category
-			convert_cost_ic = 350
+			convert_cost_ic = 504
 		}
 
 	}
@@ -4523,22 +4551,22 @@ equipment_modules = {
 		parent = module_naval_anti_torpedo_3
 
 		add_stats = {
-			build_cost_ic = 1200
+			build_cost_ic = 1369.40
 			fuel_consumption = 5
 			max_strength = 10
 			max_organisation = 0.14
 		}
 		multiply_stats = {
-			naval_torpedo_damage_reduction_factor = 0.08
-			naval_torpedo_enemy_critical_chance_factor = -0.04
+			naval_torpedo_damage_reduction_factor = 0.11
+			naval_torpedo_enemy_critical_chance_factor = -0.06
 		}
 
 		manpower = 10
-		dismantle_cost_ic = 110
+		dismantle_cost_ic = 150.85
 
 		can_convert_from = {
 			module_category = module_turret_missile_category
-			convert_cost_ic = 350
+			convert_cost_ic = 604.8
 		}
 
 	}
@@ -4771,22 +4799,22 @@ equipment_modules = {
 		parent = module_naval_recon_drone_1
 
 		add_stats = {
-			build_cost_ic = 1100
-			surface_detection = 52
-			sub_detection = 13.5
+			build_cost_ic = 1312.5
+			surface_detection = 56.02
+			sub_detection = 15.75
 		}
 
-		dismantle_cost_ic = 105
+		dismantle_cost_ic = 131.25
 
 		multiply_stats = {
-			hg_attack = 0.4
-			torpedo_attack = 0.4
-			anti_air_attack = 1.4
+			hg_attack = 0.47
+			torpedo_attack = 0.47
+			anti_air_attack = 1.75
 		}
 
 		can_convert_from = {
 			module_category = module_drone_radar_category
-			convert_cost_ic = 525
+			convert_cost_ic = 656.25
 		}
 
 		build_cost_resources = {
@@ -4798,22 +4826,22 @@ equipment_modules = {
 		parent = module_naval_recon_drone_2
 
 		add_stats = {
-			build_cost_ic = 1150
-			surface_detection = 56
-			sub_detection = 13.5
+			build_cost_ic = 1640.63
+			surface_detection = 65.37
+			sub_detection = 18.39
 		}
 
-		dismantle_cost_ic = 105
+		dismantle_cost_ic = 164.06
 
 		multiply_stats = {
-			hg_attack = 0.45
-			torpedo_attack = 0.45
-			anti_air_attack = 1.4
+			hg_attack = 0.62
+			torpedo_attack = 0.62
+			anti_air_attack = 2.19
 		}
 
 		can_convert_from = {
 			module_category = module_drone_radar_category
-			convert_cost_ic = 525
+			convert_cost_ic = 820.31
 		}
 
 		build_cost_resources = {
@@ -4825,22 +4853,22 @@ equipment_modules = {
 		parent = module_naval_recon_drone_3
 
 		add_stats = {
-			build_cost_ic = 1200
-			surface_detection = 60
-			sub_detection = 13.5
+			build_cost_ic = 2050.78
+			surface_detection = 76.29
+			sub_detection = 21.46
 		}
 
-		dismantle_cost_ic = 105
+		dismantle_cost_ic = 205.08
 
 		multiply_stats = {
-			hg_attack = 0.5
-			torpedo_attack = 0.5
-			anti_air_attack = 1.4
+			hg_attack = 0.83
+			torpedo_attack = 0.83
+			anti_air_attack = 2.73
 		}
 
 		can_convert_from = {
 			module_category = module_drone_radar_category
-			convert_cost_ic = 525
+			convert_cost_ic = 1025.39
 		}
 
 		build_cost_resources = {
@@ -4852,22 +4880,22 @@ equipment_modules = {
 		parent = module_naval_recon_drone_4
 
 		add_stats = {
-			build_cost_ic = 1200
-			surface_detection = 65
-			sub_detection = 15.5
+			build_cost_ic = 2563.48
+			surface_detection = 89.03
+			sub_detection = 25.04
 		}
 
-		dismantle_cost_ic = 105
+		dismantle_cost_ic = 256.35
 
 		multiply_stats = {
-			hg_attack = 0.5
-			torpedo_attack = 0.5
-			anti_air_attack = 1.4
+			hg_attack = 1.11
+			torpedo_attack = 1.11
+			anti_air_attack = 3.42
 		}
 
 		can_convert_from = {
 			module_category = module_drone_radar_category
-			convert_cost_ic = 525
+			convert_cost_ic = 1281.74
 		}
 
 		build_cost_resources = {
@@ -4908,23 +4936,23 @@ equipment_modules = {
 		parent = module_naval_radar_jammer_1
 
 		add_stats = {
-			build_cost_ic = 100
-			surface_detection = 12
-			sub_detection = 20
-			max_strength = 100
+			build_cost_ic = 112.5
+			surface_detection = 13.8
+			sub_detection = 23
+			max_strength = 115
 		}
 
 		multiply_stats = {
 			hg_attack = 0.04
 			torpedo_attack = 0.04
-			surface_visibility = -0.125
+			surface_visibility = -0.11
 		}
 
-		dismantle_cost_ic = 10
+		dismantle_cost_ic = 11.25
 
 		can_convert_from = {
 			module_category = module_radar_jammer_category
-			convert_cost_ic = 50
+			convert_cost_ic = 56.25
 		}
 
 		build_cost_resources = {
@@ -4937,23 +4965,23 @@ equipment_modules = {
 		parent = module_naval_radar_jammer_2
 
 		add_stats = {
-			build_cost_ic = 100
-			surface_detection = 12
-			sub_detection = 20
-			max_strength = 100
+			build_cost_ic = 126.56
+			surface_detection = 15.87
+			sub_detection = 26.45
+			max_strength = 132.25
 		}
 
 		multiply_stats = {
-			hg_attack = 0.04
-			torpedo_attack = 0.04
-			surface_visibility = -0.125
+			hg_attack = 0.05
+			torpedo_attack = 0.05
+			surface_visibility = -0.10
 		}
 
-		dismantle_cost_ic = 10
+		dismantle_cost_ic = 12.66
 
 		can_convert_from = {
 			module_category = module_radar_jammer_category
-			convert_cost_ic = 50
+			convert_cost_ic = 63.28
 		}
 
 		build_cost_resources = {
@@ -4966,23 +4994,23 @@ equipment_modules = {
 		parent = module_naval_radar_jammer_3
 
 		add_stats = {
-			build_cost_ic = 100
-			surface_detection = 12
-			sub_detection = 20
-			max_strength = 100
+			build_cost_ic = 142.38
+			surface_detection = 18.25
+			sub_detection = 30.42
+			max_strength = 152.09
 		}
 
 		multiply_stats = {
-			hg_attack = 0.04
-			torpedo_attack = 0.04
-			surface_visibility = -0.125
+			hg_attack = 0.05
+			torpedo_attack = 0.05
+			surface_visibility = -0.09
 		}
 
-		dismantle_cost_ic = 10
+		dismantle_cost_ic = 14.24
 
 		can_convert_from = {
 			module_category = module_radar_jammer_category
-			convert_cost_ic = 50
+			convert_cost_ic = 71.19
 		}
 
 		build_cost_resources = {
@@ -4995,23 +5023,23 @@ equipment_modules = {
 		parent = module_naval_radar_jammer_4
 
 		add_stats = {
-			build_cost_ic = 100
-			surface_detection = 12
-			sub_detection = 20
-			max_strength = 100
+			build_cost_ic = 160.18
+			surface_detection = 20.99
+			sub_detection = 34.98
+			max_strength = 174.90
 		}
 
 		multiply_stats = {
-			hg_attack = 0.04
-			torpedo_attack = 0.04
-			surface_visibility = -0.125
+			hg_attack = 0.06
+			torpedo_attack = 0.06
+			surface_visibility = -0.08
 		}
 
-		dismantle_cost_ic = 10
+		dismantle_cost_ic = 16.02
 
 		can_convert_from = {
 			module_category = module_radar_jammer_category
-			convert_cost_ic = 50
+			convert_cost_ic = 80.09
 		}
 
 		build_cost_resources = {
@@ -5377,21 +5405,21 @@ equipment_modules = {
 		parent = module_naval_asw_nuclear_torpedoes_1
 
 		add_stats = {
-			build_cost_ic = 1350
+			build_cost_ic = 1410.75
 			fuel_consumption = 1
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.3
-			sub_visibility = 0.3
-			sub_attack = 65
+			surface_visibility = 0.28
+			sub_visibility = 0.28
+			sub_attack = 72.22
 		}
 		manpower = 15
 
-		dismantle_cost_ic = 35
+		dismantle_cost_ic = 40.85
 
 		can_convert_from = {
 			module_category = module_torpedoes_category
-			convert_cost_ic = 175
+			convert_cost_ic = 204.23
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -5400,21 +5428,21 @@ equipment_modules = {
 		parent = module_naval_asw_nuclear_torpedoes_2
 
 		add_stats = {
-			build_cost_ic = 1350
+			build_cost_ic = 1474.23
 			fuel_consumption = 1
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.3
-			sub_visibility = 0.3
-			sub_attack = 65
+			surface_visibility = 0.26
+			sub_visibility = 0.26
+			sub_attack = 80.23
 		}
 		manpower = 15
 
-		dismantle_cost_ic = 35
+		dismantle_cost_ic = 47.67
 
 		can_convert_from = {
 			module_category = module_torpedoes_category
-			convert_cost_ic = 175
+			convert_cost_ic = 238.33
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -5423,21 +5451,21 @@ equipment_modules = {
 		parent = module_naval_asw_nuclear_torpedoes_3
 
 		add_stats = {
-			build_cost_ic = 1350
+			build_cost_ic = 1540.57
 			fuel_consumption = 1
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.3
-			sub_visibility = 0.3
-			sub_attack = 65
+			surface_visibility = 0.24
+			sub_visibility = 0.24
+			sub_attack = 89.14
 		}
 		manpower = 15
 
-		dismantle_cost_ic = 35
+		dismantle_cost_ic = 55.63
 
 		can_convert_from = {
 			module_category = module_torpedoes_category
-			convert_cost_ic = 175
+			convert_cost_ic = 278.13
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -5624,23 +5652,23 @@ equipment_modules = {
 		parent = module_anti_ship_drone_torpedoes_1
 
 		add_stats = {
-			build_cost_ic = 650
+			build_cost_ic = 653.13
 			fuel_consumption = 5
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.325
-			sub_visibility = 0.325
-			torpedo_attack = 4.5
-			sub_attack = 18
-			naval_torpedo_hit_chance_factor = 0.18
+			surface_visibility = 0.34
+			sub_visibility = 0.34
+			torpedo_attack = 4.44
+			sub_attack = 17.78
+			naval_torpedo_hit_chance_factor = 0.13
 		}
 		manpower = 1
 
-		dismantle_cost_ic = 30
+		dismantle_cost_ic = 29.18
 
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
-			convert_cost_ic = 150
+			convert_cost_ic = 145.88
 		}
 		critical_parts = { damaged_torpedoes }
 
@@ -5654,23 +5682,23 @@ equipment_modules = {
 		parent = module_anti_ship_drone_torpedoes_2
 
 		add_stats = {
-			build_cost_ic = 675
+			build_cost_ic = 682.52
 			fuel_consumption = 5
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.3
-			sub_visibility = 0.3
-			torpedo_attack = 5
-			sub_attack = 20
-			naval_torpedo_hit_chance_factor = 0.24
+			surface_visibility = 0.31
+			sub_visibility = 0.31
+			torpedo_attack = 4.94
+			sub_attack = 19.75
+			naval_torpedo_hit_chance_factor = 0.15
 		}
 		manpower = 1
 
-		dismantle_cost_ic = 35
+		dismantle_cost_ic = 34.05
 
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
-			convert_cost_ic = 175
+			convert_cost_ic = 170.24
 		}
 		critical_parts = { damaged_torpedoes }
 
@@ -5683,23 +5711,23 @@ equipment_modules = {
 		parent = module_anti_ship_drone_torpedoes_3
 
 		add_stats = {
-			build_cost_ic = 675
+			build_cost_ic = 713.23
 			fuel_consumption = 5
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.3
-			sub_visibility = 0.3
-			torpedo_attack = 5
-			sub_attack = 20
-			naval_torpedo_hit_chance_factor = 0.30
+			surface_visibility = 0.29
+			sub_visibility = 0.29
+			torpedo_attack = 5.49
+			sub_attack = 21.94
+			naval_torpedo_hit_chance_factor = 0.16
 		}
 		manpower = 1
 
-		dismantle_cost_ic = 35
+		dismantle_cost_ic = 39.73
 
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
-			convert_cost_ic = 175
+			convert_cost_ic = 198.67
 		}
 		critical_parts = { damaged_torpedoes }
 
@@ -5735,22 +5763,22 @@ equipment_modules = {
 		parent = module_naval_anti_ship_nuclear_torpedo_1
 
 		add_stats = {
-			build_cost_ic = 750
+			build_cost_ic = 783.75
 			fuel_consumption = 1
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.388
-			sub_visibility = 0.388
-			torpedo_attack = 5.5
-			sub_attack = 14
+			surface_visibility = 0.36
+			sub_visibility = 0.36
+			torpedo_attack = 6.11
+			sub_attack = 15.55
 		}
 		manpower = 15
 
-		dismantle_cost_ic = 20
+		dismantle_cost_ic = 23.34
 
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
-			convert_cost_ic = 100
+			convert_cost_ic = 116.7
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -5759,22 +5787,22 @@ equipment_modules = {
 		parent = module_naval_anti_ship_nuclear_torpedo_2
 
 		add_stats = {
-			build_cost_ic = 750
+			build_cost_ic = 819.02
 			fuel_consumption = 1
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.388
-			sub_visibility = 0.388
-			torpedo_attack = 5.5
-			sub_attack = 14
+			surface_visibility = 0.33
+			sub_visibility = 0.33
+			torpedo_attack = 6.79
+			sub_attack = 17.28
 		}
 		manpower = 15
 
-		dismantle_cost_ic = 20
+		dismantle_cost_ic = 27.24
 
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
-			convert_cost_ic = 100
+			convert_cost_ic = 136.19
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -5783,22 +5811,22 @@ equipment_modules = {
 		parent = module_naval_anti_ship_nuclear_torpedo_3
 
 		add_stats = {
-			build_cost_ic = 750
+			build_cost_ic = 855.87
 			fuel_consumption = 1
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.388
-			sub_visibility = 0.388
-			torpedo_attack = 5.5
-			sub_attack = 14
+			surface_visibility = 0.31
+			sub_visibility = 0.31
+			torpedo_attack = 7.54
+			sub_attack = 19.20
 		}
 		manpower = 15
 
-		dismantle_cost_ic = 20
+		dismantle_cost_ic = 31.79
 
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
-			convert_cost_ic = 100
+			convert_cost_ic = 158.93
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -5841,9 +5869,9 @@ equipment_modules = {
 			fuel_consumption = 3.5
 			max_strength = 10
 			max_organisation = 0.14
-			surface_visibility = 0.5
-			sub_detection = 0.05
-			mines_sweeping = 6
+			surface_visibility = 0.75
+			sub_detection = 0.15
+			mines_sweeping = 9
 		}
 
 		build_cost_resources = {
