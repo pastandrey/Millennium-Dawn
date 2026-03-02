@@ -626,6 +626,8 @@ script_enum_equipment_bonus_type = {
 	missile_submarine_hull_4
 	missile_submarine_hull_5
 	missile_submarine_hull_6
+	missile_submarine_hull_7
+	missile_submarine_hull_8
 	attack_submarine
 	attack_submarine_hull_1
 	attack_submarine_hull_2
@@ -633,10 +635,15 @@ script_enum_equipment_bonus_type = {
 	attack_submarine_hull_4
 	attack_submarine_hull_5
 	attack_submarine_hull_6
+	attack_submarine_hull_7
+	attack_submarine_hull_8
 	patrol_boat
 	patrol_boat_hull_1
 	patrol_boat_hull_2
 	patrol_boat_hull_3
+	patrol_boat_hull_4
+	patrol_boat_hull_5
+	patrol_boat_hull_6
 	corvette
 	corvette_hull_1
 	corvette_hull_2
@@ -644,6 +651,8 @@ script_enum_equipment_bonus_type = {
 	corvette_hull_4
 	corvette_hull_5
 	corvette_hull_6
+	corvette_hull_7
+	corvette_hull_8
 	frigate
 	frigate_hull_1
 	frigate_hull_2
@@ -651,45 +660,61 @@ script_enum_equipment_bonus_type = {
 	frigate_hull_4
 	frigate_hull_5
 	frigate_hull_6
+	frigate_hull_7
+	frigate_hull_8
 	cruiser
 	cruiser_hull_1
 	cruiser_hull_2
 	cruiser_hull_3
 	cruiser_hull_4
 	cruiser_hull_5
+	cruiser_hull_6
+	cruiser_hull_7
 	battle_cruiser
 	battle_cruiser_hull_1
 	battle_cruiser_hull_2
 	battle_cruiser_hull_3
 	battle_cruiser_hull_4
+	battle_cruiser_hull_5
 	battleship_hull_0
 	battleship_hull_1
 	battleship_hull_2
 	battleship_hull_3
 	battleship_hull_4
+	battleship_hull_5
 	helicopter_operator
 	helicopter_operator_hull_1
 	helicopter_operator_hull_2
 	helicopter_operator_hull_3
 	helicopter_operator_hull_4
+	helicopter_operator_hull_5
+	helicopter_operator_hull_6
 	stealth_destroyer
 	stealth_destroyer_hull_1
 	stealth_destroyer_hull_2
 	stealth_destroyer_hull_3
+	stealth_destroyer_hull_4
+	stealth_destroyer_hull_5
 	destroyer
 	destroyer_hull_1
 	destroyer_hull_2
 	destroyer_hull_3
 	destroyer_hull_4
 	destroyer_hull_5
+	destroyer_hull_6
+	destroyer_hull_7
 	stealth_corvette
 	stealth_corvette_hull_1
 	stealth_corvette_hull_2
 	stealth_corvette_hull_3
+	stealth_corvette_hull_4
+	stealth_corvette_hull_5
 	stealth_frigate
 	stealth_frigate_hull_1
 	stealth_frigate_hull_2
 	stealth_frigate_hull_3
+	stealth_frigate_hull_4
+	stealth_frigate_hull_5
 
 	# Missile
 	Missile
