@@ -112,6 +112,7 @@ ideas = {
 			modifier = {
 				social_cost_multiplier_modifier = -0.15
 				monthly_population = 0.05
+				total_workforce_modifier = 0.025
 				pop_energy_use_multiplier = 0.20
 			}
 		}
@@ -120,6 +121,7 @@ ideas = {
 
 			modifier = {
 				health_cost_multiplier_modifier = -0.15
+				total_workforce_modifier = 0.025
 			}
 		}
 		sp_sailing_convoy_idea = {

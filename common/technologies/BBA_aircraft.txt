@@ -2582,15 +2582,8 @@ technologies = {
 	}
 	refueling_2 = {
 
-		on_research_complete = {
-			add_dynamic_modifier = {
-				modifier = air_to_air_refueling
-			}
-			custom_effect_tooltip = air_air_range_increase
-			add_to_variable = { aircraft_range_increase = 0.35 }
-			add_to_variable = { aircraft_fuel_increase = 0.45 }
-		}
-
+		air_range = 0.35
+		air_fuel_consumption_factor = 0.45
 
 		research_cost = 3.3
 		start_year = 2005

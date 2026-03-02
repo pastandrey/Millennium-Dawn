@@ -1322,10 +1322,11 @@
 		multi_ethnic_state_idea
 		heavily_regulated_immigration
 		ENG_two_party_system_idea
-		ENG_elisabeth_queen_idea
+		ENG_elizabeth_queen_idea
 		un_aid_esco_member
 		ENG_royal_airforce1
 	}
+
 	add_to_array = { global.un_aid_esco_contributor = THIS }
 	add_ideas = un_aid_ido_member
 	add_to_array = { global.un_aid_ido_contributor = THIS }
