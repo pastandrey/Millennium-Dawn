@@ -4772,7 +4772,7 @@ technologies = {
 	tech_diesel_power_systems_4 = {
 
 		enable_equipment_modules = {
-			module_surface_diesel_power_1_4
+			module_surface_diesel_power_4
 			module_light_surface_diesel_power_4
 		}
 
@@ -5031,8 +5031,8 @@ technologies = {
 	tech_power_systems_5 = {
 
 		enable_equipment_modules = {
-			module_surface_jet_turbine_power4
-			module_light_surface_jet_turbine_power4
+			module_surface_jet_turbine_power5
+			module_light_surface_jet_turbine_power5
 		}
 
 		research_cost = 1
@@ -5077,8 +5077,8 @@ technologies = {
 	tech_power_systems_6 = {
 
 		enable_equipment_modules = {
-			module_surface_jet_turbine_power5
-			module_light_surface_jet_turbine_power5
+			module_surface_jet_turbine_power6
+			module_light_surface_jet_turbine_power6
 		}
 
 		research_cost = 1
@@ -5744,9 +5744,9 @@ technologies = {
 	tech_fire_control_4 = {
 
 		enable_equipment_modules = {
-			module_futuristic_integrated_missile_radar_control
-			module_capital_futuristic_integrated_missile_radar_control
-			module_screen_advanced_integrated_missile_radar_control
+			module_futuristic_integrated_missile_radar_control1
+			module_capital_futuristic_integrated_missile_radar_control1
+			module_screen_futuristic_integrated_missile_radar_control1
 		}
 
 		dependencies = {
@@ -5790,7 +5790,9 @@ technologies = {
 	tech_fire_control_5 = {
 
 		enable_equipment_modules = {
-			module_future_fire_control1
+			module_futuristic_integrated_missile_radar_control2
+			module_capital_futuristic_integrated_missile_radar_control2
+			module_screen_futuristic_integrated_missile_radar_control2
 		}
 
 		dependencies = {
@@ -5835,7 +5837,9 @@ technologies = {
 	tech_fire_control_6 = {
 
 		enable_equipment_modules = {
-			module_future_fire_control2
+			module_futuristic_integrated_missile_radar_control3
+			module_capital_futuristic_integrated_missile_radar_control3
+			module_screen_futuristic_integrated_missile_radar_control3
 		}
 
 		dependencies = {
@@ -8751,15 +8755,9 @@ technologies = {
 		xp_boost_cost = 50
 		xp_research_bonus = 1
 
-		path = {
-			leads_to_tech = tech_turret_missiles_surface_1_8
-			research_cost_coeff = 1
-		}
-
 		folder = {
 			name = naval_folder
-			position = { x = @row35 y = @2075
-			}
+			position = { x = @row35 y = @2075 }
 		}
 
 		ai_will_do = {
@@ -8837,8 +8835,6 @@ technologies = {
 			module_naval_vls_drone_swarm_3
 		}
 
-
-
 		path = {
 			leads_to_tech = tech_turret_missiles_drone_3
 			research_cost_coeff = 1
@@ -8883,6 +8879,11 @@ technologies = {
 
 		enable_equipment_modules = {
 			module_naval_vls_drone_swarm_4
+		}
+
+		path = {
+			leads_to_tech = tech_turret_missiles_drone_4
+			research_cost_coeff = 1
 		}
 
 		research_cost = 1.25
@@ -9636,15 +9637,9 @@ technologies = {
 		xp_boost_cost = 50
 		xp_research_bonus = 1
 
-		path = {
-			leads_to_tech = tech_vls_surface_1_8
-			research_cost_coeff = 1
-		}
-
 		folder = {
 			name = naval_folder
-			position = { x = @row37 y = @2075
-			}
+			position = { x = @row37 y = @2075 }
 		}
 
 		ai_will_do = {

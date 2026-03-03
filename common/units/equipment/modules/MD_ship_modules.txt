@@ -271,8 +271,60 @@ equipment_modules = {
 			convert_cost_ic = 4200
 		}
 		can_convert_from = {
-			module = module_surface_jet_turbine_power2
+			module = module_surface_jet_turbine_power3
 			convert_cost_ic = 2400
+		}
+	}
+
+	module_surface_jet_turbine_power5 = {
+		category = module_surface_power_source_category
+		parent = module_surface_jet_turbine_power4
+		sfx = sfx_ui_sd_module_engine
+		add_stats = {
+			naval_speed = 22
+			naval_range = 6000
+		}
+
+		multiply_stats = {
+			build_cost_ic = 0.24
+			fuel_consumption = 0.07
+		}
+
+		dismantle_cost_ic = 480
+
+		can_convert_from = {
+			module_category = module_surface_power_source_category
+			convert_cost_ic = 4800
+		}
+		can_convert_from = {
+			module = module_surface_jet_turbine_power3
+			convert_cost_ic = 2700
+		}
+	}
+
+	module_surface_jet_turbine_power6 = {
+		category = module_surface_power_source_category
+		parent = module_surface_jet_turbine_power5
+		sfx = sfx_ui_sd_module_engine
+		add_stats = {
+			naval_speed = 22
+			naval_range = 6500
+		}
+
+		multiply_stats = {
+			build_cost_ic = 0.27
+			fuel_consumption = 0.04
+		}
+
+		dismantle_cost_ic = 540
+
+		can_convert_from = {
+			module_category = module_surface_power_source_category
+			convert_cost_ic = 5400
+		}
+		can_convert_from = {
+			module = module_surface_jet_turbine_power4
+			convert_cost_ic = 3000
 		}
 	}
 #LIGHT CONVENTIONAL SHIP ENGINES
@@ -518,6 +570,58 @@ equipment_modules = {
 		}
 	}
 
+	module_light_surface_fut_reactor_power = {
+		category = module_light_surface_power_source_category
+		sfx = sfx_ui_sd_module_engine
+		parent = module_light_surface_mod_reactor_power
+		add_stats = {
+			naval_speed = 23
+			naval_range = 20000
+			build_cost_ic = 250
+		}
+		multiply_stats = {
+			build_cost_ic = 0.33
+			fuel_consumption = -1.0
+		}
+
+		dismantle_cost_ic = 300
+
+		can_convert_from = {
+			module_category = module_light_surface_power_source_category
+			convert_cost_ic = 2500
+		}
+		can_convert_from = {
+			module = module_light_surface_mod_reactor_power
+			convert_cost_ic = 1500
+		}
+	}
+
+	module_light_surface_fut_reactor_power2 = {
+		category = module_light_surface_power_source_category
+		sfx = sfx_ui_sd_module_engine
+		parent = module_light_surface_fut_reactor_power
+		add_stats = {
+			naval_speed = 24
+			naval_range = 20000
+			build_cost_ic = 500
+		}
+		multiply_stats = {
+			build_cost_ic = 0.36
+			fuel_consumption = -1.0
+		}
+
+		dismantle_cost_ic = 400
+
+		can_convert_from = {
+			module_category = module_light_surface_power_source_category
+			convert_cost_ic = 3000
+		}
+		can_convert_from = {
+			module = module_light_surface_fut_reactor_power
+			convert_cost_ic = 1750
+		}
+	}
+
 	module_surface_early_reactor_power = {
 		category = module_surface_power_source_category
 		sfx = sfx_ui_sd_module_engine
@@ -615,6 +719,56 @@ equipment_modules = {
 		can_convert_from = {
 			module = module_surface_mod_reactor_power
 			convert_cost_ic = 3000
+		}
+	}
+
+	module_surface_fut_reactor_power2 = {
+		category = module_surface_power_source_category
+		sfx = sfx_ui_sd_module_engine
+		parent = module_surface_mod_reactor_power
+		add_stats = {
+			naval_speed = 23
+			naval_range = 20000
+		}
+		multiply_stats = {
+			build_cost_ic = 0.25
+			fuel_consumption = -1.0
+		}
+
+		dismantle_cost_ic = 600
+
+		can_convert_from = {
+			module_category = module_surface_power_source_category
+			convert_cost_ic = 6000
+		}
+		can_convert_from = {
+			module = module_surface_mod_reactor_power
+			convert_cost_ic = 3500
+		}
+	}
+
+	module_surface_fut_reactor_power3 = {
+		category = module_surface_power_source_category
+		sfx = sfx_ui_sd_module_engine
+		parent = module_surface_mod_reactor_power2
+		add_stats = {
+			naval_speed = 24
+			naval_range = 20000
+		}
+		multiply_stats = {
+			build_cost_ic = 0.25
+			fuel_consumption = -1.0
+		}
+
+		dismantle_cost_ic = 700
+
+		can_convert_from = {
+			module_category = module_surface_power_source_category
+			convert_cost_ic = 7000
+		}
+		can_convert_from = {
+			module = module_surface_mod_reactor_power2
+			convert_cost_ic = 4000
 		}
 	}
 #Fusion Reactor
@@ -851,6 +1005,59 @@ equipment_modules = {
 			convert_cost_ic = 420
 		}
 	}
+
+	module_sub_diesel_electric_power6 = {
+		category = module_sub_power_source_category
+		sfx = sfx_ui_sd_module_engine
+		parent = module_sub_diesel_electric_power5
+		add_stats = {
+			naval_speed = 18
+			naval_range = 4000
+		}
+
+		multiply_stats = {
+			build_cost_ic = 0.21
+			fuel_consumption = 0.07
+		}
+
+		dismantle_cost_ic = 72
+
+		can_convert_from = {
+			module_category = module_sub_power_source_category
+			convert_cost_ic = 840
+		}
+		can_convert_from = {
+			module = module_sub_diesel_electric_power4
+			convert_cost_ic = 480
+		}
+	}
+
+	module_sub_diesel_electric_power7 = {
+		category = module_sub_power_source_category
+		sfx = sfx_ui_sd_module_engine
+		parent = module_sub_diesel_electric_power6
+		add_stats = {
+			naval_speed = 19
+			naval_range = 4500
+		}
+
+		multiply_stats = {
+			build_cost_ic = 0.24
+			sub_visibility = -0.04
+			fuel_consumption = 0.4
+		}
+
+		dismantle_cost_ic = 72
+
+		can_convert_from = {
+			module_category = module_sub_power_source_category
+			convert_cost_ic = 960
+		}
+		can_convert_from = {
+			module = module_sub_diesel_electric_power4
+			convert_cost_ic = 540
+		}
+	}
 #SUB NUCLEAR REACTOR
 	module_sub_early_reactor_power = {
 		category = module_sub_power_source_category
@@ -952,6 +1159,59 @@ equipment_modules = {
 		can_convert_from = {
 			module = module_sub_mod_reactor_power
 			convert_cost_ic = 560
+		}
+	}
+
+	module_sub_fut_reactor_power2 = {
+		category = module_sub_power_source_category
+		sfx = sfx_ui_sd_module_engine
+		parent = module_sub_mod_reactor_power
+		add_stats = {
+			naval_speed = 19
+			naval_range = 20000
+		}
+
+		multiply_stats = {
+			build_cost_ic = 0.28
+			fuel_consumption = -1.0
+			sub_visibility = 0.05
+		}
+
+		dismantle_cost_ic = 112
+
+		can_convert_from = {
+			module_category = module_sub_power_source_category
+			convert_cost_ic = 1120
+		}
+		can_convert_from = {
+			module = module_sub_mod_reactor_power
+			convert_cost_ic = 640
+		}
+	}
+
+	module_sub_fut_reactor_power3 = {
+		category = module_sub_power_source_category
+		sfx = sfx_ui_sd_module_engine
+		parent = module_sub_mod_reactor_power2
+		add_stats = {
+			naval_speed = 20
+			naval_range = 20000
+		}
+
+		multiply_stats = {
+			build_cost_ic = 0.32
+			fuel_consumption = -1.0
+		}
+
+		dismantle_cost_ic = 128
+
+		can_convert_from = {
+			module_category = module_sub_power_source_category
+			convert_cost_ic = 1280
+		}
+		can_convert_from = {
+			module = module_sub_mod_reactor_power2
+			convert_cost_ic = 720
 		}
 	}
 
@@ -1428,6 +1688,70 @@ equipment_modules = {
 		}
 	}
 
+	module_esm_4 = {
+		category = module_esm_category
+		parent = module_esm_3
+
+		add_stats = {
+			build_cost_ic = 225
+			fuel_consumption = 2.5
+			max_strength = 5
+			max_organisation = 0.07
+			surface_visibility = 0.13
+		}
+		manpower = 5
+
+		multiply_stats = {
+			max_strength = 0.15
+			surface_visibility = -0.175
+			build_cost_ic = 0.125
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module = module_esm_3
+			convert_cost_ic = 250
+		}
+
+		build_cost_resources = {
+			chromium = 2
+			#microchips = 1
+		}
+	}
+
+	module_esm_5 = {
+		category = module_esm_category
+		parent = module_esm_4
+
+		add_stats = {
+			build_cost_ic = 225
+			fuel_consumption = 2.5
+			max_strength = 5
+			max_organisation = 0.07
+			surface_visibility = 0.11
+		}
+		manpower = 5
+
+		multiply_stats = {
+			max_strength = 0.15
+			surface_visibility = -0.2
+			build_cost_ic = 0.15
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module = module_esm_4
+			convert_cost_ic = 250
+		}
+
+		build_cost_resources = {
+			chromium = 2
+			#microchips = 1
+		}
+	}
+
 	module_sub_esm_1 = {
 		category = module_sub_esm_category
 
@@ -1515,6 +1839,71 @@ equipment_modules = {
 			microchips = 1
 		}
 	}
+
+	module_sub_esm_4 = {
+		category = module_sub_esm_category
+		parent = module_sub_esm_3
+
+		add_stats = {
+			build_cost_ic = 300
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			sub_visibility = 0.25
+		}
+		manpower = 10
+
+		multiply_stats = {
+			max_strength = 0.35
+			sub_visibility = -0.25
+			build_cost_ic = 0.25
+		}
+
+		dismantle_cost_ic = 100
+
+		can_convert_from = {
+			module = module_sub_esm_3
+			convert_cost_ic = 500
+		}
+
+		build_cost_resources = {
+			chromium = 2
+			#microchips = 1
+		}
+	}
+
+	module_sub_esm_5 = {
+		category = module_sub_esm_category
+		parent = module_sub_esm_4
+
+		add_stats = {
+			build_cost_ic = 300
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			sub_visibility = 0.2
+		}
+		manpower = 10
+
+		multiply_stats = {
+			max_strength = 0.4
+			sub_visibility = -0.2
+			build_cost_ic = 0.3
+		}
+
+		dismantle_cost_ic = 100
+
+		can_convert_from = {
+			module = module_sub_esm_4
+			convert_cost_ic = 500
+		}
+
+		build_cost_resources = {
+			chromium = 2
+			#microchips = 1
+		}
+	}
+
 	#FIRE CONTROL
 	module_analog_fire_control = {
 		category = module_fire_control_system_category
@@ -1610,7 +1999,7 @@ equipment_modules = {
 
 	}
 
-	module_futuristic_integrated_missile_radar_control = {
+	module_futuristic_integrated_missile_radar_control1 = {
 		category = module_screen_fire_control_system_category
 		parent = module_advanced_integrated_missile_radar_control
 		add_stats = {
@@ -1639,6 +2028,70 @@ equipment_modules = {
 
 		build_cost_resources = {
 			microchips = 3
+		}
+	}
+
+	module_futuristic_integrated_missile_radar_control2 = {
+		category = module_screen_fire_control_system_category
+		parent = module_futuristic_integrated_missile_radar_control1
+		add_stats = {
+			build_cost_ic = 400
+		}
+
+		multiply_stats = {
+			lg_attack = 0.3
+			hg_attack = 0.3
+			anti_air_attack = 0.3
+			armor_value = 0.25
+			hg_armor_piercing = 0.25
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module_category = module_screen_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		can_convert_from = {
+			module_category = module_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		build_cost_resources = {
+			microchips = 4
+		}
+	}
+
+	module_futuristic_integrated_missile_radar_control3 = {
+		category = module_screen_fire_control_system_category
+		parent = module_futuristic_integrated_missile_radar_control3
+		add_stats = {
+			build_cost_ic = 450
+		}
+
+		multiply_stats = {
+			lg_attack = 0.35
+			hg_attack = 0.35
+			anti_air_attack = 0.35
+			armor_value = 0.3
+			hg_armor_piercing = 0.3
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module_category = module_screen_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		can_convert_from = {
+			module_category = module_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		build_cost_resources = {
+			microchips = 5
 		}
 	}
 
@@ -1741,7 +2194,7 @@ equipment_modules = {
 
 	module_capital_futuristic_integrated_missile_radar_control = {
 		category = module_capital_screen_fire_control_system_category
-		parent = module_capital_advanced_integrated_missile_radar_control
+		parent = module_capital_advanced_integrated_missile_radar_control1
 		add_equipment_type = capital_ship
 		add_stats = {
 			build_cost_ic = 350
@@ -1769,6 +2222,72 @@ equipment_modules = {
 
 		build_cost_resources = {
 			microchips = 3
+		}
+	}
+
+	module_capital_futuristic_integrated_missile_radar_control2 = {
+		category = module_capital_screen_fire_control_system_category
+		parent = module_capital_futuristic_integrated_missile_radar_control1
+		add_equipment_type = capital_ship
+		add_stats = {
+			build_cost_ic = 350
+		}
+
+		multiply_stats = {
+			lg_attack = 0.35
+			hg_attack = 0.35
+			anti_air_attack = 0.35
+			armor_value = 0.25
+			hg_armor_piercing = 0.25
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module_category = module_screen_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		can_convert_from = {
+			module_category = module_capital_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		build_cost_resources = {
+			microchips = 4
+		}
+	}
+
+	module_capital_futuristic_integrated_missile_radar_control3 = {
+		category = module_capital_screen_fire_control_system_category
+		parent = module_capital_futuristic_integrated_missile_radar_control2
+		add_equipment_type = capital_ship
+		add_stats = {
+			build_cost_ic = 350
+		}
+
+		multiply_stats = {
+			lg_attack = 0.4
+			hg_attack = 0.4
+			anti_air_attack = 0.4
+			armor_value = 0.3
+			hg_armor_piercing = 0.3
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module_category = module_screen_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		can_convert_from = {
+			module_category = module_capital_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		build_cost_resources = {
+			microchips = 5
 		}
 	}
 
@@ -1866,7 +2385,7 @@ equipment_modules = {
 
 	}
 
-	module_screen_futuristic_integrated_missile_radar_control = {
+	module_screen_futuristic_integrated_missile_radar_control1 = {
 		category = module_screen_fire_control_system_category
 		parent = module_screen_advanced_integrated_missile_radar_control
 		add_stats = {
@@ -1895,6 +2414,70 @@ equipment_modules = {
 
 		build_cost_resources = {
 			microchips = 3
+		}
+	}
+
+	module_screen_futuristic_integrated_missile_radar_control2 = {
+		category = module_screen_fire_control_system_category
+		parent = module_screen_futuristic_integrated_missile_radar_control1
+		add_stats = {
+			build_cost_ic = 350
+		}
+
+		multiply_stats = {
+			lg_attack = 0.3
+			hg_attack = 0.3
+			anti_air_attack = 0.3
+			armor_value = 0.25
+			hg_armor_piercing = 0.25
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module_category = module_screen_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		can_convert_from = {
+			module_category = module_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		build_cost_resources = {
+			microchips = 4
+		}
+	}
+
+	module_screen_futuristic_integrated_missile_radar_control3 = {
+		category = module_screen_fire_control_system_category
+		parent = module_screen_futuristic_integrated_missile_radar_control2
+		add_stats = {
+			build_cost_ic = 350
+		}
+
+		multiply_stats = {
+			lg_attack = 0.35
+			hg_attack = 0.35
+			anti_air_attack = 0.35
+			armor_value = 0.3
+			hg_armor_piercing = 0.3
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module_category = module_screen_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		can_convert_from = {
+			module_category = module_fire_control_system_category
+			convert_cost_ic = 100
+		}
+
+		build_cost_resources = {
+			microchips = 5
 		}
 	}
 
@@ -2226,6 +2809,73 @@ equipment_modules = {
 		}
 
 	}
+
+	module_ciws_7 = {
+		category = module_point_defense_system_category
+		parent = module_ciws_6
+
+		add_stats = {
+			build_cost_ic = 475
+			fuel_consumption = 2.5
+			max_strength = 5
+			max_organisation = 0.07
+			surface_visibility = 0.175
+			anti_air_attack = 1.325
+			armor_value = 14
+		}
+
+		add_average_stats = {
+			armor_value = 150
+		}
+		manpower = 5
+
+		dismantle_cost_ic = 30
+
+		can_convert_from = {
+			module_category = module_point_defense_system_category
+			convert_cost_ic = 220
+		}
+
+		can_convert_from = {
+			module = module_ciws_6
+			convert_cost_ic = 110
+		}
+
+	}
+
+	module_ciws_8 = {
+		category = module_point_defense_system_category
+		parent = module_ciws_7
+
+		add_stats = {
+			build_cost_ic = 500
+			fuel_consumption = 2.5
+			max_strength = 5
+			max_organisation = 0.07
+			surface_visibility = 02
+			anti_air_attack = 1.5
+			armor_value = 16
+		}
+
+		add_average_stats = {
+			armor_value = 180
+		}
+		manpower = 5
+
+		dismantle_cost_ic = 32.5
+
+		can_convert_from = {
+			module_category = module_point_defense_system_category
+			convert_cost_ic = 240
+		}
+
+		can_convert_from = {
+			module = module_ciws_7
+			convert_cost_ic = 120
+		}
+
+	}
+
 	module_naval_adl_1 = {
 		category = module_naval_adl_category
 
@@ -2252,6 +2902,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_adl_2 = {
 		category = module_naval_adl_category
 		parent = module_naval_adl_1
@@ -2279,6 +2930,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_adl_3 = {
 		category = module_naval_adl_category
 		parent = module_naval_adl_2
@@ -2305,6 +2957,7 @@ equipment_modules = {
 			convert_cost_ic = 246.86
 		}
 	}
+
 	module_naval_adl_4 = {
 		category = module_naval_adl_category
 		parent = module_naval_adl_3
@@ -2329,6 +2982,34 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_naval_adl_category
 			convert_cost_ic = 274.27
+		}
+
+	}
+
+	module_naval_adl_5 = {
+		category = module_naval_adl_category
+		parent = module_naval_adl_4
+
+		add_stats = {
+			build_cost_ic = 689.61
+			fuel_consumption = 5.5
+			max_strength = 5
+			max_organisation = 0.07
+			surface_visibility = 0.11
+			anti_air_attack = 1.88
+			armor_value = 24.2
+		}
+
+		add_average_stats = {
+			armor_value = 540
+		}
+		manpower = 5
+
+		dismantle_cost_ic = 39.92
+
+		can_convert_from = {
+			module_category = module_naval_adl_category
+			convert_cost_ic = 301.68
 		}
 
 	}
@@ -2548,6 +3229,70 @@ equipment_modules = {
 			convert_cost_ic = 70
 		}
 	}
+
+	module_76mm_gun_5 = {
+		category = module_light_guns_category
+		parent = module_76mm_gun_4
+
+		add_stats = {
+			build_cost_ic = 800
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.27
+			lg_attack = 2
+			anti_air_attack = 1.625
+			naval_torpedo_damage_reduction_factor = 0.12
+		}
+		manpower = 10
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		dismantle_cost_ic = 45
+
+		can_convert_from = {
+			module_category = module_light_guns_category
+			convert_cost_ic = 155
+		}
+
+		can_convert_from = {
+			module = module_76mm_gun_4
+			convert_cost_ic = 85
+		}
+	}
+
+	module_76mm_gun_6 = {
+		category = module_light_guns_category
+		parent = module_76mm_gun_5
+
+		add_stats = {
+			build_cost_ic = 850
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.24
+			lg_attack = 2.25
+			anti_air_attack = 1.750
+			naval_torpedo_damage_reduction_factor = 0.14
+		}
+		manpower = 10
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module_category = module_light_guns_category
+			convert_cost_ic = 175
+		}
+
+		can_convert_from = {
+			module = module_76mm_gun_5
+			convert_cost_ic = 100
+		}
+	}
 #127mm GUNS
 	module_127mm_guns_1 = {
 		category = module_light_guns_category
@@ -2668,6 +3413,70 @@ equipment_modules = {
 		can_convert_from = {
 			module = module_127mm_guns_3
 			convert_cost_ic = 80
+		}
+	}
+
+	module_127mm_guns_5 = {
+		category = module_light_guns_category
+		parent = module_127mm_guns_4
+
+		add_stats = {
+			build_cost_ic = 900
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.27
+			lg_attack = 3
+			anti_air_attack = 2.25
+			naval_torpedo_damage_reduction_factor = 0.09
+		}
+		manpower = 10
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		dismantle_cost_ic = 55
+
+		can_convert_from = {
+			module_category = module_light_guns_category
+			convert_cost_ic = 170
+		}
+
+		can_convert_from = {
+			module = module_127mm_guns_4
+			convert_cost_ic = 85
+		}
+	}
+
+	module_127mm_guns_6 = {
+		category = module_light_guns_category
+		parent = module_127mm_guns_5
+
+		add_stats = {
+			build_cost_ic = 950
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.24
+			lg_attack = 3.375
+			anti_air_attack = 2.5
+			naval_torpedo_damage_reduction_factor = 0.105
+		}
+		manpower = 10
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		dismantle_cost_ic = 60
+
+		can_convert_from = {
+			module_category = module_light_guns_category
+			convert_cost_ic = 180
+		}
+
+		can_convert_from = {
+			module = module_127mm_guns_5
+			convert_cost_ic = 90
 		}
 	}
 #HEAVY GUNS
@@ -2874,6 +3683,78 @@ equipment_modules = {
 		}
 	}
 
+	module_railgun_5 = {
+		category = module_railguns_category
+		parent = module_railgun_4
+
+		add_stats = {
+			build_cost_ic = 1650
+			fuel_consumption = 10
+			max_strength = 20
+			max_organisation = 0.28
+			surface_visibility = 0.55
+			lg_attack = 50
+		}
+		manpower = 20
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		dismantle_cost_ic = 275
+
+		can_convert_from = {
+			module_category = module_railguns_category
+			convert_cost_ic = 800
+		}
+
+		can_convert_from = {
+			module = module_railgun_4
+			convert_cost_ic = 200
+		}
+
+		build_cost_resources = {
+			steel = 4
+			composites = 3
+			microchips = 3
+		}
+	}
+
+	module_railgun_6 = {
+		category = module_railguns_category
+		parent = module_railgun_5
+
+		add_stats = {
+			build_cost_ic = 1750
+			fuel_consumption = 10
+			max_strength = 20
+			max_organisation = 0.28
+			surface_visibility = 0.5
+			lg_attack = 55
+		}
+		manpower = 20
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		dismantle_cost_ic = 300
+
+		can_convert_from = {
+			module_category = module_railguns_category
+			convert_cost_ic = 1000
+		}
+
+		can_convert_from = {
+			module = module_railgun_5
+			convert_cost_ic = 200
+		}
+
+		build_cost_resources = {
+			steel = 4
+			composites = 4
+			microchips = 4
+		}
+	}
+
 	module_naval_railgun_battery_1 = {
 		category = module_railgun_battery_category
 
@@ -2907,6 +3788,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_railgun_battery_2 = {
 		category = module_railgun_battery_category
 		parent = module_naval_railgun_battery_1
@@ -2942,10 +3824,11 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = 4
 			composites = 4
-			microchips = 2
+			microchips = 3
 		}
 
 	}
+
 	module_naval_railgun_battery_3 = {
 		category = module_railgun_battery_category
 		parent = module_naval_railgun_battery_2
@@ -2979,9 +3862,49 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			steel = 4
+			steel = 5
 			composites = 4
-			microchips = 2
+			microchips = 3
+		}
+
+	}
+
+	module_naval_railgun_battery_4 = {
+		category = module_railgun_battery_category
+		parent = module_naval_railgun_battery_3
+
+		add_stats = {
+			build_cost_ic = 3099.68
+			fuel_consumption = 10
+			max_strength = 25
+			max_organisation = 0.30
+			surface_visibility = 0.42
+			lg_attack = 30.24
+			hg_attack = 20.16
+		}
+
+		manpower = 35
+
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		dismantle_cost_ic = 296
+
+		can_convert_from = {
+			module_category = module_railgun_battery_category
+			convert_cost_ic = 600
+		}
+
+		can_convert_from = {
+			module = module_naval_railgun_battery_2
+			convert_cost_ic = 200
+		}
+
+		build_cost_resources = {
+			steel = 5
+			composites = 5
+			microchips = 3
 		}
 
 	}
@@ -3155,6 +4078,52 @@ equipment_modules = {
 		}
 
 	}
+
+	module_vls_asm_7 = {
+		category = module_vls_category
+		parent = module_vls_asm_6
+
+		add_stats = {
+			build_cost_ic = 1920
+			hg_attack = 85
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+			hg_armor_piercing = 120
+		}
+		manpower = 20
+
+		dismantle_cost_ic = 180
+
+		can_convert_from = {
+			module_category = module_vls_category
+			convert_cost_ic = 400
+		}
+
+	}
+
+	module_vls_asm_8 = {
+		category = module_vls_category
+		parent = module_vls_asm_7
+
+		add_stats = {
+			build_cost_ic = 1980
+			hg_attack = 90
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+			hg_armor_piercing = 140
+		}
+		manpower = 20
+
+		dismantle_cost_ic = 195
+
+		can_convert_from = {
+			module_category = module_vls_category
+			convert_cost_ic = 450
+		}
+
+	}
 #VLS Drone Swarm
 	module_naval_vls_drone_swarm_1 = {
 		category = module_vls_category
@@ -3182,6 +4151,7 @@ equipment_modules = {
 			microchips = 5
 		}
 	}
+
 	module_naval_vls_drone_swarm_2 = {
 		category = module_vls_category
 		parent = module_naval_vls_drone_swarm_1
@@ -3209,6 +4179,7 @@ equipment_modules = {
 			microchips = 5
 		}
 	}
+
 	module_naval_vls_drone_swarm_3 = {
 		category = module_vls_category
 		parent = module_naval_vls_drone_swarm_2
@@ -3236,6 +4207,7 @@ equipment_modules = {
 			microchips = 5
 		}
 	}
+
 	module_naval_vls_drone_swarm_4 = {
 		category = module_vls_category
 		parent = module_naval_vls_drone_swarm_3
@@ -3260,7 +4232,35 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			microchips = 5
+			microchips = 6
+		}
+	}
+
+	module_naval_vls_drone_swarm_5 = {
+		category = module_vls_category
+		parent = module_naval_vls_drone_swarm_4
+
+		add_stats = {
+			build_cost_ic = 2047.54
+			hg_attack = 109.75
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 5
+			hg_armor_piercing = 128.29
+			lg_attack = 10
+		}
+
+		manpower = -1
+
+		dismantle_cost_ic = 217.8
+
+		can_convert_from = {
+			module_category = module_vls_category
+			convert_cost_ic = 545.03
+		}
+
+		build_cost_resources = {
+			microchips = 6
 		}
 	}
 #VLS SAM
@@ -3430,6 +4430,62 @@ equipment_modules = {
 		}
 
 	}
+
+	module_vls_sam_7 = {
+		category = module_vls_category
+		parent = module_vls_sam_6
+
+		add_stats = {
+			build_cost_ic = 1920
+			anti_air_attack = 10
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+			armor_value = 13
+		}
+
+		add_average_stats = {
+			armor_value = 240
+		}
+
+		manpower = 20
+
+		dismantle_cost_ic = 180
+
+		can_convert_from = {
+			module_category = module_vls_category
+			convert_cost_ic = 400
+		}
+
+	}
+
+	module_vls_sam_8 = {
+		category = module_vls_category
+		parent = module_vls_sam_7
+
+		add_stats = {
+			build_cost_ic = 1980
+			anti_air_attack = 10
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+			armor_value = 15
+		}
+
+		add_average_stats = {
+			armor_value = 280
+		}
+
+		manpower = 20
+
+		dismantle_cost_ic = 195
+
+		can_convert_from = {
+			module_category = module_vls_category
+			convert_cost_ic = 450
+		}
+
+	}
 #VLS LAM
 	module_vls_lam_1 = {
 		category = module_vls_category
@@ -3556,6 +4612,58 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_vls_category
 			convert_cost_ic = 300
+		}
+
+	}
+
+	module_vls_lam_6 = {
+		category = module_vls_category
+		parent = module_vls_lam_5
+
+		add_stats = {
+			build_cost_ic = 1920
+			lg_attack = 21
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+		}
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		manpower = 20
+
+		dismantle_cost_ic = 165
+
+		can_convert_from = {
+			module_category = module_vls_category
+			convert_cost_ic = 350
+		}
+
+	}
+
+	module_vls_lam_7 = {
+		category = module_vls_category
+		parent = module_vls_lam_6
+
+		add_stats = {
+			build_cost_ic = 1980
+			lg_attack = 22.5
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+		}
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		manpower = 20
+
+		dismantle_cost_ic = 180
+
+		can_convert_from = {
+			module_category = module_vls_category
+			convert_cost_ic = 400
 		}
 
 	}
@@ -3726,6 +4834,52 @@ equipment_modules = {
 		}
 
 	}
+
+	module_vls_sub_asm_7 = {
+		category = module_vls_sub_category
+		parent = module_vls_sub_asm_6
+
+		add_stats = {
+			build_cost_ic = 1920
+			hg_attack = 85
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+			hg_armor_piercing = 120
+		}
+		manpower = 20
+
+		dismantle_cost_ic = 180
+
+		can_convert_from = {
+			module_category = module_vls_sub_category
+			convert_cost_ic = 400
+		}
+
+	}
+
+	module_vls_sub_asm_8 = {
+		category = module_vls_sub_category
+		parent = module_vls_sub_asm_7
+
+		add_stats = {
+			build_cost_ic = 1980
+			hg_attack = 90
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+			hg_armor_piercing = 140
+		}
+		manpower = 20
+
+		dismantle_cost_ic = 195
+
+		can_convert_from = {
+			module_category = module_vls_sub_category
+			convert_cost_ic = 450
+		}
+
+	}
 #VLS SUB LAM
 	module_vls_sub_lam_1 = {
 		category = module_vls_sub_category
@@ -3863,6 +5017,58 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_vls_sub_category
 			convert_cost_ic = 300
+		}
+
+	}
+
+	module_vls_sub_lam_6 = {
+		category = module_vls_sub_category
+		parent = module_vls_sub_lam_5
+
+		add_stats = {
+			build_cost_ic = 1920
+			lg_attack = 21
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+		}
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		manpower = 20
+
+		dismantle_cost_ic = 165
+
+		can_convert_from = {
+			module_category = module_vls_sub_category
+			convert_cost_ic = 350
+		}
+
+	}
+
+	module_vls_sub_lam_7 = {
+		category = module_vls_sub_category
+		parent = module_vls_sub_lam_6
+
+		add_stats = {
+			build_cost_ic = 1980
+			lg_attack = 22.5
+			max_strength = 20
+			max_organisation = 0.28
+			fuel_consumption = 10
+		}
+		add_average_stats = {
+			lg_armor_piercing = 0
+		}
+
+		manpower = 20
+
+		dismantle_cost_ic = 180
+
+		can_convert_from = {
+			module_category = module_vls_sub_category
+			convert_cost_ic = 400
 		}
 
 	}
@@ -4166,6 +5372,52 @@ equipment_modules = {
 		}
 
 	}
+
+	module_aa_missiles_7 = {
+		category = module_turret_missile_category
+		parent = module_aa_missiles_6
+
+		add_stats = {
+			build_cost_ic = 1250
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.27
+			anti_air_attack = 8.125
+		}
+		manpower = 10
+
+		dismantle_cost_ic = 120
+
+		can_convert_from = {
+			module_category = module_turret_missile_category
+			convert_cost_ic = 400
+		}
+
+	}
+
+	module_aa_missiles_8 = {
+		category = module_turret_missile_category
+		parent = module_aa_missiles_7
+
+		add_stats = {
+			build_cost_ic = 1300
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.24
+			anti_air_attack = 8.75
+		}
+		manpower = 10
+
+		dismantle_cost_ic = 130
+
+		can_convert_from = {
+			module_category = module_turret_missile_category
+			convert_cost_ic = 450
+		}
+
+	}
 #ASW MISSILES
 	module_anti_submarine_missile_1 = {
 		category = module_turret_missile_category
@@ -4300,6 +5552,52 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_turret_missile_category
 			convert_cost_ic = 350
+		}
+
+	}
+
+	module_anti_submarine_missile_7 = {
+		category = module_turret_missile_category
+		parent = module_anti_submarine_missile_6
+
+		add_stats = {
+			sub_attack = 55
+			build_cost_ic = 1250
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.27
+		}
+		manpower = 10
+
+		dismantle_cost_ic = 120
+
+		can_convert_from = {
+			module_category = module_turret_missile_category
+			convert_cost_ic = 400
+		}
+
+	}
+
+	module_anti_submarine_missile_8 = {
+		category = module_turret_missile_category
+		parent = module_anti_submarine_missile_7
+
+		add_stats = {
+			sub_attack = 60
+			build_cost_ic = 1300
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.24
+		}
+		manpower = 10
+
+		dismantle_cost_ic = 130
+
+		can_convert_from = {
+			module_category = module_turret_missile_category
+			convert_cost_ic = 450
 		}
 
 	}
@@ -4475,6 +5773,53 @@ equipment_modules = {
 		}
 
 	}
+
+	module_asm_7 = {
+		category = module_turret_missile_category
+		parent = module_asm_6
+
+		add_stats = {
+			build_cost_ic = 1250
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.27
+			hg_attack = 75
+			hg_armor_piercing = 100
+		}
+		manpower = 10
+		dismantle_cost_ic = 120
+
+		can_convert_from = {
+			module_category = module_turret_missile_category
+			convert_cost_ic = 400
+		}
+
+	}
+
+	module_asm_8 = {
+		category = module_turret_missile_category
+		parent = module_asm_7
+
+		add_stats = {
+			build_cost_ic = 1300
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.24
+			hg_attack = 79.75
+			hg_armor_piercing = 120
+		}
+		manpower = 10
+		dismantle_cost_ic = 130
+
+		can_convert_from = {
+			module_category = module_turret_missile_category
+			convert_cost_ic = 450
+		}
+
+	}
+
 	module_naval_anti_torpedo_1 = {
 		category = module_turret_missile_category
 
@@ -4498,6 +5843,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_anti_torpedo_2 = {
 		category = module_turret_missile_category
 		parent = module_naval_anti_torpedo_1
@@ -4522,6 +5868,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_anti_torpedo_3 = {
 		category = module_turret_missile_category
 		parent = module_naval_anti_torpedo_2
@@ -4546,6 +5893,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_anti_torpedo_4 = {
 		category = module_turret_missile_category
 		parent = module_naval_anti_torpedo_3
@@ -4567,6 +5915,56 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_turret_missile_category
 			convert_cost_ic = 604.8
+		}
+
+	}
+
+	module_naval_anti_torpedo_5 = {
+		category = module_turret_missile_category
+		parent = module_naval_anti_torpedo_4
+
+		add_stats = {
+			build_cost_ic = 1428.37
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+		}
+		multiply_stats = {
+			naval_torpedo_damage_reduction_factor = 0.12
+			naval_torpedo_enemy_critical_chance_factor = -0.07
+		}
+
+		manpower = 10
+		dismantle_cost_ic = 165.92
+
+		can_convert_from = {
+			module_category = module_turret_missile_category
+			convert_cost_ic = 705.6
+		}
+
+	}
+
+	module_naval_anti_torpedo_6 = {
+		category = module_turret_missile_category
+		parent = module_naval_anti_torpedo_5
+
+		add_stats = {
+			build_cost_ic = 1,487.34
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+		}
+		multiply_stats = {
+			naval_torpedo_damage_reduction_factor = 0.13
+			naval_torpedo_enemy_critical_chance_factor = -0.08
+		}
+
+		manpower = 10
+		dismantle_cost_ic = 180.99
+
+		can_convert_from = {
+			module_category = module_turret_missile_category
+			convert_cost_ic = 806.4
 		}
 
 	}
@@ -4767,6 +6165,62 @@ equipment_modules = {
 			microchips = 3
 		}
 	}
+
+	module_radar_8 = {
+		category = module_radar_category
+		parent = module_radar_7
+
+		add_stats = {
+			build_cost_ic = 1350
+			surface_detection = 55
+			sub_detection = 16.5
+		}
+
+		dismantle_cost_ic = 135
+
+		multiply_stats = {
+			hg_attack = 0.4
+			torpedo_attack = 0.4
+			anti_air_attack = 1.8
+		}
+
+		can_convert_from = {
+			module_category = module_radar_category
+			convert_cost_ic = 675
+		}
+
+		build_cost_resources = {
+			#microchips = 3
+		}
+	}
+
+	module_radar_9 = {
+		category = module_radar_category
+		parent = module_radar_8
+
+		add_stats = {
+			build_cost_ic = 1500
+			surface_detection = 60
+			sub_detection = 18
+		}
+
+		dismantle_cost_ic = 150
+
+		multiply_stats = {
+			hg_attack = 0.45
+			torpedo_attack = 0.45
+			anti_air_attack = 2
+		}
+
+		can_convert_from = {
+			module_category = module_radar_category
+			convert_cost_ic = 750
+		}
+
+		build_cost_resources = {
+			#microchips = 3
+		}
+	}
 # Drone Recon
 	module_naval_recon_drone_1 = {
 		category = module_drone_radar_category
@@ -4794,6 +6248,7 @@ equipment_modules = {
 			microchips = 5
 		}
 	}
+
 	module_naval_recon_drone_2 = {
 		category = module_drone_radar_category
 		parent = module_naval_recon_drone_1
@@ -4821,6 +6276,7 @@ equipment_modules = {
 			microchips = 3
 		}
 	}
+
 	module_naval_recon_drone_3 = {
 		category = module_drone_radar_category
 		parent = module_naval_recon_drone_2
@@ -4848,6 +6304,7 @@ equipment_modules = {
 			microchips = 3
 		}
 	}
+
 	module_naval_recon_drone_4 = {
 		category = module_drone_radar_category
 		parent = module_naval_recon_drone_3
@@ -4875,6 +6332,7 @@ equipment_modules = {
 			microchips = 3
 		}
 	}
+
 	module_naval_recon_drone_5 = {
 		category = module_drone_radar_category
 		parent = module_naval_recon_drone_4
@@ -4902,6 +6360,91 @@ equipment_modules = {
 			microchips = 3
 		}
 	}
+
+	module_naval_recon_drone_6 = {
+		category = module_drone_radar_category
+		parent = module_naval_recon_drone_5
+
+		add_stats = {
+			build_cost_ic = 3076.18
+			surface_detection = 101.77
+			sub_detection = 28.62
+		}
+
+		dismantle_cost_ic = 307.62
+
+		multiply_stats = {
+			hg_attack = 1.39
+			torpedo_attack = 1.39
+			anti_air_attack = 4.11
+		}
+
+		can_convert_from = {
+			module_category = module_drone_radar_category
+			convert_cost_ic = 1538.09
+		}
+
+		build_cost_resources = {
+			microchips = 3
+		}
+	}
+
+	module_naval_recon_drone_7 = {
+		category = module_drone_radar_category
+		parent = module_naval_recon_drone_6
+
+		add_stats = {
+			build_cost_ic = 3588.88
+			surface_detection = 114.51
+			sub_detection = 32.2
+		}
+
+		dismantle_cost_ic = 358.89
+
+		multiply_stats = {
+			hg_attack = 1.67
+			torpedo_attack = 1.67
+			anti_air_attack = 4.8
+		}
+
+		can_convert_from = {
+			module_category = module_drone_radar_category
+			convert_cost_ic = 1794.44
+		}
+
+		build_cost_resources = {
+			microchips = 3
+		}
+	}
+
+	module_naval_recon_drone_8 = {
+		category = module_drone_radar_category
+		parent = module_naval_recon_drone_7
+
+		add_stats = {
+			build_cost_ic = 4101.58
+			surface_detection = 127.25
+			sub_detection = 35.78
+		}
+
+		dismantle_cost_ic = 410.16
+
+		multiply_stats = {
+			hg_attack = 1.95
+			torpedo_attack = 1.95
+			anti_air_attack = 5.49
+		}
+
+		can_convert_from = {
+			module_category = module_drone_radar_category
+			convert_cost_ic = 2050.79
+		}
+
+		build_cost_resources = {
+			microchips = 3
+		}
+	}
+
 #Radar Jammer
 	module_naval_radar_jammer_1 = {
 		category = module_radar_jammer_category
@@ -4931,6 +6474,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_radar_jammer_2 = {
 		category = module_radar_jammer_category
 		parent = module_naval_radar_jammer_1
@@ -4960,6 +6504,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_radar_jammer_3 = {
 		category = module_radar_jammer_category
 		parent = module_naval_radar_jammer_2
@@ -4989,6 +6534,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_radar_jammer_4 = {
 		category = module_radar_jammer_category
 		parent = module_naval_radar_jammer_3
@@ -5018,6 +6564,7 @@ equipment_modules = {
 		}
 
 	}
+
 	module_naval_radar_jammer_5 = {
 		category = module_radar_jammer_category
 		parent = module_naval_radar_jammer_4
@@ -5043,7 +6590,37 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			microchips = 3
+			microchips = 4
+		}
+
+	}
+
+	module_naval_radar_jammer_6 = {
+		category = module_radar_jammer_category
+		parent = module_naval_radar_jammer_5
+
+		add_stats = {
+			build_cost_ic = 177.98
+			surface_detection = 23.73
+			sub_detection = 39.54
+			max_strength = 197.71
+		}
+
+		multiply_stats = {
+			hg_attack = 0.04
+			torpedo_attack = 0.04
+			surface_visibility = -0.07
+		}
+
+		dismantle_cost_ic = 17.8
+
+		can_convert_from = {
+			module_category = module_radar_jammer_category
+			convert_cost_ic = 89.99
+		}
+
+		build_cost_resources = {
+			microchips = 4
 		}
 
 	}
@@ -5233,6 +6810,60 @@ equipment_modules = {
 
 		build_cost_resources = {
 			microchips = 3
+		}
+	}
+
+	module_sonar_8 = {
+		category = module_sonar_category
+		parent = module_sonar_7
+
+		add_stats = {
+			build_cost_ic = 450
+			surface_detection = 33
+			sub_detection = 55
+		}
+
+		multiply_stats = {
+			hg_attack = 0.18
+			torpedo_attack = 0.18
+		}
+
+		dismantle_cost_ic = 45
+
+		can_convert_from = {
+			module_category = module_sonar_category
+			convert_cost_ic = 225
+		}
+
+		build_cost_resources = {
+			microchips = 4
+		}
+	}
+
+	module_sonar_9 = {
+		category = module_sonar_category
+		parent = module_sonar_8
+
+		add_stats = {
+			build_cost_ic = 500
+			surface_detection = 36
+			sub_detection = 60
+		}
+
+		multiply_stats = {
+			hg_attack = 0.20
+			torpedo_attack = 0.20
+		}
+
+		dismantle_cost_ic = 50
+
+		can_convert_from = {
+			module_category = module_sonar_category
+			convert_cost_ic = 250
+		}
+
+		build_cost_resources = {
+			microchips = 4
 		}
 	}
 #ASW TORPEDOES
@@ -5706,6 +7337,7 @@ equipment_modules = {
 			microchips = 3
 		}
 	}
+
 	module_naval_anti_ship_drone_torpedoes_4 = {
 		category = module_anti_ship_drone_torpedoes_category
 		parent = module_anti_ship_drone_torpedoes_3
@@ -5735,6 +7367,67 @@ equipment_modules = {
 			microchips = 4
 		}
 	}
+
+	module_naval_anti_ship_drone_torpedoes_5 = {
+		category = module_anti_ship_drone_torpedoes_category
+		parent = module_anti_ship_drone_torpedoes_4
+
+		add_stats = {
+			build_cost_ic = 743.94
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.27
+			sub_visibility = 0.27
+			torpedo_attack = 6.04
+			sub_attack = 24.13
+			naval_torpedo_hit_chance_factor = 0.17
+		}
+		manpower = 1
+
+		dismantle_cost_ic = 39.73
+
+		can_convert_from = {
+			module_category = module_anti_ship_torpedoes_category
+			convert_cost_ic = 227.1
+		}
+		critical_parts = { damaged_torpedoes }
+
+		build_cost_resources = {
+			microchips = 5
+		}
+	}
+
+	module_naval_anti_ship_drone_torpedoes_6 = {
+		category = module_anti_ship_drone_torpedoes_category
+		parent = module_anti_ship_drone_torpedoes_5
+
+		add_stats = {
+			build_cost_ic = 774.65
+			fuel_consumption = 5
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.25
+			sub_visibility = 0.25
+			torpedo_attack = 6.59
+			sub_attack = 26.32
+			naval_torpedo_hit_chance_factor = 0.18
+		}
+		manpower = 1
+
+		dismantle_cost_ic = 39.73
+
+		can_convert_from = {
+			module_category = module_anti_ship_torpedoes_category
+			convert_cost_ic = 255.53
+		}
+		critical_parts = { damaged_torpedoes }
+
+		build_cost_resources = {
+			microchips = 6
+		}
+	}
+
 	module_naval_anti_ship_nuclear_torpedo_1 = {
 		category = module_anti_ship_nuclear_torpedoes_category
 
@@ -5758,6 +7451,7 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_torpedoes }
 	}
+
 	module_naval_anti_ship_nuclear_torpedo_2 = {
 		category = module_anti_ship_nuclear_torpedoes_category
 		parent = module_naval_anti_ship_nuclear_torpedo_1
@@ -5782,6 +7476,7 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_torpedoes }
 	}
+
 	module_naval_anti_ship_nuclear_torpedo_3 = {
 		category = module_anti_ship_nuclear_torpedoes_category
 		parent = module_naval_anti_ship_nuclear_torpedo_2
@@ -5806,6 +7501,7 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_torpedoes }
 	}
+
 	module_naval_anti_ship_nuclear_torpedo_4 = {
 		category = module_anti_ship_nuclear_torpedoes_category
 		parent = module_naval_anti_ship_nuclear_torpedo_3
@@ -5827,6 +7523,31 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
 			convert_cost_ic = 158.93
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
+	module_naval_anti_ship_nuclear_torpedo_5 = {
+		category = module_anti_ship_nuclear_torpedoes_category
+		parent = module_naval_anti_ship_nuclear_torpedo_4
+
+		add_stats = {
+			build_cost_ic = 892.72
+			fuel_consumption = 1
+			max_strength = 10
+			max_organisation = 0.14
+			surface_visibility = 0.35
+			sub_visibility = 0.35
+			torpedo_attack = 8.29
+			sub_attack = 21.12
+		}
+		manpower = 15
+
+		dismantle_cost_ic = 36.34
+
+		can_convert_from = {
+			module_category = module_anti_ship_torpedoes_category
+			convert_cost_ic = 181.67
 		}
 		critical_parts = { damaged_torpedoes }
 	}
