@@ -750,7 +750,7 @@ equipment_modules = {
 	module_surface_fut_reactor_power3 = {
 		category = module_surface_power_source_category
 		sfx = sfx_ui_sd_module_engine
-		parent = module_surface_mod_reactor_power2
+		parent = module_surface_fut_reactor_power2
 		add_stats = {
 			naval_speed = 24
 			naval_range = 20000
@@ -767,7 +767,7 @@ equipment_modules = {
 			convert_cost_ic = 7000
 		}
 		can_convert_from = {
-			module = module_surface_mod_reactor_power2
+			module = module_surface_fut_reactor_power2
 			convert_cost_ic = 4000
 		}
 	}
@@ -1192,7 +1192,7 @@ equipment_modules = {
 	module_sub_fut_reactor_power3 = {
 		category = module_sub_power_source_category
 		sfx = sfx_ui_sd_module_engine
-		parent = module_sub_mod_reactor_power2
+		parent = module_sub_fut_reactor_power2
 		add_stats = {
 			naval_speed = 20
 			naval_range = 20000
@@ -1210,7 +1210,7 @@ equipment_modules = {
 			convert_cost_ic = 1280
 		}
 		can_convert_from = {
-			module = module_sub_mod_reactor_power2
+			module = module_sub_fut_reactor_power2
 			convert_cost_ic = 720
 		}
 	}
@@ -2194,7 +2194,7 @@ equipment_modules = {
 
 	module_capital_futuristic_integrated_missile_radar_control = {
 		category = module_capital_screen_fire_control_system_category
-		parent = module_capital_advanced_integrated_missile_radar_control1
+		parent = module_capital_advanced_integrated_missile_radar_control
 		add_equipment_type = capital_ship
 		add_stats = {
 			build_cost_ic = 350
@@ -2227,7 +2227,7 @@ equipment_modules = {
 
 	module_capital_futuristic_integrated_missile_radar_control2 = {
 		category = module_capital_screen_fire_control_system_category
-		parent = module_capital_futuristic_integrated_missile_radar_control1
+		parent = module_capital_futuristic_integrated_missile_radar_control
 		add_equipment_type = capital_ship
 		add_stats = {
 			build_cost_ic = 350
@@ -5949,7 +5949,7 @@ equipment_modules = {
 		parent = module_naval_anti_torpedo_5
 
 		add_stats = {
-			build_cost_ic = 1,487.34
+			build_cost_ic = 1487.34
 			fuel_consumption = 5
 			max_strength = 10
 			max_organisation = 0.14
@@ -7370,7 +7370,7 @@ equipment_modules = {
 
 	module_naval_anti_ship_drone_torpedoes_5 = {
 		category = module_anti_ship_drone_torpedoes_category
-		parent = module_anti_ship_drone_torpedoes_4
+		parent = module_naval_anti_ship_drone_torpedoes_4
 
 		add_stats = {
 			build_cost_ic = 743.94
@@ -7400,7 +7400,7 @@ equipment_modules = {
 
 	module_naval_anti_ship_drone_torpedoes_6 = {
 		category = module_anti_ship_drone_torpedoes_category
-		parent = module_anti_ship_drone_torpedoes_5
+		parent = module_naval_anti_ship_drone_torpedoes_5
 
 		add_stats = {
 			build_cost_ic = 774.65
