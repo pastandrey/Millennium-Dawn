@@ -603,7 +603,7 @@ technologies = {
 
 	#2055
 	corvette_hull_7 = {
-		
+
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_naval_vessel_project
@@ -651,7 +651,7 @@ technologies = {
 
 	#2070
 	corvette_hull_8 = {
-		
+
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_naval_vessel_project
@@ -2374,7 +2374,7 @@ technologies = {
 
 	#2075
 	cruiser_hull_7 = {
-		
+
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_naval_vessel_project
@@ -4481,7 +4481,7 @@ technologies = {
 
 	#2055
 	missile_submarine_hull_7 = {
-		
+
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_naval_vessel_project
@@ -6155,13 +6155,13 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1
-		
+
 
 		path = {
 			leads_to_tech = tech_combat_radar_8
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = naval_folder
 			position = { x = @row24 y = @2060 }
