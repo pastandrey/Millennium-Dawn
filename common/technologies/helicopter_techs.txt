@@ -1178,11 +1178,6 @@ technologies = {
 			transport_helicopter_7
 		}
 
-		path = {
-			leads_to_tech = nsb_transport_helicopter8
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 2075
 

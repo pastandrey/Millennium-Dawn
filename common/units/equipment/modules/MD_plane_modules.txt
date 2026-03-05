@@ -282,7 +282,7 @@ equipment_modules = {
 			convert_cost_ic = 32
 		}
 		build_cost_resources = {
-			chromium = 3
+			aluminium = 3
 		}
 		xp_cost = 2
 	}
@@ -404,7 +404,7 @@ equipment_modules = {
 			convert_cost_ic = 22
 		}
 		build_cost_resources = {
-			chromium = 3
+			aluminium = 3
 		}
 		xp_cost = 2
 	}
@@ -533,7 +533,7 @@ equipment_modules = {
 			convert_cost_ic = 32
 		}
 		build_cost_resources = {
-			chromium = 3
+			aluminium = 3
 		}
 		xp_cost = 2
 	}
@@ -648,7 +648,7 @@ equipment_modules = {
 
 		add_stats = {
 			maximum_speed = 1580
-			thrust = 136n
+			thrust = 136
 			build_cost_ic = 137
 			fuel_consumption = 9.3
 		}
@@ -657,7 +657,7 @@ equipment_modules = {
 			convert_cost_ic = 73
 		}
 		build_cost_resources = {
-			chromium = 4
+			aluminium = 4
 		}
 		xp_cost = 2
 	}
@@ -819,7 +819,7 @@ equipment_modules = {
 			convert_cost_ic = 85
 		}
 		build_cost_resources = {
-			chromium = 6
+			aluminium = 6
 		}
 		xp_cost = 2
 	}
@@ -896,7 +896,6 @@ equipment_modules = {
 			build_cost_ic = 193			## 1.2x multiplier per generation
 			fuel_consumption = 18.8		## -2% per generation
 		}
-
 		can_convert_from = {
 			module = engine_jet_eight_3
 			convert_cost_ic = 83
@@ -944,7 +943,7 @@ equipment_modules = {
 			convert_cost_ic = 125
 		}
 		build_cost_resources = {
-			chromium = 8
+			aluminium = 8
 		}
 		xp_cost = 2
 	}
@@ -1169,6 +1168,7 @@ equipment_modules = {
 		build_cost_resources = {
 			aluminium = 1
 			composites = 1
+			microchips = 1
 		}
 		xp_cost = 4
 	}
@@ -1191,6 +1191,7 @@ equipment_modules = {
 		build_cost_resources = {
 			aluminium = 2
 			composites = 1
+			microchips = 1
 		}
 		can_convert_from = {
 			module = engine_solar_single_1
@@ -1217,6 +1218,7 @@ equipment_modules = {
 		build_cost_resources = {
 			aluminium = 2
 			composites = 2
+			microchips = 1
 		}
 		can_convert_from = {
 			module = engine_solar_double_1
@@ -1243,6 +1245,7 @@ equipment_modules = {
 		build_cost_resources = {
 			aluminium = 3
 			composites = 2
+			microchips = 1
 		}
 		can_convert_from = {
 			module = engine_solar_triple_1
@@ -1324,7 +1327,6 @@ equipment_modules = {
 		build_cost_resources = {
 			microchips = 1
 		}
-
 		can_convert_from = {
 			module_category = plane_avionics
 			convert_cost_ic = 8
@@ -1359,7 +1361,6 @@ equipment_modules = {
 		build_cost_resources = {
 			microchips = 2
 		}
-
 		can_convert_from = {
 			module_category = plane_avionics
 			convert_cost_ic = 12
@@ -1394,7 +1395,6 @@ equipment_modules = {
 		build_cost_resources = {
 			microchips = 3
 		}
-
 		can_convert_from = {
 			module_category = plane_avionics
 			convert_cost_ic = 18
@@ -1427,9 +1427,8 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 3
+			microchips = 3
 		}
-
 		can_convert_from = {
 			module_category = plane_avionics
 			convert_cost_ic = 24
@@ -1462,9 +1461,8 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 4
+			microchips = 4
 		}
-
 		can_convert_from = {
 			module_category = plane_avionics
 			convert_cost_ic = 30
@@ -1602,7 +1600,6 @@ equipment_modules = {
 		allow_mission_type = {
 			recon
 		}
-
 		can_convert_from = {
 			module_category = plane_drone_systems
 			convert_cost_ic = 42
@@ -1696,8 +1693,7 @@ equipment_modules = {
 		}
 		manpower = -15
 		build_cost_resources = {
-			chromium = 3
-			tungsten = 3
+			microchips = 5
 		}
 		can_convert_from = {
 			module_category = plane_drone_systems
@@ -1730,8 +1726,7 @@ equipment_modules = {
 		}
 		manpower = -15
 		build_cost_resources = {
-			chromium = 3
-			tungsten = 4
+			microchips = 6
 		}
 		can_convert_from = {
 			module_category = plane_drone_systems
@@ -2018,7 +2013,6 @@ equipment_modules = {
 			maximum_speed = -0.01
 			air_range = -0.01
 		}
-
 		can_convert_from = {
 			module_category = plane_multipurpose_gun
 			convert_cost_ic = 8
@@ -2044,7 +2038,6 @@ equipment_modules = {
 			maximum_speed = -0.01
 			air_range = -0.01
 		}
-
 		can_convert_from = {
 			module_category = plane_multipurpose_gun
 			convert_cost_ic = 15
@@ -2106,7 +2099,6 @@ equipment_modules = {
 			cas
 			attack_logistics
 		}
-
 		can_convert_from = {
 			module_category = plane_multipurpose_gun
 			convert_cost_ic = 22
@@ -2161,7 +2153,6 @@ equipment_modules = {
 				air_agility = -0.02
 			}
 		}
-
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 10
@@ -2213,7 +2204,6 @@ equipment_modules = {
 				air_agility = -0.02
 			}
 		}
-
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 12
@@ -2285,10 +2275,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 26
 		}
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
-		}
 		allow_mission_type = {
 			air_superiority
 			interception
@@ -2321,6 +2307,10 @@ equipment_modules = {
 			multiply_stats = {
 				air_agility = -0.02
 			}
+		}
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
 		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
@@ -2375,6 +2365,10 @@ equipment_modules = {
 				air_agility = -0.02
 			}
 		}
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 20
@@ -2428,6 +2422,10 @@ equipment_modules = {
 				air_agility = -0.02
 			}
 		}
+		build_cost_resources = {
+			aluminium = 3
+			microchips = 2
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 23
@@ -2479,7 +2477,6 @@ equipment_modules = {
 				weight = 3
 			}
 		}
-
 		can_convert_from = {
 			module_category = plane_stealth_weapons
 			convert_cost_ic = 12
@@ -2531,7 +2528,6 @@ equipment_modules = {
 				weight = 4
 			}
 		}
-
 		can_convert_from = {
 			module_category = plane_stealth_weapons
 			convert_cost_ic = 14
@@ -2552,11 +2548,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.10
-		}
-
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
 		}
 		allow_mission_type = {
 			air_superiority
@@ -2587,6 +2578,11 @@ equipment_modules = {
 				weight = 5
 			}
 		}
+
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_stealth_weapons
 			convert_cost_ic = 17
@@ -2603,9 +2599,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 30
-		}
-		build_cost_resources = {
-			tungsten = 2
 		}
 		allow_mission_type = {
 			air_superiority
@@ -2640,6 +2633,11 @@ equipment_modules = {
 				air_agility = -0.02
 			}
 		}
+
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 20
@@ -2656,9 +2654,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 34
-		}
-		build_cost_resources = {
-			tungsten = 2
 		}
 		allow_mission_type = {
 			air_superiority
@@ -2692,6 +2687,11 @@ equipment_modules = {
 			multiply_stats = {
 				air_agility = -0.02
 			}
+		}
+
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
 		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
@@ -2766,7 +2766,6 @@ equipment_modules = {
 				weight = 1
 			}
 		}
-
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 23
@@ -2837,9 +2836,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 29
 		}
-		build_cost_resources = {
-			microchips = 1
-		}
 		allow_mission_type = {
 			air_superiority
 			interception
@@ -2872,6 +2868,9 @@ equipment_modules = {
 				weight = 3
 			}
 		}
+		build_cost_resources = {
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 33
@@ -2888,10 +2887,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 35
-		}
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
 		}
 		allow_mission_type = {
 			air_superiority
@@ -2925,6 +2920,10 @@ equipment_modules = {
 				weight = 4
 			}
 		}
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 39
@@ -2941,9 +2940,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 41
-		}
-		build_cost_resources = {
-			tungsten = 2
 		}
 		allow_mission_type = {
 			air_superiority
@@ -2977,6 +2973,10 @@ equipment_modules = {
 				weight = 5
 			}
 		}
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 39
@@ -2993,9 +2993,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 47
-		}
-		build_cost_resources = {
-			tungsten = 3
 		}
 		allow_mission_type = {
 			air_superiority
@@ -3028,6 +3025,10 @@ equipment_modules = {
 				air_attack = 42
 				weight = 6
 			}
+		}
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
 		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
@@ -3107,10 +3108,6 @@ equipment_modules = {
 		multiply_stats = {
 			air_agility = 0.10
 		}
-
-		build_cost_resources = {
-			microchips = 1
-		}
 		allow_mission_type = {
 			air_superiority
 			interception
@@ -3143,6 +3140,10 @@ equipment_modules = {
 				weight = 3
 			}
 		}
+
+		build_cost_resources = {
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 33
@@ -3163,11 +3164,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.10
-		}
-
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
 		}
 		allow_mission_type = {
 			air_superiority
@@ -3201,6 +3197,11 @@ equipment_modules = {
 				weight = 4
 			}
 		}
+
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 39
@@ -3221,10 +3222,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.10
-		}
-
-		build_cost_resources = {
-			tungsten = 2
 		}
 		allow_mission_type = {
 			air_superiority
@@ -3258,6 +3255,11 @@ equipment_modules = {
 				weight = 5
 			}
 		}
+
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 45
@@ -3278,10 +3280,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.10
-		}
-
-		build_cost_resources = {
-			tungsten = 2
 		}
 		allow_mission_type = {
 			air_superiority
@@ -3314,6 +3312,11 @@ equipment_modules = {
 				air_attack = 31.5
 				weight = 6
 			}
+		}
+
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
 		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
@@ -3391,7 +3394,6 @@ equipment_modules = {
 				air_attack = 22.5
 			}
 		}
-
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 5
@@ -3453,7 +3455,6 @@ equipment_modules = {
 				air_agility = -0.1
 			}
 		}
-
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 6
@@ -3472,9 +3473,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 34.2
-		}
-		build_cost_resources = {
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -3533,6 +3531,9 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 17
@@ -3551,9 +3552,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 11
-		}
-		build_cost_resources = {
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -3599,6 +3597,9 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 7
@@ -3617,9 +3618,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 41
-		}
-		build_cost_resources = {
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -3678,6 +3676,9 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 20
@@ -3696,10 +3697,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 13
-		}
-
-		build_cost_resources = {
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -3745,6 +3742,9 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 8
@@ -3763,10 +3763,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 49.5
-		}
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -3825,6 +3821,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 25
@@ -3842,10 +3842,6 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 15.5
-		}
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -3891,6 +3887,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 10
@@ -3909,9 +3909,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 58
-		}
-		build_cost_resources = {
-			tungsten = 2
 		}
 
 		allow_mission_type = {
@@ -3970,6 +3967,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 30
@@ -3987,9 +3988,6 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 18
-		}
-		build_cost_resources = {
-			tungsten = 2
 		}
 
 		allow_mission_type = {
@@ -4035,6 +4033,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 12
@@ -4053,9 +4055,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 66.5
-		}
-		build_cost_resources = {
-			tungsten = 3
 		}
 
 		allow_mission_type = {
@@ -4114,6 +4113,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 35
@@ -4131,9 +4134,6 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 20.5
-		}
-		build_cost_resources = {
-			tungsten = 3
 		}
 
 		allow_mission_type = {
@@ -4179,6 +4179,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
+		}
 		can_convert_from = {
 			module_category = plane_guided_bombs
 			convert_cost_ic = 14
@@ -4200,10 +4204,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.10
-		}
-
-		build_cost_resources = {
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -4255,6 +4255,9 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 17
@@ -4317,7 +4320,6 @@ equipment_modules = {
 				naval_strike_targetting = 11
 			}
 		}
-
 		can_convert_from = {
 			module_category = plane_cas_weapons
 			convert_cost_ic = 7
@@ -4340,10 +4342,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.12
-		}
-
-		build_cost_resources = {
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -4395,6 +4393,10 @@ equipment_modules = {
 			}
 		}
 
+
+		build_cost_resources = {
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 20
@@ -4417,10 +4419,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.12
-		}
-
-		build_cost_resources = {
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -4459,6 +4457,9 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_cas_weapons
 			convert_cost_ic = 8
@@ -4481,11 +4482,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.14
-		}
-
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -4537,6 +4533,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 25
@@ -4559,11 +4559,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.14
-		}
-
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
 		}
 
 		allow_mission_type = {
@@ -4602,6 +4597,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_cas_weapons
 			convert_cost_ic = 10
@@ -4624,10 +4623,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.16
-		}
-
-		build_cost_resources = {
-			tungsten = 2
 		}
 
 		allow_mission_type = {
@@ -4679,6 +4674,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 30
@@ -4700,10 +4699,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.16
-		}
-
-		build_cost_resources = {
-			tungsten = 2
 		}
 
 		allow_mission_type = {
@@ -4742,6 +4737,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_cas_weapons
 			convert_cost_ic = 12
@@ -4764,10 +4763,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.18
-		}
-
-		build_cost_resources = {
-			tungsten = 2
 		}
 
 		allow_mission_type = {
@@ -4819,6 +4814,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
+		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 35
@@ -4840,10 +4839,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.18
-		}
-
-		build_cost_resources = {
-			tungsten = 2
 		}
 
 		allow_mission_type = {
@@ -4882,6 +4877,10 @@ equipment_modules = {
 			}
 		}
 
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
+		}
 		can_convert_from = {
 			module_category = plane_cas_weapons
 			convert_cost_ic = 14
@@ -5361,7 +5360,6 @@ equipment_modules = {
 				air_agility = -0.06
 			}
 		}
-
 		can_convert_from = {
 			module_category = plane_bomb_bay
 			convert_cost_ic = 10
@@ -5410,7 +5408,6 @@ equipment_modules = {
 		build_cost_resources = {
 			microchips = 1
 		}
-
 		can_convert_from = {
 			module_category = plane_bomb_bay
 			convert_cost_ic = 14
@@ -5463,7 +5460,6 @@ equipment_modules = {
 		build_cost_resources = {
 			microchips = 1
 		}
-
 		can_convert_from = {
 			module_category = plane_bomb_bay
 			convert_cost_ic = 14
@@ -5515,7 +5511,6 @@ equipment_modules = {
 		build_cost_resources = {
 			microchips = 1
 		}
-
 		can_convert_from = {
 			module_category = plane_bomb_bay
 			convert_cost_ic = 16
@@ -5568,7 +5563,6 @@ equipment_modules = {
 			aluminium = 1
 			microchips = 1
 		}
-
 		can_convert_from = {
 			module_category = plane_bomb_bay
 			convert_cost_ic = 20
@@ -5618,9 +5612,9 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 2
+			aluminium = 2
+			microchips = 1
 		}
-
 		can_convert_from = {
 			module_category = plane_bomb_bay
 			convert_cost_ic = 24
@@ -5670,9 +5664,9 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 3
+			aluminium = 2
+			microchips = 2
 		}
-
 		can_convert_from = {
 			module_category = plane_bomb_bay
 			convert_cost_ic = 28
@@ -5763,9 +5757,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 50
 		}
-		build_cost_resources = {
-			microchips = 1
-		}
 		xp_cost = 2
 
 		allow_mission_type = {
@@ -5824,6 +5815,10 @@ equipment_modules = {
 				air_attack = 14
 			}
 		}
+	
+		build_cost_resources = {
+			microchips = 1
+		}
 	}
 
 	weap_mp_heavy_hardpoint_3 = {								## Multipurpose Heavy Hardpoints III
@@ -5835,9 +5830,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 60
-		}
-		build_cost_resources = {
-			microchips = 1
 		}
 		xp_cost = 2
 
@@ -5897,6 +5889,10 @@ equipment_modules = {
 				air_attack = 16
 			}
 		}
+	
+		build_cost_resources = {
+			microchips = 1
+		}
 	}
 
 	weap_mp_heavy_hardpoint_4 = {								## Multipurpose Heavy Hardpoints IV
@@ -5908,10 +5904,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 72
-		}
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
 		}
 		xp_cost = 2
 
@@ -5976,6 +5968,11 @@ equipment_modules = {
 				air_agility = -0.03
 			}
 		}
+	
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
 	}
 
 	weap_mp_heavy_hardpoint_5 = {
@@ -5987,9 +5984,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 84
-		}
-		build_cost_resources = {
-			tungsten = 2
 		}
 		xp_cost = 2
 
@@ -6054,6 +6048,11 @@ equipment_modules = {
 				air_agility = -0.03
 			}
 		}
+	
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
+		}
 	}
 
 	weap_mp_heavy_hardpoint_6 = {
@@ -6065,9 +6064,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 96
-		}
-		build_cost_resources = {
-			tungsten = 3
 		}
 		xp_cost = 2
 
@@ -6131,6 +6127,11 @@ equipment_modules = {
 			multiply_stats = {
 				air_agility = -0.03
 			}
+		}
+	
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
 		}
 	}
 
@@ -6221,10 +6222,6 @@ equipment_modules = {
 			naval_mines_planting
 		}
 
-		build_cost_resources = {
-			microchips = 1
-		}
-
 		forbid_equipment_type_exact_match_for_category = {
 			plane_heavy_modules = naval_bomber
 			plane_gunship_modules = naval_bomber
@@ -6271,6 +6268,10 @@ equipment_modules = {
 				air_agility = -0.06
 			}
 		}
+
+		build_cost_resources = {
+			microchips = 1
+		}
 	}
 
 	weap_as_hardpoint_3 = {								## Heavy Naval Hardpoints III
@@ -6291,10 +6292,6 @@ equipment_modules = {
 			naval_patrol
 			naval_mines_sweeping
 			naval_mines_planting
-		}
-
-		build_cost_resources = {
-			microchips = 1
 		}
 
 		forbid_equipment_type_exact_match_for_category = {
@@ -6343,6 +6340,10 @@ equipment_modules = {
 				air_agility = -0.06
 			}
 		}
+
+		build_cost_resources = {
+			microchips = 1
+		}
 	}
 
 	weap_as_hardpoint_4 = {								## Heavy Naval Hardpoints IV
@@ -6368,11 +6369,6 @@ equipment_modules = {
 		forbid_equipment_type_exact_match_for_category = {
 			plane_heavy_modules = naval_bomber
 			plane_gunship_modules = naval_bomber
-		}
-
-		build_cost_resources = {
-			aluminium = 1
-			microchips = 1
 		}
 
 		mission_type_stats = {
@@ -6416,6 +6412,11 @@ equipment_modules = {
 				air_agility = -0.06
 			}
 		}
+
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
 	}
 
 	weap_as_hardpoint_5 = {
@@ -6441,10 +6442,6 @@ equipment_modules = {
 		forbid_equipment_type_exact_match_for_category = {
 			plane_heavy_modules = naval_bomber
 			plane_gunship_modules = naval_bomber
-		}
-
-		build_cost_resources = {
-			tungsten = 2
 		}
 
 		mission_type_stats = {
@@ -6488,6 +6485,11 @@ equipment_modules = {
 				air_agility = -0.06
 			}
 		}
+
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 1
+		}
 	}
 
 	weap_as_hardpoint_6 = {
@@ -6513,10 +6515,6 @@ equipment_modules = {
 		forbid_equipment_type_exact_match_for_category = {
 			plane_heavy_modules = naval_bomber
 			plane_gunship_modules = naval_bomber
-		}
-
-		build_cost_resources = {
-			tungsten = 3
 		}
 
 		mission_type_stats = {
@@ -6559,6 +6557,11 @@ equipment_modules = {
 			multiply_stats = {
 				air_agility = -0.06
 			}
+		}
+
+		build_cost_resources = {
+			aluminium = 2
+			microchips = 2
 		}
 	}
 #################################################################### Non-weapon weapons slot modules
@@ -6684,7 +6687,7 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			aluminium = 1
+			aluminium = 2
 			microchips = 1
 		}
 
@@ -6730,7 +6733,8 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 2
+			aluminium = 2
+			microchips = 2
 		}
 
 		allow_mission_type = {
@@ -6774,7 +6778,8 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 2
+			aluminium = 3
+			microchips = 2
 		}
 
 		allow_mission_type = {
@@ -6958,6 +6963,10 @@ equipment_modules = {
 			build_cost_ic = 18
 			weight = 3
 		}
+
+		build_cost_resources = {
+			microchips = 2
+		}
 	}
 
 	spec_recon_5 = {							### Recon System III
@@ -6976,6 +6985,10 @@ equipment_modules = {
 			build_cost_ic = 20.5
 			weight = 2
 		}
+
+		build_cost_resources = {
+			microchips = 2
+		}
 	}
 
 	spec_recon_6 = {							### Recon System III
@@ -6993,6 +7006,10 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 23
 			weight = 2
+		}
+
+		build_cost_resources = {
+			microchips = 2
 		}
 	}
 
@@ -7102,6 +7119,7 @@ equipment_modules = {
 
 
 		}
+	
 		build_cost_resources = {
 			microchips = 1
 		}
@@ -7136,6 +7154,10 @@ equipment_modules = {
 				air_bombing = 0.150
 			}
 		}
+	
+		build_cost_resources = {
+			microchips = 2
+		}
 	}
 
 	spec_tgp_5 = {							### Targeting Pod III
@@ -7167,6 +7189,10 @@ equipment_modules = {
 				air_bombing = 0.175
 			}
 		}
+	
+		build_cost_resources = {
+			microchips = 2
+		}
 	}
 
 	spec_tgp_6 = {							### Targeting Pod III
@@ -7197,6 +7223,10 @@ equipment_modules = {
 				air_ground_attack = 0.35
 				air_bombing = 0.200
 			}
+		}
+	
+		build_cost_resources = {
+			microchips = 2
 		}
 	}
 
@@ -7292,6 +7322,10 @@ equipment_modules = {
 			air_agility = -0.02
 			maximum_speed = -0.03
 		}
+
+		build_cost_resources = {
+			microchips = 2
+		}
 	}
 
 	spec_mad_5 = {
@@ -7306,6 +7340,10 @@ equipment_modules = {
 			weight = 32
 			surface_detection = 4
 			sub_detection = 12
+		}
+
+		build_cost_resources = {
+			microchips = 2
 		}
 	}
 
@@ -7325,6 +7363,10 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_agility = 0.02
+		}
+
+		build_cost_resources = {
+			microchips = 2
 		}
 	}
 
@@ -7739,8 +7781,7 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 1
-			chromium = 2
+			composites = 4
 		}
 	}
 
@@ -7763,8 +7804,7 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 2
-			chromium = 2
+			composites = 5
 		}
 	}
 
@@ -7787,8 +7827,7 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 2
-			chromium = 2
+			composites = 6
 		}
 	}
 
@@ -7892,7 +7931,7 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			chromium = 1
+			microchips = 3
 		}
 	}
 
@@ -7915,7 +7954,7 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			chromium = 2
+			microchips = 4
 		}
 	}
 
@@ -8341,6 +8380,11 @@ equipment_modules = {
 			air_superiority = 0.03
 		}
 
+		build_cost_resources = {
+			chromium = 1
+			composites = 1
+			microchips = 1
+		}
 		can_convert_from = {
 			module_category = plane_multipurpose_gun
 			convert_cost_ic = 15
@@ -8364,6 +8408,11 @@ equipment_modules = {
 			air_superiority = 0.03
 		}
 
+		build_cost_resources = {
+			chromium = 1
+			composites = 1
+			microchips = 2
+		}
 		can_convert_from = {
 			module_category = plane_multipurpose_gun
 			convert_cost_ic = 15
@@ -8387,6 +8436,11 @@ equipment_modules = {
 			air_superiority = 0.03
 		}
 
+		build_cost_resources = {
+			chromium = 1
+			composites = 2
+			microchips = 2
+		}
 		can_convert_from = {
 			module_category = plane_multipurpose_gun
 			convert_cost_ic = 15
@@ -8410,6 +8464,10 @@ equipment_modules = {
 			air_defence = 0.02
 			armor_value = 0.05
 		}
+
+		build_cost_resources = {
+			microchips = 1
+		}
 	}
 	air_module_pdl_2 = {
 		abbreviation = "pdl2"
@@ -8427,6 +8485,10 @@ equipment_modules = {
 		multiply_stats = {
 			air_defence = 0.02
 			armor_value = 0.05
+		}
+
+		build_cost_resources = {
+			microchips = 1
 		}
 	}
 	air_module_pdl_3 = {
@@ -8446,6 +8508,10 @@ equipment_modules = {
 			air_defence = 0.03
 			armor_value = 0.05
 		}
+
+		build_cost_resources = {
+			microchips = 1
+		}
 	}
 	air_module_pdl_4 = {
 		abbreviation = "pdl4"
@@ -8463,6 +8529,10 @@ equipment_modules = {
 		multiply_stats = {
 			air_defence = 0.03
 			armor_value = 0.05
+		}
+
+		build_cost_resources = {
+			microchips = 2
 		}
 	}
 	air_module_pdl_5 = {
@@ -8482,6 +8552,10 @@ equipment_modules = {
 			air_defence = 0.04
 			armor_value = 0.05
 		}
+
+		build_cost_resources = {
+			microchips = 2
+		}
 	}
 	air_module_pdl_6 = {
 		abbreviation = "pdl6"
@@ -8499,6 +8573,10 @@ equipment_modules = {
 		multiply_stats = {
 			air_defence = 0.04
 			armor_value = 0.05
+		}
+
+		build_cost_resources = {
+			microchips = 2
 		}
 	}
 }
