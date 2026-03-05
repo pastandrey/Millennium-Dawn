@@ -633,7 +633,7 @@ spriteType ={
 		textureFile = "gfx/interface/technologies/modules/FC3.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_module_futuristic_integrated_missile_radar_control"
+		name = "GFX_SMI_module_futuristic_integrated_missile_radar_control1"
 		textureFile = "gfx/interface/technologies/modules/FC4.dds"
 	}
 	###Screen Fire Control, keeps destroyers as a screen ship

@@ -1150,7 +1150,7 @@ equipment_modules = {
 		xp_cost = 2
 	}
 	##################################################################### Solar/Nuclear Engines ################################################################################
-	engine_solar_single_1 = {		##single solar engine
+	engine_solar_single_1 = {
 		abbreviation = "se11"
 		category = plane_solar_single
 		sfx = sfx_ui_sd_module_engine
@@ -1172,7 +1172,7 @@ equipment_modules = {
 		}
 		xp_cost = 4
 	}
-	engine_solar_double_1 = {		##double solar engine
+	engine_solar_double_1 = {
 		abbreviation = "se21"
 		category = plane_solar_double
 		sfx = sfx_ui_sd_module_engine
@@ -1195,6 +1195,58 @@ equipment_modules = {
 		can_convert_from = {
 			module = engine_solar_single_1
 			convert_cost_ic = 150
+		}
+		xp_cost = 4
+	}
+	engine_solar_triple_1 = {
+		abbreviation = "se31"
+		category = plane_solar_double
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 394
+			thrust = 102			## 1.5x multiplier per generation
+			build_cost_ic = 107		## 1.3x multiplier per generation
+			fuel_consumption = 0	## -0.2 per generation
+		}
+		multiply_stats = {
+			air_range = 0.5
+			air_agility = -0.5
+			air_defence = -0.5
+		}
+		build_cost_resources = {
+			aluminium = 2
+			composites = 2
+		}
+		can_convert_from = {
+			module = engine_solar_double_1
+			convert_cost_ic = 175
+		}
+		xp_cost = 4
+	}
+	engine_solar_quad_1 = {
+		abbreviation = "se41"
+		category = plane_solar_double
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 394
+			thrust = 136			## 1.5x multiplier per generation
+			build_cost_ic = 119		## 1.3x multiplier per generation
+			fuel_consumption = 0	## -0.2 per generation
+		}
+		multiply_stats = {
+			air_range = 0.5
+			air_agility = -0.5
+			air_defence = -0.5
+		}
+		build_cost_resources = {
+			aluminium = 3
+			composites = 2
+		}
+		can_convert_from = {
+			module = engine_solar_triple_1
+			convert_cost_ic = 200
 		}
 		xp_cost = 4
 	}
@@ -5131,7 +5183,139 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			microchips = 1
+			microchips = 2
+		}
+
+		xp_cost = 6
+	}
+	air_module_railgun_gunship_5 = {
+		abbreviation = "rgg5"
+		category = plane_heavy_strike_modules
+		parent = air_module_railgun_gunship_4
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = suicide
+
+		add_stats = {
+			build_cost_ic = 1393.76
+		}
+
+		allow_mission_type = {
+			attack_logistics
+			cas
+			port_strike
+		}
+
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+				cas
+				port_strike
+			}
+			add_stats = {
+				air_bombing = 282.7
+				naval_strike_attack = 147
+				air_defence = -15
+				weight = 164
+			}
+			add_average_stats = {
+				naval_strike_targetting = 25.6
+			}
+			multiply_stats = {
+				air_agility = -3.84
+				air_defence = -3.2
+			}
+		}
+
+		build_cost_resources = {
+			microchips = 2
+		}
+
+		xp_cost = 6
+	}
+	air_module_railgun_gunship_6 = {
+		abbreviation = "rgg6"
+		category = plane_heavy_strike_modules
+		parent = air_module_railgun_gunship_5
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = suicide
+
+		add_stats = {
+			build_cost_ic = 2759.65
+		}
+
+		allow_mission_type = {
+			attack_logistics
+			cas
+			port_strike
+		}
+
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+				cas
+				port_strike
+			}
+			add_stats = {
+				air_bombing = 460.81
+				naval_strike_attack = 264.6
+				air_defence = -15
+				weight = 262
+			}
+			add_average_stats = {
+				naval_strike_targetting = 29.25
+			}
+			multiply_stats = {
+				air_agility = -7.68
+				air_defence = -6.4
+			}
+		}
+
+		build_cost_resources = {
+			microchips = 3
+		}
+
+		xp_cost = 6
+	}
+	air_module_railgun_gunship_7 = {
+		abbreviation = "rgg7"
+		category = plane_heavy_strike_modules
+		parent = air_module_railgun_gunship_6
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = suicide
+
+		add_stats = {
+			build_cost_ic = 5464.10
+		}
+
+		allow_mission_type = {
+			attack_logistics
+			cas
+			port_strike
+		}
+
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+				cas
+				port_strike
+			}
+			add_stats = {
+				air_bombing = 751.14
+				naval_strike_attack = 480
+				air_defence = -15
+				weight = 419
+			}
+			add_average_stats = {
+				naval_strike_targetting = 33.4
+			}
+			multiply_stats = {
+				air_agility = -15.36
+				air_defence = -12.8
+			}
+		}
+
+		build_cost_resources = {
+			microchips = 3
 		}
 
 		xp_cost = 6
@@ -8278,6 +8462,42 @@ equipment_modules = {
 
 		multiply_stats = {
 			air_defence = 0.03
+			armor_value = 0.05
+		}
+	}
+	air_module_pdl_5 = {
+		abbreviation = "pdl5"
+		category = plane_countermeasures
+		parent = air_module_pdl_4
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+
+		add_stats = {
+			air_defence = 26.34
+			build_cost_ic = 14.64
+			weight = 13.47
+		}
+
+		multiply_stats = {
+			air_defence = 0.04
+			armor_value = 0.05
+		}
+	}
+	air_module_pdl_6 = {
+		abbreviation = "pdl6"
+		category = plane_countermeasures
+		parent = air_module_pdl_5
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+
+		add_stats = {
+			air_defence = 31.13
+			build_cost_ic = 18.3
+			weight = 16.17
+		}
+
+		multiply_stats = {
+			air_defence = 0.04
 			armor_value = 0.05
 		}
 	}

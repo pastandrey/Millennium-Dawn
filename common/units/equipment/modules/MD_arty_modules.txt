@@ -2846,6 +2846,106 @@ equipment_modules = {
 	 }
 	}
 
+	spaa_naval_cannon_6 = {
+		abbreviation = "snc6"
+		category = spaa_autocannon_systems
+		sfx = sfx_ui_sd_module_turret
+		parent = spaa_naval_cannon_5
+
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = {
+			anti_air
+		}
+
+		allowed_module_categories = {
+			secondary_armament_slot = {
+				spaa_short_range_missile_systems
+			}
+			reload_type_slot = {
+				tank_reload_module
+			}
+			ammunition_load_slot = {
+				autocannon_ammo
+			}
+			special_type_slot_4 = {
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 14.8
+			maximum_speed = -4
+			reliability = -0.03
+			soft_attack = 30.1
+			hard_attack = 21.2
+			ap_attack = 12
+		}
+		multiply_stats = {
+			breakthrough = -0.05
+			defense = -0.05
+			air_attack = 0.23
+		}
+		build_cost_resources = {
+			steel = 3
+		}
+		xp_cost = 3
+		can_convert_from = {
+			module_category = spaa_autocannon_systems
+			convert_cost_ic = 2
+	 }
+	}
+
+	spaa_naval_cannon_7 = {
+		abbreviation = "snc7"
+		category = spaa_autocannon_systems
+		sfx = sfx_ui_sd_module_turret
+		parent = spaa_naval_cannon_6
+
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = {
+			anti_air
+		}
+
+		allowed_module_categories = {
+			secondary_armament_slot = {
+				spaa_short_range_missile_systems
+			}
+			reload_type_slot = {
+				tank_reload_module
+			}
+			ammunition_load_slot = {
+				autocannon_ammo
+			}
+			special_type_slot_4 = {
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 16.6
+			maximum_speed = -4
+			reliability = -0.02
+			soft_attack = 35.7
+			hard_attack = 25.9
+			ap_attack = 14
+		}
+		multiply_stats = {
+			breakthrough = -0.05
+			defense = -0.05
+			air_attack = 0.25
+		}
+		build_cost_resources = {
+			steel = 3
+		}
+		xp_cost = 3
+		can_convert_from = {
+			module_category = spaa_autocannon_systems
+			convert_cost_ic = 2
+	 }
+	}
+
 	proximity_fuze_autocannon_ammo_1 = {
 		abbreviation = "pfaa"
 		category = autocannon_ammo
