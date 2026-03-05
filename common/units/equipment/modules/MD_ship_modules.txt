@@ -2065,7 +2065,7 @@ equipment_modules = {
 
 	module_futuristic_integrated_missile_radar_control3 = {
 		category = module_screen_fire_control_system_category
-		parent = module_futuristic_integrated_missile_radar_control3
+		parent = module_futuristic_integrated_missile_radar_control2
 		add_stats = {
 			build_cost_ic = 450
 		}
