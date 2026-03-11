@@ -614,7 +614,6 @@ equipment_modules = {
 		abbreviation = "exe2"
 		category = tank_exoskeletal_engine_type
 		sfx = sfx_ui_sd_module_engine
-		# parent will make existing units replace previous variants of turbine tanks with exoskeletal version instead of sending them directly to stockpile
 		parent = module_tank_exoskeletal_engine_gen1
 
 		allowed_module_categories = {
