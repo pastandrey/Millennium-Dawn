@@ -65,8 +65,8 @@ guiTypes = {
 			spriteType = "GFX_TC_small_plane_airframe_6"
 		}
 	}
-	
-	
+
+
 
 	# Generic Light Airframe CAS small_plane_cas_airframe
 	containerWindowType = {
@@ -131,7 +131,7 @@ guiTypes = {
 			name = "equipment_image_overlay"
 			spriteType = "GFX_TC_small_plane_airframe_6"
 		}
-	}	
+	}
 
 	# Generic Light Airframe Strike small_plane_strike_airframe
 	containerWindowType = {
