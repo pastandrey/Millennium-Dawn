@@ -1572,6 +1572,7 @@ scripted_diplomatic_actions = {
 			log = "[GetDateText]: [Root.GetName]: diplomatic action reject_effect negotiate_operative_release"
 			ROOT = {
 				clear_variable = pending_negotiate_operative_release_offer
+				set_country_flag = { flag = recently_rejected_operative_release_@PREV days = 180 value = 1 }
 			}
 			add_opinion_modifier = { target = ROOT modifier = rejected_negotiate_operative_release }
 			reverse_add_opinion_modifier = { target = ROOT modifier = rejected_negotiate_operative_release }
@@ -1710,6 +1711,14 @@ scripted_diplomatic_actions = {
 				factor = 0
 				ROOT = { ai_has_moderate_economic_problems = yes }
 			}
+			modifier = {
+				factor = 0
+				ROOT = { NOT = { check_variable = { pending_negotiate_operative_release_offer = 0 } } }
+			}
+			modifier = {
+				factor = 0
+				ROOT = { has_country_flag = recently_rejected_operative_release_@PREV }
+			}
 		}
 	}
 
@@ -1765,6 +1774,9 @@ scripted_diplomatic_actions = {
 			set_temp_variable = { tag_index = ROOT }
 			set_temp_variable = { influence_target = THIS }
 			change_influence_percentage = yes
+			ROOT = {
+				clear_variable = pending_enforce_peace_pending_offer
+			}
 		}
 		reject_effect = {
 			log = "[GetDateText]: [Root.GetName]: diplomatic action reject_effect enforce_peace_option"
@@ -1897,6 +1909,10 @@ scripted_diplomatic_actions = {
 			modifier = {
 				factor = 0
 				ROOT = { has_war = yes }
+			}
+			modifier = {
+				factor = 0
+				ROOT = { NOT = { check_variable = { pending_enforce_peace_pending_offer = 0 } } }
 			}
 		}
 	}
@@ -2321,20 +2337,20 @@ scripted_diplomatic_actions = {
 
 		on_sent_effect = {
 			log = "[GetDateText]: [Root.GetName]: diplomatic action on_sent_effect purchase_reactor_grade_material"
+			ROOT = { set_variable = { pending_reactor_material_purchase = PREV.id } }
 			THIS = {
 				set_country_flag = { flag = pending_reactor_material_offer_from_@ROOT days = 90 value = 1 }
 			}
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: diplomatic action purchase_reactor_grade_material"
-			THIS = {
-				set_temp_variable = { change_resource = -5000 }
-				change_reactor_grade_material_effect = yes
-				set_temp_variable = { treasury_change = 4 }
-				modify_treasury_effect = yes
-				clr_country_flag = pending_reactor_material_offer_from_@ROOT
-			}
+			set_temp_variable = { change_resource = -5000 }
+			change_reactor_grade_material_effect = yes
+			set_temp_variable = { treasury_change = 4 }
+			modify_treasury_effect = yes
+			clr_country_flag = pending_reactor_material_offer_from_@ROOT
 			ROOT = {
+				clear_variable = pending_reactor_material_purchase
 				set_temp_variable = { change_resource = 5000 }
 				change_reactor_grade_material_effect = yes
 				set_temp_variable = { treasury_change = -4 }
@@ -2344,8 +2360,10 @@ scripted_diplomatic_actions = {
 		}
 		reject_effect = {
 			log = "[GetDateText]: [Root.GetName]: diplomatic action reject_effect purchase_reactor_grade_material"
-			THIS = {
-				clr_country_flag = pending_reactor_material_offer_from_@ROOT
+			clr_country_flag = pending_reactor_material_offer_from_@ROOT
+			ROOT = {
+				clear_variable = pending_reactor_material_purchase
+				set_country_flag = { flag = recently_rejected_reactor_material_purchase_@PREV days = 180 value = 1 }
 			}
 		}
 
@@ -2510,6 +2528,14 @@ scripted_diplomatic_actions = {
 					check_variable = { var_reactor_material_stockpile > nuclear_fuel_consumption_tmp }
 				}
 			}
+			modifier = {
+				factor = 0
+				ROOT = { NOT = { check_variable = { pending_reactor_material_purchase = 0 } } }
+			}
+			modifier = {
+				factor = 0
+				ROOT = { has_country_flag = recently_rejected_reactor_material_purchase_@PREV }
+			}
 		}
 	}
 
@@ -2563,25 +2589,25 @@ scripted_diplomatic_actions = {
 		}
 
 		ai_desire = {
-			base = 0
+			base = -100
 			modifier = {
-				add = 10
+				add = 25
 				ROOT = { has_opinion = { target = PREV value < -25 } }
 			}
 			modifier = {
-				add = 15
+				add = 25
 				ROOT = { has_opinion = { target = PREV value < -50 } }
 			}
 			modifier = {
-				add = 25
+				add = 50
 				ROOT = { has_opinion = { target = PREV value < -75 } }
 			}
 			modifier = {
-				add = 50
+				add = 100
 				ROOT = { has_opinion = { target = PREV value < -100 } }
 			}
 			modifier = {
-				add = 100
+				add = 200
 				ROOT = { has_war_with = PREV }
 			}
 			modifier = {
@@ -2653,6 +2679,7 @@ scripted_diplomatic_actions = {
 				clr_country_flag = closed_embassy_@ROOT
 				ROOT = {
 					clr_country_flag = closed_embassy_@PREV
+					clear_variable = pending_reopen_embassy_option
 				}
 			}
 		}
