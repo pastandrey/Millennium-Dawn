@@ -2321,8 +2321,8 @@ scripted_diplomatic_actions = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = pending_reactor_material_offer_tt
-				THIS = {
-					NOT = { has_country_flag = pending_reactor_material_offer_from_@ROOT }
+				ROOT = {
+					check_variable = { pending_reactor_material_purchase = 0 }
 				}
 			}
 			ERI_is_not_transitional_government = yes
@@ -2338,9 +2338,6 @@ scripted_diplomatic_actions = {
 		on_sent_effect = {
 			log = "[GetDateText]: [Root.GetName]: diplomatic action on_sent_effect purchase_reactor_grade_material"
 			ROOT = { set_variable = { pending_reactor_material_purchase = PREV.id } }
-			THIS = {
-				set_country_flag = { flag = pending_reactor_material_offer_from_@ROOT days = 90 value = 1 }
-			}
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: diplomatic action purchase_reactor_grade_material"
@@ -2348,7 +2345,6 @@ scripted_diplomatic_actions = {
 			change_reactor_grade_material_effect = yes
 			set_temp_variable = { treasury_change = 4 }
 			modify_treasury_effect = yes
-			clr_country_flag = pending_reactor_material_offer_from_@ROOT
 			ROOT = {
 				clear_variable = pending_reactor_material_purchase
 				set_temp_variable = { change_resource = 5000 }
@@ -2360,7 +2356,6 @@ scripted_diplomatic_actions = {
 		}
 		reject_effect = {
 			log = "[GetDateText]: [Root.GetName]: diplomatic action reject_effect purchase_reactor_grade_material"
-			clr_country_flag = pending_reactor_material_offer_from_@ROOT
 			ROOT = {
 				clear_variable = pending_reactor_material_purchase
 				set_country_flag = { flag = recently_rejected_reactor_material_purchase_@PREV days = 180 value = 1 }
