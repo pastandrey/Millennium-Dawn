@@ -2374,7 +2374,10 @@ scripted_diplomatic_actions = {
 		selectable = {
 			THIS = {
 				has_enrichment_facilities = yes
-				has_reactor_material_stockpile = yes
+				custom_trigger_tooltip = {
+					tooltip = has_sufficient_reactor_material_tt
+					check_variable = { var_reactor_material_stockpile > 4999 }
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = recently_purchased_reactor_material_tt
