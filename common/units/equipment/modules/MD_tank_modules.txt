@@ -6124,10 +6124,9 @@ equipment_modules = {
 		}
 
 		add_stats = {
-			build_cost_ic = 1.95
+			build_cost_ic = 0.45
 			maximum_speed = -0.375
 			soft_attack = 0.25
-			hard_attack = 0
 		}
 		multiply_stats = {
 			defense = 0.035
@@ -6135,7 +6134,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = light_afv_apc_main_armament
-			convert_cost_ic = 1.875
+			convert_cost_ic = 0.35
 		}
 
 		xp_cost = 3
