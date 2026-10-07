@@ -53,60 +53,52 @@ ideas = {
 			}
 		}
 		#Disorganized army
-		CUB_disorg_in_army_idea_1 = {
-
+		CUB_disorganized_army_idea = {
+			name = CUB_disorg_in_army_idea_1
 			picture = CUB_outdate_army
 			allowed_civil_war = { always = yes }
-
 			modifier = {
 				army_defence_factor = -0.30
 				army_attack_factor = -0.30
 				army_org_factor = -0.20
-				personnel_cost_multiplier_modifier = 0.07
+				army_personnel_cost_multiplier_modifier = -0.40
 				industrial_capacity_factory = -0.25
 			}
 		}
-		#2
-		CUB_disorg_army_idea = {
-
+		CUB_disorganized_army_idea_prof = {
 			name = CUB_disorg_in_army_idea_1
 			picture = CUB_outdate_army
 			allowed_civil_war = { always = yes }
-
 			modifier = {
 				army_defence_factor = -0.015
 				army_attack_factor = -0.015
 				army_org_factor = 0.10
-				army_personnel_cost_multiplier_modifier = 0.05
+				army_personnel_cost_multiplier_modifier = -0.20
 				industrial_capacity_factory = -0.1
 				recruitable_population_factor = -0.15
 			}
 		}
-		CUB_disorgonisation_in_army_idea = {
-
+		CUB_disorganized_army_idea_mass = {
 			name = CUB_disorg_in_army_idea_1
 			picture = CUB_outdate_army
 			allowed_civil_war = { always = yes }
-
 			modifier = {
 				army_defence_factor = -0.20
 				army_attack_factor = -0.20
 				army_org_factor = -0.15
-				personnel_cost_multiplier_modifier = -0.05
+				personnel_cost_multiplier_modifier = -0.30
 				recruitable_population_factor = 0.05
 			}
 		}
-		CUB_disorgonis_in_army_idea = {
-
+		CUB_disorganized_army_idea_mass_1 = {
 			name = CUB_disorg_in_army_idea_1
 			picture = CUB_outdate_army
 			allowed_civil_war = { always = yes }
-
 			modifier = {
 				army_defence_factor = -0.15
 				army_attack_factor = -0.15
 				army_org_factor = -0.1
-				personnel_cost_multiplier_modifier = -0.05
+				personnel_cost_multiplier_modifier = -0.25
 				recruitable_population_factor = 0.1
 				training_time_army_factor = 0.2
 				experience_gain_army_factor = 0.03
@@ -264,6 +256,16 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.30
 			}
 		}
+		CUB_low_cost_of_living = {
+			picture = BOL_bad_economy
+			modifier = {
+				bureaucracy_cost_multiplier_modifier = -0.50
+				police_cost_multiplier_modifier = -0.50
+				education_cost_multiplier_modifier = -0.50
+				health_cost_multiplier_modifier = -0.50
+				social_cost_multiplier_modifier = -0.50
+			}
+		}
 		#Infrastructure development
 		CUB_infrastructure_dev_idea = {
 
@@ -276,6 +278,12 @@ ideas = {
 			}
 		}
 		#Tourism ideas
+		CUB_sex_tourism = {
+			picture = CUB_tourismus
+			modifier = {
+				custom_modifier_tooltip = CUB_sex_tourism_modifier_TT
+			}
+		}
 		CUB_idea_tourist_industry_1 = {
 			name = CUB_idea_tourist_industry
 
@@ -286,6 +294,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				research_speed_factor = 0.1
 				production_speed_buildings_factor = 0.15
+
 			}
 		}
 		#foreign investors
@@ -318,7 +327,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				research_speed_factor = 0.1
 				production_speed_buildings_factor = 0.15
-
+				custom_modifier_tooltip = CUB_tourism_hub_idea_modifier_TT
 			}
 		}
 		#Healthcare

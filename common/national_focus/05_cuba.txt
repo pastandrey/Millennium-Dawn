@@ -459,8 +459,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CUB_mass_army"
 			swap_ideas = {
-				remove_idea = CUB_disorg_in_army_idea_1
-				add_idea = CUB_disorgonis_in_army_idea
+				remove_idea = CUB_disorganized_army_idea
+				add_idea = CUB_disorganized_army_idea_mass
 			}
 		}
 
@@ -468,7 +468,7 @@ focus_tree = {
 			base = 50
 			modifier = {
 				factor = 3
-				has_idea = CUB_disorg_in_army_idea_1
+				has_idea = CUB_disorganized_army_idea
 			}
 			modifier = {
 				factor = 2
@@ -502,8 +502,8 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -6 }
 			modify_treasury_effect = yes
 			swap_ideas = {
-				remove_idea = CUB_disorg_in_army_idea_1
-				add_idea = CUB_disorg_army_idea
+				remove_idea = CUB_disorganized_army_idea
+				add_idea = CUB_disorganized_army_idea_prof
 			}
 		}
 
@@ -511,7 +511,7 @@ focus_tree = {
 			base = 50
 			modifier = {
 				factor = 3
-				has_idea = CUB_disorg_in_army_idea_1
+				has_idea = CUB_disorganized_army_idea
 			}
 			modifier = {
 				factor = 0
@@ -579,8 +579,8 @@ focus_tree = {
 			set_temp_variable = { party_popularity_increase = 0.05 }
 			change_relative_party_popularity = yes
 			swap_ideas = {
-				remove_idea = CUB_disorgonisation_in_army_idea
-				add_idea = CUB_disorgonis_in_army_idea
+				remove_idea = CUB_disorganized_army_idea_mass
+				add_idea = CUB_disorganized_army_idea_mass_1
 			}
 		}
 
@@ -709,19 +709,19 @@ focus_tree = {
 			custom_effect_tooltip = cub_modern_tt
 			if = {
 				limit = {
-					has_idea = CUB_disorg_army_idea
+					has_idea = CUB_disorganized_army_idea_mass_1
 				}
 				swap_ideas = {
-					remove_idea = CUB_disorg_army_idea
+					remove_idea = CUB_disorganized_army_idea_mass_1
 					add_idea = CUB_reforming_army_idea
 				}
 			}
 			if = {
 				limit = {
-					has_idea = CUB_disorgonis_in_army_idea
+					has_idea = CUB_disorganized_army_idea_prof
 				}
 				swap_ideas = {
-					remove_idea = CUB_disorgonis_in_army_idea
+					remove_idea = CUB_disorganized_army_idea_prof
 					add_idea = CUB_reforming_army_idea
 				}
 			}
@@ -732,8 +732,8 @@ focus_tree = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_idea = CUB_disorg_army_idea
-					has_idea = CUB_disorgonis_in_army_idea
+					has_idea = CUB_disorganized_army_idea_prof
+					has_idea = CUB_disorganized_army_idea_mass_1
 				}
 			}
 			modifier = {
@@ -12635,8 +12635,8 @@ focus_tree = {
 				tooltip = CUB_has_updated_the_military_trigger_TT
 				NOT = {
 					OR = {
-						has_idea = CUB_disorg_in_army_idea_1
-						has_idea = CUB_disorg_army_idea
+						has_idea = CUB_disorganized_army_idea
+						has_idea = CUB_disorganized_army_idea_prof
 					}
 				}
 			}
