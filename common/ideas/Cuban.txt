@@ -307,7 +307,7 @@ ideas = {
 		}
 		CUB_low_cost_of_living = {
 			picture = BOL_bad_economy
-			cancel = { check_variable = { gdp_per_capita > 34.999 } }
+			cancel = { check_variable = { gdp_per_capita > 29.999 } }
 			modifier = {
 				bureaucracy_cost_multiplier_modifier = -0.50
 				police_cost_multiplier_modifier = -0.50
