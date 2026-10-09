@@ -328,10 +328,10 @@ ideas = {
 			}
 		}
 		#Tourism ideas
-		CUB_sex_tourism = {
+		CUB_tourism = {
 			picture = CUB_tourismus
 			modifier = {
-				custom_modifier_tooltip = CUB_sex_tourism_modifier_TT
+				custom_modifier_tooltip = CUB_tourism_modifier_TT
 			}
 		}
 		CUB_idea_tourist_industry_1 = {

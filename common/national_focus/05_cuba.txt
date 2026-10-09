@@ -5027,7 +5027,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CUB_tourism_hub"
-			add_ideas = CUB_tourism_hub_idea
+			swap_ideas = {
+				remove_idea = CUB_tourism
+				add_idea = CUB_tourism_hub_idea
+			}
+			set_temp_variable = { additional_income_change = { value = 0.4 } }
+			custom_effect_tooltip = additional_income_rate_percent_tt
 		}
 
 		ai_will_do = {
