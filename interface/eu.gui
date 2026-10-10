@@ -54,7 +54,6 @@ guiTypes = {
 			clicksound = click_default
 			pdx_tooltip = "EU_MD_LAW_FLOWCHART"
 			pdx_tooltip_delayed = "EU_MD_LAW_FLOWCHART_DESC"
-			web_link = "https://gitlab.com/Millennium_Dawn/Millennium_Dawn/-/wikis/uploads/f7648d87fcd84d0ebe3dfcd9596a3ee0/European_Union_Diagram.drawio_6_.png"
 		}
 
 		# Retire the Offices
@@ -2573,6 +2572,41 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "vote_requirements_tt"
 			pdx_tooltip_delayed = "vote_pass_desc_tt"
+		}
+	}
+	
+	#Flowchart UI
+	containerWindowType = {
+		name = "flowchart_window"
+		size = { width = 1000 height = 700 }
+		position = { x = -100 y = 100 }
+		clipping = yes
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "EU_main_background_window_screen"
+			quadTextureSprite = "GFX_MD_tiled_window3_border"
+		}
+		
+		instantTextBoxType = {
+			name = "EU_flowchart_title"
+			position = { x = 350 y = 35 }
+			font = "hoi_36header"
+			maxWidth = 300
+			maxHeight = 30
+			text = "EU_flowchart_title"
+			format = center
+		}
+		buttonType = {
+			name = "flowchart_close_button"
+			position = { x = 955 y = 13 }
+			spriteType = "GFX_closebutton"
+			font = "hoi_18mbs"
+			format = center
+			pdx_tooltip = "DIPLOMACY_CLOSE"
+			shortcut = "ESCAPE"
 		}
 	}
 }

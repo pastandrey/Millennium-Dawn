@@ -108,6 +108,10 @@ scripted_gui = {
 		}
 
 		triggers = {
+			#test
+			EU_laws_flowchart_button_click_enabled = {
+				is_ai = no
+			}
 			# Main Screen Buttons
 			eu_parliament_button_click_enabled = {
 				OR = {
@@ -1892,6 +1896,10 @@ scripted_gui = {
 		}
 
 		effects = {
+			#test
+			EU_laws_flowchart_button_click = {
+				set_country_flag = EU_laws_flowchart_open
+			}
 			# Opens the main screen
 			eu_offices_button_click = {
 				eu_screen_selection = yes
@@ -5490,5 +5498,32 @@ scripted_gui = {
 				change_scope = yes
 			}
 		}
+	}
+	# Flowchart - Dynamically updating flowchart of available laws
+	flowchart_gui = {
+		context_type = player_context
+		window_name = "flowchart_window"
+
+		# The AI does not need to see this
+		visible = {
+			is_ai = no
+			NOT = { has_global_flag = GAME_RULE_eu_disabled }
+			has_country_flag = EU_laws_flowchart_open
+		}
+
+		# AI Triggering Section
+		# ai_enabled = Allowed for the AI
+		# ai_check = Ensures they are in the EU before opening the GUI
+		ai_enabled = { always = no }
+		ai_check = { always = no }
+
+		effects = {
+			flowchart_close_button_click = {
+				clr_country_flag = EU_laws_flowchart_open
+			}
+		}
+
+		### Inside this GUI would be the layout of all available laws, and then if they're completed will pull that data from the array and overlay that law with a checkmark or some shit. Should be as simple as setting conditions for visible.
+		### Not trying to do it right now, but could even take it a step further and make these all buttons that can initiate voting. The other ones would stay for the AI to use, but players could also use ones here.
 	}
 }

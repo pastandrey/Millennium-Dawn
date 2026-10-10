@@ -65,6 +65,7 @@
  EU_Voting_tutorial: "EU Tutorial"
  EU_Voting_tutorial_desc: "Tutorial on how §C[EUU.GetFlag] The European Union§! is modeled and works in Millennium Dawn."
  EU_main_title: "§YThe European Union§!"
+ EU_flowchart_title: "§YThe European Union Laws Flowchart§!"
  EU_population_tooltip: "[EUU.GetFlag] Total Pop: [?global.var_EUpopTotalDisplay|Y]§YM§!"
 
     # Top Bar Buttons
@@ -643,7 +644,7 @@
  eu_ECB_office_text: "Pres. of EU Central Bank"
  eu_high_repr_office_text: "High Representative"
  eu_frontex_office_text: "Frontex Executive"
- eu_ambassador_office_text: "Ambassador to the U.N" 
+ eu_ambassador_office_text: "Ambassador to the U.N"
  eu_ecofin_office_text: "Min. Economy & Finance"
  eu_innovation_office_text: "Dir. Innovation Institute"
  eu_energy_office_text: "Dir. Energy Regulators"
