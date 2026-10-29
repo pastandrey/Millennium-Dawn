@@ -5452,6 +5452,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/europe/georgia - GEO/war_osset.dds"
 	}
 	spriteType = {
+		name = "GFX_2007_georgia_protests"
+		texturefile = "gfx/event_pictures/europe/georgia - GEO/2007_georgia_protests.dds"
+	}
+	spriteType = {
 		name = "GFX_accept"
 		texturefile = "gfx/event_pictures/europe/germany - GER/accept.dds"
 	}

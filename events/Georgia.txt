@@ -1471,7 +1471,7 @@ country_event = {
 	id = georg.27
 	title = georg.27.t
 	desc = georg.27.d
-	picture = GFX_saakash_galstuk
+	picture = GFX_2007_georgia_protests
 	is_triggered_only = yes
 	fire_only_once = yes
 
@@ -1483,10 +1483,64 @@ country_event = {
 	option = {
 		log = "[GetDateText]: [This.GetName]: georg.27.a executed"
 		name = georg.27.a
-		add_stability = -0.1
+		add_stability = -0.15
 		country_event = {
 			id = MD4_election_campaign.0
 			days = 58
 		}
+		set_politics = {
+			ruling_party = democratic
+			last_election = "2007.10.1"
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = {
+		log = "[GetDateText]: [This.GetName]: georg.27.b executed"
+		name = georg.27.b
+		add_stability = 0.1
+		set_temp_variable = { rul_party_temp = 1 }
+		change_ruling_party_effect = yes
+		set_variable = { party_pop_array^1 = 0.8 }
+		set_variable = { party_pop_array^5 = 0.7 }
+		set_variable = { party_pop_array^14 = 0.5 }
+		set_variable = { party_pop_array^18 = 0.5 }
+		set_variable = { party_pop_array^20 = 0.5 }
+		add_to_array = { gov_coalition_array = 5 }
+		add_to_array = { gov_coalition_array = 14 }
+		add_to_array = { gov_coalition_array = 18 }
+		add_to_array = { gov_coalition_array = 20 }
+		set_politics = {
+			ruling_party = democratic
+			last_election = "2007.10.1"
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		recalculate_party = yes
+		#update_coalition_leader = yes
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
 	}
 }
+
+# To be used with another PR in the coming week to fix the 2004 election firing twice and eating up terms, adding so I don't forget
+#country_event = {
+#	id = georg.28
+#	is_triggered_only = yes
+#	hidden = yes
+#	trigger = {
+#		original_tag = GEO
+#	}
+#	immediate = {
+#		set_country_flag = generic_election_killswitch
+#		days = 365
+#	}
+#}

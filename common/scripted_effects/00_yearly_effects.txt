@@ -1119,7 +1119,7 @@ trigger_year_2007_events = {
 		country_event = { id = estonia.11 days = 300 random_days = 21 }
 	}
 	GEO = {
-		country_event = { id = georg.27 days = 288 random_days = 20 }
+		country_event = { id = georg.27 days = 288 random_days = 10 }
 	}
 	GER = {
 		country_event = { id = germany_yearly.7 days = 1 random_days = 360 }
